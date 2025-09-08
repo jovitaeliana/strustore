@@ -1,3 +1,37 @@
 # Ignore GroundingDINO output directories
 gdinoOutput/output/
 gdinoOutput/output_display/
+
+# API Keys and Credentials
+.env
+.env.local
+.env.*.local
+*.env
+**/.env*
+
+# Firebase Credentials
+*firebase-adminsdk*.json
+misc/strustore-dev-firebase-adminsdk-*.json
+
+# Configuration files with secrets
+config/secrets.json
+credentials.json
+keys.json
+**/*credentials*.json
+
+# Service account keys
+*.pem
+*.key
+service-account*.json
+
+# Environment variables
+.envrc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

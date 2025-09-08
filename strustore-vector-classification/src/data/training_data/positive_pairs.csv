@@ -1,0 +1,26 @@
+item1,item2
+# Translations
+white,ホワイト
+console,本体
+controller,コントローラー
+PlayStation,プレイステーション
+black,negro
+pink,rosa
+tested,tested working
+ice blue,azul
+nintendo,任天堂
+# Model Codes
+Nintendo DS Original Console,NTR-001
+Nintendo DS Lite Console,USG-001
+Nintendo DSi Console,TWL-001
+Nintendo Game Boy Advance SP Console,AGS-001
+Super Famicom,SHVC-001
+# Synonyms & Brand Variants
+controller,gamepad
+used,pre-owned
+Super Famicom,SNES
+PlayStation,PS
+Nintendo DS Lite,dslite
+Nintendo DS,nds
+Game Boy Advance,gba
+complete in box,cib
