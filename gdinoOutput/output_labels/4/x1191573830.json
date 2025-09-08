@@ -1,0 +1,134 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "x1191573830.png",
+      "width": 433,
+      "height": 577
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "controller"
+    },
+    {
+      "id": 2,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        301.0,
+        368.0,
+        131.0,
+        92.0
+      ],
+      "area": 12142,
+      "score": 0.298,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        66.0,
+        194.0,
+        116.0,
+        102.0
+      ],
+      "area": 11931,
+      "score": 0.192,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        68.0,
+        216.0,
+        73.0,
+        79.0
+      ],
+      "area": 5780,
+      "score": 0.176,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        238.0,
+        220.0,
+        190.0,
+        149.0
+      ],
+      "area": 28461,
+      "score": 0.161,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        68.0,
+        194.0,
+        99.0,
+        100.0
+      ],
+      "area": 10060,
+      "score": 0.143,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        53.0,
+        224.0,
+        259.0
+      ],
+      "area": 58187,
+      "score": 0.133,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        133.0,
+        194.0,
+        34.0,
+        82.0
+      ],
+      "area": 2871,
+      "score": 0.129,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        69.0,
+        217.0,
+        37.0,
+        78.0
+      ],
+      "area": 2952,
+      "score": 0.123,
+      "iscrowd": 0
+    }
+  ]
+}

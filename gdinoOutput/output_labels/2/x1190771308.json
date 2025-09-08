@@ -1,0 +1,142 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "x1190771308.png",
+      "width": 500,
+      "height": 500
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "controller"
+    },
+    {
+      "id": 2,
+      "name": "console box"
+    },
+    {
+      "id": 3,
+      "name": "box"
+    },
+    {
+      "id": 4,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        36.0,
+        216.0,
+        119.0,
+        48.0
+      ],
+      "area": 5808,
+      "score": 0.436,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        243.0,
+        247.0,
+        178.0,
+        147.0
+      ],
+      "area": 26311,
+      "score": 0.407,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        307.0,
+        362.0,
+        137.0,
+        111.0
+      ],
+      "area": 15298,
+      "score": 0.284,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        0.0,
+        369.0,
+        161.0,
+        129.0
+      ],
+      "area": 20919,
+      "score": 0.196,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        0.0,
+        260.0,
+        223.0,
+        130.0
+      ],
+      "area": 29264,
+      "score": 0.172,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        88.0,
+        218.0,
+        66.0,
+        46.0
+      ],
+      "area": 3083,
+      "score": 0.141,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        0.0,
+        216.0,
+        224.0,
+        174.0
+      ],
+      "area": 39242,
+      "score": 0.135,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        243.0,
+        246.0,
+        201.0,
+        227.0
+      ],
+      "area": 45680,
+      "score": 0.1,
+      "iscrowd": 0
+    }
+  ]
+}

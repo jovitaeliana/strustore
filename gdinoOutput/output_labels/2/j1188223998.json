@@ -1,0 +1,78 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "j1188223998.png",
+      "width": 500,
+      "height": 500
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "box"
+    },
+    {
+      "id": 2,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        73.0,
+        45.0,
+        355.0,
+        292.0
+      ],
+      "area": 104190,
+      "score": 0.784,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        267.0,
+        371.0,
+        177.0,
+        128.0
+      ],
+      "area": 22930,
+      "score": 0.12,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        230.0,
+        158.0,
+        149.0,
+        162.0
+      ],
+      "area": 24256,
+      "score": 0.103,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        244.0,
+        159.0,
+        104.0,
+        69.0
+      ],
+      "area": 7252,
+      "score": 0.1,
+      "iscrowd": 0
+    }
+  ]
+}

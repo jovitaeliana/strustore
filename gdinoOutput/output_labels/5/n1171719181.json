@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "n1171719181.png",
+      "width": 433,
+      "height": 577
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "console"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        52.0,
+        148.0,
+        287.0,
+        300.0
+      ],
+      "area": 86235,
+      "score": 0.379,
+      "iscrowd": 0
+    }
+  ]
+}

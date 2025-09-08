@@ -1,0 +1,33 @@
+{
+    "gdino": {
+        "1": "2"
+    },
+    "gdino_readable": {
+        "1": "Nintendo DS Lite Console"
+    },
+    "gdino_tokens": {
+        "1": [
+            "final",
+            "fantasy",
+            "final fantasy",
+            "ds",
+            "xii",
+            "fantasy xii",
+            "revenant",
+            "nintendo",
+            "wings",
+            "xii revenant",
+            "revenant wings",
+            "nintendo ds",
+            "lite",
+            "ds lite",
+            "edition",
+            "lite final",
+            "console",
+            "japanese",
+            "sky",
+            "pirate",
+            "wings sky"
+        ]
+    }
+}

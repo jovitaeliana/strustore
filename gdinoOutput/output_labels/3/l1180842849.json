@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "l1180842849.png",
+      "width": 577,
+      "height": 433
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "handheld console"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        7.0,
+        260.0,
+        281.0,
+        139.0
+      ],
+      "area": 39397,
+      "score": 0.413,
+      "iscrowd": 0
+    }
+  ]
+}

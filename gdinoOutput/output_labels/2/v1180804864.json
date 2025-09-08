@@ -1,0 +1,146 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "v1180804864.png",
+      "width": 708,
+      "height": 352
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "controller"
+    },
+    {
+      "id": 2,
+      "name": "console"
+    },
+    {
+      "id": 3,
+      "name": "console box"
+    },
+    {
+      "id": 4,
+      "name": "box"
+    },
+    {
+      "id": 5,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        441.0,
+        233.0,
+        155.0,
+        117.0
+      ],
+      "area": 18259,
+      "score": 0.48,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        362.0,
+        162.0,
+        156.0,
+        91.0
+      ],
+      "area": 14230,
+      "score": 0.468,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        178.0,
+        60.0,
+        165.0,
+        219.0
+      ],
+      "area": 36348,
+      "score": 0.428,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        15.0,
+        62.0,
+        162.0,
+        219.0
+      ],
+      "area": 35665,
+      "score": 0.324,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        472.0,
+        0.0,
+        235.0,
+        199.0
+      ],
+      "area": 46915,
+      "score": 0.272,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 5,
+      "bbox": [
+        15.0,
+        60.0,
+        328.0,
+        220.0
+      ],
+      "area": 72411,
+      "score": 0.141,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 5,
+      "bbox": [
+        177.0,
+        61.0,
+        160.0,
+        107.0
+      ],
+      "area": 17250,
+      "score": 0.137,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 5,
+      "bbox": [
+        20.0,
+        63.0,
+        157.0,
+        106.0
+      ],
+      "area": 16774,
+      "score": 0.131,
+      "iscrowd": 0
+    }
+  ]
+}

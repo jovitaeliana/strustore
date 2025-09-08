@@ -1,0 +1,82 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "t1190248790.png",
+      "width": 577,
+      "height": 433
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "box"
+    },
+    {
+      "id": 2,
+      "name": "handheld console"
+    },
+    {
+      "id": 3,
+      "name": "console"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        244.0,
+        125.0,
+        139.0,
+        75.0
+      ],
+      "area": 10515,
+      "score": 0.508,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        76.0,
+        120.0,
+        149.0,
+        78.0
+      ],
+      "area": 11781,
+      "score": 0.427,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        244.0,
+        211.0,
+        151.0,
+        82.0
+      ],
+      "area": 12491,
+      "score": 0.404,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        58.0,
+        209.0,
+        163.0,
+        85.0
+      ],
+      "area": 13896,
+      "score": 0.344,
+      "iscrowd": 0
+    }
+  ]
+}

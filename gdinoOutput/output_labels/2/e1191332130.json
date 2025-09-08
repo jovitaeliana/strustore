@@ -1,0 +1,166 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "e1191332130.png",
+      "width": 577,
+      "height": 433
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "box"
+    },
+    {
+      "id": 2,
+      "name": "console"
+    },
+    {
+      "id": 3,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        32.0,
+        225.0,
+        256.0,
+        163.0
+      ],
+      "area": 42019,
+      "score": 0.568,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        295.0,
+        219.0,
+        269.0,
+        159.0
+      ],
+      "area": 43040,
+      "score": 0.512,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        90.0,
+        192.0,
+        194.0
+      ],
+      "area": 37496,
+      "score": 0.448,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        376.0,
+        90.0,
+        193.0,
+        156.0
+      ],
+      "area": 30175,
+      "score": 0.416,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        205.0,
+        84.0,
+        160.0,
+        128.0
+      ],
+      "area": 20596,
+      "score": 0.265,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        106.0,
+        296.0,
+        78.0,
+        24.0
+      ],
+      "area": 1951,
+      "score": 0.114,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        412.0,
+        182.0,
+        50.0,
+        27.0
+      ],
+      "area": 1378,
+      "score": 0.111,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        191.0,
+        293.0,
+        76.0,
+        25.0
+      ],
+      "area": 1932,
+      "score": 0.107,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        463.0,
+        201.0,
+        54.0,
+        30.0
+      ],
+      "area": 1671,
+      "score": 0.104,
+      "iscrowd": 0
+    },
+    {
+      "id": 10,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        439.0,
+        130.0,
+        94.0,
+        67.0
+      ],
+      "area": 6444,
+      "score": 0.101,
+      "iscrowd": 0
+    }
+  ]
+}

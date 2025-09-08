@@ -1,0 +1,78 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "x1189139732.png",
+      "width": 527,
+      "height": 473
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "console"
+    },
+    {
+      "id": 2,
+      "name": "controller"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        50.0,
+        33.0,
+        234.0,
+        244.0
+      ],
+      "area": 57403,
+      "score": 0.473,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        23.0,
+        214.0,
+        158.0,
+        153.0
+      ],
+      "area": 24393,
+      "score": 0.419,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        156.0,
+        269.0,
+        172.0,
+        180.0
+      ],
+      "area": 31211,
+      "score": 0.366,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        157.0,
+        269.0,
+        209.0,
+        181.0
+      ],
+      "area": 38001,
+      "score": 0.282,
+      "iscrowd": 0
+    }
+  ]
+}

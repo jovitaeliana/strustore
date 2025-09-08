@@ -1,0 +1,152 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "k1191474797.png",
+      "width": 577,
+      "height": 433
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "handheld console"
+    },
+    {
+      "id": 2,
+      "name": "box"
+    },
+    {
+      "id": 3,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        10.0,
+        126.0,
+        191.0,
+        180.0
+      ],
+      "area": 34407,
+      "score": 0.472,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        208.0,
+        50.0,
+        151.0,
+        231.0
+      ],
+      "area": 35151,
+      "score": 0.316,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        353.0,
+        52.0,
+        163.0,
+        225.0
+      ],
+      "area": 36724,
+      "score": 0.274,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        352.0,
+        172.0,
+        163.0,
+        104.0
+      ],
+      "area": 17173,
+      "score": 0.252,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        207.0,
+        171.0,
+        152.0,
+        110.0
+      ],
+      "area": 16881,
+      "score": 0.231,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        212.0,
+        51.0,
+        146.0,
+        120.0
+      ],
+      "area": 17679,
+      "score": 0.199,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        353.0,
+        52.0,
+        153.0,
+        120.0
+      ],
+      "area": 18461,
+      "score": 0.194,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        207.0,
+        51.0,
+        306.0,
+        230.0
+      ],
+      "area": 70694,
+      "score": 0.183,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        363.0,
+        274.0,
+        198.0,
+        150.0
+      ],
+      "area": 29791,
+      "score": 0.122,
+      "iscrowd": 0
+    }
+  ]
+}

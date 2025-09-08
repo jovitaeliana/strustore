@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "d1191083725.png",
+      "width": 577,
+      "height": 433
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "box"
+    },
+    {
+      "id": 2,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        68.0,
+        25.0,
+        426.0,
+        387.0
+      ],
+      "area": 165191,
+      "score": 0.758,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        111.0,
+        302.0,
+        68.0,
+        41.0
+      ],
+      "area": 2877,
+      "score": 0.111,
+      "iscrowd": 0
+    }
+  ]
+}

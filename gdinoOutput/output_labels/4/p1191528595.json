@@ -1,0 +1,130 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "p1191528595.png",
+      "width": 577,
+      "height": 433
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        203.0,
+        101.0,
+        90.0,
+        56.0
+      ],
+      "area": 5151,
+      "score": 0.195,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        72.0,
+        147.0,
+        160.0,
+        144.0
+      ],
+      "area": 23189,
+      "score": 0.185,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        225.0,
+        153.0,
+        311.0,
+        114.0
+      ],
+      "area": 35733,
+      "score": 0.157,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        285.0,
+        74.0,
+        132.0,
+        82.0
+      ],
+      "area": 10901,
+      "score": 0.151,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        144.0,
+        2.0,
+        318.0,
+        154.0
+      ],
+      "area": 49184,
+      "score": 0.118,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        72.0,
+        148.0,
+        159.0,
+        83.0
+      ],
+      "area": 13309,
+      "score": 0.113,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        233.0,
+        102.0,
+        60.0,
+        56.0
+      ],
+      "area": 3404,
+      "score": 0.107,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        246.0,
+        174.0,
+        81.0,
+        59.0
+      ],
+      "area": 4818,
+      "score": 0.103,
+      "iscrowd": 0
+    }
+  ]
+}

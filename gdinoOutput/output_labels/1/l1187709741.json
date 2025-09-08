@@ -1,0 +1,138 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "l1187709741.png",
+      "width": 500,
+      "height": 500
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "box"
+    },
+    {
+      "id": 2,
+      "name": "handheld console"
+    },
+    {
+      "id": 3,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        15.0,
+        93.0,
+        235.0,
+        177.0
+      ],
+      "area": 42005,
+      "score": 0.587,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        228.0,
+        101.0,
+        271.0,
+        191.0
+      ],
+      "area": 51913,
+      "score": 0.392,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        71.0,
+        270.0,
+        150.0,
+        73.0
+      ],
+      "area": 11038,
+      "score": 0.357,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        15.0,
+        93.0,
+        482.0,
+        198.0
+      ],
+      "area": 95945,
+      "score": 0.216,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        242.0,
+        290.0,
+        215.0,
+        153.0
+      ],
+      "area": 33043,
+      "score": 0.168,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        15.0,
+        93.0,
+        235.0,
+        275.0
+      ],
+      "area": 64858,
+      "score": 0.145,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        234.0,
+        101.0,
+        264.0,
+        342.0
+      ],
+      "area": 90399,
+      "score": 0.129,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        14.0,
+        92.0,
+        484.0,
+        358.0
+      ],
+      "area": 173525,
+      "score": 0.102,
+      "iscrowd": 0
+    }
+  ]
+}

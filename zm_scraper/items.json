@@ -1,0 +1,65 @@
+{
+    "DeviceFamilies": [
+      {
+        "id":1,
+        "family": "Nintendo DS Handheld Console",
+        "code": "2084056540",
+        "search": null,
+        "children": [
+          { "name": "DSO", "code": null, "search": null, "ignore": false },
+          { "name": "DS Lite", "code": null, "search": null, "ignore": false },
+          { "name": "DSI", "code": null, "search": null, "ignore": false },
+          { "name": "3DS", "code": null, "search": null, "ignore": false },
+          { "name": "2DS", "code": null, "search": null, "ignore": false }
+        ]
+      },
+      {
+        "id":2,
+        "family": "Nintendo Console (Pre-2000)",
+        "code": null,
+        "search": null,
+        "children": [
+          { "name": "Famicom", "code": "2084041587", "search": "Famicom", "ignore": false },
+          { "name": "SNES", "code": "2084041587", "search": "SNES", "ignore": false },
+          { "name": "NES", "code": null, "search": null, "ignore": true }
+        ]
+      },
+      {
+        "id":3,
+        "family": "Gameboy",
+        "code": null,
+        "search": null,
+        "children": [
+          { "name": "Micro", "code": "2084063621", "search": null, "ignore": false },
+          { "name": "Advance", "code": "2084041581", "search": null, "ignore": false },
+          { "name": "Advance SP", "code": "2084041581", "search": null, "ignore": false },
+          { "name": "Color/Normal", "code": "2084041584", "search": null, "ignore": false }
+        ]
+      },
+      {
+        "id":4,
+        "family": "Nintendo Switch",
+        "code": "25464",
+        "search": "Switch",
+        "children": [
+          { "name": "Normal", "code": null, "search": null, "ignore": false },
+          { "name": "Lite", "code": null, "search": null, "ignore": false },
+          { "name": "OLED", "code": null, "search": null, "ignore": false }
+        ]
+      },
+      {
+        "id":5,
+        "family": "Game Controller",
+        "code": null,
+        "search": null,
+        "children": [
+          { "name": "N64", "code": "22850", "search": "Controller", "ignore": false },
+          { "name": "Gamecube", "code": "2084045784", "search": "Controller", "ignore": false },
+          { "name": "XBOX", "code": "2084047852", "search": "Controller", "ignore": false },
+          { "name": "Playstation", "code": "22860", "search": "Controller", "ignore": false },
+          { "name": "Switch Pro / Joy-Con", "code": "25464", "search": "Controller", "ignore": false }
+        ]
+      }
+    ]
+  }
+  

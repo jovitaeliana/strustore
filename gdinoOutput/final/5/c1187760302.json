@@ -1,0 +1,65 @@
+{
+    "gdino": {
+        "1": "17",
+        "2": "20"
+    },
+    "gdino_readable": {
+        "1": "Gamecube Controller",
+        "2": "Nintendo Switch Pro Controller"
+    },
+    "gdino_tokens": {
+        "1": [
+            "gamecube",
+            "controller",
+            "white",
+            "nintendo",
+            "nintendo gamecube",
+            "gamecube controller",
+            "controller white",
+            "gc",
+            "wii",
+            "dol",
+            "003",
+            "boxed",
+            "dol 003",
+            "wired",
+            "game",
+            "oem",
+            "japan",
+            "com",
+            "games",
+            "white gamecube",
+            "system",
+            "tested",
+            "video",
+            "video games",
+            "wired game",
+            "game controller",
+            "nintendo white",
+            "emio",
+            "wired controller",
+            "set",
+            "t3",
+            "boxed white",
+            "2",
+            "genuine",
+            "working",
+            "003 tested",
+            "tested working",
+            "compatible",
+            "white video"
+        ],
+        "2": [
+            "nintendo",
+            "gamecube",
+            "controller",
+            "white",
+            "gamecube controller",
+            "dol",
+            "003",
+            "controller white",
+            "dol 003",
+            "nintendo gamecube"
+        ]
+    }
+}

@@ -1,0 +1,134 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "f1191458213.png",
+      "width": 433,
+      "height": 577
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "box"
+    },
+    {
+      "id": 2,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        15.0,
+        339.0,
+        199.0,
+        190.0
+      ],
+      "area": 37928,
+      "score": 0.457,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        150.0,
+        8.0,
+        205.0,
+        87.0
+      ],
+      "area": 17971,
+      "score": 0.344,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        212.0,
+        335.0,
+        199.0,
+        191.0
+      ],
+      "area": 38327,
+      "score": 0.313,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        214.0,
+        335.0,
+        168.0,
+        81.0
+      ],
+      "area": 13759,
+      "score": 0.231,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        42.0,
+        339.0,
+        171.0,
+        81.0
+      ],
+      "area": 13978,
+      "score": 0.163,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        151.0,
+        8.0,
+        205.0,
+        319.0
+      ],
+      "area": 65489,
+      "score": 0.136,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        212.0,
+        416.0,
+        200.0,
+        109.0
+      ],
+      "area": 21977,
+      "score": 0.115,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        156.0,
+        93.0,
+        199.0,
+        25.0
+      ],
+      "area": 5100,
+      "score": 0.114,
+      "iscrowd": 0
+    }
+  ]
+}

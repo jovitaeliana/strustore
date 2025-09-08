@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "r1190826351.png",
+      "width": 500,
+      "height": 500
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "box console"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        23.0,
+        182.0,
+        251.0,
+        118.0
+      ],
+      "area": 29753,
+      "score": 0.645,
+      "iscrowd": 0
+    }
+  ]
+}

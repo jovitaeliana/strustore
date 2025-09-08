@@ -1,0 +1,68 @@
+[
+  {
+    "name": "box",
+    "id": 5590159,
+    "color": "#208080",
+    "type": "any",
+    "attributes": []
+  },
+  {
+    "name": "home console",
+    "id": 5590162,
+    "color": "#2a7dd1",
+    "type": "any",
+    "attributes": []
+  },
+  {
+    "name": "nintendo switch",
+    "id": 5590163,
+    "color": "#fafa37",
+    "type": "any",
+    "attributes": []
+  },
+  {
+    "name": "controller",
+    "id": 5590614,
+    "color": "#33ddff",
+    "type": "any",
+    "attributes": []
+  },
+  {
+    "name": "handheld console",
+    "id": 5590618,
+    "color": "#3d3df5",
+    "type": "any",
+    "attributes": [
+      {
+        "id": 1828438,
+        "name": "state",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "closed",
+          "open"
+        ],
+        "default_value": "closed"
+      }
+    ]
+  },
+  {
+    "name": "gameboy",
+    "id": 5590619,
+    "color": "#b83df5",
+    "type": "any",
+    "attributes": [
+      {
+        "id": 1828439,
+        "name": "state",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "open",
+          "closed"
+        ],
+        "default_value": "open"
+      }
+    ]
+  }
+]

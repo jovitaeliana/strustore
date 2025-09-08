@@ -1,0 +1,64 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "x1190805798.png",
+      "width": 564,
+      "height": 442
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "box"
+    },
+    {
+      "id": 2,
+      "name": "console"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        130.0,
+        19.0,
+        182.0,
+        177.0
+      ],
+      "area": 32510,
+      "score": 0.418,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        23.0,
+        193.0,
+        187.0,
+        199.0
+      ],
+      "area": 37292,
+      "score": 0.365,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        206.0,
+        199.0,
+        185.0,
+        203.0
+      ],
+      "area": 37807,
+      "score": 0.343,
+      "iscrowd": 0
+    }
+  ]
+}

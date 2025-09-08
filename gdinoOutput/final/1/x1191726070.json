@@ -1,0 +1,18 @@
+{
+    "gdino": {
+        "1": "2"
+    },
+    "gdino_readable": {
+        "1": "Nintendo DS Lite Console"
+    },
+    "gdino_tokens": {
+        "1": [
+            "nintendo",
+            "ds",
+            "white",
+            "console",
+            "nintendo ds",
+            "lite"
+        ]
+    }
+}

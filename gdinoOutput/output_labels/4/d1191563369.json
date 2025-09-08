@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "d1191563369.png",
+      "width": 577,
+      "height": 433
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        166.0,
+        51.0,
+        309.0,
+        281.0
+      ],
+      "area": 87148,
+      "score": 0.177,
+      "iscrowd": 0
+    }
+  ]
+}

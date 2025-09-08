@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "q1127615847.png",
+      "width": 550,
+      "height": 454
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "controller console"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        103.0,
+        46.0,
+        355.0,
+        305.0
+      ],
+      "area": 108719,
+      "score": 0.372,
+      "iscrowd": 0
+    }
+  ]
+}

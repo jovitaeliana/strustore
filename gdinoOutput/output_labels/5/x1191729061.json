@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "x1191729061.png",
+      "width": 577,
+      "height": 433
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "controller"
+    },
+    {
+      "id": 2,
+      "name": "console"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        171.0,
+        265.0,
+        210.0,
+        140.0
+      ],
+      "area": 29633,
+      "score": 0.722,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        6.0,
+        81.0,
+        330.0,
+        193.0
+      ],
+      "area": 64015,
+      "score": 0.435,
+      "iscrowd": 0
+    }
+  ]
+}

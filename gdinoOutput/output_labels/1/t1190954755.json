@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "t1190954755.png",
+      "width": 433,
+      "height": 577
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "handheld console"
+    },
+    {
+      "id": 2,
+      "name": "NIL"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        62.0,
+        53.0,
+        227.0,
+        228.0
+      ],
+      "area": 51835,
+      "score": 0.637,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        287.0,
+        432.0,
+        207.0
+      ],
+      "area": 89707,
+      "score": 0.15,
+      "iscrowd": 0
+    }
+  ]
+}
