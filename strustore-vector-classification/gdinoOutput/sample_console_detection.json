@@ -1,0 +1,20 @@
+{
+  "image_path": "/path/to/image1.jpg",
+  "detections": [
+    {
+      "box": [120, 80, 400, 280],
+      "confidence": 0.95,
+      "label": "console"
+    },
+    {
+      "box": [50, 300, 200, 400],
+      "confidence": 0.88,
+      "label": "controller"
+    },
+    {
+      "box": [450, 100, 600, 250],
+      "confidence": 0.82,
+      "label": "box"
+    }
+  ]
+}

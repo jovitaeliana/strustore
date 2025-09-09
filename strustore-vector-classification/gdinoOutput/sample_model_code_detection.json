@@ -1,0 +1,20 @@
+{
+  "image_path": "/path/to/image4.jpg",
+  "detections": [
+    {
+      "box": [180, 120, 420, 280],
+      "confidence": 0.94,
+      "label": "NTR-001"
+    },
+    {
+      "box": [100, 300, 280, 450],
+      "confidence": 0.87,
+      "label": "nintendo"
+    },
+    {
+      "box": [350, 350, 480, 420],
+      "confidence": 0.83,
+      "label": "black color"
+    }
+  ]
+}

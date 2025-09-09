@@ -1,26 +1,25 @@
-item1,item2
-# Translations
-white,ホワイト
-console,本体
-controller,コントローラー
-PlayStation,プレイステーション
-black,negro
-pink,rosa
-tested,tested working
-ice blue,azul
-nintendo,任天堂
-# Model Codes
-Nintendo DS Original Console,NTR-001
-Nintendo DS Lite Console,USG-001
-Nintendo DSi Console,TWL-001
-Nintendo Game Boy Advance SP Console,AGS-001
-Super Famicom,SHVC-001
-# Synonyms & Brand Variants
-controller,gamepad
-used,pre-owned
-Super Famicom,SNES
-PlayStation,PS
-Nintendo DS Lite,dslite
-Nintendo DS,nds
-Game Boy Advance,gba
-complete in box,cib
+anchor,positive,negative
+# --- Category Distinction ---
+Nintendo DS Lite Console,Handheld Console,HOME_CONSOLES
+Playstation Controller,Controller,Console
+Charger,ACCESSORIES,CONTROLLERS
+# --- Brand Distinction ---
+Nintendo Switch Console,Nintendo,Sony PlayStation
+Xbox 360 Console,Microsoft,Nintendo
+PlayStation 5 Console,Sony,Microsoft
+# --- Generational & Model Distinction ---
+Nintendo DS Lite,Nintendo DSi,Nintendo 3DS
+Game Boy Color,Game Boy Advance,Game Boy Advance SP
+PlayStation 2 Console,PlayStation 3 Console,Xbox 360 Console
+Nintendo Wii Console,Nintendo Wii U Console,PlayStation 4 Console
+PlayStation DualShock 3 Controller,PlayStation DualShock 4 Controller,Xbox Wireless Controller
+# --- Color Distinction ---
+White Color,Crystal White Color,Black Color
+Ice Blue Color,Blue Color,Red Color
+# --- Condition Distinction ---
+Used Condition,Tested Working,New Condition
+Junk,For Repair,Mint Condition
+# --- Language & Nuance (from gdinoOutput) ---
+Nintendo DS Lite Console,ニンテンドーds lite,PlayStation Vita
+Game Boy,ゲームボーイ,WonderSwan
+controller,gamepad,console

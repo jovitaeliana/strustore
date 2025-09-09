@@ -93,13 +93,15 @@ class VectorDatabaseCreator:
             logger.info(f"Loaded {len(self.master_items)} items from master list")
             
             # Display sample items
-            logger.info("Sample items:")\n            for idx, row in self.master_items.head().iterrows():
+            logger.info("Sample items:")
+            for idx, row in self.master_items.head().iterrows():
                 logger.info(f"  ID {row['id']}: {row['item']}")
             
         except Exception as e:
             raise RuntimeError(f"Failed to load master items: {e}")
     
-    def generate_embeddings(self) -> Tuple[np.ndarray, List[Dict[str, Any]]]:\n        """
+    def generate_embeddings(self) -> Tuple[np.ndarray, List[Dict[str, Any]]]:
+        """
         Generate embeddings for all master items.
         
         Returns:
@@ -439,7 +441,7 @@ def main():
     
     # Configuration
     model_path = "models/gaming-console-semantic-model"
-    master_items_path = "../../yjpa_scraper/items.csv"  # Path to your items.csv
+    master_items_path = "../zm_scraper/updated-master-list.csv"  # Path to canonical taxonomy
     database_output_path = "models/vector_database"
     
     # Check if model exists
@@ -451,7 +453,7 @@ def main():
     # Check if master items file exists
     if not Path(master_items_path).exists():
         logger.error(f"Master items file not found at: {master_items_path}")
-        logger.error("Please ensure the items.csv file is available.")
+        logger.error("Please ensure the updated-master-list.csv file is available.")
         return
     
     # Create vector database

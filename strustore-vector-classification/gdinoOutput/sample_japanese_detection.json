@@ -1,0 +1,20 @@
+{
+  "image_path": "/path/to/image3.jpg",
+  "detections": [
+    {
+      "box": [150, 100, 500, 300],
+      "confidence": 0.89,
+      "label": "本体"
+    },
+    {
+      "box": [80, 320, 250, 450],
+      "confidence": 0.91,
+      "label": "コントローラー"
+    },
+    {
+      "box": [300, 350, 400, 420],
+      "confidence": 0.78,
+      "label": "ホワイト"
+    }
+  ]
+}

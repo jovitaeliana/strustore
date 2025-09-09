@@ -1,0 +1,25 @@
+{
+  "image_path": "/path/to/image5.jpg",
+  "detections": [
+    {
+      "box": [160, 90, 380, 250],
+      "confidence": 0.91,
+      "label": "gameboy"
+    },
+    {
+      "box": [50, 300, 150, 400],
+      "confidence": 0.85,
+      "label": "blue"
+    },
+    {
+      "box": [200, 400, 350, 470],
+      "confidence": 0.79,
+      "label": "used condition"
+    },
+    {
+      "box": [400, 100, 550, 200],
+      "confidence": 0.88,
+      "label": "tested working"
+    }
+  ]
+}

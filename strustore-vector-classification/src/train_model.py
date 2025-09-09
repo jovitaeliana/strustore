@@ -6,12 +6,10 @@ sentence-transformer model, and saves the result for vector-based classification
 """
 
 import pandas as pd
-import numpy as np
 import logging
 from pathlib import Path
-from typing import List, Dict, Any, Tuple
+from typing import Dict, Any
 import json
-import os
 from datetime import datetime
 
 # Core ML libraries
@@ -85,7 +83,7 @@ class GamingConsoleSemanticTrainer:
             raise RuntimeError(f"Failed to load base model: {e}")
     
     def load_training_data(self) -> None:
-        """Load and prepare training data from CSV files."""
+        """Load and prepare training data with triplet generation from existing pairs."""
         try:
             # Load positive pairs
             positive_pairs_path = Path(self.config['positive_pairs_path'])
@@ -99,8 +97,9 @@ class GamingConsoleSemanticTrainer:
             
             logger.info(f"Loaded {len(df)} positive pairs from {positive_pairs_path}")
             
-            # Data Augmentation: Generate more training examples from existing pairs
-            augmented_pairs = []
+            # Extract all unique terms from your existing data
+            all_terms = set()
+            positive_pairs = []
             
             for _, row in df.iterrows():
                 item1 = str(row['item1']).strip()
@@ -110,53 +109,105 @@ class GamingConsoleSemanticTrainer:
                 if not item1 or not item2 or item1 == item2:
                     continue
                 
-                # Original pair
-                augmented_pairs.append((item1, item2))
-                # Reverse pair (bidirectional learning)
-                augmented_pairs.append((item2, item1))
-                
-                # Context variations for console terms
-                if any(term in item1.lower() for term in ['console', 'ds', 'gameboy', 'playstation']):
-                    augmented_pairs.extend([
-                        (f"{item1} system", item2),
-                        (f"{item1} device", item2),
-                        (f"gaming {item1.lower()}", item2)
-                    ])
-                
-                # Context variations for colors
-                if any(color in item1.lower() for color in ['white', 'black', 'red', 'blue']):
-                    augmented_pairs.extend([
-                        (f"{item1} color", item2),
-                        (f"{item1} variant", item2)
-                    ])
-                
-                # Context variations for conditions  
-                if any(cond in item1.lower() for cond in ['new', 'used', 'tested']):
-                    augmented_pairs.extend([
-                        (f"{item1} condition", item2),
-                        (f"item is {item1.lower()}", item2)
-                    ])
+                positive_pairs.append((item1, item2))
+                all_terms.add(item1)
+                all_terms.add(item2)
             
-            logger.info(f"Generated {len(augmented_pairs)} augmented training pairs")
+            logger.info(f"Found {len(all_terms)} unique terms in your data")
+            
+            # Create semantic categories from your existing data
+            categories = {
+                'colors': set(),
+                'consoles': set(), 
+                'conditions': set(),
+                'brands': set(),
+                'model_codes': set(),
+                'synonyms': set()
+            }
+            
+            # Categorize your existing terms
+            for term in all_terms:
+                term_lower = term.lower()
+                if any(color in term_lower for color in ['white', 'black', 'red', 'blue', 'pink', 'ice', 'azul', 'negro', 'rosa', 'ホワイト', 'ブラック']):
+                    categories['colors'].add(term)
+                elif any(console in term_lower for console in ['ds', 'gameboy', 'playstation', 'nintendo', 'famicom', 'console', '本体', 'プレイステーション', '任天堂']):
+                    categories['consoles'].add(term)
+                elif any(cond in term_lower for cond in ['new', 'used', 'tested', 'pre-owned', 'working', 'cib']):
+                    categories['conditions'].add(term)
+                elif any(brand in term_lower for brand in ['nintendo', 'sony', 'playstation', 'snes', 'ps']):
+                    categories['brands'].add(term)
+                elif any(code in term for code in ['NTR-001', 'USG-001', 'TWL-001', 'AGS-001', 'SHVC-001']):
+                    categories['model_codes'].add(term)
+                else:
+                    categories['synonyms'].add(term)
+            
+            # Generate valid triplets from your existing data
+            triplets = []
+            
+            # For each positive pair, create triplets with negatives from different categories
+            for item1, item2 in positive_pairs:
+                # Find which category item1 belongs to
+                item1_category = None
+                for cat_name, cat_terms in categories.items():
+                    if item1 in cat_terms:
+                        item1_category = cat_name
+                        break
+                
+                if item1_category:
+                    # Create negatives from other categories
+                    for cat_name, cat_terms in categories.items():
+                        if cat_name != item1_category and cat_terms:
+                            # Pick a negative from a different category
+                            negative = next(iter(cat_terms))
+                            triplets.append((item1, item2, negative))  # (anchor, positive, negative)
+                            triplets.append((item2, item1, negative))  # Bidirectional
+            
+            # Also create challenging negatives within similar categories
+            console_terms = categories['consoles']
+            if len(console_terms) >= 3:
+                console_list = list(console_terms)
+                for i, anchor in enumerate(console_list):
+                    for j, positive in enumerate(console_list):
+                        if i != j:
+                            # Find a positive pair that matches
+                            if any((anchor, positive) == pair or (positive, anchor) == pair for pair in positive_pairs):
+                                # Use another console as negative  
+                                for k, negative in enumerate(console_list):
+                                    if k != i and k != j:
+                                        triplets.append((anchor, positive, negative))
+            
+            logger.info(f"Generated {len(triplets)} valid triplets from your existing data")
             
             # Convert to InputExample format for sentence-transformers
-            train_examples = []
-            eval_examples = []
+            from sklearn.model_selection import train_test_split
             
-            for idx, (item1, item2) in enumerate(augmented_pairs):
-                example = InputExample(texts=[item1, item2], label=1.0)
-                
-                # Split data: 85% train, 15% eval
-                if idx % 7 == 0:  # Every 7th example goes to evaluation
-                    eval_examples.append(example)
-                else:
-                    train_examples.append(example)
+            # Random split for better evaluation
+            if len(triplets) > 0:
+                train_triplets, eval_triplets = train_test_split(
+                    triplets, test_size=0.15, random_state=42, shuffle=True
+                )
+            else:
+                # Fallback to positive pairs if no triplets generated
+                train_triplets, eval_triplets = train_test_split(
+                    [(p[0], p[1], "random_negative") for p in positive_pairs], 
+                    test_size=0.15, random_state=42, shuffle=True
+                )
             
-            self.training_data = train_examples
-            self.evaluation_data = eval_examples
+            # Create InputExamples for triplet training
+            self.training_data = []
+            self.evaluation_data = []
             
-            logger.info(f"Prepared {len(self.training_data)} training examples")
-            logger.info(f"Prepared {len(self.evaluation_data)} evaluation examples")
+            for anchor, positive, negative in train_triplets:
+                # Create triplet example: anchor should be closer to positive than negative
+                example = InputExample(texts=[anchor, positive, negative])
+                self.training_data.append(example)
+            
+            for anchor, positive, negative in eval_triplets:
+                example = InputExample(texts=[anchor, positive, negative])
+                self.evaluation_data.append(example)
+            
+            logger.info(f"Prepared {len(self.training_data)} triplet training examples")
+            logger.info(f"Prepared {len(self.evaluation_data)} triplet evaluation examples")
             
             if len(self.training_data) == 0:
                 raise ValueError("No valid training data found")
@@ -173,10 +224,10 @@ class GamingConsoleSemanticTrainer:
         )
     
     def setup_loss_function(self):
-        """Setup the loss function for training."""
-        # MultipleNegativesRankingLoss is very effective for semantic similarity
-        # It learns to make similar items close and dissimilar items far apart
-        return losses.MultipleNegativesRankingLoss(self.model)
+        """Setup the loss function for triplet training."""
+        # TripletLoss is optimal for learning fine-grained relationships
+        # It learns that anchor should be closer to positive than to negative
+        return losses.TripletLoss(self.model, triplet_margin=0.5)
     
     def setup_evaluator(self):
         """Setup evaluator for monitoring training progress."""
@@ -224,7 +275,7 @@ class GamingConsoleSemanticTrainer:
         logger.info(f"  - Batch size: {self.config['batch_size']}")
         logger.info(f"  - Training steps: {num_training_steps}")
         logger.info(f"  - Warmup steps: {warmup_steps}")
-        logger.info(f"  - Loss function: MultipleNegativesRankingLoss")
+        logger.info(f"  - Loss function: TripletLoss (margin=0.5)")
         
         # Training arguments
         training_args = {
@@ -283,43 +334,44 @@ class GamingConsoleSemanticTrainer:
             logger.error(f"Failed to save model info: {e}")
     
     def test_model_basic(self) -> None:
-        """Test the trained model with some basic examples."""
+        """Test the trained model with triplet relationships."""
         if self.model is None:
             logger.warning("No model available for testing")
             return
         
         try:
-            logger.info("=== Testing Trained Model ===")
+            logger.info("=== Testing Trained Model with Triplet Relationships ===")
             
-            # Test pairs - should have high similarity
+            # Test triplets - anchor should be closer to positive than negative
+            test_triplets = [
+                ("console", "本体", "コントローラー"),  # console closer to 本体 than controller
+                ("white", "ホワイト", "PlayStation"),   # white closer to ホワイト than PlayStation
+                ("Nintendo DS Lite Console", "USG-001", "TWL-001"),  # DS Lite closer to USG-001 than TWL-001
+                ("controller", "gamepad", "本体"),      # controller closer to gamepad than console
+            ]
+            
+            logger.info("Triplet relationship scores (anchor -> positive vs negative):")
+            for anchor, positive, negative in test_triplets:
+                embeddings = self.model.encode([anchor, positive, negative])
+                
+                # Calculate similarities
+                anchor_pos_sim = self.model.similarity([embeddings[0]], [embeddings[1]]).numpy()[0][0]
+                anchor_neg_sim = self.model.similarity([embeddings[0]], [embeddings[2]]).numpy()[0][0]
+                
+                triplet_success = anchor_pos_sim > anchor_neg_sim
+                status = "✅" if triplet_success else "❌"
+                
+                logger.info(f"  {status} '{anchor}' -> '{positive}': {anchor_pos_sim:.4f} vs '{negative}': {anchor_neg_sim:.4f}")
+            
+            # Test some positive pairs for absolute similarity
+            logger.info("\nCore positive pair similarities:")
             test_pairs = [
-                ("Nintendo DS", "ニンテンドーDS"),
-                ("console", "本体"),
-                ("controller", "コントローラー"),
-                ("Game Boy", "ゲームボーイ"),
-                ("PlayStation", "プレイステーション"),
                 ("white", "ホワイト"),
-                ("used", "中古"),
-                ("mint", "美品")
+                ("console", "本体"),
+                ("nintendo", "任天堂")
             ]
             
-            logger.info("Similarity scores for positive pairs:")
             for item1, item2 in test_pairs:
-                embeddings = self.model.encode([item1, item2])
-                similarity = self.model.similarity(embeddings, embeddings).numpy()
-                score = similarity[0][1]  # Cross-similarity
-                logger.info(f"  '{item1}' <-> '{item2}': {score:.4f}")
-            
-            # Test negative pairs - should have lower similarity  
-            negative_pairs = [
-                ("Nintendo DS", "PlayStation"),
-                ("console", "コントローラー"),  # console vs controller
-                ("white", "ブラック"),  # white vs black
-                ("new", "中古")  # new vs used
-            ]
-            
-            logger.info("\nSimilarity scores for negative pairs:")
-            for item1, item2 in negative_pairs:
                 embeddings = self.model.encode([item1, item2])
                 similarity = self.model.similarity(embeddings, embeddings).numpy()
                 score = similarity[0][1]

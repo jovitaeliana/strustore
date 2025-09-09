@@ -145,7 +145,7 @@ class SemanticModelEvaluator:
             for item1, item2, min_score in test_category['tests']:
                 # Get embeddings
                 embeddings = self.model.encode([item1, item2])
-                similarity_score = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
+                similarity_score = float(cosine_similarity([embeddings[0]], [embeddings[1]])[0][0])
                 
                 # Check if test passes
                 passed = similarity_score >= min_score
@@ -222,7 +222,7 @@ class SemanticModelEvaluator:
         
         for item1, item2 in negative_pairs:
             embeddings = self.model.encode([item1, item2])
-            similarity_score = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
+            similarity_score = float(cosine_similarity([embeddings[0]], [embeddings[1]])[0][0])
             
             results['scores'].append(similarity_score)
             
@@ -253,18 +253,34 @@ class SemanticModelEvaluator:
     
     def console_classification_test(self) -> Dict[str, Any]:
         """
-        Test classification accuracy on gaming console items.
+        Test classification accuracy against canonical taxonomy items.
         """
-        logger.info("\n🎮 Running Console Classification Tests")
+        logger.info("\n🎮 Running Canonical Taxonomy Classification Tests")
         
-        # Test data: console names and their expected matches
-        console_test_data = [
-            ('Nintendo DS Lite', ['DS Lite', 'ニンテンドーDS', 'USG-001']),
-            ('Game Boy Advance', ['GBA', 'ゲームボーイアドバンス', 'AGS-001']),
-            ('PlayStation 2', ['PS2', 'プレイステーション2', 'プレステ2']),
-            ('GameCube', ['ゲームキューブ', 'GC', 'DOL-001']),
-            ('Nintendo 64', ['N64', 'ニンテンドー64', '任天堂64']),
-            ('Super Famicom', ['SNES', 'スーパーファミコン', 'SHVC-001']),
+        # Test against your actual 129-item canonical taxonomy
+        taxonomy_test_data = [
+            # Test GroundingDINO detection terms -> Canonical items
+            ('console', ['Nintendo DS Lite Console', 'PlayStation 5 Console', 'Xbox Series X Console']),
+            ('handheld console', ['Nintendo DS Lite Console', 'PlayStation Portable (PSP) Console']),
+            ('controller', ['Nintendo Joy-Con', 'PlayStation DualShock Controller', 'Xbox Controller']),
+            
+            # Test Japanese terms -> English canonical items  
+            ('本体', ['Nintendo DS Lite Console', 'PlayStation 5 Console']),
+            ('コントローラー', ['Nintendo Joy-Con', 'PlayStation DualShock Controller']),
+            ('任天堂', ['Nintendo DS Lite Console', 'Nintendo Switch Console']),
+            
+            # Test model codes -> Canonical items
+            ('USG-001', ['Nintendo DS Lite Console']),
+            ('NTR-001', ['Nintendo DS Original Console']),
+            ('TWL-001', ['Nintendo DSi Console']),
+            
+            # Test colors -> Color variants
+            ('white', ['White Color', 'Crystal White Color']),
+            ('ホワイト', ['White Color', 'Crystal White Color']),
+            
+            # Test conditions
+            ('used', ['Used Condition', 'Pre-owned']),
+            ('mint', ['Mint Condition', 'New Condition']),
         ]
         
         results = {
@@ -273,12 +289,12 @@ class SemanticModelEvaluator:
             'test_details': []
         }
         
-        for console_name, expected_matches in console_test_data:
+        for console_name, expected_matches in taxonomy_test_data:
             console_embedding = self.model.encode([console_name])
             
             for match in expected_matches:
                 match_embedding = self.model.encode([match])
-                similarity_score = cosine_similarity(console_embedding, match_embedding)[0][0]
+                similarity_score = float(cosine_similarity(console_embedding, match_embedding)[0][0])
                 
                 # Consider it correct if similarity is above threshold
                 is_correct = similarity_score >= self.threshold
@@ -299,11 +315,11 @@ class SemanticModelEvaluator:
         
         results['accuracy'] = results['correct_matches'] / results['total_tests']
         
-        logger.info(f"\n🎯 Console Classification Results:")
+        logger.info(f"\n🎯 Canonical Taxonomy Classification Results:")
         logger.info(f"  Accuracy: {results['accuracy']:.2%}")
         logger.info(f"  Threshold: {self.threshold}")
         
-        self.test_results['console_classification_test'] = results
+        self.test_results['canonical_taxonomy_test'] = results
         return results
     
     def embedding_quality_analysis(self) -> Dict[str, Any]:
@@ -382,7 +398,7 @@ class SemanticModelEvaluator:
             'detailed_results': {
                 'semantic_unit_tests': semantic_results,
                 'negative_similarity_tests': negative_results,
-                'console_classification_test': classification_results,
+                'canonical_taxonomy_test': classification_results,
                 'embedding_quality_analysis': quality_results
             },
             'recommendations': []

@@ -1,0 +1,776 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Nintendo DS Original Console",
+    "vector_index": 0,
+    "embedding_norm": 2.3405935764312744
+  },
+  "2": {
+    "id": 2,
+    "name": "Nintendo DS Lite Console",
+    "vector_index": 1,
+    "embedding_norm": 2.3386433124542236
+  },
+  "3": {
+    "id": 3,
+    "name": "Nintendo DSi Console",
+    "vector_index": 2,
+    "embedding_norm": 2.32049822807312
+  },
+  "4": {
+    "id": 4,
+    "name": "Nintendo 2DS Console",
+    "vector_index": 3,
+    "embedding_norm": 2.1958727836608887
+  },
+  "5": {
+    "id": 5,
+    "name": "Nintendo 3DS Console",
+    "vector_index": 4,
+    "embedding_norm": 2.1835691928863525
+  },
+  "6": {
+    "id": 6,
+    "name": "Nintendo Famicom Console",
+    "vector_index": 5,
+    "embedding_norm": 2.192932367324829
+  },
+  "7": {
+    "id": 7,
+    "name": "Nintendo SNES Console",
+    "vector_index": 6,
+    "embedding_norm": 2.339831590652466
+  },
+  "8": {
+    "id": 8,
+    "name": "Nintendo Game Boy Micro Console",
+    "vector_index": 7,
+    "embedding_norm": 2.204338550567627
+  },
+  "9": {
+    "id": 9,
+    "name": "Nintendo Game Boy Advance Console",
+    "vector_index": 8,
+    "embedding_norm": 2.188922643661499
+  },
+  "10": {
+    "id": 10,
+    "name": "Nintendo Game Boy Advance SP Console",
+    "vector_index": 9,
+    "embedding_norm": 2.125349998474121
+  },
+  "11": {
+    "id": 11,
+    "name": "Nintendo Game Boy Color Console",
+    "vector_index": 10,
+    "embedding_norm": 2.2783782482147217
+  },
+  "12": {
+    "id": 12,
+    "name": "Nintendo Game Boy Console",
+    "vector_index": 11,
+    "embedding_norm": 2.269864559173584
+  },
+  "13": {
+    "id": 13,
+    "name": "Nintendo Switch Console",
+    "vector_index": 12,
+    "embedding_norm": 2.25893497467041
+  },
+  "14": {
+    "id": 14,
+    "name": "Nintendo Switch Lite Console",
+    "vector_index": 13,
+    "embedding_norm": 2.285196304321289
+  },
+  "15": {
+    "id": 15,
+    "name": "Nintendo Switch OLED Console",
+    "vector_index": 14,
+    "embedding_norm": 2.145641565322876
+  },
+  "16": {
+    "id": 16,
+    "name": "N64 Controller",
+    "vector_index": 15,
+    "embedding_norm": 2.151399850845337
+  },
+  "17": {
+    "id": 17,
+    "name": "Gamecube Controller",
+    "vector_index": 16,
+    "embedding_norm": 2.1948280334472656
+  },
+  "18": {
+    "id": 18,
+    "name": "XBOX Controller",
+    "vector_index": 17,
+    "embedding_norm": 2.1731457710266113
+  },
+  "19": {
+    "id": 19,
+    "name": "Playstation Controller",
+    "vector_index": 18,
+    "embedding_norm": 2.1024491786956787
+  },
+  "20": {
+    "id": 20,
+    "name": "Nintendo Switch Pro Controller",
+    "vector_index": 19,
+    "embedding_norm": 2.1932458877563477
+  },
+  "21": {
+    "id": 21,
+    "name": "Nintendo Joy-Con",
+    "vector_index": 20,
+    "embedding_norm": 2.5424818992614746
+  },
+  "22": {
+    "id": 22,
+    "name": "Console",
+    "vector_index": 21,
+    "embedding_norm": 2.2294509410858154
+  },
+  "23": {
+    "id": 23,
+    "name": "Controller",
+    "vector_index": 22,
+    "embedding_norm": 2.4154932498931885
+  },
+  "24": {
+    "id": 24,
+    "name": "Box",
+    "vector_index": 23,
+    "embedding_norm": 2.687255859375
+  },
+  "25": {
+    "id": 25,
+    "name": "Handheld Console",
+    "vector_index": 24,
+    "embedding_norm": 2.383915662765503
+  },
+  "26": {
+    "id": 26,
+    "name": "PlayStation DualShock Controller",
+    "vector_index": 25,
+    "embedding_norm": 1.9430468082427979
+  },
+  "27": {
+    "id": 27,
+    "name": "PlayStation DualShock 2 Controller",
+    "vector_index": 26,
+    "embedding_norm": 1.9370636940002441
+  },
+  "28": {
+    "id": 28,
+    "name": "PlayStation Sixaxis Controller",
+    "vector_index": 27,
+    "embedding_norm": 2.077594757080078
+  },
+  "29": {
+    "id": 29,
+    "name": "PlayStation DualShock 3 Controller",
+    "vector_index": 28,
+    "embedding_norm": 1.8771945238113403
+  },
+  "30": {
+    "id": 30,
+    "name": "PlayStation DualShock 4 Controller",
+    "vector_index": 29,
+    "embedding_norm": 1.8731924295425415
+  },
+  "31": {
+    "id": 31,
+    "name": "PlayStation DualSense Controller",
+    "vector_index": 30,
+    "embedding_norm": 1.9731576442718506
+  },
+  "32": {
+    "id": 32,
+    "name": "PlayStation DualSense Edge Controller",
+    "vector_index": 31,
+    "embedding_norm": 2.0016984939575195
+  },
+  "33": {
+    "id": 33,
+    "name": "Xbox Duke Controller",
+    "vector_index": 32,
+    "embedding_norm": 2.1553735733032227
+  },
+  "34": {
+    "id": 34,
+    "name": "Xbox Controller S",
+    "vector_index": 33,
+    "embedding_norm": 2.2348403930664062
+  },
+  "35": {
+    "id": 35,
+    "name": "Xbox 360 Controller",
+    "vector_index": 34,
+    "embedding_norm": 2.181297779083252
+  },
+  "36": {
+    "id": 36,
+    "name": "Xbox Wireless Controller",
+    "vector_index": 35,
+    "embedding_norm": 2.183161973953247
+  },
+  "37": {
+    "id": 37,
+    "name": "Xbox Elite Controller",
+    "vector_index": 36,
+    "embedding_norm": 2.1557295322418213
+  },
+  "38": {
+    "id": 38,
+    "name": "PlayStation 2 Console",
+    "vector_index": 37,
+    "embedding_norm": 2.1694798469543457
+  },
+  "39": {
+    "id": 39,
+    "name": "PlayStation 3 Console",
+    "vector_index": 38,
+    "embedding_norm": 2.1409711837768555
+  },
+  "40": {
+    "id": 40,
+    "name": "PlayStation 4 Console",
+    "vector_index": 39,
+    "embedding_norm": 2.1441590785980225
+  },
+  "41": {
+    "id": 41,
+    "name": "PlayStation 5 Console",
+    "vector_index": 40,
+    "embedding_norm": 2.138305902481079
+  },
+  "42": {
+    "id": 42,
+    "name": "PlayStation Portable (PSP) Console",
+    "vector_index": 41,
+    "embedding_norm": 2.1179635524749756
+  },
+  "43": {
+    "id": 43,
+    "name": "PlayStation Vita Console",
+    "vector_index": 42,
+    "embedding_norm": 2.0648462772369385
+  },
+  "44": {
+    "id": 44,
+    "name": "Xbox Console",
+    "vector_index": 43,
+    "embedding_norm": 2.2533626556396484
+  },
+  "45": {
+    "id": 45,
+    "name": "Xbox 360 Console",
+    "vector_index": 44,
+    "embedding_norm": 2.2038233280181885
+  },
+  "46": {
+    "id": 46,
+    "name": "Xbox One Console",
+    "vector_index": 45,
+    "embedding_norm": 2.2760024070739746
+  },
+  "47": {
+    "id": 47,
+    "name": "Xbox Series X Console",
+    "vector_index": 46,
+    "embedding_norm": 2.1625161170959473
+  },
+  "48": {
+    "id": 48,
+    "name": "Xbox Series S Console",
+    "vector_index": 47,
+    "embedding_norm": 2.3354270458221436
+  },
+  "49": {
+    "id": 49,
+    "name": "Sega Dreamcast Console",
+    "vector_index": 48,
+    "embedding_norm": 1.9571709632873535
+  },
+  "50": {
+    "id": 50,
+    "name": "Sega Saturn Console",
+    "vector_index": 49,
+    "embedding_norm": 2.018784761428833
+  },
+  "51": {
+    "id": 51,
+    "name": "Sega Genesis Console",
+    "vector_index": 50,
+    "embedding_norm": 2.0951955318450928
+  },
+  "52": {
+    "id": 52,
+    "name": "Sega Mega Drive Console",
+    "vector_index": 51,
+    "embedding_norm": 1.8750349283218384
+  },
+  "53": {
+    "id": 53,
+    "name": "Nintendo 64 Console",
+    "vector_index": 52,
+    "embedding_norm": 2.20447039604187
+  },
+  "54": {
+    "id": 54,
+    "name": "Nintendo GameCube Console",
+    "vector_index": 53,
+    "embedding_norm": 2.196737766265869
+  },
+  "55": {
+    "id": 55,
+    "name": "Nintendo Wii Console",
+    "vector_index": 54,
+    "embedding_norm": 2.2990732192993164
+  },
+  "56": {
+    "id": 56,
+    "name": "Nintendo Wii U Console",
+    "vector_index": 55,
+    "embedding_norm": 2.2786104679107666
+  },
+  "57": {
+    "id": 57,
+    "name": "Gamepad",
+    "vector_index": 56,
+    "embedding_norm": 2.670952081680298
+  },
+  "58": {
+    "id": 58,
+    "name": "Charger",
+    "vector_index": 57,
+    "embedding_norm": 2.319774866104126
+  },
+  "59": {
+    "id": 59,
+    "name": "Case",
+    "vector_index": 58,
+    "embedding_norm": 2.7413389682769775
+  },
+  "60": {
+    "id": 60,
+    "name": "Stylus",
+    "vector_index": 59,
+    "embedding_norm": 2.1967742443084717
+  },
+  "61": {
+    "id": 61,
+    "name": "Touch Pen",
+    "vector_index": 60,
+    "embedding_norm": 2.8763468265533447
+  },
+  "62": {
+    "id": 62,
+    "name": "Memory Card",
+    "vector_index": 61,
+    "embedding_norm": 2.6643149852752686
+  },
+  "63": {
+    "id": 63,
+    "name": "New Condition",
+    "vector_index": 62,
+    "embedding_norm": 3.096505641937256
+  },
+  "64": {
+    "id": 64,
+    "name": "Used Condition",
+    "vector_index": 63,
+    "embedding_norm": 3.1284847259521484
+  },
+  "65": {
+    "id": 65,
+    "name": "Damaged Condition",
+    "vector_index": 64,
+    "embedding_norm": 2.960625410079956
+  },
+  "66": {
+    "id": 66,
+    "name": "Mint Condition",
+    "vector_index": 65,
+    "embedding_norm": 2.9656670093536377
+  },
+  "67": {
+    "id": 67,
+    "name": "Sealed",
+    "vector_index": 66,
+    "embedding_norm": 2.6496310234069824
+  },
+  "68": {
+    "id": 68,
+    "name": "Unopened",
+    "vector_index": 67,
+    "embedding_norm": 2.720348358154297
+  },
+  "69": {
+    "id": 69,
+    "name": "Brand New",
+    "vector_index": 68,
+    "embedding_norm": 2.9819657802581787
+  },
+  "70": {
+    "id": 70,
+    "name": "Pre-owned",
+    "vector_index": 69,
+    "embedding_norm": 2.94437837600708
+  },
+  "71": {
+    "id": 71,
+    "name": "Second Hand",
+    "vector_index": 70,
+    "embedding_norm": 2.8668148517608643
+  },
+  "72": {
+    "id": 72,
+    "name": "Tested Working",
+    "vector_index": 71,
+    "embedding_norm": 2.9397165775299072
+  },
+  "73": {
+    "id": 73,
+    "name": "For Parts",
+    "vector_index": 72,
+    "embedding_norm": 2.957451820373535
+  },
+  "74": {
+    "id": 74,
+    "name": "For Repair",
+    "vector_index": 73,
+    "embedding_norm": 2.9058220386505127
+  },
+  "75": {
+    "id": 75,
+    "name": "Junk",
+    "vector_index": 74,
+    "embedding_norm": 2.5183181762695312
+  },
+  "76": {
+    "id": 76,
+    "name": "Untested",
+    "vector_index": 75,
+    "embedding_norm": 2.627593517303467
+  },
+  "77": {
+    "id": 77,
+    "name": "Broken",
+    "vector_index": 76,
+    "embedding_norm": 2.684772253036499
+  },
+  "78": {
+    "id": 78,
+    "name": "Japanese Region",
+    "vector_index": 77,
+    "embedding_norm": 3.1230831146240234
+  },
+  "79": {
+    "id": 79,
+    "name": "US Region",
+    "vector_index": 78,
+    "embedding_norm": 3.0343177318573
+  },
+  "80": {
+    "id": 80,
+    "name": "European Region",
+    "vector_index": 79,
+    "embedding_norm": 3.0797972679138184
+  },
+  "81": {
+    "id": 81,
+    "name": "NTSC-J",
+    "vector_index": 80,
+    "embedding_norm": 1.8766639232635498
+  },
+  "82": {
+    "id": 82,
+    "name": "NTSC",
+    "vector_index": 81,
+    "embedding_norm": 1.6924848556518555
+  },
+  "83": {
+    "id": 83,
+    "name": "PAL",
+    "vector_index": 82,
+    "embedding_norm": 1.8366023302078247
+  },
+  "84": {
+    "id": 84,
+    "name": "Limited Edition",
+    "vector_index": 83,
+    "embedding_norm": 2.9421353340148926
+  },
+  "85": {
+    "id": 85,
+    "name": "Special Edition",
+    "vector_index": 84,
+    "embedding_norm": 2.901628017425537
+  },
+  "86": {
+    "id": 86,
+    "name": "Crystal Edition",
+    "vector_index": 85,
+    "embedding_norm": 2.7262346744537354
+  },
+  "87": {
+    "id": 87,
+    "name": "Launch Edition",
+    "vector_index": 86,
+    "embedding_norm": 2.6811416149139404
+  },
+  "88": {
+    "id": 88,
+    "name": "Complete in Box (CIB)",
+    "vector_index": 87,
+    "embedding_norm": 2.792529582977295
+  },
+  "89": {
+    "id": 89,
+    "name": "Auction",
+    "vector_index": 88,
+    "embedding_norm": 2.80310320854187
+  },
+  "90": {
+    "id": 90,
+    "name": "Marketplace",
+    "vector_index": 89,
+    "embedding_norm": 3.0215904712677
+  },
+  "91": {
+    "id": 91,
+    "name": "White Color",
+    "vector_index": 90,
+    "embedding_norm": 2.461815357208252
+  },
+  "92": {
+    "id": 92,
+    "name": "Black Color",
+    "vector_index": 91,
+    "embedding_norm": 2.741469144821167
+  },
+  "93": {
+    "id": 93,
+    "name": "Silver Color",
+    "vector_index": 92,
+    "embedding_norm": 2.807199239730835
+  },
+  "94": {
+    "id": 94,
+    "name": "Blue Color",
+    "vector_index": 93,
+    "embedding_norm": 2.867938756942749
+  },
+  "95": {
+    "id": 95,
+    "name": "Red Color",
+    "vector_index": 94,
+    "embedding_norm": 2.798273801803589
+  },
+  "96": {
+    "id": 96,
+    "name": "Pink Color",
+    "vector_index": 95,
+    "embedding_norm": 2.932429313659668
+  },
+  "97": {
+    "id": 97,
+    "name": "Crystal White Color",
+    "vector_index": 96,
+    "embedding_norm": 2.591578960418701
+  },
+  "98": {
+    "id": 98,
+    "name": "Ice Blue Color",
+    "vector_index": 97,
+    "embedding_norm": 2.8931210041046143
+  },
+  "99": {
+    "id": 99,
+    "name": "Midnight Black Color",
+    "vector_index": 98,
+    "embedding_norm": 2.8341166973114014
+  },
+  "100": {
+    "id": 100,
+    "name": "Crimson Red Color",
+    "vector_index": 99,
+    "embedding_norm": 2.4483559131622314
+  },
+  "101": {
+    "id": 101,
+    "name": "ホワイト",
+    "vector_index": 100,
+    "embedding_norm": 2.627135992050171
+  },
+  "102": {
+    "id": 102,
+    "name": "ブラック",
+    "vector_index": 101,
+    "embedding_norm": 2.7476322650909424
+  },
+  "103": {
+    "id": 103,
+    "name": "シルバー",
+    "vector_index": 102,
+    "embedding_norm": 2.4079272747039795
+  },
+  "104": {
+    "id": 104,
+    "name": "ブルー",
+    "vector_index": 103,
+    "embedding_norm": 2.815426826477051
+  },
+  "105": {
+    "id": 105,
+    "name": "レッド",
+    "vector_index": 104,
+    "embedding_norm": 2.676414728164673
+  },
+  "106": {
+    "id": 106,
+    "name": "ピンク",
+    "vector_index": 105,
+    "embedding_norm": 2.5917046070098877
+  },
+  "107": {
+    "id": 107,
+    "name": "本体",
+    "vector_index": 106,
+    "embedding_norm": 1.8867056369781494
+  },
+  "108": {
+    "id": 108,
+    "name": "携帯",
+    "vector_index": 107,
+    "embedding_norm": 2.679190158843994
+  },
+  "109": {
+    "id": 109,
+    "name": "コントローラー",
+    "vector_index": 108,
+    "embedding_norm": 2.7674427032470703
+  },
+  "110": {
+    "id": 110,
+    "name": "ゲームパッド",
+    "vector_index": 109,
+    "embedding_norm": 2.7313547134399414
+  },
+  "111": {
+    "id": 111,
+    "name": "任天堂",
+    "vector_index": 110,
+    "embedding_norm": 2.4894638061523438
+  },
+  "112": {
+    "id": 112,
+    "name": "プレイステーション",
+    "vector_index": 111,
+    "embedding_norm": 2.707206964492798
+  },
+  "113": {
+    "id": 113,
+    "name": "デュアルショック",
+    "vector_index": 112,
+    "embedding_norm": 2.5516834259033203
+  },
+  "114": {
+    "id": 114,
+    "name": "オークション",
+    "vector_index": 113,
+    "embedding_norm": 2.6343681812286377
+  },
+  "115": {
+    "id": 115,
+    "name": "メルカリ",
+    "vector_index": 114,
+    "embedding_norm": 2.391191005706787
+  },
+  "116": {
+    "id": 116,
+    "name": "動作確認済み",
+    "vector_index": 115,
+    "embedding_norm": 2.6721444129943848
+  },
+  "117": {
+    "id": 117,
+    "name": "NTR-001",
+    "vector_index": 116,
+    "embedding_norm": 1.447173833847046
+  },
+  "118": {
+    "id": 118,
+    "name": "USG-001",
+    "vector_index": 117,
+    "embedding_norm": 2.3213746547698975
+  },
+  "119": {
+    "id": 119,
+    "name": "TWL-001",
+    "vector_index": 118,
+    "embedding_norm": 2.252225399017334
+  },
+  "120": {
+    "id": 120,
+    "name": "CTR-001",
+    "vector_index": 119,
+    "embedding_norm": 1.5568342208862305
+  },
+  "121": {
+    "id": 121,
+    "name": "HEG-001",
+    "vector_index": 120,
+    "embedding_norm": 2.401505947113037
+  },
+  "122": {
+    "id": 122,
+    "name": "DMG-01",
+    "vector_index": 121,
+    "embedding_norm": 2.136305570602417
+  },
+  "123": {
+    "id": 123,
+    "name": "CGB-001",
+    "vector_index": 122,
+    "embedding_norm": 1.878056526184082
+  },
+  "124": {
+    "id": 124,
+    "name": "AGB-001",
+    "vector_index": 123,
+    "embedding_norm": 2.2217981815338135
+  },
+  "125": {
+    "id": 125,
+    "name": "AGS-001",
+    "vector_index": 124,
+    "embedding_norm": 2.4475138187408447
+  },
+  "126": {
+    "id": 126,
+    "name": "HVC-001",
+    "vector_index": 125,
+    "embedding_norm": 2.252603054046631
+  },
+  "127": {
+    "id": 127,
+    "name": "SHVC-001",
+    "vector_index": 126,
+    "embedding_norm": 2.191032648086548
+  },
+  "128": {
+    "id": 128,
+    "name": "SCPH-1200",
+    "vector_index": 127,
+    "embedding_norm": 2.50801157951355
+  },
+  "129": {
+    "id": 129,
+    "name": "SCPH-55000",
+    "vector_index": 128,
+    "embedding_norm": 1.8973723649978638
+  }
+}

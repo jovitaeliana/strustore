@@ -1,26 +1,73 @@
 item1,item2
-# Translations
+# --- Core Translations (from gdinoOutput & real data) ---
 white,ホワイト
+white,blanca
+black,ブラック
+black,negro
+blue,ブルー
+blue,azul
+pink,ピンク
+pink,rosa
+silver,シルバー
+red,レッド
 console,本体
 controller,コントローラー
-PlayStation,プレイステーション
-black,negro
-pink,rosa
-tested,tested working
-ice blue,azul
 nintendo,任天堂
-# Model Codes
+playstation,プレイステーション
+tested,tested working
+tested,動作確認済み
+original,オリジナル
+new,新品
+used,中古
+mint,美品
+complete in box,cib
+handheld,携帯
+# --- Model Codes (verified real-world data) ---
 Nintendo DS Original Console,NTR-001
 Nintendo DS Lite Console,USG-001
 Nintendo DSi Console,TWL-001
-Nintendo Game Boy Advance SP Console,AGS-001
-Super Famicom,SHVC-001
-# Synonyms & Brand Variants
+Nintendo 3DS Console,CTR-001
+Nintendo Switch Lite Console,HDH-001
+Nintendo Switch OLED Console,HEG-001
+Game Boy,DMG-01
+Game Boy Color,CGB-001
+Game Boy Advance,AGB-001
+Game Boy Advance SP,AGS-001
+Nintendo Famicom Console,HVC-001
+Nintendo SNES Console,SHVC-001
+Playstation Controller,SCPH-1200
+PlayStation 2 Console,SCPH-70000
+PlayStation 3 Console,CECH-2001A
+PlayStation 4 Console,CUH-1001A
+PlayStation 5 Console,CFI-1015A
+PlayStation DualShock 2 Controller,SCPH-10010
+PlayStation DualShock 3 Controller,CECHZC2
+PlayStation DualShock 4 Controller,CUH-ZCT1
+Xbox 360 Controller,X809792-001
+Xbox One Controller,1537
+Xbox Series X Controller,1914
+# --- Synonyms & Brand Variants (from gdinoOutput & real data) ---
 controller,gamepad
 used,pre-owned
+used,second hand
+tested,working
+tested,works
 Super Famicom,SNES
 PlayStation,PS
 Nintendo DS Lite,dslite
+Nintendo DS Lite,ndsl
 Nintendo DS,nds
+Nintendo DS,nintendods
 Game Boy Advance,gba
-complete in box,cib
+Famicom,Family Computer
+Nintendo SNES Console,Super Nintendo Entertainment System
+PlayStation Portable (PSP) Console,psp
+Playstation Vita Console,psvita
+junk,for parts
+for parts,for repair
+stylus,touch pen
+Nintendo Joy-Con,joycon
+silver,platinum
+silver,titanium
+crimson red,red black
+crystal white,polar white
