@@ -1,0 +1,35 @@
+# Core ML and NLP libraries
+sentence-transformers>=2.2.2
+torch>=2.0.0
+transformers>=4.21.0
+huggingface-hub>=0.16.0
+datasets>=2.14.0
+accelerate>=0.26.0
+
+# Vector database and similarity search
+faiss-cpu>=1.7.4
+# Alternative: faiss-gpu>=1.7.4  # Use this for GPU acceleration
+
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# Visualization and reporting
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.64.0
+pathlib2>=2.3.7
+
+# Optional: For better tokenization
+tokenizers>=0.13.0
+
+# Development and testing
+pytest>=7.0.0
+jupyter>=1.0.0
+
+# For model serving (optional)
+fastapi>=0.85.0
+uvicorn>=0.18.0
