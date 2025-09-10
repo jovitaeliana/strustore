@@ -12,16 +12,72 @@
         "4": "Nintendo Famicom Console"
     },
     "gdino_improved": {
-        "1": "svXJEQMnwuDfLPUHUUCi",
-        "2": "Pse4aMX8v9HeE72C0wNB",
-        "3": "OvnaIjSBeoFBsRS0Y6GI",
-        "4": "dHZsC4olhShVBHfmoleE"
+        "1": {
+            "id": "svXJEQMnwuDfLPUHUUCi",
+            "reference_name": "2DS",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "2DS | id: svXJEQMnwuDfLPUHUUCi | category: Video Game Consoles | Nintendo DS",
+            "vector_index": 213,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8546817302703857,
+            "itemtypes_similarity": 0.8411152362823486
+        },
+        "2": {
+            "id": "Pse4aMX8v9HeE72C0wNB",
+            "reference_name": "N64 Turbo Con (Hudson)",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "N64 Turbo Con (Hudson) | id: Pse4aMX8v9HeE72C0wNB | category: Controllers & Attachments | Nintendo DS | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 104,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8514693379402161,
+            "itemtypes_similarity": 0.8511236310005188
+        },
+        "3": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Console",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8459675312042236,
+            "itemtypes_similarity": 0.8307182192802429
+        },
+        "4": {
+            "id": "dHZsC4olhShVBHfmoleE",
+            "reference_name": "SFC [Boxed]",
+            "itemtypes_name": "Nintendo Switch Console",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 167,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8715167045593262,
+            "itemtypes_similarity": 0.8498631119728088
+        }
     },
     "gdino_improved_readable": {
-        "1": "2DS",
-        "2": "N64 Turbo Con (Hudson)",
-        "3": "SFC",
-        "4": "SFC [Boxed]"
+        "1": "Nintendo DS (2DS)",
+        "2": "Nintendo Switch Joy-Con (R) (N64 Turbo Con (Hudson))",
+        "3": "Nintendo Switch Console (SFC)",
+        "4": "Nintendo Switch Console (SFC [Boxed])"
     },
     "gdino_similarity_scores": {
         "1": 0.8547,
@@ -30,7 +86,7 @@
         "4": 0.8715
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

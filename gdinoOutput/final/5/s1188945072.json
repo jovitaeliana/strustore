@@ -6,16 +6,30 @@
         "1": "Gamecube Controller"
     },
     "gdino_improved": {
-        "1": "Gynna5OzYWWE6y8WpgpO"
+        "1": {
+            "id": "Gynna5OzYWWE6y8WpgpO",
+            "reference_name": "GC Wavebird Con",
+            "itemtypes_name": "Wii U GamePad",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "GC Wavebird Con | id: Gynna5OzYWWE6y8WpgpO | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+            "vector_index": 68,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8601725101470947,
+            "itemtypes_similarity": 0.8527640700340271
+        }
     },
     "gdino_improved_readable": {
-        "1": "GC Wavebird Con"
+        "1": "Wii U GamePad (GC Wavebird Con)"
     },
     "gdino_similarity_scores": {
         "1": 0.8602
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

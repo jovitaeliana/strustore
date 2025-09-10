@@ -6,16 +6,30 @@
         "1": "Nintendo DSi Console"
     },
     "gdino_improved": {
-        "1": "GgWTR9QoWKoUkJ3kr5ga"
+        "1": {
+            "id": "GgWTR9QoWKoUkJ3kr5ga",
+            "reference_name": "DSi",
+            "itemtypes_name": "Nintendo DSi",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
+            "vector_index": 66,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8497995138168335,
+            "itemtypes_similarity": 0.8286970257759094
+        }
     },
     "gdino_improved_readable": {
-        "1": "DSi"
+        "1": "Nintendo DSi (DSi)"
     },
     "gdino_similarity_scores": {
         "1": 0.8498
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

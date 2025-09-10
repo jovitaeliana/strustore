@@ -8,19 +8,49 @@
         "2": "Nintendo Switch Pro Controller"
     },
     "gdino_improved": {
-        "1": "NmqlKnIQH4m6NTtCEMAI",
-        "2": "NmqlKnIQH4m6NTtCEMAI"
+        "1": {
+            "id": "gamecube_controller",
+            "reference_name": "GC [DOL-101]",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8895672559738159,
+            "vector_reference_id": "NmqlKnIQH4m6NTtCEMAI",
+            "vector_reference_similarity": 0.8673573732376099
+        },
+        "2": {
+            "id": "gamecube_controller",
+            "reference_name": "GC [DOL-101]",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8906542062759399,
+            "vector_reference_id": "NmqlKnIQH4m6NTtCEMAI",
+            "vector_reference_similarity": 0.8591151833534241
+        }
     },
     "gdino_improved_readable": {
-        "1": "GC [DOL-101]",
-        "2": "GC [DOL-101]"
+        "1": "GameCube Controller (GC [DOL-101])",
+        "2": "GameCube Controller (GC [DOL-101])"
     },
     "gdino_similarity_scores": {
-        "1": 0.8674,
-        "2": 0.8591
+        "1": 0.8896,
+        "2": 0.8907
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

@@ -10,22 +10,66 @@
         "3": "Nintendo Game Boy Advance SP Console "
     },
     "gdino_improved": {
-        "1": "YxGyIhCoGGi6fsk3Beo8",
-        "2": "YxGyIhCoGGi6fsk3Beo8",
-        "3": "YxGyIhCoGGi6fsk3Beo8"
+        "1": {
+            "id": "YxGyIhCoGGi6fsk3Beo8",
+            "reference_name": "Gameboy Player",
+            "itemtypes_name": "Game Boy Advance",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
+            "vector_index": 143,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8621377944946289,
+            "itemtypes_similarity": 0.8589524030685425
+        },
+        "2": {
+            "id": "game_boy_advance",
+            "reference_name": "Gameboy Player",
+            "itemtypes_name": "Game Boy Advance",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Game Boy Advance | GBA | Game Boy Advance | AGB-001 | brand: Nintendo | model: AGB-001 | game | boy | advance | gba | nintendo | agb-001 | handheld | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8456746935844421,
+            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
+            "vector_reference_similarity": 0.8432382345199585
+        },
+        "3": {
+            "id": "game_boy_advance",
+            "reference_name": "Gameboy Player",
+            "itemtypes_name": "Game Boy Advance",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Game Boy Advance | GBA | Game Boy Advance | AGB-001 | brand: Nintendo | model: AGB-001 | game | boy | advance | gba | nintendo | agb-001 | handheld | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8442532420158386,
+            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
+            "vector_reference_similarity": 0.8361670970916748
+        }
     },
     "gdino_improved_readable": {
-        "1": "Gameboy Player",
-        "2": "Gameboy Player",
-        "3": "Gameboy Player"
+        "1": "Game Boy Advance (Gameboy Player)",
+        "2": "Game Boy Advance (Gameboy Player)",
+        "3": "Game Boy Advance (Gameboy Player)"
     },
     "gdino_similarity_scores": {
         "1": 0.8621,
-        "2": 0.8432,
-        "3": 0.8362
+        "2": 0.8457,
+        "3": 0.8443
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

@@ -8,19 +8,48 @@
         "2": "XBOX Controller"
     },
     "gdino_improved": {
-        "1": "ZBroqZgzmGouENEl1iVl",
-        "2": "Irh72HART2knkr1jxuG7"
+        "1": {
+            "id": "nintendo_switch_pro_controller",
+            "reference_name": "Switch Pro Controller",
+            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8665180206298828,
+            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
+            "vector_reference_similarity": 0.8633766174316406
+        },
+        "2": {
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
+            "itemtypes_name": "Wii Classic Controller",
+            "category": "Labels",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8087316751480103,
+            "itemtypes_similarity": 0.8042700290679932
+        }
     },
     "gdino_improved_readable": {
-        "1": "Switch Pro Controller",
-        "2": "Shipping Label"
+        "1": "Nintendo Switch Pro Controller (Switch Pro Controller)",
+        "2": "Wii Classic Controller (Shipping Label)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8634,
+        "1": 0.8665,
         "2": 0.8087
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

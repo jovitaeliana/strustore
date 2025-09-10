@@ -6,16 +6,31 @@
         "1": "Playstation Controller"
     },
     "gdino_improved": {
-        "1": "wviDZriLtZag6FCXscHP"
+        "1": {
+            "id": "playstation_2_dualshock_2",
+            "reference_name": "PS1 Dual Analog Con SCPH-1180",
+            "itemtypes_name": "PlayStation 2 DualShock 2",
+            "category": "Controllers & Attachments",
+            "model": "PlayStation 2",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 2 DualShock 2 | PS2 Controller | DualShock 2 | SCPH-10010 | brand: Sony | console: PlayStation 2 | model: SCPH-10010 | ps2 | playstation | dualshock | controller | sony | scph-10010 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8925431370735168,
+            "vector_reference_id": "wviDZriLtZag6FCXscHP",
+            "vector_reference_similarity": 0.885294497013092
+        }
     },
     "gdino_improved_readable": {
-        "1": "PS1 Dual Analog Con SCPH-1180"
+        "1": "PlayStation 2 DualShock 2 (PS1 Dual Analog Con SCPH-1180)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8853
+        "1": 0.8925
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

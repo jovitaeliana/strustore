@@ -8,19 +8,48 @@
         "2": "Nintendo Game Boy Advance SP Console "
     },
     "gdino_improved": {
-        "1": "Sb63aOKKGWawJOyhoDm0",
-        "2": "Sb63aOKKGWawJOyhoDm0"
+        "1": {
+            "id": "playstation_3_dualshock_3",
+            "reference_name": "PS3 Fat",
+            "itemtypes_name": "PlayStation 3 DualShock 3",
+            "category": "Controllers & Attachments",
+            "model": "PlayStation 3",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8382092118263245,
+            "vector_reference_id": "Sb63aOKKGWawJOyhoDm0",
+            "vector_reference_similarity": 0.8318743109703064
+        },
+        "2": {
+            "id": "Sb63aOKKGWawJOyhoDm0",
+            "reference_name": "PS3 Fat",
+            "itemtypes_name": "PlayStation 3 DualShock 3",
+            "category": "Video Game Consoles",
+            "model": "Sony PlayStation 3",
+            "brand": "Sony",
+            "source": "vector_database",
+            "contextual_text": "PS3 Fat | id: Sb63aOKKGWawJOyhoDm0 | category: Video Game Consoles | model: Sony PlayStation 3 | PlayStation 3 | Sony PlayStation gaming product",
+            "vector_index": 118,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8643378019332886,
+            "itemtypes_similarity": 0.8593169450759888
+        }
     },
     "gdino_improved_readable": {
-        "1": "PS3 Fat",
-        "2": "PS3 Fat"
+        "1": "PlayStation 3 DualShock 3 (PS3 Fat)",
+        "2": "PlayStation 3 DualShock 3 (PS3 Fat)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8319,
+        "1": 0.8382,
         "2": 0.8643
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

@@ -14,18 +14,88 @@
         "5": "Nintendo Famicom Console"
     },
     "gdino_improved": {
-        "1": "OvnaIjSBeoFBsRS0Y6GI",
-        "2": "oL2l1OjnB3BNLENQkoRb",
-        "3": "OvnaIjSBeoFBsRS0Y6GI",
-        "4": "OvnaIjSBeoFBsRS0Y6GI",
-        "5": "OvnaIjSBeoFBsRS0Y6GI"
+        "1": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8804935812950134,
+            "itemtypes_similarity": 0.8506321907043457
+        },
+        "2": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8495523929595947,
+            "itemtypes_similarity": 0.8387815952301025
+        },
+        "3": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8586360216140747,
+            "itemtypes_similarity": 0.8501023650169373
+        },
+        "4": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Console",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8455281257629395,
+            "itemtypes_similarity": 0.8430031538009644
+        },
+        "5": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8572661876678467,
+            "itemtypes_similarity": 0.8536404371261597
+        }
     },
     "gdino_improved_readable": {
-        "1": "SFC",
-        "2": "Switch",
-        "3": "SFC",
-        "4": "SFC",
-        "5": "SFC"
+        "1": "Nintendo Switch Joy-Con (R) (SFC)",
+        "2": "Nintendo Switch Joy-Con Pair (Switch)",
+        "3": "Nintendo Switch Joy-Con Pair (SFC)",
+        "4": "Nintendo Switch Console (SFC)",
+        "5": "Nintendo Switch Joy-Con (R) (SFC)"
     },
     "gdino_similarity_scores": {
         "1": 0.8805,
@@ -35,7 +105,7 @@
         "5": 0.8573
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

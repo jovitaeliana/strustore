@@ -6,16 +6,30 @@
         "1": "No Match"
     },
     "gdino_improved": {
-        "1": "Irh72HART2knkr1jxuG7"
+        "1": {
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
+            "itemtypes_name": "PlayStation 3 DualShock 3",
+            "category": "Labels",
+            "model": "",
+            "brand": "Sony",
+            "source": "vector_database",
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8289186954498291,
+            "itemtypes_similarity": 0.7671000361442566
+        }
     },
     "gdino_improved_readable": {
-        "1": "Shipping Label"
+        "1": "PlayStation 3 DualShock 3 (Shipping Label)"
     },
     "gdino_similarity_scores": {
         "1": 0.8289
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

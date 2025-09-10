@@ -10,22 +10,67 @@
         "3": "XBOX Controller"
     },
     "gdino_improved": {
-        "1": "ri7BtZBzSxWd5jRBctFM",
-        "2": "087lkATTCpKIRfuZXSyO",
-        "3": "087lkATTCpKIRfuZXSyO"
+        "1": {
+            "id": "xbox_one_controller",
+            "reference_name": "Xbox One",
+            "itemtypes_name": "Xbox One Controller",
+            "category": "Controllers & Attachments",
+            "model": "Xbox One",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox One Controller | Xbox One Wireless Controller | brand: Microsoft | console: Xbox One | xbox | one | controller | microsoft | wireless | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8808079361915588,
+            "vector_reference_id": "ri7BtZBzSxWd5jRBctFM",
+            "vector_reference_similarity": 0.8601021766662598
+        },
+        "2": {
+            "id": "xbox_series_controller",
+            "reference_name": "Xbox 360 Power Cord",
+            "itemtypes_name": "Xbox Series Controller",
+            "category": "Controllers & Attachments",
+            "model": "Xbox Series X|S",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox Series Controller | Xbox Wireless Controller | Xbox Series X|S Controller | brand: Microsoft | console: Xbox Series X|S | xbox | series | controller | microsoft | wireless | x | s | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8537663221359253,
+            "vector_reference_id": "087lkATTCpKIRfuZXSyO",
+            "vector_reference_similarity": 0.8522336483001709
+        },
+        "3": {
+            "id": "xbox_series_controller",
+            "reference_name": "Xbox 360 Power Cord",
+            "itemtypes_name": "Xbox Series Controller",
+            "category": "Controllers & Attachments",
+            "model": "Xbox Series X|S",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox Series Controller | Xbox Wireless Controller | Xbox Series X|S Controller | brand: Microsoft | console: Xbox Series X|S | xbox | series | controller | microsoft | wireless | x | s | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8699209094047546,
+            "vector_reference_id": "087lkATTCpKIRfuZXSyO",
+            "vector_reference_similarity": 0.8563019037246704
+        }
     },
     "gdino_improved_readable": {
-        "1": "Xbox One",
-        "2": "Xbox 360 Power Cord",
-        "3": "Xbox 360 Power Cord"
+        "1": "Xbox One Controller (Xbox One)",
+        "2": "Xbox Series Controller (Xbox 360 Power Cord)",
+        "3": "Xbox Series Controller (Xbox 360 Power Cord)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8601,
-        "2": 0.8522,
-        "3": 0.8563
+        "1": 0.8808,
+        "2": 0.8538,
+        "3": 0.8699
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

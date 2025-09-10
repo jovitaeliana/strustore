@@ -8,19 +8,48 @@
         "2": "Nintendo Game Boy Advance SP Console "
     },
     "gdino_improved": {
-        "1": "Irh72HART2knkr1jxuG7",
-        "2": "eDXOwaOyWKtH2nQwCYan"
+        "1": {
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
+            "itemtypes_name": "Nintendo Switch Dock",
+            "category": "Labels",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8212668299674988,
+            "itemtypes_similarity": 0.7778583765029907
+        },
+        "2": {
+            "id": "game_boy_advance_sp",
+            "reference_name": "Gameboy Advance",
+            "itemtypes_name": "Game Boy Advance SP",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Game Boy Advance SP | GBA SP | Game Boy Advance SP | AGS-001 | AGS-101 | brand: Nintendo | model: AGS-001 | model: AGS-101 | game | boy | advance | sp | gba | nintendo | ags-001 | ags-101 | backlit | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8849611878395081,
+            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
+            "vector_reference_similarity": 0.8736476898193359
+        }
     },
     "gdino_improved_readable": {
-        "1": "Shipping Label",
-        "2": "Gameboy Advance"
+        "1": "Nintendo Switch Dock (Shipping Label)",
+        "2": "Game Boy Advance SP (Gameboy Advance)"
     },
     "gdino_similarity_scores": {
         "1": 0.8213,
-        "2": 0.8736
+        "2": 0.885
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

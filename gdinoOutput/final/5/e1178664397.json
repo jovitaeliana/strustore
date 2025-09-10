@@ -12,16 +12,72 @@
         "4": "No Match"
     },
     "gdino_improved": {
-        "1": "n2PMx7GYyOOZ8mQlxpsC",
-        "2": "fj8niKEiVeaKbKSUovPs",
-        "3": "PF6zWiWOjRxwKrmRw2oA",
-        "4": "PF6zWiWOjRxwKrmRw2oA"
+        "1": {
+            "id": "n2PMx7GYyOOZ8mQlxpsC",
+            "reference_name": "PS2 Multitap",
+            "itemtypes_name": "PlayStation 2 DualShock 2",
+            "category": "Other Video Game Accessories",
+            "model": "",
+            "brand": "Sony",
+            "source": "vector_database",
+            "contextual_text": "PS2 Multitap | id: n2PMx7GYyOOZ8mQlxpsC | category: Other Video Game Accessories | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product",
+            "vector_index": 195,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "157",
+            "similarity_score": 0.8148332238197327,
+            "itemtypes_similarity": 0.8005059957504272
+        },
+        "2": {
+            "id": "fj8niKEiVeaKbKSUovPs",
+            "reference_name": "PS2 Dual Shock Con",
+            "itemtypes_name": "PlayStation 2 DualShock 2",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Sony",
+            "source": "vector_database",
+            "contextual_text": "PS2 Dual Shock Con | id: fj8niKEiVeaKbKSUovPs | category: Controllers & Attachments | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 176,
+            "embedding_norm": 1.0,
+            "legacyId": "26",
+            "similarity_score": 0.8461709022521973,
+            "itemtypes_similarity": 0.8333214521408081
+        },
+        "3": {
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
+            "itemtypes_name": "Nintendo 3DS XL",
+            "category": null,
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8058931827545166,
+            "itemtypes_similarity": 0.7580612897872925
+        },
+        "4": {
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
+            "itemtypes_name": "Xbox Controller (Original)",
+            "category": null,
+            "model": "",
+            "brand": "Microsoft",
+            "source": "vector_database",
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.84470534324646,
+            "itemtypes_similarity": 0.7973182201385498
+        }
     },
     "gdino_improved_readable": {
-        "1": "PS2 Multitap",
-        "2": "PS2 Dual Shock Con",
-        "3": "R.O.B. (boxed)",
-        "4": "R.O.B. (boxed)"
+        "1": "PlayStation 2 DualShock 2 (PS2 Multitap)",
+        "2": "PlayStation 2 DualShock 2 (PS2 Dual Shock Con)",
+        "3": "Nintendo 3DS XL (R.O.B. (boxed))",
+        "4": "Xbox Controller (Original) (R.O.B. (boxed))"
     },
     "gdino_similarity_scores": {
         "1": 0.8148,
@@ -30,7 +86,7 @@
         "4": 0.8447
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

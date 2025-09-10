@@ -8,19 +8,49 @@
         "3": "XBOX Controller"
     },
     "gdino_improved": {
-        "1": "UQAiJaSEgXisBIPIMPnD",
-        "3": "ri7BtZBzSxWd5jRBctFM"
+        "1": {
+            "id": "xbox_original_controller",
+            "reference_name": "Xbox Orig Con",
+            "itemtypes_name": "Xbox Controller (Original)",
+            "category": "Controllers & Attachments",
+            "model": "Xbox",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox Controller (Original) | Original Xbox Controller | Xbox Duke Controller | Xbox Controller S | brand: Microsoft | console: Xbox | xbox | original | controller | microsoft | duke | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8787195682525635,
+            "vector_reference_id": "UQAiJaSEgXisBIPIMPnD",
+            "vector_reference_similarity": 0.8545808792114258
+        },
+        "3": {
+            "id": "xbox_original_controller",
+            "reference_name": "Xbox One",
+            "itemtypes_name": "Xbox Controller (Original)",
+            "category": "Controllers & Attachments",
+            "model": "Xbox",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox Controller (Original) | Original Xbox Controller | Xbox Duke Controller | Xbox Controller S | brand: Microsoft | console: Xbox | xbox | original | controller | microsoft | duke | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8634904623031616,
+            "vector_reference_id": "ri7BtZBzSxWd5jRBctFM",
+            "vector_reference_similarity": 0.8512356281280518
+        }
     },
     "gdino_improved_readable": {
-        "1": "Xbox Orig Con",
-        "3": "Xbox One"
+        "1": "Xbox Controller (Original) (Xbox Orig Con)",
+        "3": "Xbox Controller (Original) (Xbox One)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8546,
-        "3": 0.8512
+        "1": 0.8787,
+        "3": 0.8635
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

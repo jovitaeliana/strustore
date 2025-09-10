@@ -12,16 +12,72 @@
         "4": "Nintendo Game Boy Advance SP Console "
     },
     "gdino_improved": {
-        "1": "OvnaIjSBeoFBsRS0Y6GI",
-        "2": "JfpzfVMgPVKgYvc3Mt1r",
-        "3": "JfpzfVMgPVKgYvc3Mt1r",
-        "4": "OvnaIjSBeoFBsRS0Y6GI"
+        "1": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8780199885368347,
+            "itemtypes_similarity": 0.8376410603523254
+        },
+        "2": {
+            "id": "JfpzfVMgPVKgYvc3Mt1r",
+            "reference_name": "SNES Super Scope",
+            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SNES Super Scope | id: JfpzfVMgPVKgYvc3Mt1r | category: Controllers & Attachments | Super Nintendo Entertainment System | Nintendo Entertainment System | gaming controller device | gamepad peripheral",
+            "vector_index": 82,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8753103017807007,
+            "itemtypes_similarity": 0.8715507984161377
+        },
+        "3": {
+            "id": "JfpzfVMgPVKgYvc3Mt1r",
+            "reference_name": "SNES Super Scope",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SNES Super Scope | id: JfpzfVMgPVKgYvc3Mt1r | category: Controllers & Attachments | Super Nintendo Entertainment System | Nintendo Entertainment System | gaming controller device | gamepad peripheral",
+            "vector_index": 82,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8651795387268066,
+            "itemtypes_similarity": 0.8586191534996033
+        },
+        "4": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8600329756736755,
+            "itemtypes_similarity": 0.8430471420288086
+        }
     },
     "gdino_improved_readable": {
-        "1": "SFC",
-        "2": "SNES Super Scope",
-        "3": "SNES Super Scope",
-        "4": "SFC"
+        "1": "Nintendo DS (SFC)",
+        "2": "Nintendo Switch Pro Controller (SNES Super Scope)",
+        "3": "Nintendo Switch Joy-Con Pair (SNES Super Scope)",
+        "4": "Nintendo DS (SFC)"
     },
     "gdino_similarity_scores": {
         "1": 0.878,
@@ -30,7 +86,7 @@
         "4": 0.86
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

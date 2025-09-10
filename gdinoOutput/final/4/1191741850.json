@@ -12,25 +12,85 @@
         "4": "Nintendo Switch Pro Controller"
     },
     "gdino_improved": {
-        "1": "Fu009vbiv7CbGJdvp4f5",
-        "2": "Fu009vbiv7CbGJdvp4f5",
-        "3": "oL2l1OjnB3BNLENQkoRb",
-        "4": "Fu009vbiv7CbGJdvp4f5"
+        "1": {
+            "id": "nintendo_switch_joycon_pair",
+            "reference_name": "Wii Con Knockoff",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8824036717414856,
+            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
+            "vector_reference_similarity": 0.854282557964325
+        },
+        "2": {
+            "id": "nintendo_switch_joycon_left",
+            "reference_name": "Wii Con Knockoff",
+            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con (L) | Joy-Con (L) | Left Joy-Con | Nintendo Switch Joy-Con Left | Joy-Con Left Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | left | nintendo | switch | controller | l | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8835442662239075,
+            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
+            "vector_reference_similarity": 0.8500213027000427
+        },
+        "3": {
+            "id": "nintendo_switch_joycon_pair",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8803991079330444,
+            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
+            "vector_reference_similarity": 0.85127192735672
+        },
+        "4": {
+            "id": "nintendo_switch_joycon_right",
+            "reference_name": "Wii Con Knockoff",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con (R) | Joy-Con (R) | Right Joy-Con | Nintendo Switch Joy-Con Right | Joy-Con Right Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | right | nintendo | switch | controller | r | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8867039680480957,
+            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
+            "vector_reference_similarity": 0.8482641577720642
+        }
     },
     "gdino_improved_readable": {
-        "1": "Wii Con Knockoff",
-        "2": "Wii Con Knockoff",
-        "3": "Switch",
-        "4": "Wii Con Knockoff"
+        "1": "Nintendo Switch Joy-Con Pair (Wii Con Knockoff)",
+        "2": "Nintendo Switch Joy-Con (L) (Wii Con Knockoff)",
+        "3": "Nintendo Switch Joy-Con Pair (Switch)",
+        "4": "Nintendo Switch Joy-Con (R) (Wii Con Knockoff)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8543,
-        "2": 0.85,
-        "3": 0.8513,
-        "4": 0.8483
+        "1": 0.8824,
+        "2": 0.8835,
+        "3": 0.8804,
+        "4": 0.8867
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

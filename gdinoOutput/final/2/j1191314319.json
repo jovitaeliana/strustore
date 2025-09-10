@@ -10,14 +10,56 @@
         "3": "Nintendo Famicom Console"
     },
     "gdino_improved": {
-        "1": "OvnaIjSBeoFBsRS0Y6GI",
-        "2": "dHZsC4olhShVBHfmoleE",
-        "3": "OvnaIjSBeoFBsRS0Y6GI"
+        "1": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Console",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8620994091033936,
+            "itemtypes_similarity": 0.8412693738937378
+        },
+        "2": {
+            "id": "dHZsC4olhShVBHfmoleE",
+            "reference_name": "SFC [Boxed]",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 167,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8579633831977844,
+            "itemtypes_similarity": 0.8507335186004639
+        },
+        "3": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8505926132202148,
+            "itemtypes_similarity": 0.8489916324615479
+        }
     },
     "gdino_improved_readable": {
-        "1": "SFC",
-        "2": "SFC [Boxed]",
-        "3": "SFC"
+        "1": "Nintendo Switch Console (SFC)",
+        "2": "Nintendo Switch Joy-Con (R) (SFC [Boxed])",
+        "3": "Nintendo Switch Joy-Con Pair (SFC)"
     },
     "gdino_similarity_scores": {
         "1": 0.8621,
@@ -25,7 +67,7 @@
         "3": 0.8506
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

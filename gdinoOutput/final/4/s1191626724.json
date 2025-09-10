@@ -6,16 +6,31 @@
         "1": "Nintendo Switch Pro Controller"
     },
     "gdino_improved": {
-        "1": "oL2l1OjnB3BNLENQkoRb"
+        "1": {
+            "id": "nintendo_switch_joycon_right",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con (R) | Joy-Con (R) | Right Joy-Con | Nintendo Switch Joy-Con Right | Joy-Con Right Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | right | nintendo | switch | controller | r | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.9044183492660522,
+            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
+            "vector_reference_similarity": 0.8488802909851074
+        }
     },
     "gdino_improved_readable": {
-        "1": "Switch"
+        "1": "Nintendo Switch Joy-Con (R) (Switch)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8489
+        "1": 0.9044
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

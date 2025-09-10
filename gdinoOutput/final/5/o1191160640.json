@@ -12,25 +12,85 @@
         "4": "Nintendo Game Boy Color Console"
     },
     "gdino_improved": {
-        "1": "CtJuoTNmpqb8lTLL8pug",
-        "2": "Gynna5OzYWWE6y8WpgpO",
-        "3": "CtJuoTNmpqb8lTLL8pug",
-        "4": "NmqlKnIQH4m6NTtCEMAI"
+        "1": {
+            "id": "gamecube_controller",
+            "reference_name": "GC Unidentified Misc Black",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8461748361587524,
+            "vector_reference_id": "CtJuoTNmpqb8lTLL8pug",
+            "vector_reference_similarity": 0.8451162576675415
+        },
+        "2": {
+            "id": "gamecube_controller",
+            "reference_name": "GC Wavebird Con",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8586369752883911,
+            "vector_reference_id": "Gynna5OzYWWE6y8WpgpO",
+            "vector_reference_similarity": 0.8538345694541931
+        },
+        "3": {
+            "id": "gamecube_controller",
+            "reference_name": "GC Unidentified Misc Black",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8351430296897888,
+            "vector_reference_id": "CtJuoTNmpqb8lTLL8pug",
+            "vector_reference_similarity": 0.8283405900001526
+        },
+        "4": {
+            "id": "gamecube_controller",
+            "reference_name": "GC [DOL-101]",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8762069940567017,
+            "vector_reference_id": "NmqlKnIQH4m6NTtCEMAI",
+            "vector_reference_similarity": 0.8599892258644104
+        }
     },
     "gdino_improved_readable": {
-        "1": "GC Unidentified Misc Black",
-        "2": "GC Wavebird Con",
-        "3": "GC Unidentified Misc Black",
-        "4": "GC [DOL-101]"
+        "1": "GameCube Controller (GC Unidentified Misc Black)",
+        "2": "GameCube Controller (GC Wavebird Con)",
+        "3": "GameCube Controller (GC Unidentified Misc Black)",
+        "4": "GameCube Controller (GC [DOL-101])"
     },
     "gdino_similarity_scores": {
-        "1": 0.8451,
-        "2": 0.8538,
-        "3": 0.8283,
-        "4": 0.86
+        "1": 0.8462,
+        "2": 0.8586,
+        "3": 0.8351,
+        "4": 0.8762
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

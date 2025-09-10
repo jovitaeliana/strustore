@@ -10,14 +10,56 @@
         "3": "Nintendo Game Boy Advance SP Console "
     },
     "gdino_improved": {
-        "1": "PaVQDrGaUjcYp3KPYkmN",
-        "2": "PaVQDrGaUjcYp3KPYkmN",
-        "3": "8zDMF4CCUEmyUqsRJ52j"
+        "1": {
+            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "reference_name": "Blue N64 Con (boxed)",
+            "itemtypes_name": "Wii Nunchuk Controller",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 103,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8653514385223389,
+            "itemtypes_similarity": 0.832783579826355
+        },
+        "2": {
+            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "reference_name": "Blue N64 Con (boxed)",
+            "itemtypes_name": "Wii Nunchuk Controller",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 103,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.854366660118103,
+            "itemtypes_similarity": 0.8407366871833801
+        },
+        "3": {
+            "id": "8zDMF4CCUEmyUqsRJ52j",
+            "reference_name": "N64",
+            "itemtypes_name": "GameCube Memory Card",
+            "category": "Video Game Consoles",
+            "model": "Nintendo 64",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "N64 | id: 8zDMF4CCUEmyUqsRJ52j | category: Video Game Consoles | model: Nintendo 64 | Nintendo 64",
+            "vector_index": 32,
+            "embedding_norm": 1.0,
+            "legacyId": "60",
+            "similarity_score": 0.8662229776382446,
+            "itemtypes_similarity": 0.8434127569198608
+        }
     },
     "gdino_improved_readable": {
-        "1": "Blue N64 Con (boxed)",
-        "2": "Blue N64 Con (boxed)",
-        "3": "N64"
+        "1": "Wii Nunchuk Controller (Blue N64 Con (boxed))",
+        "2": "Wii Nunchuk Controller (Blue N64 Con (boxed))",
+        "3": "GameCube Memory Card (N64)"
     },
     "gdino_similarity_scores": {
         "1": 0.8654,
@@ -25,7 +67,7 @@
         "3": 0.8662
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

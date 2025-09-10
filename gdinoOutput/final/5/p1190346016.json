@@ -8,19 +8,47 @@
         "2": "Nintendo Switch Pro Controller"
     },
     "gdino_improved": {
-        "1": "O9858sZlGIlyY48TTOPK",
-        "2": "L2YJzzkfj6j4BQ1hEs8M"
+        "1": {
+            "id": "O9858sZlGIlyY48TTOPK",
+            "reference_name": "PS1 Slimline Con",
+            "itemtypes_name": "PlayStation 1 Controller",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Sony",
+            "source": "vector_database",
+            "contextual_text": "PS1 Slimline Con | id: O9858sZlGIlyY48TTOPK | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 98,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8503583073616028,
+            "itemtypes_similarity": 0.8475498557090759
+        },
+        "2": {
+            "id": "L2YJzzkfj6j4BQ1hEs8M",
+            "reference_name": "PS1 Hori Con",
+            "itemtypes_name": "PlayStation 1 Controller",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Sony",
+            "source": "vector_database",
+            "contextual_text": "PS1 Hori Con | id: L2YJzzkfj6j4BQ1hEs8M | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 86,
+            "embedding_norm": 1.0,
+            "legacyId": "28",
+            "similarity_score": 0.8497642278671265,
+            "itemtypes_similarity": 0.8471302390098572
+        }
     },
     "gdino_improved_readable": {
-        "1": "PS1 Slimline Con",
-        "2": "PS1 Hori Con"
+        "1": "PlayStation 1 Controller (PS1 Slimline Con)",
+        "2": "PlayStation 1 Controller (PS1 Hori Con)"
     },
     "gdino_similarity_scores": {
         "1": 0.8504,
         "2": 0.8498
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

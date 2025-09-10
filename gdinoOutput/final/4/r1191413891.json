@@ -14,18 +14,88 @@
         "5": "No Match"
     },
     "gdino_improved": {
-        "1": "oL2l1OjnB3BNLENQkoRb",
-        "2": "oL2l1OjnB3BNLENQkoRb",
-        "3": "oL2l1OjnB3BNLENQkoRb",
-        "4": "1Naw8n1OaREesfNU2WQJ",
-        "5": "oL2l1OjnB3BNLENQkoRb"
+        "1": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8241991400718689,
+            "itemtypes_similarity": 0.8065271377563477
+        },
+        "2": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Console",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8529118299484253,
+            "itemtypes_similarity": 0.8198994398117065
+        },
+        "3": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch OLED Console",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.851878821849823,
+            "itemtypes_similarity": 0.8347744941711426
+        },
+        "4": {
+            "id": "1Naw8n1OaREesfNU2WQJ",
+            "reference_name": "PS2 Mem Card [FUJIWORK]",
+            "itemtypes_name": "PlayStation 2 Memory Card",
+            "category": "Memory Cards & Expansion Packs",
+            "model": "",
+            "brand": "Sony",
+            "source": "vector_database",
+            "contextual_text": "PS2 Mem Card [FUJIWORK] | id: 1Naw8n1OaREesfNU2WQJ | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product",
+            "vector_index": 5,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8551387786865234,
+            "itemtypes_similarity": 0.8539037108421326
+        },
+        "5": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Dock",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8473319411277771,
+            "itemtypes_similarity": 0.8204913139343262
+        }
     },
     "gdino_improved_readable": {
-        "1": "Switch",
-        "2": "Switch",
-        "3": "Switch",
-        "4": "PS2 Mem Card [FUJIWORK]",
-        "5": "Switch"
+        "1": "Nintendo DS (Switch)",
+        "2": "Nintendo Switch Console (Switch)",
+        "3": "Nintendo Switch OLED Console (Switch)",
+        "4": "PlayStation 2 Memory Card (PS2 Mem Card [FUJIWORK])",
+        "5": "Nintendo Switch Dock (Switch)"
     },
     "gdino_similarity_scores": {
         "1": 0.8242,
@@ -35,7 +105,7 @@
         "5": 0.8473
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

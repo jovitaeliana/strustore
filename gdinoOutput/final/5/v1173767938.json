@@ -8,19 +8,49 @@
         "2": "Playstation Controller"
     },
     "gdino_improved": {
-        "1": "wviDZriLtZag6FCXscHP",
-        "2": "CqdH1LClrrfOP3GTa1fR"
+        "1": {
+            "id": "playstation_1_controller",
+            "reference_name": "PS1 Dual Analog Con SCPH-1180",
+            "itemtypes_name": "PlayStation 1 Controller",
+            "category": "Controllers & Attachments",
+            "model": "PlayStation",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 1 Controller | PS1 Controller | PlayStation Controller | SCPH-1010 | Digital Controller | brand: Sony | console: PlayStation | model: SCPH-1010 | ps1 | playstation | controller | sony | scph-1010 | digital | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8529463410377502,
+            "vector_reference_id": "wviDZriLtZag6FCXscHP",
+            "vector_reference_similarity": 0.8517808318138123
+        },
+        "2": {
+            "id": "playstation_1_controller",
+            "reference_name": "PS1 Original Analog Con SCPH-1080",
+            "itemtypes_name": "PlayStation 1 Controller",
+            "category": "Controllers & Attachments",
+            "model": "PlayStation",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 1 Controller | PS1 Controller | PlayStation Controller | SCPH-1010 | Digital Controller | brand: Sony | console: PlayStation | model: SCPH-1010 | ps1 | playstation | controller | sony | scph-1010 | digital | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8928571939468384,
+            "vector_reference_id": "CqdH1LClrrfOP3GTa1fR",
+            "vector_reference_similarity": 0.8795313835144043
+        }
     },
     "gdino_improved_readable": {
-        "1": "PS1 Dual Analog Con SCPH-1180",
-        "2": "PS1 Original Analog Con SCPH-1080"
+        "1": "PlayStation 1 Controller (PS1 Dual Analog Con SCPH-1180)",
+        "2": "PlayStation 1 Controller (PS1 Original Analog Con SCPH-1080)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8518,
-        "2": 0.8795
+        "1": 0.8529,
+        "2": 0.8929
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

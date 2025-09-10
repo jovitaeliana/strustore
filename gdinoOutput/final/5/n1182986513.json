@@ -6,16 +6,30 @@
         "1": "No Match"
     },
     "gdino_improved": {
-        "1": "FJGbvQWAPRbFV7ebvzqU"
+        "1": {
+            "id": "FJGbvQWAPRbFV7ebvzqU",
+            "reference_name": "Wii Wheel",
+            "itemtypes_name": "Xbox Series Controller",
+            "category": "Other Video Game Accessories",
+            "model": "",
+            "brand": "Microsoft",
+            "source": "vector_database",
+            "contextual_text": "Wii Wheel | id: FJGbvQWAPRbFV7ebvzqU | category: Other Video Game Accessories | Nintendo Wii",
+            "vector_index": 60,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8150578737258911,
+            "itemtypes_similarity": 0.7962675094604492
+        }
     },
     "gdino_improved_readable": {
-        "1": "Wii Wheel"
+        "1": "Xbox Series Controller (Wii Wheel)"
     },
     "gdino_similarity_scores": {
         "1": 0.8151
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

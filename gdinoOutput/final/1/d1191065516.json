@@ -14,28 +14,99 @@
         "5": "Nintendo DS Original Console"
     },
     "gdino_improved": {
-        "1": "eDXOwaOyWKtH2nQwCYan",
-        "2": "STKdatHmQLwNLJXq1fxP",
-        "3": "RA1sLo6TzHsbRjgqZMHq",
-        "4": "bCs9Y7puTSp91kDdqhx8",
-        "5": "RA1sLo6TzHsbRjgqZMHq"
+        "1": {
+            "id": "eDXOwaOyWKtH2nQwCYan",
+            "reference_name": "Gameboy Advance",
+            "itemtypes_name": "Nintendo Switch AC Adapter",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Gameboy Advance | id: eDXOwaOyWKtH2nQwCYan | category: Video Game Consoles",
+            "vector_index": 170,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8304901123046875,
+            "itemtypes_similarity": 0.808771550655365
+        },
+        "2": {
+            "id": "STKdatHmQLwNLJXq1fxP",
+            "reference_name": "DS Lite Charger",
+            "itemtypes_name": "Nintendo DS Lite",
+            "category": "Power Cables & Connectors",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector",
+            "vector_index": 117,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8557159900665283,
+            "itemtypes_similarity": 0.8429921865463257
+        },
+        "3": {
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
+            "itemtypes_name": "Nintendo DSi",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8664041757583618,
+            "itemtypes_similarity": 0.8608177900314331
+        },
+        "4": {
+            "id": "nintendo_ds",
+            "reference_name": "DS Original Charger",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo DS | DS | Nintendo DS | NTR-001 | brand: Nintendo | model: NTR-001 | nintendo | ds | ntr-001 | handheld | dual | screen | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8616703748703003,
+            "vector_reference_id": "bCs9Y7puTSp91kDdqhx8",
+            "vector_reference_similarity": 0.8496052622795105
+        },
+        "5": {
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8592261075973511,
+            "itemtypes_similarity": 0.858437180519104
+        }
     },
     "gdino_improved_readable": {
-        "1": "Gameboy Advance",
-        "2": "DS Lite Charger",
-        "3": "DS Lite Boxed",
-        "4": "DS Original Charger",
-        "5": "DS Lite Boxed"
+        "1": "Nintendo Switch AC Adapter (Gameboy Advance)",
+        "2": "Nintendo DS Lite (DS Lite Charger)",
+        "3": "Nintendo DSi (DS Lite Boxed)",
+        "4": "Nintendo DS (DS Original Charger)",
+        "5": "Nintendo DS (DS Lite Boxed)"
     },
     "gdino_similarity_scores": {
         "1": 0.8305,
         "2": 0.8557,
         "3": 0.8664,
-        "4": 0.8496,
+        "4": 0.8617,
         "5": 0.8592
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

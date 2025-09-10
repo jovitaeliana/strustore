@@ -6,16 +6,31 @@
         "1": "Playstation Controller"
     },
     "gdino_improved": {
-        "1": "QvUB8tHBNDmkwWhylwa5"
+        "1": {
+            "id": "playstation_3_sixaxis",
+            "reference_name": "PS3 Con",
+            "itemtypes_name": "PlayStation 3 SIXAXIS Controller",
+            "category": "Controllers & Attachments",
+            "model": "PlayStation 3",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 3 SIXAXIS Controller | PS3 SIXAXIS | SIXAXIS Controller | brand: Sony | console: PlayStation 3 | ps3 | playstation | sixaxis | controller | sony | wireless | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8578459024429321,
+            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
+            "vector_reference_similarity": 0.8464022278785706
+        }
     },
     "gdino_improved_readable": {
-        "1": "PS3 Con"
+        "1": "PlayStation 3 SIXAXIS Controller (PS3 Con)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8464
+        "1": 0.8578
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

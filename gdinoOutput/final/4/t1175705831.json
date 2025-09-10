@@ -6,16 +6,30 @@
         "1": "Nintendo Switch Pro Controller"
     },
     "gdino_improved": {
-        "1": "JfpzfVMgPVKgYvc3Mt1r"
+        "1": {
+            "id": "JfpzfVMgPVKgYvc3Mt1r",
+            "reference_name": "SNES Super Scope",
+            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SNES Super Scope | id: JfpzfVMgPVKgYvc3Mt1r | category: Controllers & Attachments | Super Nintendo Entertainment System | Nintendo Entertainment System | gaming controller device | gamepad peripheral",
+            "vector_index": 82,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8615875244140625,
+            "itemtypes_similarity": 0.8586992025375366
+        }
     },
     "gdino_improved_readable": {
-        "1": "SNES Super Scope"
+        "1": "Nintendo Switch Pro Controller (SNES Super Scope)"
     },
     "gdino_similarity_scores": {
         "1": 0.8616
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

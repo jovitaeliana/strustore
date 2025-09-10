@@ -6,16 +6,31 @@
         "1": "Gamecube Controller"
     },
     "gdino_improved": {
-        "1": "Gynna5OzYWWE6y8WpgpO"
+        "1": {
+            "id": "gamecube_controller",
+            "reference_name": "GC Wavebird Con",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8480725884437561,
+            "vector_reference_id": "Gynna5OzYWWE6y8WpgpO",
+            "vector_reference_similarity": 0.846435010433197
+        }
     },
     "gdino_improved_readable": {
-        "1": "GC Wavebird Con"
+        "1": "GameCube Controller (GC Wavebird Con)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8464
+        "1": 0.8481
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

@@ -8,19 +8,48 @@
         "2": "Nintendo Switch OLED Console"
     },
     "gdino_improved": {
-        "1": "oL2l1OjnB3BNLENQkoRb",
-        "2": "oL2l1OjnB3BNLENQkoRb"
+        "1": {
+            "id": "nintendo_switch_lite",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Lite Console",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Lite Console | Nintendo Switch Lite | Switch Lite | brand: Nintendo | model: HDH-001 | nintendo | switch | lite | console | hdh-001 | handheld | portable | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8597055673599243,
+            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
+            "vector_reference_similarity": 0.8529708385467529
+        },
+        "2": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch OLED Console",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8661121129989624,
+            "itemtypes_similarity": 0.8651180267333984
+        }
     },
     "gdino_improved_readable": {
-        "1": "Switch",
-        "2": "Switch"
+        "1": "Nintendo Switch Lite Console (Switch)",
+        "2": "Nintendo Switch OLED Console (Switch)"
     },
     "gdino_similarity_scores": {
-        "1": 0.853,
+        "1": 0.8597,
         "2": 0.8661
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

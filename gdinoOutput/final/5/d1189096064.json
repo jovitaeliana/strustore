@@ -10,14 +10,56 @@
         "3": "Nintendo Game Boy Color Console"
     },
     "gdino_improved": {
-        "1": "dCgppzGDzN4lB4HOyrha",
-        "2": "YsZuDWV6LEmWyyg3Vkhn",
-        "3": "YsZuDWV6LEmWyyg3Vkhn"
+        "1": {
+            "id": "dCgppzGDzN4lB4HOyrha",
+            "reference_name": "N64 ASCII Fishing Reels",
+            "itemtypes_name": "Wii Classic Controller",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "N64 ASCII Fishing Reels | id: dCgppzGDzN4lB4HOyrha | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 165,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8461194038391113,
+            "itemtypes_similarity": 0.836698591709137
+        },
+        "2": {
+            "id": "YsZuDWV6LEmWyyg3Vkhn",
+            "reference_name": "N64 [Boxed]",
+            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "N64 [Boxed] | id: YsZuDWV6LEmWyyg3Vkhn | category: Video Game Consoles | Nintendo 64",
+            "vector_index": 142,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8732669353485107,
+            "itemtypes_similarity": 0.8458194732666016
+        },
+        "3": {
+            "id": "YsZuDWV6LEmWyyg3Vkhn",
+            "reference_name": "N64 [Boxed]",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "N64 [Boxed] | id: YsZuDWV6LEmWyyg3Vkhn | category: Video Game Consoles | Nintendo 64",
+            "vector_index": 142,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8678539991378784,
+            "itemtypes_similarity": 0.848677396774292
+        }
     },
     "gdino_improved_readable": {
-        "1": "N64 ASCII Fishing Reels",
-        "2": "N64 [Boxed]",
-        "3": "N64 [Boxed]"
+        "1": "Wii Classic Controller (N64 ASCII Fishing Reels)",
+        "2": "Nintendo Switch Pro Controller (N64 [Boxed])",
+        "3": "Nintendo Switch Joy-Con (R) (N64 [Boxed])"
     },
     "gdino_similarity_scores": {
         "1": 0.8461,
@@ -25,7 +67,7 @@
         "3": 0.8679
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

@@ -10,22 +10,65 @@
         "3": "Nintendo Switch Pro Controller"
     },
     "gdino_improved": {
-        "1": "oL2l1OjnB3BNLENQkoRb",
-        "2": "oL2l1OjnB3BNLENQkoRb",
-        "3": "dCgppzGDzN4lB4HOyrha"
+        "1": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.864566445350647,
+            "itemtypes_similarity": 0.8620638251304626
+        },
+        "2": {
+            "id": "nintendo_switch_joycon_pair",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8662737607955933,
+            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
+            "vector_reference_similarity": 0.8627958297729492
+        },
+        "3": {
+            "id": "dCgppzGDzN4lB4HOyrha",
+            "reference_name": "N64 ASCII Fishing Reels",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "N64 ASCII Fishing Reels | id: dCgppzGDzN4lB4HOyrha | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 165,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8641031980514526,
+            "itemtypes_similarity": 0.8475066423416138
+        }
     },
     "gdino_improved_readable": {
-        "1": "Switch",
-        "2": "Switch",
-        "3": "N64 ASCII Fishing Reels"
+        "1": "Nintendo Switch Joy-Con Pair (Switch)",
+        "2": "Nintendo Switch Joy-Con Pair (Switch)",
+        "3": "Nintendo Switch Joy-Con Pair (N64 ASCII Fishing Reels)"
     },
     "gdino_similarity_scores": {
         "1": 0.8646,
-        "2": 0.8628,
+        "2": 0.8663,
         "3": 0.8641
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

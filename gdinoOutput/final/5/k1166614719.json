@@ -6,16 +6,31 @@
         "1": "XBOX Controller"
     },
     "gdino_improved": {
-        "1": "UQAiJaSEgXisBIPIMPnD"
+        "1": {
+            "id": "xbox_original_controller",
+            "reference_name": "Xbox Orig Con",
+            "itemtypes_name": "Xbox Controller (Original)",
+            "category": "Controllers & Attachments",
+            "model": "Xbox",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox Controller (Original) | Original Xbox Controller | Xbox Duke Controller | Xbox Controller S | brand: Microsoft | console: Xbox | xbox | original | controller | microsoft | duke | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8779246807098389,
+            "vector_reference_id": "UQAiJaSEgXisBIPIMPnD",
+            "vector_reference_similarity": 0.8577735424041748
+        }
     },
     "gdino_improved_readable": {
-        "1": "Xbox Orig Con"
+        "1": "Xbox Controller (Original) (Xbox Orig Con)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8578
+        "1": 0.8779
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

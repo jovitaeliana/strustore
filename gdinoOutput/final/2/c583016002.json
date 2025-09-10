@@ -12,16 +12,72 @@
         "4": "Nintendo Famicom Console"
     },
     "gdino_improved": {
-        "1": "OvnaIjSBeoFBsRS0Y6GI",
-        "2": "OvnaIjSBeoFBsRS0Y6GI",
-        "3": "oL2l1OjnB3BNLENQkoRb",
-        "4": "OvnaIjSBeoFBsRS0Y6GI"
+        "1": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Wii Classic Controller",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8143282532691956,
+            "itemtypes_similarity": 0.8022114634513855
+        },
+        "2": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8613149523735046,
+            "itemtypes_similarity": 0.8501859903335571
+        },
+        "3": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8526625633239746,
+            "itemtypes_similarity": 0.8492833375930786
+        },
+        "4": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Console",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.854163408279419,
+            "itemtypes_similarity": 0.8294139504432678
+        }
     },
     "gdino_improved_readable": {
-        "1": "SFC",
-        "2": "SFC",
-        "3": "Switch",
-        "4": "SFC"
+        "1": "Wii Classic Controller (SFC)",
+        "2": "Nintendo Switch Joy-Con (R) (SFC)",
+        "3": "Nintendo Switch Joy-Con Pair (Switch)",
+        "4": "Nintendo Switch Console (SFC)"
     },
     "gdino_similarity_scores": {
         "1": 0.8143,
@@ -30,7 +86,7 @@
         "4": 0.8542
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

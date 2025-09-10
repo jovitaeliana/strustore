@@ -10,14 +10,56 @@
         "3": "No Match"
     },
     "gdino_improved": {
-        "1": "dHZsC4olhShVBHfmoleE",
-        "2": "OvnaIjSBeoFBsRS0Y6GI",
-        "3": "Irh72HART2knkr1jxuG7"
+        "1": {
+            "id": "dHZsC4olhShVBHfmoleE",
+            "reference_name": "SFC [Boxed]",
+            "itemtypes_name": "Nintendo Switch Console",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 167,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8660213947296143,
+            "itemtypes_similarity": 0.8569875359535217
+        },
+        "2": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": "Nintendo Switch Console",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8590490818023682,
+            "itemtypes_similarity": 0.8498018980026245
+        },
+        "3": {
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
+            "itemtypes_name": "Wii Remote Controller",
+            "category": "Labels",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8073116540908813,
+            "itemtypes_similarity": 0.7885556221008301
+        }
     },
     "gdino_improved_readable": {
-        "1": "SFC [Boxed]",
-        "2": "SFC",
-        "3": "Shipping Label"
+        "1": "Nintendo Switch Console (SFC [Boxed])",
+        "2": "Nintendo Switch Console (SFC)",
+        "3": "Wii Remote Controller (Shipping Label)"
     },
     "gdino_similarity_scores": {
         "1": 0.866,
@@ -25,7 +67,7 @@
         "3": 0.8073
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

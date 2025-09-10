@@ -10,14 +10,56 @@
         "3": "No Match"
     },
     "gdino_improved": {
-        "1": "oL2l1OjnB3BNLENQkoRb",
-        "2": "oL2l1OjnB3BNLENQkoRb",
-        "3": "oL2l1OjnB3BNLENQkoRb"
+        "1": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch OLED Console",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8428214192390442,
+            "itemtypes_similarity": 0.8169245719909668
+        },
+        "2": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Lite Console",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8581167459487915,
+            "itemtypes_similarity": 0.8372264504432678
+        },
+        "3": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8029454350471497,
+            "itemtypes_similarity": 0.7705544829368591
+        }
     },
     "gdino_improved_readable": {
-        "1": "Switch",
-        "2": "Switch",
-        "3": "Switch"
+        "1": "Nintendo Switch OLED Console (Switch)",
+        "2": "Nintendo Switch Lite Console (Switch)",
+        "3": "Nintendo DS (Switch)"
     },
     "gdino_similarity_scores": {
         "1": 0.8428,
@@ -25,7 +67,7 @@
         "3": 0.8029
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

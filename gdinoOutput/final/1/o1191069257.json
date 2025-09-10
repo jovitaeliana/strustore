@@ -10,14 +10,56 @@
         "3": "Nintendo DS Lite Console"
     },
     "gdino_improved": {
-        "1": "RA1sLo6TzHsbRjgqZMHq",
-        "2": "RA1sLo6TzHsbRjgqZMHq",
-        "3": "hVKSTky2gYJAeDddNOQV"
+        "1": {
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
+            "itemtypes_name": "Nintendo DS Lite",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8638515472412109,
+            "itemtypes_similarity": 0.8510314226150513
+        },
+        "2": {
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
+            "itemtypes_name": "Nintendo DS Lite",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8460637331008911,
+            "itemtypes_similarity": 0.8305459022521973
+        },
+        "3": {
+            "id": "hVKSTky2gYJAeDddNOQV",
+            "reference_name": "DS Lite",
+            "itemtypes_name": "Nintendo Switch Lite Console",
+            "category": "Video Game Consoles",
+            "model": "Nintendo DS Lite",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 182,
+            "embedding_norm": 1.0,
+            "legacyId": "69",
+            "similarity_score": 0.8684681057929993,
+            "itemtypes_similarity": 0.8601287603378296
+        }
     },
     "gdino_improved_readable": {
-        "1": "DS Lite Boxed",
-        "2": "DS Lite Boxed",
-        "3": "DS Lite"
+        "1": "Nintendo DS Lite (DS Lite Boxed)",
+        "2": "Nintendo DS Lite (DS Lite Boxed)",
+        "3": "Nintendo Switch Lite Console (DS Lite)"
     },
     "gdino_similarity_scores": {
         "1": 0.8639,
@@ -25,7 +67,7 @@
         "3": 0.8685
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

@@ -6,16 +6,31 @@
         "1": "Nintendo Switch Lite Console"
     },
     "gdino_improved": {
-        "1": "oL2l1OjnB3BNLENQkoRb"
+        "1": {
+            "id": "nintendo_switch_dock",
+            "reference_name": "Switch",
+            "itemtypes_name": "Nintendo Switch Dock",
+            "category": "Other Video Game Accessories",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Dock | Switch Dock | Nintendo Switch Dock Station | Docking Station | brand: Nintendo | nintendo | switch | dock | station | tv | hdmi | category: Other Video Game Accessories",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8790382742881775,
+            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
+            "vector_reference_similarity": 0.8602117300033569
+        }
     },
     "gdino_improved_readable": {
-        "1": "Switch"
+        "1": "Nintendo Switch Dock (Switch)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8602
+        "1": 0.879
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

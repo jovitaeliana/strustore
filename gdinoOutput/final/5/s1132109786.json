@@ -6,16 +6,30 @@
         "1": "XBOX Controller"
     },
     "gdino_improved": {
-        "1": "boP0HPaJuFshEG2KxH6X"
+        "1": {
+            "id": "boP0HPaJuFshEG2KxH6X",
+            "reference_name": "Hori Compact Joystick",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 157,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8490777015686035,
+            "itemtypes_similarity": 0.8365252017974854
+        }
     },
     "gdino_improved_readable": {
-        "1": "Hori Compact Joystick"
+        "1": "Nintendo Switch Joy-Con (R) (Hori Compact Joystick)"
     },
     "gdino_similarity_scores": {
         "1": 0.8491
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

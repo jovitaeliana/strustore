@@ -12,25 +12,82 @@
         "4": "Nintendo Game Boy Advance SP Console "
     },
     "gdino_improved": {
-        "1": "3ZQ8aYagBMX0rkJL2m63",
-        "2": "O9858sZlGIlyY48TTOPK",
-        "3": "dHZsC4olhShVBHfmoleE",
-        "4": "dHZsC4olhShVBHfmoleE"
+        "1": {
+            "id": "3ZQ8aYagBMX0rkJL2m63",
+            "reference_name": "FC 2P Con",
+            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "FC 2P Con | id: 3ZQ8aYagBMX0rkJL2m63 | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 13,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8453900218009949,
+            "itemtypes_similarity": 0.8416424989700317
+        },
+        "2": {
+            "id": "nintendo_switch_joycon_pair",
+            "reference_name": "PS1 Slimline Con",
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8611750602722168,
+            "vector_reference_id": "O9858sZlGIlyY48TTOPK",
+            "vector_reference_similarity": 0.8487322330474854
+        },
+        "3": {
+            "id": "dHZsC4olhShVBHfmoleE",
+            "reference_name": "SFC [Boxed]",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 167,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.867271900177002,
+            "itemtypes_similarity": 0.8391053676605225
+        },
+        "4": {
+            "id": "dHZsC4olhShVBHfmoleE",
+            "reference_name": "SFC [Boxed]",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 167,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8669819831848145,
+            "itemtypes_similarity": 0.8282939791679382
+        }
     },
     "gdino_improved_readable": {
-        "1": "FC 2P Con",
-        "2": "PS1 Slimline Con",
-        "3": "SFC [Boxed]",
-        "4": "SFC [Boxed]"
+        "1": "Nintendo Switch Joy-Con (L) (FC 2P Con)",
+        "2": "Nintendo Switch Joy-Con Pair (PS1 Slimline Con)",
+        "3": "Nintendo Switch Joy-Con (R) (SFC [Boxed])",
+        "4": "Nintendo Switch Joy-Con (R) (SFC [Boxed])"
     },
     "gdino_similarity_scores": {
         "1": 0.8454,
-        "2": 0.8487,
+        "2": 0.8612,
         "3": 0.8673,
         "4": 0.867
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

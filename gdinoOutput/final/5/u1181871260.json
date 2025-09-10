@@ -6,16 +6,30 @@
         "1": "Nintendo Game Boy Advance SP Console "
     },
     "gdino_improved": {
-        "1": "PaVQDrGaUjcYp3KPYkmN"
+        "1": {
+            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "reference_name": "Blue N64 Con (boxed)",
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 103,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8631123304367065,
+            "itemtypes_similarity": 0.8377964496612549
+        }
     },
     "gdino_improved_readable": {
-        "1": "Blue N64 Con (boxed)"
+        "1": "Nintendo Switch Joy-Con (R) (Blue N64 Con (boxed))"
     },
     "gdino_similarity_scores": {
         "1": 0.8631
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

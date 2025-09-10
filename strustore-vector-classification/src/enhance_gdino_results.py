@@ -27,7 +27,8 @@ class GdinoResultEnhancer:
     def __init__(self, 
                  vector_db_path: str = "models/vector_database",
                  model_path: str = "intfloat/multilingual-e5-base",
-                 gdino_output_dir: str = "../gdinoOutput/final"):
+                 gdino_output_dir: str = "../gdinoOutput/final",
+                 itemtypes_path: str = "itemtypes.json"):
         """
         Initialize the result enhancer.
         
@@ -35,16 +36,21 @@ class GdinoResultEnhancer:
             vector_db_path: Path to vector database directory
             model_path: Path to trained semantic model
             gdino_output_dir: Path to GroundingDINO output directory
+            itemtypes_path: Path to itemtypes.json file
         """
         self.vector_db_path = Path(vector_db_path)
         self.model_path = model_path
         self.gdino_output_dir = Path(gdino_output_dir)
+        self.itemtypes_path = Path(itemtypes_path)
         
         # Initialize components
         self.model = None
         self.faiss_index = None
         self.metadata = None
         self.item_lookup = None
+        self.itemtypes_data = None
+        self.itemtypes_embeddings = None
+        self.itemtypes_index = None
         
     def load_vector_database(self) -> None:
         """Load the vector database and model for semantic search."""
@@ -89,6 +95,109 @@ class GdinoResultEnhancer:
                 
         except Exception as e:
             raise RuntimeError(f"Failed to load vector database: {e}")
+    
+    def load_itemtypes_database(self) -> None:
+        """Load and process itemtypes.json for enhanced classification."""
+        try:
+            if not self.itemtypes_path.exists():
+                logger.warning(f"Itemtypes file not found: {self.itemtypes_path}")
+                return
+            
+            logger.info(f"🔄 Loading itemtypes database from: {self.itemtypes_path}")
+            
+            # Load itemtypes data
+            with open(self.itemtypes_path, 'r', encoding='utf-8') as f:
+                self.itemtypes_data = json.load(f)
+            
+            # Flatten all items into a single list for embedding
+            all_itemtypes = []
+            for category_items in self.itemtypes_data.values():
+                all_itemtypes.extend(category_items)
+            
+            logger.info(f"Found {len(all_itemtypes)} itemtypes across {len(self.itemtypes_data)} categories")
+            
+            # Create enhanced contextual texts for itemtypes
+            itemtype_texts = []
+            itemtype_metadata = []
+            
+            for item in all_itemtypes:
+                # Create rich contextual text
+                context_parts = []
+                context_parts.append(item['name'])
+                
+                # Add all official names
+                if item.get('official_names'):
+                    context_parts.extend(item['official_names'])
+                
+                # Add brand and console info
+                if item.get('brand'):
+                    context_parts.append(f"brand: {item['brand']}")
+                if item.get('console'):
+                    context_parts.append(f"console: {item['console']}")
+                
+                # Add model codes
+                if item.get('model_codes'):
+                    context_parts.extend([f"model: {code}" for code in item['model_codes']])
+                
+                # Add keywords
+                if item.get('keywords'):
+                    context_parts.extend(item['keywords'])
+                
+                # Add category context
+                context_parts.append(f"category: {item['category']}")
+                
+                contextual_text = ' | '.join(context_parts)
+                itemtype_texts.append(contextual_text)
+                
+                # Store metadata
+                meta = {
+                    'id': item['id'],
+                    'name': item['name'],
+                    'category': item['category'],
+                    'brand': item.get('brand', ''),
+                    'console': item.get('console', ''),
+                    'contextual_text': contextual_text,
+                    'source': 'itemtypes'
+                }
+                itemtype_metadata.append(meta)
+            
+            # Generate embeddings for itemtypes
+            logger.info("Generating embeddings for itemtypes...")
+            
+            # Add E5 prefix for better retrieval performance
+            prefixed_texts = [f"passage: {text}" for text in itemtype_texts]
+            
+            # Generate embeddings in batches
+            batch_size = 32
+            all_embeddings = []
+            
+            for i in range(0, len(prefixed_texts), batch_size):
+                batch_texts = prefixed_texts[i:i + batch_size]
+                batch_embeddings = self.model.encode(
+                    batch_texts,
+                    show_progress_bar=True,
+                    convert_to_numpy=True
+                )
+                all_embeddings.append(batch_embeddings)
+            
+            self.itemtypes_embeddings = np.vstack(all_embeddings)
+            
+            # Create FAISS index for itemtypes
+            dimension = self.itemtypes_embeddings.shape[1]
+            self.itemtypes_index = faiss.IndexFlatIP(dimension)
+            
+            # Normalize embeddings for cosine similarity
+            faiss.normalize_L2(self.itemtypes_embeddings.astype('float32'))
+            self.itemtypes_index.add(self.itemtypes_embeddings.astype('float32'))
+            
+            # Store metadata
+            self.itemtypes_metadata = itemtype_metadata
+            
+            logger.info(f"✅ Itemtypes database loaded: {len(itemtype_metadata)} items with {dimension}D embeddings")
+            
+        except Exception as e:
+            logger.error(f"Failed to load itemtypes database: {e}")
+            # Continue without itemtypes support
     
     def search_similar_items(self, tokens: List[str], k: int = 5) -> List[Dict[str, Any]]:
         """
@@ -166,39 +275,193 @@ class GdinoResultEnhancer:
             logger.error(f"Search failed for tokens: {e}")
             return []
     
-    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.3) -> Optional[Tuple[str, str, float]]:
+    def search_itemtypes(self, tokens: List[str], k: int = 5) -> List[Dict[str, Any]]:
         """
-        Get the best classification for a set of tokens.
+        Search for similar items in the itemtypes database.
+        
+        Args:
+            tokens: List of detection tokens
+            k: Number of similar items to return
+            
+        Returns:
+            List of similar items with similarity scores
+        """
+        if not tokens or self.itemtypes_index is None:
+            return []
+        
+        try:
+            # Prioritize important gaming-related tokens
+            important_tokens = []
+            secondary_tokens = []
+            
+            # Gaming-specific keywords to prioritize
+            gaming_keywords = {
+                'nintendo', 'playstation', 'xbox', 'switch', 'controller', 'console',
+                'ds', 'psp', 'vita', 'gamecube', 'wii', 'joy', 'con', 'joycon',
+                'ps1', 'ps2', 'ps3', 'ps4', 'ps5', '3ds', 'gba', 'n64', 'snes',
+                'scph', 'oled', 'pro', 'slim', 'lite', 'memory', 'card', 'dualshock',
+                'sixaxis', 'dualsense'
+            }
+            
+            # Filter and prioritize tokens
+            for token in tokens:
+                token_clean = token.strip().lower()
+                if len(token_clean) < 2:
+                    continue
+                    
+                # Skip common non-gaming words
+                if token_clean in {'de', 'en', 'com', 'por', 'para', 'con', 'las', 'los', 'el', 'la', 'w', 'r', 'l', 'buy', 'best', 'online', 'youtube', 'tiktok', 'facebook', 'mercadolibre', 'wallapop', 'amazon', 'ebay', 'price', 'precio', 'estado', 'condition', 'new', 'used', 'segunda', 'mano', 'original', 'genuine', 'oem', 'tested', 'working', 'bundle', 'set', 'kit', 'box', 'caja'}:
+                    continue
+                    
+                # Prioritize gaming-related tokens
+                if any(keyword in token_clean for keyword in gaming_keywords):
+                    important_tokens.append(token)
+                else:
+                    secondary_tokens.append(token)
+            
+            # Combine tokens with priority to important ones
+            all_tokens = important_tokens + secondary_tokens
+            if not all_tokens:
+                return []
+            
+            # Create search query - use up to 15 tokens with preference for important ones
+            query_tokens = all_tokens[:15]
+            query_text = ' '.join(query_tokens)
+            
+            # Add E5 query prefix for better retrieval performance
+            query_text = f"query: {query_text}"
+            
+            # Encode query
+            query_embedding = self.model.encode([query_text])
+            faiss.normalize_L2(query_embedding.astype('float32'))
+            
+            # Search
+            scores, indices = self.itemtypes_index.search(query_embedding.astype('float32'), k)
+            
+            # Format results
+            results = []
+            for score, idx in zip(scores[0], indices[0]):
+                if idx != -1 and score > 0.0:  # Valid result with positive similarity
+                    item_meta = self.itemtypes_metadata[idx].copy()
+                    item_meta['similarity_score'] = float(score)
+                    results.append(item_meta)
+            
+            return results
+            
+        except Exception as e:
+            logger.error(f"Itemtypes search failed: {e}")
+            return []
+
+    def find_itemtypes_match(self, tokens: List[str], min_similarity: float = 0.3) -> Optional[Dict[str, Any]]:
+        """
+        Find the best itemtypes match for given tokens.
         
         Args:
             tokens: Detection tokens
             min_similarity: Minimum similarity threshold
             
         Returns:
-            Tuple of (item_id, readable_name, similarity_score) or None if no good match
+            Best itemtypes match or None
+        """
+        if not self.itemtypes_index:
+            return None
+            
+        itemtype_results = self.search_itemtypes(tokens, k=3)
+        if itemtype_results and itemtype_results[0]['similarity_score'] >= min_similarity:
+            return itemtype_results[0]
+        return None
+
+    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.3) -> Optional[Dict[str, Any]]:
+        """
+        Get the best classification for a set of tokens using hybrid approach.
+        Creates comprehensive metadata with both reference and itemtypes names.
+        
+        Args:
+            tokens: Detection tokens
+            min_similarity: Minimum similarity threshold
+            
+        Returns:
+            Dict with complete metadata including both naming systems
         """
         if not tokens:
             return None
         
-        # Search for similar items
-        similar_items = self.search_similar_items(tokens, k=3)
+        # Search both databases
+        itemtype_match = self.find_itemtypes_match(tokens, min_similarity)
         
-        if not similar_items:
+        similar_items = self.search_similar_items(tokens, k=3)
+        vector_match = None
+        if similar_items and similar_items[0]['similarity_score'] >= min_similarity:
+            vector_match = similar_items[0]
+        
+        # Determine primary match based on similarity scores
+        primary_source = None
+        if itemtype_match and vector_match:
+            # Use the one with higher similarity
+            if itemtype_match['similarity_score'] >= vector_match['similarity_score']:
+                primary_source = 'itemtypes'
+            else:
+                primary_source = 'vector_database'
+        elif itemtype_match:
+            primary_source = 'itemtypes'
+        elif vector_match:
+            primary_source = 'vector_database'
+        else:
             return None
         
-        # Get the best match
-        best_item = similar_items[0]
-        similarity = best_item['similarity_score']
+        # Build comprehensive result
+        if primary_source == 'itemtypes':
+            # Primary match is itemtypes
+            result = {
+                'id': itemtype_match['id'],
+                'reference_name': None,
+                'itemtypes_name': itemtype_match['name'],
+                'category': itemtype_match['category'],
+                'model': itemtype_match.get('console', ''),
+                'brand': itemtype_match.get('brand', ''),
+                'similarity_score': itemtype_match['similarity_score'],
+                'source': 'itemtypes',
+                'contextual_text': itemtype_match.get('contextual_text', ''),
+                'vector_index': None,
+                'embedding_norm': None,
+                'legacyId': None
+            }
+            
+            # Try to find corresponding vector database match for reference name
+            if vector_match:
+                result['reference_name'] = vector_match['name']
+                result['vector_reference_id'] = vector_match['id']
+                result['vector_reference_similarity'] = vector_match['similarity_score']
+            
+        else:
+            # Primary match is vector database
+            original_id = vector_match['id']
+            original_metadata = self.item_lookup.get(original_id, {})
+            
+            result = {
+                'id': original_id,
+                'reference_name': vector_match['name'],
+                'itemtypes_name': None,
+                'category': vector_match['category'],
+                'model': vector_match.get('model', ''),
+                'brand': '',  # Original database doesn't have brand field
+                'similarity_score': vector_match['similarity_score'],
+                'source': 'vector_database',
+                'contextual_text': original_metadata.get('contextual_text', ''),
+                'vector_index': original_metadata.get('vector_index', None),
+                'embedding_norm': original_metadata.get('embedding_norm', None),
+                'legacyId': original_metadata.get('legacyId', None)
+            }
+            
+            # Try to find corresponding itemtypes match for enhanced name
+            if itemtype_match:
+                result['itemtypes_name'] = itemtype_match['name']
+                result['itemtypes_similarity'] = itemtype_match['similarity_score']
+                # Update brand if itemtypes has better brand info
+                if itemtype_match.get('brand'):
+                    result['brand'] = itemtype_match['brand']
         
-        # Only return if similarity is above threshold
-        if similarity >= min_similarity:
-            return (
-                best_item['id'],
-                best_item['name'], 
-                similarity
-            )
-        
-        return None
+        return result
     
     def enhance_gdino_file(self, file_path: Path) -> Dict[str, Any]:
         """
@@ -242,22 +505,53 @@ class GdinoResultEnhancer:
             for detection_id, tokens in gdino_tokens.items():
                 if not tokens or not isinstance(tokens, list):
                     # No tokens available - mark as no match
-                    enhanced_data['gdino_improved'][detection_id] = ""
+                    enhanced_data['gdino_improved'][detection_id] = {}
                     enhanced_data['gdino_improved_readable'][detection_id] = "No Match"
                     enhanced_data['gdino_similarity_scores'][detection_id] = 0.0
                     continue
                 
-                # Get best classification from vector database
+                # Get best classification from hybrid approach
                 classification_result = self.get_best_classification(tokens)
                 
                 if classification_result:
-                    item_id, readable_name, similarity = classification_result
-                    enhanced_data['gdino_improved'][detection_id] = item_id
-                    enhanced_data['gdino_improved_readable'][detection_id] = readable_name
-                    enhanced_data['gdino_similarity_scores'][detection_id] = round(similarity, 4)
+                    # Store comprehensive metadata in gdino_improved
+                    enhanced_data['gdino_improved'][detection_id] = {
+                        'id': classification_result['id'],
+                        'reference_name': classification_result.get('reference_name'),
+                        'itemtypes_name': classification_result.get('itemtypes_name'),
+                        'category': classification_result['category'],
+                        'model': classification_result['model'],
+                        'brand': classification_result['brand'],
+                        'source': classification_result['source'],
+                        'contextual_text': classification_result.get('contextual_text', ''),
+                        'vector_index': classification_result.get('vector_index'),
+                        'embedding_norm': classification_result.get('embedding_norm'),
+                        'legacyId': classification_result.get('legacyId'),
+                        'similarity_score': classification_result['similarity_score']
+                    }
+                    
+                    # Add secondary matches if available
+                    if classification_result.get('vector_reference_id'):
+                        enhanced_data['gdino_improved'][detection_id]['vector_reference_id'] = classification_result['vector_reference_id']
+                        enhanced_data['gdino_improved'][detection_id]['vector_reference_similarity'] = classification_result['vector_reference_similarity']
+                    
+                    if classification_result.get('itemtypes_similarity'):
+                        enhanced_data['gdino_improved'][detection_id]['itemtypes_similarity'] = classification_result['itemtypes_similarity']
+                    
+                    # Set readable name with priority: itemtypes_name > reference_name
+                    readable_name = classification_result.get('itemtypes_name') or classification_result.get('reference_name')
+                    if readable_name:
+                        # Show both names if both exist
+                        if classification_result.get('itemtypes_name') and classification_result.get('reference_name'):
+                            if classification_result.get('itemtypes_name') != classification_result.get('reference_name'):
+                                readable_name = f"{classification_result['itemtypes_name']} ({classification_result['reference_name']})"
+                    
+                    enhanced_data['gdino_improved_readable'][detection_id] = readable_name or "Unknown"
+                    enhanced_data['gdino_similarity_scores'][detection_id] = round(classification_result['similarity_score'], 4)
+                    
                 else:
                     # No good match found
-                    enhanced_data['gdino_improved'][detection_id] = ""
+                    enhanced_data['gdino_improved'][detection_id] = {}
                     enhanced_data['gdino_improved_readable'][detection_id] = "No Match"
                     enhanced_data['gdino_similarity_scores'][detection_id] = 0.0
             
@@ -339,9 +633,10 @@ class GdinoResultEnhancer:
                                 else:
                                     stats['similarity_distribution']['0.0-0.3'] += 1
                                 
-                                # Track category improvements
-                                if item_id in self.item_lookup:
-                                    category = self.item_lookup[item_id].get('category', 'Unknown')
+                                # Track category improvements from gdino_improved nested data
+                                improved_data = enhanced_data.get('gdino_improved', {}).get(detection_id, {})
+                                category = improved_data.get('category', 'Unknown')
+                                if category and category != '':
                                     stats['category_improvements'][category] = stats['category_improvements'].get(category, 0) + 1
                                     
                             else:
@@ -401,14 +696,18 @@ def main():
     vector_db_path = "models/vector_database"
     model_path = "intfloat/multilingual-e5-base" 
     gdino_output_dir = "../gdinoOutput/final"
+    itemtypes_path = "itemtypes.json"
     
-    logger.info("🚀 Starting GroundingDINO Result Enhancement Pipeline")
+    logger.info("🚀 Starting GroundingDINO Result Enhancement Pipeline with Itemtypes Support")
     
     # Initialize enhancer
-    enhancer = GdinoResultEnhancer(vector_db_path, model_path, gdino_output_dir)
+    enhancer = GdinoResultEnhancer(vector_db_path, model_path, gdino_output_dir, itemtypes_path)
     
     # Load vector database
     enhancer.load_vector_database()
+    
+    # Load itemtypes database
+    enhancer.load_itemtypes_database()
     
     # Process all files
     logger.info("🔄 Processing all GroundingDINO result files...")

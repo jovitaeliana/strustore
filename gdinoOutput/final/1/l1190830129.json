@@ -8,19 +8,47 @@
         "2": "Nintendo DS Lite Console"
     },
     "gdino_improved": {
-        "1": "hVKSTky2gYJAeDddNOQV",
-        "2": "hVKSTky2gYJAeDddNOQV"
+        "1": {
+            "id": "hVKSTky2gYJAeDddNOQV",
+            "reference_name": "DS Lite",
+            "itemtypes_name": "Nintendo DS Lite",
+            "category": "Video Game Consoles",
+            "model": "Nintendo DS Lite",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 182,
+            "embedding_norm": 1.0,
+            "legacyId": "69",
+            "similarity_score": 0.8812954425811768,
+            "itemtypes_similarity": 0.8716404438018799
+        },
+        "2": {
+            "id": "hVKSTky2gYJAeDddNOQV",
+            "reference_name": "DS Lite",
+            "itemtypes_name": "Nintendo DS Lite",
+            "category": "Video Game Consoles",
+            "model": "Nintendo DS Lite",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 182,
+            "embedding_norm": 1.0,
+            "legacyId": "69",
+            "similarity_score": 0.8776727914810181,
+            "itemtypes_similarity": 0.8735910058021545
+        }
     },
     "gdino_improved_readable": {
-        "1": "DS Lite",
-        "2": "DS Lite"
+        "1": "Nintendo DS Lite (DS Lite)",
+        "2": "Nintendo DS Lite (DS Lite)"
     },
     "gdino_similarity_scores": {
         "1": 0.8813,
         "2": 0.8777
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

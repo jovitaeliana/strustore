@@ -8,19 +8,49 @@
         "2": "Nintendo Game Boy Advance SP Console "
     },
     "gdino_improved": {
-        "1": "ZcSSpwtX8cl9fICLin8R",
-        "2": "NmqlKnIQH4m6NTtCEMAI"
+        "1": {
+            "id": "gamecube_controller",
+            "reference_name": "NDEV",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8751449584960938,
+            "vector_reference_id": "ZcSSpwtX8cl9fICLin8R",
+            "vector_reference_similarity": 0.8638997673988342
+        },
+        "2": {
+            "id": "gamecube_controller",
+            "reference_name": "GC [DOL-101]",
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8678174018859863,
+            "vector_reference_id": "NmqlKnIQH4m6NTtCEMAI",
+            "vector_reference_similarity": 0.8574844598770142
+        }
     },
     "gdino_improved_readable": {
-        "1": "NDEV",
-        "2": "GC [DOL-101]"
+        "1": "GameCube Controller (NDEV)",
+        "2": "GameCube Controller (GC [DOL-101])"
     },
     "gdino_similarity_scores": {
-        "1": 0.8639,
-        "2": 0.8575
+        "1": 0.8751,
+        "2": 0.8678
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

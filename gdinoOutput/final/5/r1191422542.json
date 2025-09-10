@@ -8,19 +8,47 @@
         "2": "No Match"
     },
     "gdino_improved": {
-        "1": "CIBq2rlcju72zy1LxZsa",
-        "2": "Irh72HART2knkr1jxuG7"
+        "1": {
+            "id": "CIBq2rlcju72zy1LxZsa",
+            "reference_name": "PS Zerotech Racing Con",
+            "itemtypes_name": "Xbox One Controller",
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "Microsoft",
+            "source": "vector_database",
+            "contextual_text": "PS Zerotech Racing Con | id: CIBq2rlcju72zy1LxZsa | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 48,
+            "embedding_norm": 1.0,
+            "legacyId": "88",
+            "similarity_score": 0.8570400476455688,
+            "itemtypes_similarity": 0.8332579135894775
+        },
+        "2": {
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
+            "itemtypes_name": "GameCube Memory Card",
+            "category": "Labels",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "vector_database",
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8162673711776733,
+            "itemtypes_similarity": 0.7490608096122742
+        }
     },
     "gdino_improved_readable": {
-        "1": "PS Zerotech Racing Con",
-        "2": "Shipping Label"
+        "1": "Xbox One Controller (PS Zerotech Racing Con)",
+        "2": "GameCube Memory Card (Shipping Label)"
     },
     "gdino_similarity_scores": {
         "1": 0.857,
         "2": 0.8163
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757490234.7848532",
+        "processed_date": "1757493203.8888857",
         "vector_db_version": "2.0",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.3

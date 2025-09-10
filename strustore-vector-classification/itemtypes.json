@@ -1,0 +1,414 @@
+{
+  "nintendo_switch_controllers": [
+    {
+      "id": "nintendo_switch_joycon_left",
+      "name": "Nintendo Switch Joy-Con (L)",
+      "official_names": ["Joy-Con (L)", "Left Joy-Con", "Nintendo Switch Joy-Con Left", "Joy-Con Left Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo Switch",
+      "type": "controller_left",
+      "keywords": ["joy-con", "joycon", "left", "nintendo", "switch", "controller", "l"]
+    },
+    {
+      "id": "nintendo_switch_joycon_right",
+      "name": "Nintendo Switch Joy-Con (R)",
+      "official_names": ["Joy-Con (R)", "Right Joy-Con", "Nintendo Switch Joy-Con Right", "Joy-Con Right Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo Switch",
+      "type": "controller_right",
+      "keywords": ["joy-con", "joycon", "right", "nintendo", "switch", "controller", "r"]
+    },
+    {
+      "id": "nintendo_switch_joycon_pair",
+      "name": "Nintendo Switch Joy-Con Pair",
+      "official_names": ["Joy-Con (L)/(R)", "Joy-Con Set", "Nintendo Switch Joy-Con Controllers", "Joy-Con Pair", "Switch Joy-Cons"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo Switch",
+      "type": "controller_pair",
+      "keywords": ["joy-con", "joycon", "pair", "set", "nintendo", "switch", "controllers", "l", "r"]
+    },
+    {
+      "id": "nintendo_switch_pro_controller",
+      "name": "Nintendo Switch Pro Controller",
+      "official_names": ["Switch Pro Controller", "Nintendo Switch Pro Wireless Controller", "Pro Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo Switch",
+      "type": "controller_pro",
+      "keywords": ["pro", "controller", "nintendo", "switch", "wireless", "gamepad"]
+    }
+  ],
+  
+  "nintendo_switch_consoles": [
+    {
+      "id": "nintendo_switch_console",
+      "name": "Nintendo Switch Console",
+      "official_names": ["Nintendo Switch", "Switch Console", "Nintendo Switch (2017)", "Switch HAC-001"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["HAC-001", "HAC-001(-01)"],
+      "release_year": 2017,
+      "keywords": ["nintendo", "switch", "console", "hac-001", "handheld"]
+    },
+    {
+      "id": "nintendo_switch_oled",
+      "name": "Nintendo Switch OLED Console",
+      "official_names": ["Nintendo Switch (OLED model)", "Switch OLED", "Nintendo Switch OLED", "Switch OLED Model"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["HEG-001"],
+      "release_year": 2021,
+      "keywords": ["nintendo", "switch", "oled", "console", "heg-001", "enhanced"]
+    },
+    {
+      "id": "nintendo_switch_lite",
+      "name": "Nintendo Switch Lite Console",
+      "official_names": ["Nintendo Switch Lite", "Switch Lite"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["HDH-001"],
+      "release_year": 2019,
+      "colors": ["Yellow", "Gray", "Turquoise", "Pink Coral", "Blue", "Pokemon Dialga & Palkia Edition"],
+      "keywords": ["nintendo", "switch", "lite", "console", "hdh-001", "handheld", "portable"]
+    }
+  ],
+
+  "nintendo_switch_accessories": [
+    {
+      "id": "nintendo_switch_dock",
+      "name": "Nintendo Switch Dock",
+      "official_names": ["Switch Dock", "Nintendo Switch Dock Station", "Docking Station"],
+      "category": "Other Video Game Accessories",
+      "brand": "Nintendo",
+      "type": "dock",
+      "keywords": ["nintendo", "switch", "dock", "station", "tv", "hdmi"]
+    },
+    {
+      "id": "nintendo_switch_ac_adapter",
+      "name": "Nintendo Switch AC Adapter",
+      "official_names": ["Switch AC Adapter", "Nintendo Switch Power Adapter", "Switch Charger"],
+      "category": "Power Cables & Connectors",
+      "brand": "Nintendo",
+      "type": "power_adapter",
+      "keywords": ["nintendo", "switch", "ac", "adapter", "power", "charger", "cable"]
+    },
+    {
+      "id": "joycon_charging_grip",
+      "name": "Joy-Con Charging Grip",
+      "official_names": ["Nintendo Switch Joy-Con Charging Grip", "Joy-Con Grip Charger"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "type": "charging_grip",
+      "keywords": ["joy-con", "charging", "grip", "nintendo", "switch", "holder"]
+    },
+    {
+      "id": "joycon_grip",
+      "name": "Joy-Con Grip",
+      "official_names": ["Nintendo Switch Joy-Con Grip", "Joy-Con Comfort Grip"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "type": "grip",
+      "keywords": ["joy-con", "grip", "nintendo", "switch", "holder", "comfort"]
+    }
+  ],
+
+  "playstation_controllers": [
+    {
+      "id": "playstation_1_controller",
+      "name": "PlayStation 1 Controller",
+      "official_names": ["PS1 Controller", "PlayStation Controller", "SCPH-1010", "Digital Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Sony",
+      "console": "PlayStation",
+      "model_codes": ["SCPH-1010"],
+      "keywords": ["ps1", "playstation", "controller", "sony", "scph-1010", "digital"]
+    },
+    {
+      "id": "playstation_1_analog_controller",
+      "name": "PlayStation 1 Analog Controller",
+      "official_names": ["PS1 Analog Controller", "PlayStation Analog Joystick", "SCPH-1150", "SCPH-1180"],
+      "category": "Controllers & Attachments",
+      "brand": "Sony",
+      "console": "PlayStation",
+      "model_codes": ["SCPH-1150", "SCPH-1180", "SCPH-1200"],
+      "keywords": ["ps1", "playstation", "analog", "controller", "sony", "scph-1150", "scph-1180"]
+    },
+    {
+      "id": "playstation_1_dualshock",
+      "name": "PlayStation 1 DualShock Controller",
+      "official_names": ["PS1 DualShock", "PlayStation DualShock", "SCPH-110", "SCPH-1080"],
+      "category": "Controllers & Attachments",
+      "brand": "Sony",
+      "console": "PlayStation",
+      "model_codes": ["SCPH-110", "SCPH-1080"],
+      "keywords": ["ps1", "playstation", "dualshock", "controller", "sony", "scph-1080", "analog"]
+    },
+    {
+      "id": "playstation_2_dualshock_2",
+      "name": "PlayStation 2 DualShock 2",
+      "official_names": ["PS2 Controller", "DualShock 2", "SCPH-10010"],
+      "category": "Controllers & Attachments",
+      "brand": "Sony",
+      "console": "PlayStation 2",
+      "model_codes": ["SCPH-10010"],
+      "keywords": ["ps2", "playstation", "dualshock", "controller", "sony", "scph-10010"]
+    },
+    {
+      "id": "playstation_3_sixaxis",
+      "name": "PlayStation 3 SIXAXIS Controller",
+      "official_names": ["PS3 SIXAXIS", "SIXAXIS Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Sony",
+      "console": "PlayStation 3",
+      "keywords": ["ps3", "playstation", "sixaxis", "controller", "sony", "wireless"]
+    },
+    {
+      "id": "playstation_3_dualshock_3",
+      "name": "PlayStation 3 DualShock 3",
+      "official_names": ["PS3 DualShock 3", "DualShock 3", "DS3"],
+      "category": "Controllers & Attachments",
+      "brand": "Sony",
+      "console": "PlayStation 3",
+      "keywords": ["ps3", "playstation", "dualshock", "controller", "sony", "ds3", "wireless"]
+    },
+    {
+      "id": "playstation_4_dualshock_4",
+      "name": "PlayStation 4 DualShock 4",
+      "official_names": ["PS4 Controller", "DualShock 4", "DS4"],
+      "category": "Controllers & Attachments",
+      "brand": "Sony",
+      "console": "PlayStation 4",
+      "keywords": ["ps4", "playstation", "dualshock", "controller", "sony", "ds4", "wireless"]
+    },
+    {
+      "id": "playstation_5_dualsense",
+      "name": "PlayStation 5 DualSense",
+      "official_names": ["PS5 Controller", "DualSense Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Sony",
+      "console": "PlayStation 5",
+      "keywords": ["ps5", "playstation", "dualsense", "controller", "sony", "wireless", "haptic"]
+    }
+  ],
+
+  "xbox_controllers": [
+    {
+      "id": "xbox_original_controller",
+      "name": "Xbox Controller (Original)",
+      "official_names": ["Original Xbox Controller", "Xbox Duke Controller", "Xbox Controller S"],
+      "category": "Controllers & Attachments",
+      "brand": "Microsoft",
+      "console": "Xbox",
+      "keywords": ["xbox", "original", "controller", "microsoft", "duke"]
+    },
+    {
+      "id": "xbox_360_controller",
+      "name": "Xbox 360 Controller",
+      "official_names": ["Xbox 360 Wireless Controller", "Xbox 360 Wired Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Microsoft",
+      "console": "Xbox 360",
+      "keywords": ["xbox", "360", "controller", "microsoft", "wireless", "wired"]
+    },
+    {
+      "id": "xbox_one_controller",
+      "name": "Xbox One Controller",
+      "official_names": ["Xbox One Wireless Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Microsoft",
+      "console": "Xbox One",
+      "keywords": ["xbox", "one", "controller", "microsoft", "wireless"]
+    },
+    {
+      "id": "xbox_series_controller",
+      "name": "Xbox Series Controller",
+      "official_names": ["Xbox Wireless Controller", "Xbox Series X|S Controller"],
+      "category": "Controllers & Attachments",
+      "brand": "Microsoft",
+      "console": "Xbox Series X|S",
+      "keywords": ["xbox", "series", "controller", "microsoft", "wireless", "x", "s"]
+    }
+  ],
+
+  "nintendo_other_controllers": [
+    {
+      "id": "wii_remote_controller",
+      "name": "Wii Remote Controller",
+      "official_names": ["Wii Remote", "Wiimote", "RVL-003"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo Wii",
+      "model_codes": ["RVL-003"],
+      "keywords": ["wii", "remote", "wiimote", "nintendo", "rvl-003", "motion"]
+    },
+    {
+      "id": "wii_nunchuk_controller",
+      "name": "Wii Nunchuk Controller",
+      "official_names": ["Nunchuk", "Wii Nunchuk", "RVL-004"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo Wii",
+      "model_codes": ["RVL-004"],
+      "keywords": ["wii", "nunchuk", "nintendo", "rvl-004", "analog", "attachment"]
+    },
+    {
+      "id": "wii_classic_controller",
+      "name": "Wii Classic Controller",
+      "official_names": ["Classic Controller", "Wii Classic Controller", "RVL-005"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo Wii",
+      "model_codes": ["RVL-005"],
+      "keywords": ["wii", "classic", "controller", "nintendo", "rvl-005", "traditional"]
+    },
+    {
+      "id": "wii_u_gamepad",
+      "name": "Wii U GamePad",
+      "official_names": ["GamePad", "Wii U GamePad Controller", "WUP-010"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo Wii U",
+      "model_codes": ["WUP-010"],
+      "keywords": ["wii", "u", "gamepad", "nintendo", "wup-010", "tablet", "screen"]
+    },
+    {
+      "id": "gamecube_controller",
+      "name": "GameCube Controller",
+      "official_names": ["GC Controller", "Nintendo GameCube Controller", "DOL-003"],
+      "category": "Controllers & Attachments",
+      "brand": "Nintendo",
+      "console": "Nintendo GameCube",
+      "model_codes": ["DOL-003"],
+      "keywords": ["gamecube", "gc", "controller", "nintendo", "dol-003"]
+    }
+  ],
+
+  "handheld_consoles": [
+    {
+      "id": "nintendo_ds",
+      "name": "Nintendo DS",
+      "official_names": ["DS", "Nintendo DS", "NTR-001"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["NTR-001"],
+      "keywords": ["nintendo", "ds", "ntr-001", "handheld", "dual", "screen"]
+    },
+    {
+      "id": "nintendo_ds_lite",
+      "name": "Nintendo DS Lite",
+      "official_names": ["DS Lite", "Nintendo DS Lite", "USG-001"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["USG-001"],
+      "keywords": ["nintendo", "ds", "lite", "usg-001", "handheld", "slim"]
+    },
+    {
+      "id": "nintendo_dsi",
+      "name": "Nintendo DSi",
+      "official_names": ["DSi", "Nintendo DSi", "TWL-001"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["TWL-001"],
+      "keywords": ["nintendo", "dsi", "twl-001", "handheld", "camera"]
+    },
+    {
+      "id": "nintendo_3ds",
+      "name": "Nintendo 3DS",
+      "official_names": ["3DS", "Nintendo 3DS", "CTR-001"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["CTR-001"],
+      "keywords": ["nintendo", "3ds", "ctr-001", "handheld", "stereoscopic"]
+    },
+    {
+      "id": "nintendo_3ds_xl",
+      "name": "Nintendo 3DS XL",
+      "official_names": ["3DS XL", "Nintendo 3DS XL", "SPR-001"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["SPR-001"],
+      "keywords": ["nintendo", "3ds", "xl", "spr-001", "handheld", "large"]
+    },
+    {
+      "id": "nintendo_new_3ds",
+      "name": "Nintendo New 3DS",
+      "official_names": ["New 3DS", "Nintendo New 3DS", "KTR-001"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["KTR-001"],
+      "keywords": ["nintendo", "new", "3ds", "ktr-001", "handheld", "enhanced"]
+    },
+    {
+      "id": "playstation_portable",
+      "name": "PlayStation Portable",
+      "official_names": ["PSP", "PlayStation Portable", "PSP-1000", "PSP-2000", "PSP-3000"],
+      "category": "Video Game Consoles",
+      "brand": "Sony",
+      "model_codes": ["PSP-1000", "PSP-2000", "PSP-3000"],
+      "keywords": ["psp", "playstation", "portable", "sony", "handheld"]
+    },
+    {
+      "id": "playstation_vita",
+      "name": "PlayStation Vita",
+      "official_names": ["PS Vita", "PlayStation Vita", "PCH-1000", "PCH-2000"],
+      "category": "Video Game Consoles",
+      "brand": "Sony",
+      "model_codes": ["PCH-1000", "PCH-2000"],
+      "keywords": ["ps", "vita", "playstation", "sony", "handheld", "oled"]
+    },
+    {
+      "id": "game_boy_advance",
+      "name": "Game Boy Advance",
+      "official_names": ["GBA", "Game Boy Advance", "AGB-001"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["AGB-001"],
+      "keywords": ["game", "boy", "advance", "gba", "nintendo", "agb-001", "handheld"]
+    },
+    {
+      "id": "game_boy_advance_sp",
+      "name": "Game Boy Advance SP",
+      "official_names": ["GBA SP", "Game Boy Advance SP", "AGS-001", "AGS-101"],
+      "category": "Video Game Consoles",
+      "brand": "Nintendo",
+      "model_codes": ["AGS-001", "AGS-101"],
+      "keywords": ["game", "boy", "advance", "sp", "gba", "nintendo", "ags-001", "ags-101", "backlit"]
+    }
+  ],
+
+  "console_accessories": [
+    {
+      "id": "memory_card_ps1",
+      "name": "PlayStation 1 Memory Card",
+      "official_names": ["PS1 Memory Card", "PlayStation Memory Card", "SCPH-1020"],
+      "category": "Memory Cards & Expansion Packs",
+      "brand": "Sony",
+      "console": "PlayStation",
+      "model_codes": ["SCPH-1020"],
+      "keywords": ["ps1", "playstation", "memory", "card", "sony", "scph-1020", "save"]
+    },
+    {
+      "id": "memory_card_ps2",
+      "name": "PlayStation 2 Memory Card",
+      "official_names": ["PS2 Memory Card", "PlayStation 2 Memory Card", "SCPH-10020"],
+      "category": "Memory Cards & Expansion Packs",
+      "brand": "Sony",
+      "console": "PlayStation 2",
+      "model_codes": ["SCPH-10020"],
+      "keywords": ["ps2", "playstation", "memory", "card", "sony", "scph-10020", "save"]
+    },
+    {
+      "id": "gamecube_memory_card",
+      "name": "GameCube Memory Card",
+      "official_names": ["GC Memory Card", "Nintendo GameCube Memory Card", "DOL-014"],
+      "category": "Memory Cards & Expansion Packs",
+      "brand": "Nintendo",
+      "console": "Nintendo GameCube",
+      "model_codes": ["DOL-014"],
+      "keywords": ["gamecube", "gc", "memory", "card", "nintendo", "dol-014", "save"]
+    }
+  ]
+}
