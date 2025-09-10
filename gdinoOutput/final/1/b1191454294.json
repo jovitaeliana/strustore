@@ -7,6 +7,24 @@
         "1": "Nintendo DS Lite Console",
         "2": "Nintendo Game Boy Advance SP Console "
     },
+    "gdino_improved": {
+        "1": "RA1sLo6TzHsbRjgqZMHq",
+        "2": "wfnfrrKbyvkb7Gy7kZEw"
+    },
+    "gdino_improved_readable": {
+        "1": "DS Lite Boxed",
+        "2": "Wii U (WUP-101(01)) (32 GB)"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8839,
+        "2": 0.8624
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "nintendo",

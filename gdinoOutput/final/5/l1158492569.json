@@ -29,6 +29,57 @@
         "12": "Nintendo Game Boy Advance SP Console ",
         "13": "Playstation Controller"
     },
+    "gdino_improved": {
+        "1": "6v3aTU5GqVcof2OSrrGt",
+        "2": "QvUB8tHBNDmkwWhylwa5",
+        "3": "6v3aTU5GqVcof2OSrrGt",
+        "4": "QvUB8tHBNDmkwWhylwa5",
+        "5": "QvUB8tHBNDmkwWhylwa5",
+        "6": "QvUB8tHBNDmkwWhylwa5",
+        "7": "fj8niKEiVeaKbKSUovPs",
+        "8": "YxGyIhCoGGi6fsk3Beo8",
+        "9": "NgY0wsqcNH8Ja96oUc6V",
+        "10": "aH9iGjlVeTjiCSWI8DIe",
+        "11": "aH9iGjlVeTjiCSWI8DIe",
+        "12": "QvUB8tHBNDmkwWhylwa5",
+        "13": "boP0HPaJuFshEG2KxH6X"
+    },
+    "gdino_improved_readable": {
+        "1": "Hori FS-3",
+        "2": "PS3 Con",
+        "3": "Hori FS-3",
+        "4": "PS3 Con",
+        "5": "PS3 Con",
+        "6": "PS3 Con",
+        "7": "PS2 Dual Shock Con",
+        "8": "Gameboy Player",
+        "9": "PS4 VR Headset",
+        "10": "Saturn",
+        "11": "Saturn",
+        "12": "PS3 Con",
+        "13": "Hori Compact Joystick"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8733,
+        "2": 0.8765,
+        "3": 0.8262,
+        "4": 0.853,
+        "5": 0.8639,
+        "6": 0.8867,
+        "7": 0.8615,
+        "8": 0.8459,
+        "9": 0.8478,
+        "10": 0.8434,
+        "11": 0.8545,
+        "12": 0.859,
+        "13": 0.841
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "ps4",

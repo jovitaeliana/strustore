@@ -17,6 +17,39 @@
         "6": "Nintendo Switch Pro Controller",
         "7": "Nintendo Switch Pro Controller"
     },
+    "gdino_improved": {
+        "1": "IpSmFvIFCTx0NaFFB2JW",
+        "2": "y94oJNaPD2VI2396Pq3m",
+        "3": "y94oJNaPD2VI2396Pq3m",
+        "4": "y94oJNaPD2VI2396Pq3m",
+        "5": "y94oJNaPD2VI2396Pq3m",
+        "6": "y94oJNaPD2VI2396Pq3m",
+        "7": "y94oJNaPD2VI2396Pq3m"
+    },
+    "gdino_improved_readable": {
+        "1": "DRM Shell",
+        "2": "Wii Classic Con",
+        "3": "Wii Classic Con",
+        "4": "Wii Classic Con",
+        "5": "Wii Classic Con",
+        "6": "Wii Classic Con",
+        "7": "Wii Classic Con"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.7921,
+        "2": 0.8521,
+        "3": 0.864,
+        "4": 0.8632,
+        "5": 0.8517,
+        "6": 0.8618,
+        "7": 0.855
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "x",

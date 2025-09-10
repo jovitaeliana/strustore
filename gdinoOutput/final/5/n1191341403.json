@@ -9,6 +9,27 @@
         "2": "XBOX Controller",
         "3": "Nintendo DS Original Console"
     },
+    "gdino_improved": {
+        "1": "kcyOqlpSjOxpv9ZpONeh",
+        "2": "UQAiJaSEgXisBIPIMPnD",
+        "3": "ri7BtZBzSxWd5jRBctFM"
+    },
+    "gdino_improved_readable": {
+        "1": "Xbox 360",
+        "2": "Xbox Orig Con",
+        "3": "Xbox One"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8632,
+        "2": 0.8556,
+        "3": 0.8394
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "xbox",

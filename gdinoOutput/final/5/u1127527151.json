@@ -7,6 +7,24 @@
         "1": "No Match",
         "2": "Nintendo Switch Pro Controller"
     },
+    "gdino_improved": {
+        "1": "ZBroqZgzmGouENEl1iVl",
+        "2": "ZBroqZgzmGouENEl1iVl"
+    },
+    "gdino_improved_readable": {
+        "1": "Switch Pro Controller",
+        "2": "Switch Pro Controller"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8543,
+        "2": 0.868
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "gamesir",

@@ -15,6 +15,36 @@
         "5": "Nintendo Switch OLED Console",
         "6": "Nintendo Switch OLED Console"
     },
+    "gdino_improved": {
+        "1": "ZBroqZgzmGouENEl1iVl",
+        "2": "dHZsC4olhShVBHfmoleE",
+        "3": "oL2l1OjnB3BNLENQkoRb",
+        "4": "oL2l1OjnB3BNLENQkoRb",
+        "5": "oL2l1OjnB3BNLENQkoRb",
+        "6": "oL2l1OjnB3BNLENQkoRb"
+    },
+    "gdino_improved_readable": {
+        "1": "Switch Pro Controller",
+        "2": "SFC [Boxed]",
+        "3": "Switch",
+        "4": "Switch",
+        "5": "Switch",
+        "6": "Switch"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8847,
+        "2": 0.8159,
+        "3": 0.8676,
+        "4": 0.8453,
+        "5": 0.8461,
+        "6": 0.86
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "controller",

@@ -11,6 +11,30 @@
         "3": "Nintendo Famicom Console",
         "4": "Nintendo Famicom Console"
     },
+    "gdino_improved": {
+        "1": "svXJEQMnwuDfLPUHUUCi",
+        "2": "Pse4aMX8v9HeE72C0wNB",
+        "3": "OvnaIjSBeoFBsRS0Y6GI",
+        "4": "dHZsC4olhShVBHfmoleE"
+    },
+    "gdino_improved_readable": {
+        "1": "2DS",
+        "2": "N64 Turbo Con (Hudson)",
+        "3": "SFC",
+        "4": "SFC [Boxed]"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8547,
+        "2": 0.8515,
+        "3": 0.846,
+        "4": 0.8715
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "system",

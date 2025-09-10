@@ -15,6 +15,36 @@
         "5": "Nintendo Game Boy Advance SP Console ",
         "6": "Gamecube Controller"
     },
+    "gdino_improved": {
+        "1": "Gynna5OzYWWE6y8WpgpO",
+        "2": "fPlmsqNzKxyVjqsEmulZ",
+        "3": "Gynna5OzYWWE6y8WpgpO",
+        "4": "Gynna5OzYWWE6y8WpgpO",
+        "5": "Gynna5OzYWWE6y8WpgpO",
+        "6": "Gynna5OzYWWE6y8WpgpO"
+    },
+    "gdino_improved_readable": {
+        "1": "GC Wavebird Con",
+        "2": "GC DK Bongos",
+        "3": "GC Wavebird Con",
+        "4": "GC Wavebird Con",
+        "5": "GC Wavebird Con",
+        "6": "GC Wavebird Con"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8519,
+        "2": 0.8492,
+        "3": 0.8839,
+        "4": 0.8585,
+        "5": 0.8585,
+        "6": 0.855
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "gamecube",

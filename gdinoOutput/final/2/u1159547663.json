@@ -11,6 +11,30 @@
         "3": "Nintendo Game Boy Advance SP Console ",
         "4": "Nintendo Game Boy Advance SP Console "
     },
+    "gdino_improved": {
+        "1": "OvnaIjSBeoFBsRS0Y6GI",
+        "2": "JfpzfVMgPVKgYvc3Mt1r",
+        "3": "JfpzfVMgPVKgYvc3Mt1r",
+        "4": "OvnaIjSBeoFBsRS0Y6GI"
+    },
+    "gdino_improved_readable": {
+        "1": "SFC",
+        "2": "SNES Super Scope",
+        "3": "SNES Super Scope",
+        "4": "SFC"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.878,
+        "2": 0.8753,
+        "3": 0.8652,
+        "4": 0.86
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "console",

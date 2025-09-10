@@ -9,6 +9,27 @@
         "2": "Nintendo Game Boy Advance SP Console ",
         "3": "Nintendo Game Boy Color Console"
     },
+    "gdino_improved": {
+        "1": "dCgppzGDzN4lB4HOyrha",
+        "2": "YsZuDWV6LEmWyyg3Vkhn",
+        "3": "YsZuDWV6LEmWyyg3Vkhn"
+    },
+    "gdino_improved_readable": {
+        "1": "N64 ASCII Fishing Reels",
+        "2": "N64 [Boxed]",
+        "3": "N64 [Boxed]"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8461,
+        "2": 0.8733,
+        "3": 0.8679
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "nintendo",

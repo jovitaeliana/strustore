@@ -19,6 +19,42 @@
         "7": "Nintendo Game Boy Advance Console",
         "8": "No Match"
     },
+    "gdino_improved": {
+        "1": "eDXOwaOyWKtH2nQwCYan",
+        "2": "eDXOwaOyWKtH2nQwCYan",
+        "3": "eDXOwaOyWKtH2nQwCYan",
+        "4": "eDXOwaOyWKtH2nQwCYan",
+        "5": "eDXOwaOyWKtH2nQwCYan",
+        "6": "eDXOwaOyWKtH2nQwCYan",
+        "7": "eDXOwaOyWKtH2nQwCYan",
+        "8": "PF6zWiWOjRxwKrmRw2oA"
+    },
+    "gdino_improved_readable": {
+        "1": "Gameboy Advance",
+        "2": "Gameboy Advance",
+        "3": "Gameboy Advance",
+        "4": "Gameboy Advance",
+        "5": "Gameboy Advance",
+        "6": "Gameboy Advance",
+        "7": "Gameboy Advance",
+        "8": "R.O.B. (boxed)"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8802,
+        "2": 0.8838,
+        "3": 0.8685,
+        "4": 0.8718,
+        "5": 0.8776,
+        "6": 0.8768,
+        "7": 0.8701,
+        "8": 0.8115
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "advance",

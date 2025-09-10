@@ -27,6 +27,54 @@
         "11": "Nintendo Famicom Console",
         "12": "Nintendo Game Boy Advance SP Console "
     },
+    "gdino_improved": {
+        "1": "JfpzfVMgPVKgYvc3Mt1r",
+        "2": "JfpzfVMgPVKgYvc3Mt1r",
+        "3": "CqdH1LClrrfOP3GTa1fR",
+        "4": "OvnaIjSBeoFBsRS0Y6GI",
+        "5": "OvnaIjSBeoFBsRS0Y6GI",
+        "6": "OvnaIjSBeoFBsRS0Y6GI",
+        "7": "rr4wZ1XXjF4M2JU5aVGh",
+        "8": "OvnaIjSBeoFBsRS0Y6GI",
+        "9": "OvnaIjSBeoFBsRS0Y6GI",
+        "10": "Irh72HART2knkr1jxuG7",
+        "11": "OvnaIjSBeoFBsRS0Y6GI",
+        "12": "oL2l1OjnB3BNLENQkoRb"
+    },
+    "gdino_improved_readable": {
+        "1": "SNES Super Scope",
+        "2": "SNES Super Scope",
+        "3": "PS1 Original Analog Con SCPH-1080",
+        "4": "SFC",
+        "5": "SFC",
+        "6": "SFC",
+        "7": "GC Region Switched",
+        "8": "SFC",
+        "9": "SFC",
+        "10": "Shipping Label",
+        "11": "SFC",
+        "12": "Switch"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8533,
+        "2": 0.8772,
+        "3": 0.8595,
+        "4": 0.8617,
+        "5": 0.8624,
+        "6": 0.8777,
+        "7": 0.8458,
+        "8": 0.8688,
+        "9": 0.8595,
+        "10": 0.7887,
+        "11": 0.8754,
+        "12": 0.8541
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "controller",

@@ -19,6 +19,42 @@
         "7": "Nintendo Game Boy Color Console",
         "8": "No Match"
     },
+    "gdino_improved": {
+        "1": "KjcYMcDbqpbGV5Klfrj1",
+        "2": "eDXOwaOyWKtH2nQwCYan",
+        "3": "GgWTR9QoWKoUkJ3kr5ga",
+        "4": "lUX9PIFzOObfP7B9eq9E",
+        "5": "Irh72HART2knkr1jxuG7",
+        "6": "svXJEQMnwuDfLPUHUUCi",
+        "7": "hVKSTky2gYJAeDddNOQV",
+        "8": "svXJEQMnwuDfLPUHUUCi"
+    },
+    "gdino_improved_readable": {
+        "1": "New 2DS XL",
+        "2": "Gameboy Advance",
+        "3": "DSi",
+        "4": "new 3DS",
+        "5": "Shipping Label",
+        "6": "2DS",
+        "7": "DS Lite",
+        "8": "2DS"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8622,
+        "2": 0.8515,
+        "3": 0.8462,
+        "4": 0.862,
+        "5": 0.8122,
+        "6": 0.8482,
+        "7": 0.8615,
+        "8": 0.8484
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "nintendo",

@@ -7,6 +7,24 @@
         "1": "Nintendo Famicom Console",
         "2": "Nintendo Switch Pro Controller"
     },
+    "gdino_improved": {
+        "1": "OvnaIjSBeoFBsRS0Y6GI",
+        "2": "oL2l1OjnB3BNLENQkoRb"
+    },
+    "gdino_improved_readable": {
+        "1": "SFC",
+        "2": "Switch"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8538,
+        "2": 0.8504
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "famicom",

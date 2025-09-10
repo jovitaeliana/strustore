@@ -25,6 +25,51 @@
         "11": "XBOX Controller",
         "12": "No Match"
     },
+    "gdino_improved": {
+        "1": "oL2l1OjnB3BNLENQkoRb",
+        "3": "oL2l1OjnB3BNLENQkoRb",
+        "4": "oL2l1OjnB3BNLENQkoRb",
+        "5": "vFaxxpsx5W7yH6fzI4Zx",
+        "6": "LK69eegFwn2onBK7j6rF",
+        "7": "Fu009vbiv7CbGJdvp4f5",
+        "8": "Irh72HART2knkr1jxuG7",
+        "9": "61YaiPCF0A3TI0SGyCXF",
+        "10": "oL2l1OjnB3BNLENQkoRb",
+        "11": "E4gdR1zQcZder6WVWIQx",
+        "12": "Irh72HART2knkr1jxuG7"
+    },
+    "gdino_improved_readable": {
+        "1": "Switch",
+        "3": "Switch",
+        "4": "Switch",
+        "5": "N64 Carrying Case",
+        "6": "Wii Con",
+        "7": "Wii Con Knockoff",
+        "8": "Shipping Label",
+        "9": "NFC Reader",
+        "10": "Switch",
+        "11": "Microsoft Flight Stick",
+        "12": "Shipping Label"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8676,
+        "3": 0.8468,
+        "4": 0.8538,
+        "5": 0.8487,
+        "6": 0.8524,
+        "7": 0.8474,
+        "8": 0.8117,
+        "9": 0.7725,
+        "10": 0.8322,
+        "11": 0.8453,
+        "12": 0.8196
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "switch",

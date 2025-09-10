@@ -7,6 +7,24 @@
         "1": "Nintendo Switch Pro Controller",
         "2": "N64 Controller "
     },
+    "gdino_improved": {
+        "1": "PaVQDrGaUjcYp3KPYkmN",
+        "2": "PaVQDrGaUjcYp3KPYkmN"
+    },
+    "gdino_improved_readable": {
+        "1": "Blue N64 Con (boxed)",
+        "2": "Blue N64 Con (boxed)"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8629,
+        "2": 0.869
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "controller",

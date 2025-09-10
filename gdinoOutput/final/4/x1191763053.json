@@ -21,6 +21,45 @@
         "8": "No Match",
         "9": "No Match"
     },
+    "gdino_improved": {
+        "1": "oL2l1OjnB3BNLENQkoRb",
+        "2": "oL2l1OjnB3BNLENQkoRb",
+        "3": "boP0HPaJuFshEG2KxH6X",
+        "4": "O9858sZlGIlyY48TTOPK",
+        "5": "oL2l1OjnB3BNLENQkoRb",
+        "6": "y94oJNaPD2VI2396Pq3m",
+        "7": "aH9iGjlVeTjiCSWI8DIe",
+        "8": "J4L1xsDD5I1OLZSjSRpN",
+        "9": "oL2l1OjnB3BNLENQkoRb"
+    },
+    "gdino_improved_readable": {
+        "1": "Switch",
+        "2": "Switch",
+        "3": "Hori Compact Joystick",
+        "4": "PS1 Slimline Con",
+        "5": "Switch",
+        "6": "Wii Classic Con",
+        "7": "Saturn",
+        "8": "DRM Disc Drive",
+        "9": "Switch"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8543,
+        "2": 0.8465,
+        "3": 0.8428,
+        "4": 0.8501,
+        "5": 0.8648,
+        "6": 0.8553,
+        "7": 0.7899,
+        "8": 0.8393,
+        "9": 0.8431
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "nintendo",

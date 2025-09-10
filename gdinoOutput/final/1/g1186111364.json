@@ -17,6 +17,39 @@
         "6": "No Match",
         "7": "Nintendo DS Lite Console"
     },
+    "gdino_improved": {
+        "1": "RA1sLo6TzHsbRjgqZMHq",
+        "2": "lUX9PIFzOObfP7B9eq9E",
+        "3": "hVKSTky2gYJAeDddNOQV",
+        "4": "RA1sLo6TzHsbRjgqZMHq",
+        "5": "lUX9PIFzOObfP7B9eq9E",
+        "6": "svXJEQMnwuDfLPUHUUCi",
+        "7": "RA1sLo6TzHsbRjgqZMHq"
+    },
+    "gdino_improved_readable": {
+        "1": "DS Lite Boxed",
+        "2": "new 3DS",
+        "3": "DS Lite",
+        "4": "DS Lite Boxed",
+        "5": "new 3DS",
+        "6": "2DS",
+        "7": "DS Lite Boxed"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8903,
+        "2": 0.8511,
+        "3": 0.8402,
+        "4": 0.876,
+        "5": 0.8734,
+        "6": 0.8425,
+        "7": 0.8572
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "ds",

@@ -13,6 +13,33 @@
         "4": "Nintendo DS Original Console",
         "5": "Nintendo DS Original Console"
     },
+    "gdino_improved": {
+        "1": "eDXOwaOyWKtH2nQwCYan",
+        "2": "STKdatHmQLwNLJXq1fxP",
+        "3": "RA1sLo6TzHsbRjgqZMHq",
+        "4": "bCs9Y7puTSp91kDdqhx8",
+        "5": "RA1sLo6TzHsbRjgqZMHq"
+    },
+    "gdino_improved_readable": {
+        "1": "Gameboy Advance",
+        "2": "DS Lite Charger",
+        "3": "DS Lite Boxed",
+        "4": "DS Original Charger",
+        "5": "DS Lite Boxed"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8305,
+        "2": 0.8557,
+        "3": 0.8664,
+        "4": 0.8496,
+        "5": 0.8592
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "de",

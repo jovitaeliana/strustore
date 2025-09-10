@@ -9,6 +9,27 @@
         "2": "XBOX Controller",
         "3": "XBOX Controller"
     },
+    "gdino_improved": {
+        "1": "ri7BtZBzSxWd5jRBctFM",
+        "2": "087lkATTCpKIRfuZXSyO",
+        "3": "087lkATTCpKIRfuZXSyO"
+    },
+    "gdino_improved_readable": {
+        "1": "Xbox One",
+        "2": "Xbox 360 Power Cord",
+        "3": "Xbox 360 Power Cord"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8601,
+        "2": 0.8522,
+        "3": 0.8563
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "xbox",

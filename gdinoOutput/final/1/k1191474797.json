@@ -21,6 +21,45 @@
         "8": "No Match",
         "9": "No Match"
     },
+    "gdino_improved": {
+        "1": "hVKSTky2gYJAeDddNOQV",
+        "2": "svXJEQMnwuDfLPUHUUCi",
+        "3": "svXJEQMnwuDfLPUHUUCi",
+        "4": "zLLBDzmDK3ShYnB3SSdc",
+        "5": "svXJEQMnwuDfLPUHUUCi",
+        "6": "svXJEQMnwuDfLPUHUUCi",
+        "7": "zLLBDzmDK3ShYnB3SSdc",
+        "8": "svXJEQMnwuDfLPUHUUCi",
+        "9": "svXJEQMnwuDfLPUHUUCi"
+    },
+    "gdino_improved_readable": {
+        "1": "DS Lite",
+        "2": "2DS",
+        "3": "2DS",
+        "4": "3DS",
+        "5": "2DS",
+        "6": "2DS",
+        "7": "3DS",
+        "8": "2DS",
+        "9": "2DS"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8832,
+        "2": 0.843,
+        "3": 0.834,
+        "4": 0.8351,
+        "5": 0.8396,
+        "6": 0.8424,
+        "7": 0.8287,
+        "8": 0.8316,
+        "9": 0.8252
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "nintendo",

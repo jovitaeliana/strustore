@@ -23,6 +23,48 @@
         "9": "No Match",
         "10": "Nintendo Famicom Console"
     },
+    "gdino_improved": {
+        "1": "dHZsC4olhShVBHfmoleE",
+        "2": "OvnaIjSBeoFBsRS0Y6GI",
+        "3": "OvnaIjSBeoFBsRS0Y6GI",
+        "4": "dHZsC4olhShVBHfmoleE",
+        "5": "Irh72HART2knkr1jxuG7",
+        "6": "OvnaIjSBeoFBsRS0Y6GI",
+        "7": "OvnaIjSBeoFBsRS0Y6GI",
+        "8": "oL2l1OjnB3BNLENQkoRb",
+        "9": "IpSmFvIFCTx0NaFFB2JW",
+        "10": "OvnaIjSBeoFBsRS0Y6GI"
+    },
+    "gdino_improved_readable": {
+        "1": "SFC [Boxed]",
+        "2": "SFC",
+        "3": "SFC",
+        "4": "SFC [Boxed]",
+        "5": "Shipping Label",
+        "6": "SFC",
+        "7": "SFC",
+        "8": "Switch",
+        "9": "DRM Shell",
+        "10": "SFC"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8583,
+        "2": 0.8734,
+        "3": 0.8767,
+        "4": 0.8629,
+        "5": 0.8232,
+        "6": 0.835,
+        "7": 0.8401,
+        "8": 0.8476,
+        "9": 0.8111,
+        "10": 0.8546
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "famicom",

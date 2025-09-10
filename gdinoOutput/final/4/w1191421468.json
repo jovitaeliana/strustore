@@ -15,6 +15,36 @@
         "5": "No Match",
         "6": "No Match"
     },
+    "gdino_improved": {
+        "1": "HNljomQEwfkntYmDylny",
+        "2": "oL2l1OjnB3BNLENQkoRb",
+        "3": "oL2l1OjnB3BNLENQkoRb",
+        "4": "oL2l1OjnB3BNLENQkoRb",
+        "5": "Irh72HART2knkr1jxuG7",
+        "6": "Irh72HART2knkr1jxuG7"
+    },
+    "gdino_improved_readable": {
+        "1": "Switch Pokèball",
+        "2": "Switch",
+        "3": "Switch",
+        "4": "Switch",
+        "5": "Shipping Label",
+        "6": "Shipping Label"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.852,
+        "2": 0.8559,
+        "3": 0.8519,
+        "4": 0.8655,
+        "5": 0.8196,
+        "6": 0.82
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "switch",

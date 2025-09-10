@@ -25,6 +25,51 @@
         "10": "No Match",
         "11": "No Match"
     },
+    "gdino_improved": {
+        "1": "dHZsC4olhShVBHfmoleE",
+        "2": "OvnaIjSBeoFBsRS0Y6GI",
+        "3": "oL2l1OjnB3BNLENQkoRb",
+        "4": "YxGyIhCoGGi6fsk3Beo8",
+        "5": "OvnaIjSBeoFBsRS0Y6GI",
+        "6": "eDXOwaOyWKtH2nQwCYan",
+        "7": "Irh72HART2knkr1jxuG7",
+        "8": "YxGyIhCoGGi6fsk3Beo8",
+        "9": "YcWMd30IK5gewrzqAgzW",
+        "10": "OvnaIjSBeoFBsRS0Y6GI",
+        "11": "eDXOwaOyWKtH2nQwCYan"
+    },
+    "gdino_improved_readable": {
+        "1": "SFC [Boxed]",
+        "2": "SFC",
+        "3": "Switch",
+        "4": "Gameboy Player",
+        "5": "SFC",
+        "6": "Gameboy Advance",
+        "7": "Shipping Label",
+        "8": "Gameboy Player",
+        "9": "Saturn VCD",
+        "10": "SFC",
+        "11": "Gameboy Advance"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8491,
+        "2": 0.8469,
+        "3": 0.8526,
+        "4": 0.8425,
+        "5": 0.8132,
+        "6": 0.7976,
+        "7": 0.8307,
+        "8": 0.8134,
+        "9": 0.7854,
+        "10": 0.8285,
+        "11": 0.8423
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "nintendo",

@@ -13,6 +13,33 @@
         "4": "Nintendo Game Boy Color Console",
         "5": "Nintendo Famicom Console"
     },
+    "gdino_improved": {
+        "1": "OvnaIjSBeoFBsRS0Y6GI",
+        "2": "oL2l1OjnB3BNLENQkoRb",
+        "3": "OvnaIjSBeoFBsRS0Y6GI",
+        "4": "OvnaIjSBeoFBsRS0Y6GI",
+        "5": "OvnaIjSBeoFBsRS0Y6GI"
+    },
+    "gdino_improved_readable": {
+        "1": "SFC",
+        "2": "Switch",
+        "3": "SFC",
+        "4": "SFC",
+        "5": "SFC"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8805,
+        "2": 0.8496,
+        "3": 0.8586,
+        "4": 0.8455,
+        "5": 0.8573
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "super",

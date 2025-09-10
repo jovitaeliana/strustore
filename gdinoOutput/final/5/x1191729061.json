@@ -7,6 +7,24 @@
         "1": "Playstation Controller",
         "2": "Playstation Controller"
     },
+    "gdino_improved": {
+        "1": "CqdH1LClrrfOP3GTa1fR",
+        "2": "CqdH1LClrrfOP3GTa1fR"
+    },
+    "gdino_improved_readable": {
+        "1": "PS1 Original Analog Con SCPH-1080",
+        "2": "PS1 Original Analog Con SCPH-1080"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8774,
+        "2": 0.8732
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "playstation",

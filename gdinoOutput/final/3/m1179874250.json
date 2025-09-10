@@ -9,6 +9,27 @@
         "2": "No Match",
         "3": "No Match"
     },
+    "gdino_improved": {
+        "1": "YxGyIhCoGGi6fsk3Beo8",
+        "2": "Irh72HART2knkr1jxuG7",
+        "3": "Irh72HART2knkr1jxuG7"
+    },
+    "gdino_improved_readable": {
+        "1": "Gameboy Player",
+        "2": "Shipping Label",
+        "3": "Shipping Label"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8704,
+        "2": 0.8139,
+        "3": 0.8191
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "micro",

@@ -7,6 +7,24 @@
         "1": "Nintendo DS Lite Console",
         "2": "No Match"
     },
+    "gdino_improved": {
+        "1": "hVKSTky2gYJAeDddNOQV",
+        "2": "vFaxxpsx5W7yH6fzI4Zx"
+    },
+    "gdino_improved_readable": {
+        "1": "DS Lite",
+        "2": "N64 Carrying Case"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8847,
+        "2": 0.8264
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "nintendo",

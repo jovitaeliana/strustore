@@ -11,6 +11,30 @@
         "3": "Nintendo Game Boy Advance SP Console ",
         "4": "Nintendo Game Boy Advance SP Console "
     },
+    "gdino_improved": {
+        "1": "3ZQ8aYagBMX0rkJL2m63",
+        "2": "O9858sZlGIlyY48TTOPK",
+        "3": "dHZsC4olhShVBHfmoleE",
+        "4": "dHZsC4olhShVBHfmoleE"
+    },
+    "gdino_improved_readable": {
+        "1": "FC 2P Con",
+        "2": "PS1 Slimline Con",
+        "3": "SFC [Boxed]",
+        "4": "SFC [Boxed]"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8454,
+        "2": 0.8487,
+        "3": 0.8673,
+        "4": 0.867
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "games",

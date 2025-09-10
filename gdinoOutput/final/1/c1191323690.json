@@ -21,6 +21,45 @@
         "8": "No Match",
         "9": "Nintendo DS Lite Console"
     },
+    "gdino_improved": {
+        "1": "lUX9PIFzOObfP7B9eq9E",
+        "2": "RLTezhK4keTvDr70COUX",
+        "3": "GgWTR9QoWKoUkJ3kr5ga",
+        "4": "RA1sLo6TzHsbRjgqZMHq",
+        "5": "sopGAgdK3BME51HDaWjU",
+        "6": "Irh72HART2knkr1jxuG7",
+        "7": "Irh72HART2knkr1jxuG7",
+        "8": "60QzDajbkQRYVGg9Jgup",
+        "9": "hVKSTky2gYJAeDddNOQV"
+    },
+    "gdino_improved_readable": {
+        "1": "new 3DS",
+        "2": "DS Original",
+        "3": "DSi",
+        "4": "DS Lite Boxed",
+        "5": "SFC SGB",
+        "6": "Shipping Label",
+        "7": "Shipping Label",
+        "8": "Saturn Con",
+        "9": "DS Lite"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.821,
+        "2": 0.8578,
+        "3": 0.8491,
+        "4": 0.8588,
+        "5": 0.7993,
+        "6": 0.8306,
+        "7": 0.8194,
+        "8": 0.8089,
+        "9": 0.8672
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "com",

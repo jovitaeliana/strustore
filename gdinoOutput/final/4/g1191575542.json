@@ -13,6 +13,33 @@
         "4": "Nintendo Switch OLED Console",
         "5": "Nintendo Switch OLED Console"
     },
+    "gdino_improved": {
+        "1": "PF6zWiWOjRxwKrmRw2oA",
+        "2": "oL2l1OjnB3BNLENQkoRb",
+        "3": "oL2l1OjnB3BNLENQkoRb",
+        "4": "oL2l1OjnB3BNLENQkoRb",
+        "5": "oL2l1OjnB3BNLENQkoRb"
+    },
+    "gdino_improved_readable": {
+        "1": "R.O.B. (boxed)",
+        "2": "Switch",
+        "3": "Switch",
+        "4": "Switch",
+        "5": "Switch"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.7873,
+        "2": 0.867,
+        "3": 0.8625,
+        "4": 0.8604,
+        "5": 0.8715
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "nintendo"

@@ -9,6 +9,27 @@
         "2": "Nintendo DS Lite Console",
         "3": "Nintendo DS Lite Console"
     },
+    "gdino_improved": {
+        "1": "RA1sLo6TzHsbRjgqZMHq",
+        "2": "RA1sLo6TzHsbRjgqZMHq",
+        "3": "hVKSTky2gYJAeDddNOQV"
+    },
+    "gdino_improved_readable": {
+        "1": "DS Lite Boxed",
+        "2": "DS Lite Boxed",
+        "3": "DS Lite"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8639,
+        "2": 0.8461,
+        "3": 0.8685
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "lite",

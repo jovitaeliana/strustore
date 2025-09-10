@@ -7,6 +7,24 @@
         "1": "Nintendo Switch Pro Controller",
         "2": "Nintendo Switch Pro Controller"
     },
+    "gdino_improved": {
+        "1": "O9858sZlGIlyY48TTOPK",
+        "2": "L2YJzzkfj6j4BQ1hEs8M"
+    },
+    "gdino_improved_readable": {
+        "1": "PS1 Slimline Con",
+        "2": "PS1 Hori Con"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8504,
+        "2": 0.8498
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "beatmania",

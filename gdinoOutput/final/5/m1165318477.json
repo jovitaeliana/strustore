@@ -9,6 +9,27 @@
         "2": "Nintendo Game Boy Advance SP Console ",
         "3": "Nintendo Game Boy Advance SP Console "
     },
+    "gdino_improved": {
+        "1": "rr4wZ1XXjF4M2JU5aVGh",
+        "2": "CtJuoTNmpqb8lTLL8pug",
+        "3": "rr4wZ1XXjF4M2JU5aVGh"
+    },
+    "gdino_improved_readable": {
+        "1": "GC Region Switched",
+        "2": "GC Unidentified Misc Black",
+        "3": "GC Region Switched"
+    },
+    "gdino_similarity_scores": {
+        "1": 0.8569,
+        "2": 0.8417,
+        "3": 0.8681
+    },
+    "gdino_classification_metadata": {
+        "processed_date": "1757490234.7848532",
+        "vector_db_version": "2.0",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.3
+    },
     "gdino_tokens": {
         "1": [
             "gamecube",
