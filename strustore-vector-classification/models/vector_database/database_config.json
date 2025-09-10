@@ -1,9 +1,23 @@
 {
-  "created_date": "2025-09-09T15:19:58.324011",
-  "model_path": "models/gaming-console-semantic-model",
-  "master_items_path": "../zm_scraper/updated-master-list.csv",
-  "total_items": 129,
+  "created_date": "2025-09-10T12:51:43.685238",
+  "model_path": "intfloat/multilingual-e5-base",
+  "master_items_path": "/Users/jovitaeliana/Personal/strustore/items.json",
+  "total_items": 232,
+  "total_categories": 11,
+  "category_distribution": {
+    "Controllers & Attachments": 86,
+    "Power Cables & Connectors": 25,
+    "Memory Cards & Expansion Packs": 28,
+    "Video Games": 18,
+    "Other Video Game Accessories": 22,
+    "Video Game Consoles": 44,
+    "null": 3,
+    "Internal Hard Disk Drives": 3,
+    "Cables & Adapters": 1,
+    "Labels": 1,
+    "Chargers & Charging Docks": 1
+  },
   "embedding_dimension": 768,
   "index_type": "IndexFlatIP",
-  "database_version": "1.0"
+  "database_version": "2.0"
 }

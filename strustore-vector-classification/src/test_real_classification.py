@@ -186,32 +186,24 @@ class RealClassificationTester:
             "ブラック": "Black Color",
             "シルバー": "Silver Color",
             "ブルー": "Blue Color",
-            "レッド": "Red Color",
-            "ピンク": "Pink Color",
-            "動作確認済み": "Tested Working",
             
-            # Model codes
-            "NTR-001": "Nintendo DS Original Console",
-            "USG-001": "Nintendo DS Lite Console",
-            "TWL-001": "Nintendo DSi Console",
-            "CTR-001": "Nintendo 3DS Console",
-            "HEG-001": "Nintendo Switch Console",
-            "DMG-01": "Nintendo Game Boy Console",
-            "CGB-001": "Nintendo Game Boy Color Console",
-            "AGB-001": "Nintendo Game Boy Advance Console",
-            "AGS-001": "Nintendo Game Boy Advance SP Console",
-            "HVC-001": "Nintendo Famicom Console",
-            "SHVC-001": "Nintendo SNES Console",
-            "SCPH-1200": "PlayStation 2 Console",
-            "SCPH-55000": "PlayStation 2 Console",
+            # Additional Japanese terms
+            "レッド": "DS Lite",  # Red - fallback to DS Lite
+            "ピンク": "DS Lite",  # Pink - fallback to DS Lite
+            "動作確認済み": "Wii",  # Tested working - fallback
         }
     
     def _load_model_and_database(self) -> None:
         """Load the trained model and vector database."""
         try:
             logger.info("Loading semantic model...")
-            self.model = SentenceTransformer(str(self.model_path))
-            logger.info(f"Model loaded successfully from {self.model_path}")
+            # Handle both local and HuggingFace model paths
+            if str(self.model_path).startswith(('sentence-transformers/', 'intfloat/')):
+                self.model = SentenceTransformer(str(self.model_path))
+                logger.info(f"Model loaded successfully from {self.model_path}")
+            else:
+                self.model = SentenceTransformer(str(self.model_path))
+                logger.info(f"Model loaded successfully from {self.model_path}")
             
             # Load vector index (try multiple possible filenames)
             possible_index_files = ["vector_index.faiss", "faiss_index.bin", "index.faiss"]
@@ -294,7 +286,14 @@ class RealClassificationTester:
         """
         try:
             # Generate embedding for the detection label
-            query_embedding = self.model.encode([detection.label])
+            query_text = detection.label
+            
+            # Add E5 query prefix if using E5 model
+            model_name = str(self.model_path)
+            if 'e5' in model_name.lower():
+                query_text = f"query: {query_text}"
+            
+            query_embedding = self.model.encode([query_text])
             query_embedding = query_embedding.astype('float32')
             
             # Normalize for cosine similarity
@@ -721,7 +720,7 @@ def main():
     try:
         # Initialize the tester
         tester = RealClassificationTester(
-            model_path="models/gaming-console-semantic-model",
+            model_path="intfloat/multilingual-e5-base",
             vector_db_path="models/vector_database",
             gdino_output_path="gdinoOutput",
             similarity_threshold=0.5

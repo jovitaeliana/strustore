@@ -1,16 +1,16 @@
 {
   "test_metadata": {
-    "timestamp": "2025-09-09T15:20:37.522602",
-    "model_path": "models/gaming-console-semantic-model",
+    "timestamp": "2025-09-10T14:47:46.408636",
+    "model_path": "intfloat/multilingual-e5-base",
     "vector_db_path": "models/vector_database",
     "gdino_output_path": "gdinoOutput",
     "similarity_threshold": 0.5,
     "total_detections": 15
   },
   "performance_metrics": {
-    "overall_accuracy": 0.6,
+    "overall_accuracy": 0.06666666666666667,
     "total_tests": 15,
-    "correct_predictions": 9,
+    "correct_predictions": 1,
     "detection_confidence": {
       "mean": 0.8646666666666666,
       "std": 0.0580650975677778,
@@ -18,31 +18,31 @@
       "max": 0.95
     },
     "similarity_scores": {
-      "mean": 2.213922699292501,
-      "std": 0.3787679188904086,
-      "min": 1.433100938796997,
-      "max": 2.6854281425476074
+      "mean": 0.8027567545572917,
+      "std": 0.015744473429106724,
+      "min": 0.779751718044281,
+      "max": 0.83245849609375
     },
     "category_performance": {
       "consoles": {
         "total": 4,
-        "correct": 1,
-        "accuracy": 0.25
+        "correct": 0,
+        "accuracy": 0.0
       },
       "controllers": {
         "total": 2,
-        "correct": 1,
-        "accuracy": 0.5
+        "correct": 0,
+        "accuracy": 0.0
       },
       "accessories": {
         "total": 2,
-        "correct": 2,
-        "accuracy": 1.0
+        "correct": 0,
+        "accuracy": 0.0
       },
       "colors": {
         "total": 3,
-        "correct": 2,
-        "accuracy": 0.6666666666666666
+        "correct": 0,
+        "accuracy": 0.0
       },
       "model_codes": {
         "total": 1,
@@ -51,13 +51,13 @@
       },
       "other": {
         "total": 2,
-        "correct": 1,
-        "accuracy": 0.5
+        "correct": 0,
+        "accuracy": 0.0
       },
       "conditions": {
         "total": 1,
-        "correct": 1,
-        "accuracy": 1.0
+        "correct": 0,
+        "accuracy": 0.0
       }
     },
     "threshold_analysis": {
@@ -82,12 +82,12 @@
         "percentage": 100.0
       },
       "0.8": {
-        "count": 15,
-        "percentage": 100.0
+        "count": 7,
+        "percentage": 46.666666666666664
       },
       "0.9": {
-        "count": 15,
-        "percentage": 100.0
+        "count": 0,
+        "percentage": 0.0
       }
     }
   },
@@ -108,22 +108,22 @@
       "is_correct": false,
       "top_matches": [
         {
-          "item_id": 63,
-          "item_name": "New Condition",
-          "similarity_score": 1.6941251754760742,
-          "vector_index": 62
+          "item_id": "YxGyIhCoGGi6fsk3Beo8",
+          "item_name": "Gameboy Player",
+          "similarity_score": 0.803902804851532,
+          "vector_index": 143
         },
         {
-          "item_id": 95,
-          "item_name": "Red Color",
-          "similarity_score": 1.6768975257873535,
-          "vector_index": 94
+          "item_id": "aH9iGjlVeTjiCSWI8DIe",
+          "item_name": "Saturn",
+          "similarity_score": 0.8011245131492615,
+          "vector_index": 152
         },
         {
-          "item_id": 85,
-          "item_name": "Special Edition",
-          "similarity_score": 1.6725003719329834,
-          "vector_index": 84
+          "item_id": "eDXOwaOyWKtH2nQwCYan",
+          "item_name": "Gameboy Advance",
+          "similarity_score": 0.797642171382904,
+          "vector_index": 170
         }
       ]
     },
@@ -140,25 +140,25 @@
         "image_path": "/path/to/image1.jpg"
       },
       "ground_truth": "Controller",
-      "is_correct": true,
+      "is_correct": false,
       "top_matches": [
         {
-          "item_id": 23,
-          "item_name": "Controller",
-          "similarity_score": 2.030348539352417,
-          "vector_index": 22
+          "item_id": "YxGyIhCoGGi6fsk3Beo8",
+          "item_name": "Gameboy Player",
+          "similarity_score": 0.796343207359314,
+          "vector_index": 143
         },
         {
-          "item_id": 63,
-          "item_name": "New Condition",
-          "similarity_score": 1.5370256900787354,
-          "vector_index": 62
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.7957466840744019,
+          "vector_index": 74
         },
         {
-          "item_id": 16,
-          "item_name": "N64 Controller",
-          "similarity_score": 1.5112099647521973,
-          "vector_index": 15
+          "item_id": "aH9iGjlVeTjiCSWI8DIe",
+          "item_name": "Saturn",
+          "similarity_score": 0.7927796840667725,
+          "vector_index": 152
         }
       ]
     },
@@ -175,25 +175,25 @@
         "image_path": "/path/to/image1.jpg"
       },
       "ground_truth": "Box",
-      "is_correct": true,
+      "is_correct": false,
       "top_matches": [
         {
-          "item_id": 24,
-          "item_name": "Box",
-          "similarity_score": 2.561528205871582,
-          "vector_index": 23
+          "item_id": "YxGyIhCoGGi6fsk3Beo8",
+          "item_name": "Gameboy Player",
+          "similarity_score": 0.7962133884429932,
+          "vector_index": 143
         },
         {
-          "item_id": 88,
-          "item_name": "Complete in Box (CIB)",
-          "similarity_score": 2.1477184295654297,
-          "vector_index": 87
+          "item_id": "aH9iGjlVeTjiCSWI8DIe",
+          "item_name": "Saturn",
+          "similarity_score": 0.7916879653930664,
+          "vector_index": 152
         },
         {
-          "item_id": 92,
-          "item_name": "Black Color",
-          "similarity_score": 1.7011008262634277,
-          "vector_index": 91
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.7912864685058594,
+          "vector_index": 74
         }
       ]
     },
@@ -213,22 +213,22 @@
       "is_correct": false,
       "top_matches": [
         {
-          "item_id": 104,
-          "item_name": "ブルー",
-          "similarity_score": 2.6779651641845703,
-          "vector_index": 103
+          "item_id": "IpSmFvIFCTx0NaFFB2JW",
+          "item_name": "DRM Shell",
+          "similarity_score": 0.83245849609375,
+          "vector_index": 73
         },
         {
-          "item_id": 102,
-          "item_name": "ブラック",
-          "similarity_score": 2.6452200412750244,
-          "vector_index": 101
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.8309386968612671,
+          "vector_index": 74
         },
         {
-          "item_id": 109,
-          "item_name": "コントローラー",
-          "similarity_score": 2.629241704940796,
-          "vector_index": 108
+          "item_id": "PF6zWiWOjRxwKrmRw2oA",
+          "item_name": "R.O.B. (boxed)",
+          "similarity_score": 0.8293728232383728,
+          "vector_index": 102
         }
       ]
     },
@@ -248,22 +248,22 @@
       "is_correct": false,
       "top_matches": [
         {
-          "item_id": 104,
-          "item_name": "ブルー",
-          "similarity_score": 2.6854281425476074,
-          "vector_index": 103
+          "item_id": "YxGyIhCoGGi6fsk3Beo8",
+          "item_name": "Gameboy Player",
+          "similarity_score": 0.7882881164550781,
+          "vector_index": 143
         },
         {
-          "item_id": 109,
-          "item_name": "コントローラー",
-          "similarity_score": 2.673093318939209,
-          "vector_index": 108
+          "item_id": "oL2l1OjnB3BNLENQkoRb",
+          "item_name": "Switch",
+          "similarity_score": 0.7763898372650146,
+          "vector_index": 197
         },
         {
-          "item_id": 116,
-          "item_name": "動作確認済み",
-          "similarity_score": 2.569497585296631,
-          "vector_index": 115
+          "item_id": "eDXOwaOyWKtH2nQwCYan",
+          "item_name": "Gameboy Advance",
+          "similarity_score": 0.7740815281867981,
+          "vector_index": 170
         }
       ]
     },
@@ -283,22 +283,22 @@
       "is_correct": false,
       "top_matches": [
         {
-          "item_id": 104,
-          "item_name": "ブルー",
-          "similarity_score": 2.5406527519226074,
-          "vector_index": 103
+          "item_id": "PF6zWiWOjRxwKrmRw2oA",
+          "item_name": "R.O.B. (boxed)",
+          "similarity_score": 0.8206287622451782,
+          "vector_index": 102
         },
         {
-          "item_id": 109,
-          "item_name": "コントローラー",
-          "similarity_score": 2.513972759246826,
-          "vector_index": 108
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.8199858665466309,
+          "vector_index": 74
         },
         {
-          "item_id": 116,
-          "item_name": "動作確認済み",
-          "similarity_score": 2.45959734916687,
-          "vector_index": 115
+          "item_id": "IpSmFvIFCTx0NaFFB2JW",
+          "item_name": "DRM Shell",
+          "similarity_score": 0.8185734152793884,
+          "vector_index": 73
         }
       ]
     },
@@ -318,22 +318,22 @@
       "is_correct": true,
       "top_matches": [
         {
-          "item_id": 63,
-          "item_name": "New Condition",
-          "similarity_score": 1.8378578424453735,
-          "vector_index": 62
+          "item_id": "JNb0wUdOQTcqz5MBRtve",
+          "item_name": "N64 VRS",
+          "similarity_score": 0.7843595743179321,
+          "vector_index": 79
         },
         {
-          "item_id": 73,
-          "item_name": "For Parts",
-          "similarity_score": 1.7197742462158203,
-          "vector_index": 72
+          "item_id": "661vCTO6E1TjeJnEcxGb",
+          "item_name": "GC [DOL-001]",
+          "similarity_score": 0.7841797471046448,
+          "vector_index": 23
         },
         {
-          "item_id": 85,
-          "item_name": "Special Edition",
-          "similarity_score": 1.6436350345611572,
-          "vector_index": 84
+          "item_id": "3q8Qn0PapaacnX1DcknO",
+          "item_name": "DRM V0/2",
+          "similarity_score": 0.7763665914535522,
+          "vector_index": 15
         }
       ]
     },
@@ -353,22 +353,22 @@
       "is_correct": false,
       "top_matches": [
         {
-          "item_id": 63,
-          "item_name": "New Condition",
-          "similarity_score": 1.433100938796997,
-          "vector_index": 62
+          "item_id": "PF6zWiWOjRxwKrmRw2oA",
+          "item_name": "R.O.B. (boxed)",
+          "similarity_score": 0.7872815132141113,
+          "vector_index": 102
         },
         {
-          "item_id": 85,
-          "item_name": "Special Edition",
-          "similarity_score": 1.3998767137527466,
-          "vector_index": 84
+          "item_id": "IpSmFvIFCTx0NaFFB2JW",
+          "item_name": "DRM Shell",
+          "similarity_score": 0.7870621085166931,
+          "vector_index": 73
         },
         {
-          "item_id": 73,
-          "item_name": "For Parts",
-          "similarity_score": 1.3327707052230835,
-          "vector_index": 72
+          "item_id": "oL2l1OjnB3BNLENQkoRb",
+          "item_name": "Switch",
+          "similarity_score": 0.7861791849136353,
+          "vector_index": 197
         }
       ]
     },
@@ -385,25 +385,25 @@
         "image_path": "/path/to/image4.jpg"
       },
       "ground_truth": "Black Color",
-      "is_correct": true,
+      "is_correct": false,
       "top_matches": [
         {
-          "item_id": 92,
-          "item_name": "Black Color",
-          "similarity_score": 2.5177667140960693,
-          "vector_index": 91
+          "item_id": "PF6zWiWOjRxwKrmRw2oA",
+          "item_name": "R.O.B. (boxed)",
+          "similarity_score": 0.8152726888656616,
+          "vector_index": 102
         },
         {
-          "item_id": 91,
-          "item_name": "White Color",
-          "similarity_score": 2.229938507080078,
-          "vector_index": 90
+          "item_id": "IpSmFvIFCTx0NaFFB2JW",
+          "item_name": "DRM Shell",
+          "similarity_score": 0.8125796318054199,
+          "vector_index": 73
         },
         {
-          "item_id": 99,
-          "item_name": "Midnight Black Color",
-          "similarity_score": 2.2130625247955322,
-          "vector_index": 98
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.811890721321106,
+          "vector_index": 74
         }
       ]
     },
@@ -423,22 +423,22 @@
       "is_correct": false,
       "top_matches": [
         {
-          "item_id": 57,
-          "item_name": "Gamepad",
-          "similarity_score": 1.866927146911621,
-          "vector_index": 56
+          "item_id": "aH9iGjlVeTjiCSWI8DIe",
+          "item_name": "Saturn",
+          "similarity_score": 0.8203568458557129,
+          "vector_index": 152
         },
         {
-          "item_id": 17,
-          "item_name": "Gamecube Controller",
-          "similarity_score": 1.6309559345245361,
-          "vector_index": 16
+          "item_id": "YxGyIhCoGGi6fsk3Beo8",
+          "item_name": "Gameboy Player",
+          "similarity_score": 0.8167699575424194,
+          "vector_index": 143
         },
         {
-          "item_id": 84,
-          "item_name": "Limited Edition",
-          "similarity_score": 1.5284911394119263,
-          "vector_index": 83
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.8161091804504395,
+          "vector_index": 74
         }
       ]
     },
@@ -455,25 +455,25 @@
         "image_path": "/path/to/image5.jpg"
       },
       "ground_truth": "Blue Color",
-      "is_correct": true,
+      "is_correct": false,
       "top_matches": [
         {
-          "item_id": 94,
-          "item_name": "Blue Color",
-          "similarity_score": 2.556118965148926,
-          "vector_index": 93
+          "item_id": "YxGyIhCoGGi6fsk3Beo8",
+          "item_name": "Gameboy Player",
+          "similarity_score": 0.7940014600753784,
+          "vector_index": 143
         },
         {
-          "item_id": 92,
-          "item_name": "Black Color",
-          "similarity_score": 1.9575796127319336,
-          "vector_index": 91
+          "item_id": "aH9iGjlVeTjiCSWI8DIe",
+          "item_name": "Saturn",
+          "similarity_score": 0.7899518609046936,
+          "vector_index": 152
         },
         {
-          "item_id": 93,
-          "item_name": "Silver Color",
-          "similarity_score": 1.954660415649414,
-          "vector_index": 92
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.7881547212600708,
+          "vector_index": 74
         }
       ]
     },
@@ -490,25 +490,25 @@
         "image_path": "/path/to/image5.jpg"
       },
       "ground_truth": "Used Condition",
-      "is_correct": true,
+      "is_correct": false,
       "top_matches": [
         {
-          "item_id": 64,
-          "item_name": "Used Condition",
-          "similarity_score": 2.376936674118042,
-          "vector_index": 63
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.8102166056632996,
+          "vector_index": 74
         },
         {
-          "item_id": 63,
-          "item_name": "New Condition",
-          "similarity_score": 1.5427263975143433,
-          "vector_index": 62
+          "item_id": "YxGyIhCoGGi6fsk3Beo8",
+          "item_name": "Gameboy Player",
+          "similarity_score": 0.8090611100196838,
+          "vector_index": 143
         },
         {
-          "item_id": 59,
-          "item_name": "Case",
-          "similarity_score": 1.4723106622695923,
-          "vector_index": 58
+          "item_id": "PF6zWiWOjRxwKrmRw2oA",
+          "item_name": "R.O.B. (boxed)",
+          "similarity_score": 0.8087016344070435,
+          "vector_index": 102
         }
       ]
     },
@@ -525,25 +525,25 @@
         "image_path": "/path/to/image5.jpg"
       },
       "ground_truth": "Tested Working",
-      "is_correct": true,
+      "is_correct": false,
       "top_matches": [
         {
-          "item_id": 72,
-          "item_name": "Tested Working",
-          "similarity_score": 2.179964542388916,
-          "vector_index": 71
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.7904319167137146,
+          "vector_index": 74
         },
         {
-          "item_id": 64,
-          "item_name": "Used Condition",
-          "similarity_score": 2.0583386421203613,
-          "vector_index": 63
+          "item_id": "aH9iGjlVeTjiCSWI8DIe",
+          "item_name": "Saturn",
+          "similarity_score": 0.7897282838821411,
+          "vector_index": 152
         },
         {
-          "item_id": 63,
-          "item_name": "New Condition",
-          "similarity_score": 1.6680251359939575,
-          "vector_index": 62
+          "item_id": "PF6zWiWOjRxwKrmRw2oA",
+          "item_name": "R.O.B. (boxed)",
+          "similarity_score": 0.7875467538833618,
+          "vector_index": 102
         }
       ]
     },
@@ -560,25 +560,25 @@
         "image_path": "/path/to/image2.jpg"
       },
       "ground_truth": "Handheld Console",
-      "is_correct": true,
+      "is_correct": false,
       "top_matches": [
         {
-          "item_id": 71,
-          "item_name": "Second Hand",
-          "similarity_score": 2.295940637588501,
-          "vector_index": 70
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.821844220161438,
+          "vector_index": 74
         },
         {
-          "item_id": 61,
-          "item_name": "Touch Pen",
-          "similarity_score": 1.6582152843475342,
-          "vector_index": 60
+          "item_id": "IpSmFvIFCTx0NaFFB2JW",
+          "item_name": "DRM Shell",
+          "similarity_score": 0.8182529807090759,
+          "vector_index": 73
         },
         {
-          "item_id": 25,
-          "item_name": "Handheld Console",
-          "similarity_score": 1.5064409971237183,
-          "vector_index": 24
+          "item_id": "PF6zWiWOjRxwKrmRw2oA",
+          "item_name": "R.O.B. (boxed)",
+          "similarity_score": 0.8159970641136169,
+          "vector_index": 102
         }
       ]
     },
@@ -595,25 +595,25 @@
         "image_path": "/path/to/image2.jpg"
       },
       "ground_truth": "Charger",
-      "is_correct": true,
+      "is_correct": false,
       "top_matches": [
         {
-          "item_id": 58,
-          "item_name": "Charger",
-          "similarity_score": 1.954179048538208,
-          "vector_index": 57
+          "item_id": "PF6zWiWOjRxwKrmRw2oA",
+          "item_name": "R.O.B. (boxed)",
+          "similarity_score": 0.779751718044281,
+          "vector_index": 102
         },
         {
-          "item_id": 63,
-          "item_name": "New Condition",
-          "similarity_score": 1.844011664390564,
-          "vector_index": 62
+          "item_id": "Irh72HART2knkr1jxuG7",
+          "item_name": "Shipping Label",
+          "similarity_score": 0.7754364013671875,
+          "vector_index": 74
         },
         {
-          "item_id": 85,
-          "item_name": "Special Edition",
-          "similarity_score": 1.671038031578064,
-          "vector_index": 84
+          "item_id": "aH9iGjlVeTjiCSWI8DIe",
+          "item_name": "Saturn",
+          "similarity_score": 0.7718731164932251,
+          "vector_index": 152
         }
       ]
     }
