@@ -1,0 +1,60 @@
+# HYBRID CLASSIFICATION SYSTEM ANALYSIS REPORT
+============================================================
+Generated: 2025-09-10 17:10:30
+Total Files Analyzed: 206
+Total Detections: 703
+
+## OVERALL PERFORMANCE METRICS
+----------------------------------------
+Average Similarity Score: 0.8501
+Median Similarity Score: 0.8597
+Standard Deviation: 0.0538
+
+## SOURCE DISTRIBUTION ANALYSIS
+----------------------------------------
+vector_database: 493 detections (70.1%) - Avg Similarity: 0.8434
+itemtypes: 208 detections (29.6%) - Avg Similarity: 0.8744
+: 2 detections (0.3%) - Avg Similarity: 0.0000
+
+## TOP 10 CATEGORIES
+----------------------------------------
+Video Game Consoles: 380 detections (54.1%)
+Controllers & Attachments: 195 detections (27.7%)
+Labels: 71 detections (10.1%)
+Other Video Game Accessories: 14 detections (2.0%)
+Power Cables & Connectors: 5 detections (0.7%)
+Memory Cards & Expansion Packs: 4 detections (0.6%)
+: 2 detections (0.3%)
+Video Games: 1 detections (0.1%)
+
+## NINTENDO SWITCH ANALYSIS
+----------------------------------------
+Total Nintendo detections: 581
+Average similarity: 0.8533
+Joy-Con detections: 421
+Joy-Con average similarity: 0.8644
+
+### KEY JOY-CON IMPROVEMENTS:
+- c1186222082: 'Nintendo Game Boy Color Console' -> 'Nintendo DSi (DSi)'
+- r1172860507: 'Nintendo DS Lite Console' -> 'Nintendo DSi (DS Lite Boxed)'
+- x1190805798: 'Nintendo DS Original Console' -> 'Nintendo DS (2DS)'
+- x1190805798: 'Nintendo DS Lite Console' -> 'Nintendo DSi (DS Lite Boxed)'
+- x1190805798: 'Nintendo DS Lite Console' -> 'Nintendo DS Lite (DS Lite)'
+
+## TOP 10 BRANDS
+----------------------------------------
+Nintendo: 562 detections (79.9%)
+Sony: 102 detections (14.5%)
+Microsoft: 37 detections (5.3%)
+
+## QUALITY DISTRIBUTION
+----------------------------------------
+High Confidence (>0.85): 436 (62.0%)
+Medium Confidence (0.5-0.85): 265 (37.7%)
+Low Confidence (<0.5): 2 (0.3%)
+
+## DUAL MATCHING ANALYSIS
+----------------------------------------
+Detections with both itemtypes and vector matches: 208
+Average primary similarity: 0.8744
+Average secondary similarity: 0.8590

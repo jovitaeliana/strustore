@@ -1,0 +1,11 @@
+{
+  "total_detections": 703,
+  "avg_similarity": 0.8501398702434252,
+  "median_similarity": 0.8597055673599243,
+  "std_similarity": 0.05375176261353,
+  "itemtypes_count": 208,
+  "vector_db_count": 493,
+  "high_confidence_count": 436,
+  "nintendo_count": 581,
+  "joycon_count": 421
+}
