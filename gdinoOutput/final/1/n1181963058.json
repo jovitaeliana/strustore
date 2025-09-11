@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "STKdatHmQLwNLJXq1fxP",
+            "id": "joycon_charging_grip",
             "reference_name": "DS Lite Charger",
-            "itemtypes_name": null,
-            "category": "Power Cables & Connectors",
+            "itemtypes_name": "Joy-Con Charging Grip",
+            "category": "Controllers & Attachments",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector",
-            "vector_index": 117,
-            "embedding_norm": 0.9999999403953552,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Joy-Con Charging Grip | Nintendo Switch Joy-Con Charging Grip | Joy-Con Grip Charger | brand: Nintendo | joy-con | charging | grip | nintendo | switch | holder | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8591170310974121
+            "similarity_score": 0.8333250284194946,
+            "vector_reference_id": "STKdatHmQLwNLJXq1fxP",
+            "vector_reference_similarity": 0.8591170310974121
         }
     },
     "gdino_improved_readable": {
-        "1": "DS Lite Charger"
+        "1": "Joy-Con Charging Grip (DS Lite Charger)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8591
+        "1": 0.8333
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

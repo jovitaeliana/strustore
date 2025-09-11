@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Irh72HART2knkr1jxuG7",
+            "id": "wii_classic_controller",
             "reference_name": "Shipping Label",
-            "itemtypes_name": null,
-            "category": "Labels",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "Wii Classic Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Wii",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Wii Classic Controller | Classic Controller | Wii Classic Controller | RVL-005 | brand: Nintendo | console: Nintendo Wii | model: RVL-005 | wii | classic | controller | nintendo | rvl-005 | traditional | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.7994852066040039
+            "similarity_score": 0.7528920769691467,
+            "vector_reference_id": "Irh72HART2knkr1jxuG7",
+            "vector_reference_similarity": 0.7994852066040039
         },
         "2": {
-            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "id": "memory_card_ps2",
             "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": null,
-            "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 103,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "PlayStation 2 Memory Card",
+            "category": "Memory Cards & Expansion Packs",
+            "model": "PlayStation 2",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 2 Memory Card | PS2 Memory Card | PlayStation 2 Memory Card | SCPH-10020 | brand: Sony | console: PlayStation 2 | model: SCPH-10020 | ps2 | playstation | memory | card | sony | scph-10020 | save | category: Memory Cards & Expansion Packs",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8144538402557373
+            "similarity_score": 0.7894744277000427,
+            "vector_reference_id": "PaVQDrGaUjcYp3KPYkmN",
+            "vector_reference_similarity": 0.8144538402557373
         }
     },
     "gdino_improved_readable": {
-        "1": "Shipping Label",
-        "2": "Blue N64 Con (boxed)"
+        "1": "Wii Classic Controller (Shipping Label)",
+        "2": "PlayStation 2 Memory Card (Blue N64 Con (boxed))"
     },
     "gdino_similarity_scores": {
-        "1": 0.7995,
-        "2": 0.8145
+        "1": 0.7529,
+        "2": 0.7895
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

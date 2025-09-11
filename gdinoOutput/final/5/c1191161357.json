@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "ZBroqZgzmGouENEl1iVl",
+            "id": "nintendo_switch_pro_controller",
             "reference_name": "Switch Pro Controller",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Switch Pro Controller | id: ZBroqZgzmGouENEl1iVl | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
-            "vector_index": 146,
-            "embedding_norm": 1.0,
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8483760356903076
+            "similarity_score": 0.8701518774032593,
+            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
+            "vector_reference_similarity": 0.8483760356903076
         }
     },
     "gdino_improved_readable": {
-        "1": "Switch Pro Controller"
+        "1": "Nintendo Switch Pro Controller (Switch Pro Controller)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8484
+        "1": 0.8702
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

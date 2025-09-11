@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "YDxwch9Hzj13EqLj79f2",
+            "id": "xbox_original_controller",
             "reference_name": "Xbox 360 Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "Xbox Controller (Original)",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
-            "vector_index": 137,
-            "embedding_norm": 1.0,
-            "legacyId": "82",
-            "similarity_score": 0.8330870866775513
+            "model": "Xbox",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox Controller (Original) | Original Xbox Controller | Xbox Duke Controller | Xbox Controller S | brand: Microsoft | console: Xbox | xbox | original | controller | microsoft | duke | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8514468669891357,
+            "vector_reference_id": "YDxwch9Hzj13EqLj79f2",
+            "vector_reference_similarity": 0.8330870866775513
         },
         "3": {
-            "id": "ri7BtZBzSxWd5jRBctFM",
+            "id": "xbox_series_controller",
             "reference_name": "Xbox One",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Microsoft Xbox One",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Xbox One | id: ri7BtZBzSxWd5jRBctFM | category: Video Game Consoles | model: Microsoft Xbox One | Microsoft Xbox | Microsoft Xbox gaming product",
-            "vector_index": 206,
-            "embedding_norm": 0.9999999403953552,
+            "itemtypes_name": "Xbox Series Controller",
+            "category": "Controllers & Attachments",
+            "model": "Xbox Series X|S",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox Series Controller | Xbox Wireless Controller | Xbox Series X|S Controller | brand: Microsoft | console: Xbox Series X|S | xbox | series | controller | microsoft | wireless | x | s | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.853952169418335
+            "similarity_score": 0.8313406705856323,
+            "vector_reference_id": "ri7BtZBzSxWd5jRBctFM",
+            "vector_reference_similarity": 0.853952169418335
         }
     },
     "gdino_improved_readable": {
-        "1": "Xbox 360 Con",
-        "3": "Xbox One"
+        "1": "Xbox Controller (Original) (Xbox 360 Con)",
+        "3": "Xbox Series Controller (Xbox One)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8331,
-        "3": 0.854
+        "1": 0.8514,
+        "3": 0.8313
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

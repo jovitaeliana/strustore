@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "kcyOqlpSjOxpv9ZpONeh",
+            "id": "xbox_360_controller",
             "reference_name": "Xbox 360",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Microsoft Xbox 360",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Xbox 360 | id: kcyOqlpSjOxpv9ZpONeh | category: Video Game Consoles | model: Microsoft Xbox 360 | Microsoft Xbox | Microsoft Xbox gaming product",
-            "vector_index": 189,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "Xbox 360 Controller",
+            "category": "Controllers & Attachments",
+            "model": "Xbox 360",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox 360 Controller | Xbox 360 Wireless Controller | Xbox 360 Wired Controller | brand: Microsoft | console: Xbox 360 | xbox | 360 | controller | microsoft | wireless | wired | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8541889190673828
+            "similarity_score": 0.8715129494667053,
+            "vector_reference_id": "kcyOqlpSjOxpv9ZpONeh",
+            "vector_reference_similarity": 0.8541889190673828
         }
     },
     "gdino_improved_readable": {
-        "1": "Xbox 360"
+        "1": "Xbox 360 Controller (Xbox 360)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8542
+        "1": 0.8715
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

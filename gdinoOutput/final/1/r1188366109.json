@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "STKdatHmQLwNLJXq1fxP",
+            "id": "nintendo_ds",
             "reference_name": "DS Lite Charger",
-            "itemtypes_name": null,
-            "category": "Power Cables & Connectors",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector",
-            "vector_index": 117,
-            "embedding_norm": 0.9999999403953552,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo DS | DS | Nintendo DS | NTR-001 | brand: Nintendo | model: NTR-001 | nintendo | ds | ntr-001 | handheld | dual | screen | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8550240397453308
+            "similarity_score": 0.8321952819824219,
+            "vector_reference_id": "STKdatHmQLwNLJXq1fxP",
+            "vector_reference_similarity": 0.8550240397453308
         }
     },
     "gdino_improved_readable": {
-        "1": "DS Lite Charger"
+        "1": "Nintendo DS (DS Lite Charger)"
     },
     "gdino_similarity_scores": {
-        "1": 0.855
+        "1": 0.8322
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

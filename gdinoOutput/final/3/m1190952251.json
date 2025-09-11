@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "eDXOwaOyWKtH2nQwCYan",
+            "id": "game_boy_advance",
             "reference_name": "Gameboy Advance",
-            "itemtypes_name": null,
+            "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Gameboy Advance | id: eDXOwaOyWKtH2nQwCYan | category: Video Game Consoles",
-            "vector_index": 170,
-            "embedding_norm": 0.9999999403953552,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Game Boy Advance | GBA | Game Boy Advance | AGB-001 | brand: Nintendo | model: AGB-001 | game | boy | advance | gba | nintendo | agb-001 | handheld | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8715695738792419
+            "similarity_score": 0.8722761273384094,
+            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
+            "vector_reference_similarity": 0.8715695738792419
         }
     },
     "gdino_improved_readable": {
-        "1": "Gameboy Advance"
+        "1": "Game Boy Advance (Gameboy Advance)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8716
+        "1": 0.8723
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

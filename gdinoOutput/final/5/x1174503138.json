@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "ST8yllzbAiBh5De8O8kP",
+            "id": "wii_u_gamepad",
             "reference_name": "Wii U Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "Wii U GamePad",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Wii U Con | id: ST8yllzbAiBh5De8O8kP | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 116,
-            "embedding_norm": 1.0,
+            "model": "Nintendo Wii U",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Wii U GamePad | GamePad | Wii U GamePad Controller | WUP-010 | brand: Nintendo | console: Nintendo Wii U | model: WUP-010 | wii | u | gamepad | nintendo | wup-010 | tablet | screen | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8389971852302551
+            "similarity_score": 0.8473057746887207,
+            "vector_reference_id": "ST8yllzbAiBh5De8O8kP",
+            "vector_reference_similarity": 0.8389971852302551
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii U Con"
+        "1": "Wii U GamePad (Wii U Con)"
     },
     "gdino_similarity_scores": {
-        "1": 0.839
+        "1": 0.8473
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

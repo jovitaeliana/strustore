@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Irh72HART2knkr1jxuG7",
+            "id": "wii_nunchuk_controller",
             "reference_name": "Shipping Label",
-            "itemtypes_name": null,
-            "category": "Labels",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "Wii Nunchuk Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Wii",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Wii Nunchuk Controller | Nunchuk | Wii Nunchuk | RVL-004 | brand: Nintendo | console: Nintendo Wii | model: RVL-004 | wii | nunchuk | nintendo | rvl-004 | analog | attachment | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8122446537017822
+            "similarity_score": 0.7604065537452698,
+            "vector_reference_id": "Irh72HART2knkr1jxuG7",
+            "vector_reference_similarity": 0.8122446537017822
         }
     },
     "gdino_improved_readable": {
-        "1": "Shipping Label"
+        "1": "Wii Nunchuk Controller (Shipping Label)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8122
+        "1": 0.7604
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

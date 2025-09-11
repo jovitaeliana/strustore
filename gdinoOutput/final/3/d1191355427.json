@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Irh72HART2knkr1jxuG7",
+            "id": "nintendo_64_fishing_controller",
             "reference_name": "Shipping Label",
-            "itemtypes_name": null,
-            "category": "Labels",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "Nintendo 64 Fishing Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo 64",
+            "brand": "ASCII",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo 64 Fishing Controller | N64 Fishing Controller | ASCII Fishing Controller | Fishing Reel Controller | brand: ASCII | console: Nintendo 64 | n64 | nintendo | 64 | fishing | controller | ascii | reel | specialty | bass | angler | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8001536726951599
+            "similarity_score": 0.7707939147949219,
+            "vector_reference_id": "Irh72HART2knkr1jxuG7",
+            "vector_reference_similarity": 0.8001536726951599
         },
         "2": {
-            "id": "eDXOwaOyWKtH2nQwCYan",
+            "id": "game_boy_advance_sp",
             "reference_name": "Gameboy Advance",
-            "itemtypes_name": null,
+            "itemtypes_name": "Game Boy Advance SP",
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Gameboy Advance | id: eDXOwaOyWKtH2nQwCYan | category: Video Game Consoles",
-            "vector_index": 170,
-            "embedding_norm": 0.9999999403953552,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Game Boy Advance SP | GBA SP | Game Boy Advance SP | AGS-001 | AGS-101 | brand: Nintendo | model: AGS-001 | model: AGS-101 | game | boy | advance | sp | gba | nintendo | ags-001 | ags-101 | backlit | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8367404341697693
+            "similarity_score": 0.8637568950653076,
+            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
+            "vector_reference_similarity": 0.8367404341697693
         }
     },
     "gdino_improved_readable": {
-        "1": "Shipping Label",
-        "2": "Gameboy Advance"
+        "1": "Nintendo 64 Fishing Controller (Shipping Label)",
+        "2": "Game Boy Advance SP (Gameboy Advance)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8002,
-        "2": 0.8367
+        "1": 0.7708,
+        "2": 0.8638
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

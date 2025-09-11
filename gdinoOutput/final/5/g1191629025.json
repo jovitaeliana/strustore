@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "QvUB8tHBNDmkwWhylwa5",
+            "id": "playstation_3_dualshock_3",
             "reference_name": "PS3 Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "PS3 Con | id: QvUB8tHBNDmkwWhylwa5 | category: Controllers & Attachments | PlayStation 3 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 109,
-            "embedding_norm": 1.0,
-            "legacyId": "27",
-            "similarity_score": 0.8501076698303223
+            "model": "PlayStation 3",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8707385063171387,
+            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
+            "vector_reference_similarity": 0.8501076698303223
         },
         "2": {
-            "id": "QvUB8tHBNDmkwWhylwa5",
+            "id": "playstation_3_dualshock_3",
             "reference_name": "PS3 Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "PS3 Con | id: QvUB8tHBNDmkwWhylwa5 | category: Controllers & Attachments | PlayStation 3 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 109,
-            "embedding_norm": 1.0,
-            "legacyId": "27",
-            "similarity_score": 0.8411650657653809
+            "model": "PlayStation 3",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8475035429000854,
+            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
+            "vector_reference_similarity": 0.8411650657653809
         }
     },
     "gdino_improved_readable": {
-        "1": "PS3 Con",
-        "2": "PS3 Con"
+        "1": "PlayStation 3 DualShock 3 (PS3 Con)",
+        "2": "PlayStation 3 DualShock 3 (PS3 Con)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8501,
-        "2": 0.8412
+        "1": 0.8707,
+        "2": 0.8475
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

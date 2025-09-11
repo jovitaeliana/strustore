@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Ng8nNXvI76XstlkIMh9s",
+            "id": "nes_controller",
             "reference_name": "Pop'n Music Pad",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Entertainment System Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Pop'n Music Pad | id: Ng8nNXvI76XstlkIMh9s | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 95,
-            "embedding_norm": 1.0,
-            "legacyId": "158",
-            "similarity_score": 0.8602361679077148
+            "model": "Nintendo Entertainment System",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Entertainment System Controller | NES Controller | Nintendo NES Controller | Famicom Controller | Classic Controller | brand: Nintendo | console: Nintendo Entertainment System | model: NES-004 | nes | nintendo | controller | classic | entertainment | system | famicom | retro | rectangular | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8297123908996582,
+            "vector_reference_id": "Ng8nNXvI76XstlkIMh9s",
+            "vector_reference_similarity": 0.8602361679077148
         }
     },
     "gdino_improved_readable": {
-        "1": "Pop'n Music Pad"
+        "1": "Nintendo Entertainment System Controller (Pop'n Music Pad)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8602
+        "1": 0.8297
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

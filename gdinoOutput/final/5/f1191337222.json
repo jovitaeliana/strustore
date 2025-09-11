@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "661vCTO6E1TjeJnEcxGb",
+            "id": "gamecube_controller",
             "reference_name": "GC [DOL-001]",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "DOL-001",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "GC [DOL-001] | id: 661vCTO6E1TjeJnEcxGb | category: Video Game Consoles | model: DOL-001 | GameCube",
-            "vector_index": 23,
-            "embedding_norm": 1.0,
-            "legacyId": "58",
-            "similarity_score": 0.8577007055282593
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8796243071556091,
+            "vector_reference_id": "661vCTO6E1TjeJnEcxGb",
+            "vector_reference_similarity": 0.8577007055282593
         },
         "2": {
-            "id": "NmqlKnIQH4m6NTtCEMAI",
+            "id": "gamecube_controller",
             "reference_name": "GC [DOL-101]",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "DOL-101",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "GC [DOL-101] | id: NmqlKnIQH4m6NTtCEMAI | category: Video Game Consoles | model: DOL-101 | GameCube",
-            "vector_index": 97,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "GameCube Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8478140830993652
+            "similarity_score": 0.8638629913330078,
+            "vector_reference_id": "NmqlKnIQH4m6NTtCEMAI",
+            "vector_reference_similarity": 0.8478140830993652
         }
     },
     "gdino_improved_readable": {
-        "1": "GC [DOL-001]",
-        "2": "GC [DOL-101]"
+        "1": "GameCube Controller (GC [DOL-001])",
+        "2": "GameCube Controller (GC [DOL-101])"
     },
     "gdino_similarity_scores": {
-        "1": 0.8577,
-        "2": 0.8478
+        "1": 0.8796,
+        "2": 0.8639
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

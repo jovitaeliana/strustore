@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "fPlmsqNzKxyVjqsEmulZ",
+            "id": "gamecube_controller",
             "reference_name": "GC DK Bongos",
-            "itemtypes_name": null,
+            "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "GC DK Bongos | id: fPlmsqNzKxyVjqsEmulZ | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
-            "vector_index": 174,
-            "embedding_norm": 1.0,
+            "model": "Nintendo GameCube",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8434299230575562
+            "similarity_score": 0.8530524373054504,
+            "vector_reference_id": "fPlmsqNzKxyVjqsEmulZ",
+            "vector_reference_similarity": 0.8434299230575562
         }
     },
     "gdino_improved_readable": {
-        "1": "GC DK Bongos"
+        "1": "GameCube Controller (GC DK Bongos)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8434
+        "1": 0.8531
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

@@ -11,57 +11,63 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "id": "nintendo_dsi",
             "reference_name": "DS Lite Boxed",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo DSi",
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 110,
-            "embedding_norm": 0.9999999403953552,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo DSi | DSi | Nintendo DSi | TWL-001 | brand: Nintendo | model: TWL-001 | nintendo | dsi | twl-001 | handheld | camera | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8477092981338501
+            "similarity_score": 0.8515480756759644,
+            "vector_reference_id": "RA1sLo6TzHsbRjgqZMHq",
+            "vector_reference_similarity": 0.8477092981338501
         },
         "2": {
-            "id": "GgWTR9QoWKoUkJ3kr5ga",
+            "id": "nintendo_dsi",
             "reference_name": "DSi",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo DSi",
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
-            "vector_index": 66,
-            "embedding_norm": 1.0,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo DSi | DSi | Nintendo DSi | TWL-001 | brand: Nintendo | model: TWL-001 | nintendo | dsi | twl-001 | handheld | camera | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8375545740127563
+            "similarity_score": 0.8211318254470825,
+            "vector_reference_id": "GgWTR9QoWKoUkJ3kr5ga",
+            "vector_reference_similarity": 0.8375545740127563
         },
         "3": {
-            "id": "STKdatHmQLwNLJXq1fxP",
+            "id": "nintendo_switch_ac_adapter",
             "reference_name": "DS Lite Charger",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Switch AC Adapter",
             "category": "Power Cables & Connectors",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector",
-            "vector_index": 117,
-            "embedding_norm": 0.9999999403953552,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch AC Adapter | Switch AC Adapter | Nintendo Switch Power Adapter | Switch Charger | brand: Nintendo | nintendo | switch | ac | adapter | power | charger | cable | category: Power Cables & Connectors",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.7998563051223755
+            "similarity_score": 0.7823550701141357,
+            "vector_reference_id": "STKdatHmQLwNLJXq1fxP",
+            "vector_reference_similarity": 0.7998563051223755
         }
     },
     "gdino_improved_readable": {
-        "1": "DS Lite Boxed",
-        "2": "DSi",
-        "3": "DS Lite Charger"
+        "1": "Nintendo DSi (DS Lite Boxed)",
+        "2": "Nintendo DSi (DSi)",
+        "3": "Nintendo Switch AC Adapter (DS Lite Charger)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8477,
-        "2": 0.8376,
-        "3": 0.7999
+        "1": 0.8515,
+        "2": 0.8211,
+        "3": 0.7824
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

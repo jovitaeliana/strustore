@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "id": "nintendo_3ds_xl",
             "reference_name": "R.O.B. (boxed)",
-            "itemtypes_name": null,
-            "category": null,
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.7723013162612915
-        },
-        "2": {
-            "id": "eDXOwaOyWKtH2nQwCYan",
-            "reference_name": "Gameboy Advance",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo 3DS XL",
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Gameboy Advance | id: eDXOwaOyWKtH2nQwCYan | category: Video Game Consoles",
-            "vector_index": 170,
-            "embedding_norm": 0.9999999403953552,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo 3DS XL | 3DS XL | Nintendo 3DS XL | SPR-001 | brand: Nintendo | model: SPR-001 | nintendo | 3ds | xl | spr-001 | handheld | large | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8058132529258728
+            "similarity_score": 0.7616010904312134,
+            "vector_reference_id": "PF6zWiWOjRxwKrmRw2oA",
+            "vector_reference_similarity": 0.7723013162612915
+        },
+        "2": {
+            "id": "nintendo_3ds_xl",
+            "reference_name": "Gameboy Advance",
+            "itemtypes_name": "Nintendo 3DS XL",
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo 3DS XL | 3DS XL | Nintendo 3DS XL | SPR-001 | brand: Nintendo | model: SPR-001 | nintendo | 3ds | xl | spr-001 | handheld | large | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.7771811485290527,
+            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
+            "vector_reference_similarity": 0.8058132529258728
         }
     },
     "gdino_improved_readable": {
-        "1": "R.O.B. (boxed)",
-        "2": "Gameboy Advance"
+        "1": "Nintendo 3DS XL (R.O.B. (boxed))",
+        "2": "Nintendo 3DS XL (Gameboy Advance)"
     },
     "gdino_similarity_scores": {
-        "1": 0.7723,
-        "2": 0.8058
+        "1": 0.7616,
+        "2": 0.7772
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

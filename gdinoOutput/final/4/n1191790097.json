@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "sopGAgdK3BME51HDaWjU",
+            "id": "nintendo_switch_joycon_left",
             "reference_name": "SFC SGB",
-            "itemtypes_name": null,
-            "category": "Other Video Game Accessories",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "SFC SGB | id: sopGAgdK3BME51HDaWjU | category: Other Video Game Accessories",
-            "vector_index": 211,
-            "embedding_norm": 1.0,
-            "legacyId": "49",
-            "similarity_score": 0.7960696220397949
+            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con (L) | Joy-Con (L) | Left Joy-Con | Nintendo Switch Joy-Con Left | Joy-Con Left Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | left | nintendo | switch | controller | l | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.7702122330665588,
+            "vector_reference_id": "sopGAgdK3BME51HDaWjU",
+            "vector_reference_similarity": 0.7960696220397949
         }
     },
     "gdino_improved_readable": {
-        "1": "SFC SGB"
+        "1": "Nintendo Switch Joy-Con (L) (SFC SGB)"
     },
     "gdino_similarity_scores": {
-        "1": 0.7961
+        "1": 0.7702
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

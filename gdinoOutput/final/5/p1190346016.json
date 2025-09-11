@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "lWdyGHaGwvl7DvLjqmKk",
+            "id": "nintendo_switch_pro_controller",
             "reference_name": "Capcom CPS Fighter",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Capcom CPS Fighter | id: lWdyGHaGwvl7DvLjqmKk | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 192,
-            "embedding_norm": 0.9999999403953552,
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8431916236877441
+            "similarity_score": 0.830034613609314,
+            "vector_reference_id": "lWdyGHaGwvl7DvLjqmKk",
+            "vector_reference_similarity": 0.8431916236877441
         },
         "2": {
-            "id": "Ng8nNXvI76XstlkIMh9s",
+            "id": "nintendo_switch_pro_controller",
             "reference_name": "Pop'n Music Pad",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Pop'n Music Pad | id: Ng8nNXvI76XstlkIMh9s | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 95,
-            "embedding_norm": 1.0,
-            "legacyId": "158",
-            "similarity_score": 0.8369605541229248
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8238413333892822,
+            "vector_reference_id": "Ng8nNXvI76XstlkIMh9s",
+            "vector_reference_similarity": 0.8369605541229248
         }
     },
     "gdino_improved_readable": {
-        "1": "Capcom CPS Fighter",
-        "2": "Pop'n Music Pad"
+        "1": "Nintendo Switch Pro Controller (Capcom CPS Fighter)",
+        "2": "Nintendo Switch Pro Controller (Pop'n Music Pad)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8432,
-        "2": 0.837
+        "1": 0.83,
+        "2": 0.8238
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

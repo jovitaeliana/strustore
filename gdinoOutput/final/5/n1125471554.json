@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "boP0HPaJuFshEG2KxH6X",
+            "id": "playstation_1_analog_controller",
             "reference_name": "Hori Compact Joystick",
-            "itemtypes_name": null,
+            "itemtypes_name": "PlayStation 1 Analog Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 157,
-            "embedding_norm": 1.0,
+            "model": "PlayStation",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 1 Analog Controller | PS1 Analog Controller | PlayStation Analog Joystick | SCPH-1150 | SCPH-1180 | brand: Sony | console: PlayStation | model: SCPH-1150 | model: SCPH-1180 | model: SCPH-1200 | ps1 | playstation | analog | controller | sony | scph-1150 | scph-1180 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.898646891117096
+            "similarity_score": 0.8439915776252747,
+            "vector_reference_id": "boP0HPaJuFshEG2KxH6X",
+            "vector_reference_similarity": 0.898646891117096
         }
     },
     "gdino_improved_readable": {
-        "1": "Hori Compact Joystick"
+        "1": "PlayStation 1 Analog Controller (Hori Compact Joystick)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8986
+        "1": 0.844
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

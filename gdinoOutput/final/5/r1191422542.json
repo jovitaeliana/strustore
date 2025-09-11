@@ -9,18 +9,20 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "eMSVGJBsZcjgJw5HMC1t",
+            "id": "playstation_1_analog_controller",
             "reference_name": "Luigi Wheel",
-            "itemtypes_name": null,
+            "itemtypes_name": "PlayStation 1 Analog Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Luigi Wheel | id: eMSVGJBsZcjgJw5HMC1t | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 171,
-            "embedding_norm": 1.0,
-            "legacyId": "64",
-            "similarity_score": 0.8072509765625
+            "model": "PlayStation",
+            "brand": "Sony",
+            "source": "itemtypes",
+            "contextual_text": "PlayStation 1 Analog Controller | PS1 Analog Controller | PlayStation Analog Joystick | SCPH-1150 | SCPH-1180 | brand: Sony | console: PlayStation | model: SCPH-1150 | model: SCPH-1180 | model: SCPH-1200 | ps1 | playstation | analog | controller | sony | scph-1150 | scph-1180 | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.7759425044059753,
+            "vector_reference_id": "eMSVGJBsZcjgJw5HMC1t",
+            "vector_reference_similarity": 0.8072509765625
         },
         "2": {
             "id": "No Match",
@@ -38,11 +40,11 @@
         }
     },
     "gdino_improved_readable": {
-        "1": "Luigi Wheel",
+        "1": "PlayStation 1 Analog Controller (Luigi Wheel)",
         "2": "No Match"
     },
     "gdino_similarity_scores": {
-        "1": 0.8073,
+        "1": 0.7759,
         "2": 0.0
     },
     "gdino_classification_metadata": {

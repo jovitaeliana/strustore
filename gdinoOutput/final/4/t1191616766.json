@@ -11,57 +11,63 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
+            "id": "nintendo_switch_console",
             "reference_name": "Switch",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Switch Console",
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
-            "embedding_norm": 1.0,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Console | Nintendo Switch | Switch Console | Nintendo Switch (2017) | Switch HAC-001 | brand: Nintendo | model: HAC-001 | model: HAC-001(-01) | nintendo | switch | console | hac-001 | handheld | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8198755979537964
+            "similarity_score": 0.8161240816116333,
+            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
+            "vector_reference_similarity": 0.8198755979537964
         },
         "2": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
+            "id": "nintendo_switch_dock",
             "reference_name": "Switch",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "itemtypes_name": "Nintendo Switch Dock",
+            "category": "Other Video Game Accessories",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
-            "embedding_norm": 1.0,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Dock | Switch Dock | Nintendo Switch Dock Station | Docking Station | brand: Nintendo | nintendo | switch | dock | station | tv | hdmi | category: Other Video Game Accessories",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8225780725479126
+            "similarity_score": 0.8613782525062561,
+            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
+            "vector_reference_similarity": 0.8225780725479126
         },
         "3": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
+            "id": "nintendo_switch_joycon_pair",
             "reference_name": "Switch",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8319000005722046
+            "similarity_score": 0.8340007066726685,
+            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
+            "vector_reference_similarity": 0.8319000005722046
         }
     },
     "gdino_improved_readable": {
-        "1": "Switch",
-        "2": "Switch",
-        "3": "Switch"
+        "1": "Nintendo Switch Console (Switch)",
+        "2": "Nintendo Switch Dock (Switch)",
+        "3": "Nintendo Switch Joy-Con Pair (Switch)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8199,
-        "2": 0.8226,
-        "3": 0.8319
+        "1": 0.8161,
+        "2": 0.8614,
+        "3": 0.834
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

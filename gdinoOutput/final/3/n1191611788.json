@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "eDXOwaOyWKtH2nQwCYan",
+            "id": "game_boy_advance_sp",
             "reference_name": "Gameboy Advance",
-            "itemtypes_name": null,
+            "itemtypes_name": "Game Boy Advance SP",
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Gameboy Advance | id: eDXOwaOyWKtH2nQwCYan | category: Video Game Consoles",
-            "vector_index": 170,
-            "embedding_norm": 0.9999999403953552,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Game Boy Advance SP | GBA SP | Game Boy Advance SP | AGS-001 | AGS-101 | brand: Nintendo | model: AGS-001 | model: AGS-101 | game | boy | advance | sp | gba | nintendo | ags-001 | ags-101 | backlit | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8440734148025513
+            "similarity_score": 0.8730575442314148,
+            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
+            "vector_reference_similarity": 0.8440734148025513
         }
     },
     "gdino_improved_readable": {
-        "1": "Gameboy Advance"
+        "1": "Game Boy Advance SP (Gameboy Advance)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8441
+        "1": 0.8731
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

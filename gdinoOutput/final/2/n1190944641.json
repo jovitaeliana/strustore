@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "y94oJNaPD2VI2396Pq3m",
+            "id": "nes_controller",
             "reference_name": "Wii Classic Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Entertainment System Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 227,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "146",
-            "similarity_score": 0.844387412071228
+            "model": "Nintendo Entertainment System",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Entertainment System Controller | NES Controller | Nintendo NES Controller | Famicom Controller | Classic Controller | brand: Nintendo | console: Nintendo Entertainment System | model: NES-004 | nes | nintendo | controller | classic | entertainment | system | famicom | retro | rectangular | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8802053928375244,
+            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
+            "vector_reference_similarity": 0.844387412071228
         },
         "2": {
-            "id": "y94oJNaPD2VI2396Pq3m",
+            "id": "nes_controller",
             "reference_name": "Wii Classic Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Entertainment System Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 227,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "146",
-            "similarity_score": 0.8430629968643188
+            "model": "Nintendo Entertainment System",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Entertainment System Controller | NES Controller | Nintendo NES Controller | Famicom Controller | Classic Controller | brand: Nintendo | console: Nintendo Entertainment System | model: NES-004 | nes | nintendo | controller | classic | entertainment | system | famicom | retro | rectangular | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8859337568283081,
+            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
+            "vector_reference_similarity": 0.8430629968643188
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Classic Con",
-        "2": "Wii Classic Con"
+        "1": "Nintendo Entertainment System Controller (Wii Classic Con)",
+        "2": "Nintendo Entertainment System Controller (Wii Classic Con)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8444,
-        "2": 0.8431
+        "1": 0.8802,
+        "2": 0.8859
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

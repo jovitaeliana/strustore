@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "boP0HPaJuFshEG2KxH6X",
+            "id": "nintendo_switch_pro_controller",
             "reference_name": "Hori Compact Joystick",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 157,
-            "embedding_norm": 1.0,
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8587797284126282
+            "similarity_score": 0.8191448450088501,
+            "vector_reference_id": "boP0HPaJuFshEG2KxH6X",
+            "vector_reference_similarity": 0.8587797284126282
         },
         "2": {
-            "id": "L5oyhMGV3FLMdGhpYpvA",
+            "id": "wii_remote_controller",
             "reference_name": "DRM Power Cord",
-            "itemtypes_name": null,
-            "category": "Power Cables & Connectors",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DRM Power Cord | id: L5oyhMGV3FLMdGhpYpvA | category: Power Cables & Connectors | power supply cable | electrical connector",
-            "vector_index": 87,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "Wii Remote Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Wii",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Wii Remote Controller | Wii Remote | Wiimote | RVL-003 | brand: Nintendo | console: Nintendo Wii | model: RVL-003 | wii | remote | wiimote | nintendo | rvl-003 | motion | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.7893552780151367
+            "similarity_score": 0.757048487663269,
+            "vector_reference_id": "L5oyhMGV3FLMdGhpYpvA",
+            "vector_reference_similarity": 0.7893552780151367
         }
     },
     "gdino_improved_readable": {
-        "1": "Hori Compact Joystick",
-        "2": "DRM Power Cord"
+        "1": "Nintendo Switch Pro Controller (Hori Compact Joystick)",
+        "2": "Wii Remote Controller (DRM Power Cord)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8588,
-        "2": 0.7894
+        "1": 0.8191,
+        "2": 0.757
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

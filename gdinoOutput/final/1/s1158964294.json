@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
+            "id": "nintendo_entertainment_system",
             "reference_name": "Gameboy Player",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Entertainment System",
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
-            "embedding_norm": 1.0,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Entertainment System | NES | Nintendo Entertainment System | Famicom | Nintendo Famicom | brand: Nintendo | model: NES-001 | model: HVC-001 | nes | nintendo | entertainment | system | famicom | classic | retro | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8072991967201233
+            "similarity_score": 0.796083390712738,
+            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
+            "vector_reference_similarity": 0.8072991967201233
         },
         "2": {
-            "id": "sopGAgdK3BME51HDaWjU",
+            "id": "nintendo_ds",
             "reference_name": "SFC SGB",
-            "itemtypes_name": null,
-            "category": "Other Video Game Accessories",
+            "itemtypes_name": "Nintendo DS",
+            "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "SFC SGB | id: sopGAgdK3BME51HDaWjU | category: Other Video Game Accessories",
-            "vector_index": 211,
-            "embedding_norm": 1.0,
-            "legacyId": "49",
-            "similarity_score": 0.7921842336654663
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo DS | DS | Nintendo DS | NTR-001 | brand: Nintendo | model: NTR-001 | nintendo | ds | ntr-001 | handheld | dual | screen | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.7789679765701294,
+            "vector_reference_id": "sopGAgdK3BME51HDaWjU",
+            "vector_reference_similarity": 0.7921842336654663
         }
     },
     "gdino_improved_readable": {
-        "1": "Gameboy Player",
-        "2": "SFC SGB"
+        "1": "Nintendo Entertainment System (Gameboy Player)",
+        "2": "Nintendo DS (SFC SGB)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8073,
-        "2": 0.7922
+        "1": 0.7961,
+        "2": 0.779
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "cVUvSD1xHC978Kx7GlzU",
+            "id": "wii_remote_controller",
             "reference_name": "Wii Sensor Bar",
-            "itemtypes_name": null,
-            "category": "Other Video Game Accessories",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Wii Sensor Bar | id: cVUvSD1xHC978Kx7GlzU | category: Other Video Game Accessories | Nintendo Wii",
-            "vector_index": 162,
-            "embedding_norm": 1.0,
+            "itemtypes_name": "Wii Remote Controller",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Wii",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Wii Remote Controller | Wii Remote | Wiimote | RVL-003 | brand: Nintendo | console: Nintendo Wii | model: RVL-003 | wii | remote | wiimote | nintendo | rvl-003 | motion | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.7942291498184204
+            "similarity_score": 0.7890479564666748,
+            "vector_reference_id": "cVUvSD1xHC978Kx7GlzU",
+            "vector_reference_similarity": 0.7942291498184204
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Sensor Bar"
+        "1": "Wii Remote Controller (Wii Sensor Bar)"
     },
     "gdino_similarity_scores": {
-        "1": 0.7942
+        "1": 0.789
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

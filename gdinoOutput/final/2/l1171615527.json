@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "id": "nintendo_entertainment_system",
             "reference_name": "SFC",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Entertainment System",
             "category": "Video Game Consoles",
-            "model": "Super Famicom",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
-            "vector_index": 101,
-            "embedding_norm": 1.0,
+            "model": "",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Entertainment System | NES | Nintendo Entertainment System | Famicom | Nintendo Famicom | brand: Nintendo | model: NES-001 | model: HVC-001 | nes | nintendo | entertainment | system | famicom | classic | retro | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8379896283149719
+            "similarity_score": 0.8680152893066406,
+            "vector_reference_id": "OvnaIjSBeoFBsRS0Y6GI",
+            "vector_reference_similarity": 0.8379896283149719
         }
     },
     "gdino_improved_readable": {
-        "1": "SFC"
+        "1": "Nintendo Entertainment System (SFC)"
     },
     "gdino_similarity_scores": {
-        "1": 0.838
+        "1": 0.868
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

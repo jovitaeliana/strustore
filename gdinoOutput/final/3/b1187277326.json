@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "y94oJNaPD2VI2396Pq3m",
+            "id": "nes_controller",
             "reference_name": "Wii Classic Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Entertainment System Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 227,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "146",
-            "similarity_score": 0.8295242190361023
+            "model": "Nintendo Entertainment System",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Entertainment System Controller | NES Controller | Nintendo NES Controller | Famicom Controller | Classic Controller | brand: Nintendo | console: Nintendo Entertainment System | model: NES-004 | nes | nintendo | controller | classic | entertainment | system | famicom | retro | rectangular | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8532590270042419,
+            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
+            "vector_reference_similarity": 0.8295242190361023
         },
         "2": {
-            "id": "dCgppzGDzN4lB4HOyrha",
+            "id": "nes_controller",
             "reference_name": "N64 ASCII Fishing Reels",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Entertainment System Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "N64 ASCII Fishing Reels | id: dCgppzGDzN4lB4HOyrha | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 165,
-            "embedding_norm": 0.9999999403953552,
+            "model": "Nintendo Entertainment System",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Entertainment System Controller | NES Controller | Nintendo NES Controller | Famicom Controller | Classic Controller | brand: Nintendo | console: Nintendo Entertainment System | model: NES-004 | nes | nintendo | controller | classic | entertainment | system | famicom | retro | rectangular | gamepad | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8267078399658203
+            "similarity_score": 0.852469801902771,
+            "vector_reference_id": "dCgppzGDzN4lB4HOyrha",
+            "vector_reference_similarity": 0.8267078399658203
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Classic Con",
-        "2": "N64 ASCII Fishing Reels"
+        "1": "Nintendo Entertainment System Controller (Wii Classic Con)",
+        "2": "Nintendo Entertainment System Controller (N64 ASCII Fishing Reels)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8295,
-        "2": 0.8267
+        "1": 0.8533,
+        "2": 0.8525
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

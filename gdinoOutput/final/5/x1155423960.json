@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "HNljomQEwfkntYmDylny",
+            "id": "wii_u_gamepad",
             "reference_name": "Switch Pokèball",
-            "itemtypes_name": null,
+            "itemtypes_name": "Wii U GamePad",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
-            "vector_index": 70,
-            "embedding_norm": 1.0,
-            "legacyId": "127",
-            "similarity_score": 0.8377863168716431
+            "model": "Nintendo Wii U",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Wii U GamePad | GamePad | Wii U GamePad Controller | WUP-010 | brand: Nintendo | console: Nintendo Wii U | model: WUP-010 | wii | u | gamepad | nintendo | wup-010 | tablet | screen | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8357555270195007,
+            "vector_reference_id": "HNljomQEwfkntYmDylny",
+            "vector_reference_similarity": 0.8377863168716431
         },
         "2": {
-            "id": "MVic11qQbvgEP3xjwveL",
+            "id": "wii_u_gamepad",
             "reference_name": "Wii U AC Adapter WUP-002",
-            "itemtypes_name": null,
-            "category": "Power Cables & Connectors",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Wii U AC Adapter WUP-002 | id: MVic11qQbvgEP3xjwveL | category: Power Cables & Connectors | Nintendo Wii | power supply cable | electrical connector",
-            "vector_index": 90,
-            "embedding_norm": 0.9999999403953552,
+            "itemtypes_name": "Wii U GamePad",
+            "category": "Controllers & Attachments",
+            "model": "Nintendo Wii U",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Wii U GamePad | GamePad | Wii U GamePad Controller | WUP-010 | brand: Nintendo | console: Nintendo Wii U | model: WUP-010 | wii | u | gamepad | nintendo | wup-010 | tablet | screen | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8501853942871094
+            "similarity_score": 0.8464458584785461,
+            "vector_reference_id": "MVic11qQbvgEP3xjwveL",
+            "vector_reference_similarity": 0.8501853942871094
         }
     },
     "gdino_improved_readable": {
-        "1": "Switch Pokèball",
-        "2": "Wii U AC Adapter WUP-002"
+        "1": "Wii U GamePad (Switch Pokèball)",
+        "2": "Wii U GamePad (Wii U AC Adapter WUP-002)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8378,
-        "2": 0.8502
+        "1": 0.8358,
+        "2": 0.8464
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

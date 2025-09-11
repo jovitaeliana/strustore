@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "YDxwch9Hzj13EqLj79f2",
+            "id": "xbox_360_controller",
             "reference_name": "Xbox 360 Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "Xbox 360 Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
-            "vector_index": 137,
-            "embedding_norm": 1.0,
-            "legacyId": "82",
-            "similarity_score": 0.8359975814819336
+            "model": "Xbox 360",
+            "brand": "Microsoft",
+            "source": "itemtypes",
+            "contextual_text": "Xbox 360 Controller | Xbox 360 Wireless Controller | Xbox 360 Wired Controller | brand: Microsoft | console: Xbox 360 | xbox | 360 | controller | microsoft | wireless | wired | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8552092909812927,
+            "vector_reference_id": "YDxwch9Hzj13EqLj79f2",
+            "vector_reference_similarity": 0.8359975814819336
         }
     },
     "gdino_improved_readable": {
-        "1": "Xbox 360 Con"
+        "1": "Xbox 360 Controller (Xbox 360 Con)"
     },
     "gdino_similarity_scores": {
-        "1": 0.836
+        "1": 0.8552
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "y94oJNaPD2VI2396Pq3m",
+            "id": "nintendo_switch_joycon_right",
             "reference_name": "Wii Classic Con",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 227,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "146",
-            "similarity_score": 0.8244369029998779
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con (R) | Joy-Con (R) | Right Joy-Con | Nintendo Switch Joy-Con Right | Joy-Con Right Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | right | nintendo | switch | controller | r | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
+            "legacyId": null,
+            "similarity_score": 0.8870824575424194,
+            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
+            "vector_reference_similarity": 0.8244369029998779
         },
         "2": {
-            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "id": "nintendo_switch_joycon_left",
             "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 103,
-            "embedding_norm": 1.0,
+            "model": "Nintendo Switch",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo Switch Joy-Con (L) | Joy-Con (L) | Left Joy-Con | Nintendo Switch Joy-Con Left | Joy-Con Left Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | left | nintendo | switch | controller | l | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8396050930023193
+            "similarity_score": 0.8687720894813538,
+            "vector_reference_id": "PaVQDrGaUjcYp3KPYkmN",
+            "vector_reference_similarity": 0.8396050930023193
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Classic Con",
-        "2": "Blue N64 Con (boxed)"
+        "1": "Nintendo Switch Joy-Con (R) (Wii Classic Con)",
+        "2": "Nintendo Switch Joy-Con (L) (Blue N64 Con (boxed))"
     },
     "gdino_similarity_scores": {
-        "1": 0.8244,
-        "2": 0.8396
+        "1": 0.8871,
+        "2": 0.8688
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

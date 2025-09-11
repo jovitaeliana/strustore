@@ -9,41 +9,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "id": "nintendo_64_controller",
             "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo 64 Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 103,
-            "embedding_norm": 1.0,
+            "model": "Nintendo 64",
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo 64 Controller | N64 Controller | Nintendo 64 Controller | NUS-005 | brand: Nintendo | console: Nintendo 64 | model: NUS-005 | n64 | nintendo | 64 | controller | nus-005 | three | pronged | joystick | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8629002571105957
+            "similarity_score": 0.8450139164924622,
+            "vector_reference_id": "PaVQDrGaUjcYp3KPYkmN",
+            "vector_reference_similarity": 0.8629002571105957
         },
         "2": {
-            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "id": "nintendo_64",
             "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "itemtypes_name": "Nintendo 64",
+            "category": "Video Game Consoles",
             "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 103,
-            "embedding_norm": 1.0,
+            "brand": "Nintendo",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo 64 | N64 | Nintendo 64 | brand: Nintendo | model: NUS-001 | n64 | nintendo | 64 | classic | retro | nus-001 | category: Video Game Consoles",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8581738471984863
+            "similarity_score": 0.8509708642959595,
+            "vector_reference_id": "PaVQDrGaUjcYp3KPYkmN",
+            "vector_reference_similarity": 0.8581738471984863
         }
     },
     "gdino_improved_readable": {
-        "1": "Blue N64 Con (boxed)",
-        "2": "Blue N64 Con (boxed)"
+        "1": "Nintendo 64 Controller (Blue N64 Con (boxed))",
+        "2": "Nintendo 64 (Blue N64 Con (boxed))"
     },
     "gdino_similarity_scores": {
-        "1": 0.8629,
-        "2": 0.8582
+        "1": 0.845,
+        "2": 0.851
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",

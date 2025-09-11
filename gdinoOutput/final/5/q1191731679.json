@@ -7,25 +7,27 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "id": "nintendo_64_fishing_controller",
             "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": null,
+            "itemtypes_name": "Nintendo 64 Fishing Controller",
             "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 103,
-            "embedding_norm": 1.0,
+            "model": "Nintendo 64",
+            "brand": "ASCII",
+            "source": "itemtypes",
+            "contextual_text": "Nintendo 64 Fishing Controller | N64 Fishing Controller | ASCII Fishing Controller | Fishing Reel Controller | brand: ASCII | console: Nintendo 64 | n64 | nintendo | 64 | fishing | controller | ascii | reel | specialty | bass | angler | category: Controllers & Attachments",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8630936741828918
+            "similarity_score": 0.8503414988517761,
+            "vector_reference_id": "PaVQDrGaUjcYp3KPYkmN",
+            "vector_reference_similarity": 0.8630936741828918
         }
     },
     "gdino_improved_readable": {
-        "1": "Blue N64 Con (boxed)"
+        "1": "Nintendo 64 Fishing Controller (Blue N64 Con (boxed))"
     },
     "gdino_similarity_scores": {
-        "1": 0.8631
+        "1": 0.8503
     },
     "gdino_classification_metadata": {
         "processed_date": "1757581265.7518241",
