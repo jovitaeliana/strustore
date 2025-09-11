@@ -23,18 +23,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Fu009vbiv7CbGJdvp4f5",
-            "reference_name": "Wii Con Knockoff",
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Wii Con Knockoff | id: Fu009vbiv7CbGJdvp4f5 | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 63,
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
             "embedding_norm": 1.0,
-            "legacyId": "125",
-            "similarity_score": 0.8376727104187012
+            "legacyId": null,
+            "similarity_score": 0.817253589630127
         },
         "2": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -48,35 +48,35 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8259624242782593
+            "similarity_score": 0.8039734959602356
         },
         "3": {
-            "id": "HNljomQEwfkntYmDylny",
-            "reference_name": "Switch Pokèball",
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
-            "vector_index": 70,
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
             "embedding_norm": 1.0,
-            "legacyId": "127",
-            "similarity_score": 0.8383686542510986
+            "legacyId": null,
+            "similarity_score": 0.8378932476043701
         },
         "4": {
-            "id": "VMOG89MRAOehGcYqHRrE",
-            "reference_name": "PS4",
+            "id": "NgY0wsqcNH8Ja96oUc6V",
+            "reference_name": "PS4 VR Headset",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Sony PlayStation 4",
+            "category": "Controllers & Attachments",
+            "model": "Playstation",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS4 | id: VMOG89MRAOehGcYqHRrE | category: Video Game Consoles | model: Sony PlayStation 4 | PlayStation 4 | Sony PlayStation gaming product",
-            "vector_index": 127,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": null,
-            "similarity_score": 0.8507334589958191
+            "contextual_text": "PS4 VR Headset | id: NgY0wsqcNH8Ja96oUc6V | category: Controllers & Attachments | model: Playstation | PlayStation 4 | Nintendo DS | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 96,
+            "embedding_norm": 1.0,
+            "legacyId": "160",
+            "similarity_score": 0.8395055532455444
         },
         "5": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -90,21 +90,21 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8564746379852295
+            "similarity_score": 0.8419490456581116
         },
         "6": {
-            "id": "boP0HPaJuFshEG2KxH6X",
-            "reference_name": "Hori Compact Joystick",
+            "id": "52CUM8wHtys9ZaXza2jH",
+            "reference_name": "Royds Stick",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 157,
-            "embedding_norm": 1.0,
+            "contextual_text": "Royds Stick | id: 52CUM8wHtys9ZaXza2jH | category: Controllers & Attachments | Nintendo DS | gaming controller device | gamepad peripheral",
+            "vector_index": 19,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8346654772758484
+            "similarity_score": 0.8286174535751343
         },
         "7": {
             "id": "No Match",
@@ -121,18 +121,18 @@
             "similarity_score": 0.0
         },
         "8": {
-            "id": "J4L1xsDD5I1OLZSjSRpN",
-            "reference_name": "DRM Disc Drive",
+            "id": "NgY0wsqcNH8Ja96oUc6V",
+            "reference_name": "PS4 VR Headset",
             "itemtypes_name": null,
-            "category": "Other Video Game Accessories",
-            "model": "",
+            "category": "Controllers & Attachments",
+            "model": "Playstation",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DRM Disc Drive | id: J4L1xsDD5I1OLZSjSRpN | category: Other Video Game Accessories",
-            "vector_index": 76,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "154",
-            "similarity_score": 0.8252303600311279
+            "contextual_text": "PS4 VR Headset | id: NgY0wsqcNH8Ja96oUc6V | category: Controllers & Attachments | model: Playstation | PlayStation 4 | Nintendo DS | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 96,
+            "embedding_norm": 1.0,
+            "legacyId": "160",
+            "similarity_score": 0.8308386206626892
         },
         "9": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -146,43 +146,50 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8377115726470947
+            "similarity_score": 0.8111416101455688
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Con Knockoff",
+        "1": "Switch",
         "2": "Switch",
-        "3": "Switch Pokèball",
-        "4": "PS4",
+        "3": "Switch",
+        "4": "PS4 VR Headset",
         "5": "Switch",
-        "6": "Hori Compact Joystick",
+        "6": "Royds Stick",
         "7": "No Match",
-        "8": "DRM Disc Drive",
+        "8": "PS4 VR Headset",
         "9": "Switch"
     },
     "gdino_similarity_scores": {
-        "1": 0.8377,
-        "2": 0.826,
-        "3": 0.8384,
-        "4": 0.8507,
-        "5": 0.8565,
-        "6": 0.8347,
+        "1": 0.8173,
+        "2": 0.804,
+        "3": 0.8379,
+        "4": 0.8395,
+        "5": 0.8419,
+        "6": 0.8286,
         "7": 0.0,
-        "8": 0.8252,
-        "9": 0.8377
+        "8": 0.8308,
+        "9": 0.8111
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

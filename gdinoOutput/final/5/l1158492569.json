@@ -42,21 +42,21 @@
             "vector_index": 26,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "36",
-            "similarity_score": 0.8743127584457397
+            "similarity_score": 0.8822922110557556
         },
         "2": {
-            "id": "fj8niKEiVeaKbKSUovPs",
-            "reference_name": "PS2 Dual Shock Con",
+            "id": "SPg2CuiOAQlcnmIZPAOv",
+            "reference_name": "Taiko Drum (boxed)",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS2 Dual Shock Con | id: fj8niKEiVeaKbKSUovPs | category: Controllers & Attachments | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 176,
+            "contextual_text": "Taiko Drum (boxed) | id: SPg2CuiOAQlcnmIZPAOv | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 114,
             "embedding_norm": 1.0,
-            "legacyId": "26",
-            "similarity_score": 0.8526298403739929
+            "legacyId": "54",
+            "similarity_score": 0.8353385329246521
         },
         "3": {
             "id": "6v3aTU5GqVcof2OSrrGt",
@@ -70,7 +70,7 @@
             "vector_index": 26,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "36",
-            "similarity_score": 0.820134162902832
+            "similarity_score": 0.8233149647712708
         },
         "4": {
             "id": "6v3aTU5GqVcof2OSrrGt",
@@ -84,7 +84,7 @@
             "vector_index": 26,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "36",
-            "similarity_score": 0.8823772072792053
+            "similarity_score": 0.8830112218856812
         },
         "5": {
             "id": "L2YJzzkfj6j4BQ1hEs8M",
@@ -98,7 +98,7 @@
             "vector_index": 86,
             "embedding_norm": 1.0,
             "legacyId": "28",
-            "similarity_score": 0.8683011531829834
+            "similarity_score": 0.8679111003875732
         },
         "6": {
             "id": "QvUB8tHBNDmkwWhylwa5",
@@ -112,7 +112,7 @@
             "vector_index": 109,
             "embedding_norm": 1.0,
             "legacyId": "27",
-            "similarity_score": 0.8508340120315552
+            "similarity_score": 0.8630462884902954
         },
         "7": {
             "id": "fj8niKEiVeaKbKSUovPs",
@@ -126,21 +126,21 @@
             "vector_index": 176,
             "embedding_norm": 1.0,
             "legacyId": "26",
-            "similarity_score": 0.8556845188140869
+            "similarity_score": 0.8387227058410645
         },
         "8": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "5Esn9GfoSTE1hrh9K6NE",
+            "reference_name": "SFC Con",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "SFC Con | id: 5Esn9GfoSTE1hrh9K6NE | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 20,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.846951961517334
+            "similarity_score": 0.8404470086097717
         },
         "9": {
             "id": "NgY0wsqcNH8Ja96oUc6V",
@@ -154,7 +154,7 @@
             "vector_index": 96,
             "embedding_norm": 1.0,
             "legacyId": "160",
-            "similarity_score": 0.8528586626052856
+            "similarity_score": 0.8546162247657776
         },
         "10": {
             "id": "aH9iGjlVeTjiCSWI8DIe",
@@ -168,93 +168,100 @@
             "vector_index": 152,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8367996215820312
+            "similarity_score": 0.8357186317443848
         },
         "11": {
-            "id": "fj8niKEiVeaKbKSUovPs",
-            "reference_name": "PS2 Dual Shock Con",
+            "id": "BuRjiUJv2q934iJHh1tZ",
+            "reference_name": "ASCII Stick FT2",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS2 Dual Shock Con | id: fj8niKEiVeaKbKSUovPs | category: Controllers & Attachments | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 176,
+            "contextual_text": "ASCII Stick FT2 | id: BuRjiUJv2q934iJHh1tZ | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 45,
             "embedding_norm": 1.0,
-            "legacyId": "26",
-            "similarity_score": 0.8559949398040771
+            "legacyId": "38",
+            "similarity_score": 0.841063380241394
         },
         "12": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "vZl90mcfXOrm7MLaqAbU",
+            "reference_name": "FIFA Street (PS3)",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Video Games",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "FIFA Street (PS3) | id: vZl90mcfXOrm7MLaqAbU | category: Video Games | PlayStation 3 | video game software | Sony PlayStation gaming product",
+            "vector_index": 219,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8576349020004272
+            "similarity_score": 0.8349133133888245
         },
         "13": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "FOe9YCwQEruTSN6BPjAq",
+            "reference_name": "PS2 HDD",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Internal Hard Disk Drives",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "PS2 HDD | id: FOe9YCwQEruTSN6BPjAq | category: Internal Hard Disk Drives | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product",
+            "vector_index": 61,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8380078077316284
+            "legacyId": "130",
+            "similarity_score": 0.8196187019348145
         }
     },
     "gdino_improved_readable": {
         "1": "Hori FS-3",
-        "2": "PS2 Dual Shock Con",
+        "2": "Taiko Drum (boxed)",
         "3": "Hori FS-3",
         "4": "Hori FS-3",
         "5": "PS1 Hori Con",
         "6": "PS3 Con",
         "7": "PS2 Dual Shock Con",
-        "8": "Gameboy Player",
+        "8": "SFC Con",
         "9": "PS4 VR Headset",
         "10": "Saturn",
-        "11": "PS2 Dual Shock Con",
-        "12": "Gameboy Player",
-        "13": "Gameboy Player"
+        "11": "ASCII Stick FT2",
+        "12": "FIFA Street (PS3)",
+        "13": "PS2 HDD"
     },
     "gdino_similarity_scores": {
-        "1": 0.8743,
-        "2": 0.8526,
-        "3": 0.8201,
-        "4": 0.8824,
-        "5": 0.8683,
-        "6": 0.8508,
-        "7": 0.8557,
-        "8": 0.847,
-        "9": 0.8529,
-        "10": 0.8368,
-        "11": 0.856,
-        "12": 0.8576,
-        "13": 0.838
+        "1": 0.8823,
+        "2": 0.8353,
+        "3": 0.8233,
+        "4": 0.883,
+        "5": 0.8679,
+        "6": 0.863,
+        "7": 0.8387,
+        "8": 0.8404,
+        "9": 0.8546,
+        "10": 0.8357,
+        "11": 0.8411,
+        "12": 0.8349,
+        "13": 0.8196
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

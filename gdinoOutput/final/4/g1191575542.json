@@ -15,18 +15,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8267711400985718
+            "similarity_score": 0.7872815132141113
         },
         "2": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -40,7 +40,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8519813418388367
+            "similarity_score": 0.8312568068504333
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -54,7 +54,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8461747765541077
+            "similarity_score": 0.8368364572525024
         },
         "4": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -68,7 +68,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8481429219245911
+            "similarity_score": 0.8413009643554688
         },
         "5": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -82,35 +82,42 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8522030115127563
+            "similarity_score": 0.8465736508369446
         }
     },
     "gdino_improved_readable": {
-        "1": "Switch",
+        "1": "R.O.B. (boxed)",
         "2": "Switch",
         "3": "Switch",
         "4": "Switch",
         "5": "Switch"
     },
     "gdino_similarity_scores": {
-        "1": 0.8268,
-        "2": 0.852,
-        "3": 0.8462,
-        "4": 0.8481,
-        "5": 0.8522
+        "1": 0.7873,
+        "2": 0.8313,
+        "3": 0.8368,
+        "4": 0.8413,
+        "5": 0.8466
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

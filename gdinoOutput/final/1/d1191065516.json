@@ -15,32 +15,32 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+            "id": "JrwrnOoJORdTTkvW8pTX",
+            "reference_name": "DRM GDEMU",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "Dreamcast",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DRM GDEMU | id: JrwrnOoJORdTTkvW8pTX | category: Video Game Consoles | model: Dreamcast",
+            "vector_index": 83,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8307028412818909
+        },
+        "2": {
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8354237079620361
-        },
-        "2": {
-            "id": "RLTezhK4keTvDr70COUX",
-            "reference_name": "DS Original",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo DS",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS",
-            "vector_index": 111,
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
-            "legacyId": "70",
-            "similarity_score": 0.8519728183746338
+            "legacyId": null,
+            "similarity_score": 0.8264856338500977
         },
         "3": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -54,63 +54,70 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.861543595790863
+            "similarity_score": 0.8537218570709229
         },
         "4": {
-            "id": "RLTezhK4keTvDr70COUX",
-            "reference_name": "DS Original",
+            "id": "661vCTO6E1TjeJnEcxGb",
+            "reference_name": "GC [DOL-001]",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "Nintendo DS",
+            "model": "DOL-001",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS",
-            "vector_index": 111,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "70",
-            "similarity_score": 0.8372011780738831
+            "contextual_text": "GC [DOL-001] | id: 661vCTO6E1TjeJnEcxGb | category: Video Game Consoles | model: DOL-001 | GameCube",
+            "vector_index": 23,
+            "embedding_norm": 1.0,
+            "legacyId": "58",
+            "similarity_score": 0.8200936317443848
         },
         "5": {
-            "id": "RLTezhK4keTvDr70COUX",
-            "reference_name": "DS Original",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "Nintendo DS",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS",
-            "vector_index": 111,
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
-            "legacyId": "70",
-            "similarity_score": 0.8447560667991638
+            "legacyId": null,
+            "similarity_score": 0.8231820464134216
         }
     },
     "gdino_improved_readable": {
-        "1": "Saturn",
-        "2": "DS Original",
+        "1": "DRM GDEMU",
+        "2": "DS Lite Boxed",
         "3": "DS Lite Boxed",
-        "4": "DS Original",
-        "5": "DS Original"
+        "4": "GC [DOL-001]",
+        "5": "DS Lite Boxed"
     },
     "gdino_similarity_scores": {
-        "1": 0.8354,
-        "2": 0.852,
-        "3": 0.8615,
-        "4": 0.8372,
-        "5": 0.8448
+        "1": 0.8307,
+        "2": 0.8265,
+        "3": 0.8537,
+        "4": 0.8201,
+        "5": 0.8232
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

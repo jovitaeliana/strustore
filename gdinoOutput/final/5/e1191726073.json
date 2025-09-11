@@ -44,7 +44,7 @@
             "vector_index": 227,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "146",
-            "similarity_score": 0.8559160232543945
+            "similarity_score": 0.8521478176116943
         },
         "3": {
             "id": "y94oJNaPD2VI2396Pq3m",
@@ -58,7 +58,7 @@
             "vector_index": 227,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "146",
-            "similarity_score": 0.8724402189254761
+            "similarity_score": 0.8611639738082886
         },
         "4": {
             "id": "y94oJNaPD2VI2396Pq3m",
@@ -72,7 +72,7 @@
             "vector_index": 227,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "146",
-            "similarity_score": 0.8581259250640869
+            "similarity_score": 0.8595573902130127
         },
         "5": {
             "id": "y94oJNaPD2VI2396Pq3m",
@@ -86,7 +86,7 @@
             "vector_index": 227,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "146",
-            "similarity_score": 0.8602867126464844
+            "similarity_score": 0.8541266918182373
         },
         "6": {
             "id": "y94oJNaPD2VI2396Pq3m",
@@ -100,7 +100,7 @@
             "vector_index": 227,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "146",
-            "similarity_score": 0.8526335954666138
+            "similarity_score": 0.8388332724571228
         },
         "7": {
             "id": "y94oJNaPD2VI2396Pq3m",
@@ -114,7 +114,7 @@
             "vector_index": 227,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "146",
-            "similarity_score": 0.8560808300971985
+            "similarity_score": 0.8596896529197693
         }
     },
     "gdino_improved_readable": {
@@ -128,25 +128,32 @@
     },
     "gdino_similarity_scores": {
         "1": 0.0,
-        "2": 0.8559,
-        "3": 0.8724,
-        "4": 0.8581,
-        "5": 0.8603,
-        "6": 0.8526,
-        "7": 0.8561
+        "2": 0.8521,
+        "3": 0.8612,
+        "4": 0.8596,
+        "5": 0.8541,
+        "6": 0.8388,
+        "7": 0.8597
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

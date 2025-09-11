@@ -9,6 +9,20 @@
     },
     "gdino_improved": {
         "1": {
+            "id": "661vCTO6E1TjeJnEcxGb",
+            "reference_name": "GC [DOL-001]",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "DOL-001",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "GC [DOL-001] | id: 661vCTO6E1TjeJnEcxGb | category: Video Game Consoles | model: DOL-001 | GameCube",
+            "vector_index": 23,
+            "embedding_norm": 1.0,
+            "legacyId": "58",
+            "similarity_score": 0.8577007055282593
+        },
+        "2": {
             "id": "NmqlKnIQH4m6NTtCEMAI",
             "reference_name": "GC [DOL-101]",
             "itemtypes_name": null,
@@ -20,43 +34,36 @@
             "vector_index": 97,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8518966436386108
-        },
-        "2": {
-            "id": "rr4wZ1XXjF4M2JU5aVGh",
-            "reference_name": "GC Region Switched",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo GameCube",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "GC Region Switched | id: rr4wZ1XXjF4M2JU5aVGh | category: Video Game Consoles | model: Nintendo GameCube | GameCube | Nintendo Switch",
-            "vector_index": 207,
-            "embedding_norm": 1.0,
-            "legacyId": "59",
-            "similarity_score": 0.8482139706611633
+            "similarity_score": 0.8478140830993652
         }
     },
     "gdino_improved_readable": {
-        "1": "GC [DOL-101]",
-        "2": "GC Region Switched"
+        "1": "GC [DOL-001]",
+        "2": "GC [DOL-101]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8519,
-        "2": 0.8482
+        "1": 0.8577,
+        "2": 0.8478
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

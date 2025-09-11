@@ -20,43 +20,50 @@
             "vector_index": 118,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8449110388755798
+            "similarity_score": 0.8197835087776184
         },
         "2": {
-            "id": "QvUB8tHBNDmkwWhylwa5",
-            "reference_name": "PS3 Con",
+            "id": "8ES4hm3YJs9hiZ7Xy77y",
+            "reference_name": "PS1 Dual Shock Con SCPH-1200",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "",
+            "model": "SCPH-1200",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS3 Con | id: QvUB8tHBNDmkwWhylwa5 | category: Controllers & Attachments | PlayStation 3 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 109,
+            "contextual_text": "PS1 Dual Shock Con SCPH-1200 | id: 8ES4hm3YJs9hiZ7Xy77y | category: Controllers & Attachments | model: SCPH-1200 | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 31,
             "embedding_norm": 1.0,
-            "legacyId": "27",
-            "similarity_score": 0.8500667214393616
+            "legacyId": null,
+            "similarity_score": 0.8423736095428467
         }
     },
     "gdino_improved_readable": {
         "1": "PS3 Fat",
-        "2": "PS3 Con"
+        "2": "PS1 Dual Shock Con SCPH-1200"
     },
     "gdino_similarity_scores": {
-        "1": 0.8449,
-        "2": 0.8501
+        "1": 0.8198,
+        "2": 0.8424
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

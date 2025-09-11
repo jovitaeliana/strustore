@@ -9,54 +9,61 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
-            "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8781094551086426
-        },
-        "2": {
-            "id": "vFaxxpsx5W7yH6fzI4Zx",
-            "reference_name": "N64 Carrying Case",
-            "itemtypes_name": null,
-            "category": "Other Video Game Accessories",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "N64 Carrying Case | id: vFaxxpsx5W7yH6fzI4Zx | category: Other Video Game Accessories | Nintendo 64",
-            "vector_index": 217,
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8645458221435547
+        },
+        "2": {
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
+            "itemtypes_name": null,
+            "category": "Labels",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8226785659790039
+            "similarity_score": 0.8099632263183594
         }
     },
     "gdino_improved_readable": {
-        "1": "DS Lite",
-        "2": "N64 Carrying Case"
+        "1": "DS Lite Boxed",
+        "2": "Shipping Label"
     },
     "gdino_similarity_scores": {
-        "1": 0.8781,
-        "2": 0.8227
+        "1": 0.8645,
+        "2": 0.81
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -9,18 +9,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "CqdH1LClrrfOP3GTa1fR",
-            "reference_name": "PS1 Original Analog Con SCPH-1080",
+            "id": "kCt6oojsowe40mds4qRk",
+            "reference_name": "PS1",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
-            "model": "",
+            "category": "Video Game Consoles",
+            "model": "Sony PlayStation 1",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS1 Original Analog Con SCPH-1080 | id: CqdH1LClrrfOP3GTa1fR | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 50,
+            "contextual_text": "PS1 | id: kCt6oojsowe40mds4qRk | category: Video Game Consoles | model: Sony PlayStation 1 | PlayStation 1 | Sony PlayStation gaming product",
+            "vector_index": 188,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8718026876449585
+            "legacyId": "62",
+            "similarity_score": 0.848895251750946
         },
         "2": {
             "id": "CqdH1LClrrfOP3GTa1fR",
@@ -34,29 +34,36 @@
             "vector_index": 50,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8593950271606445
+            "similarity_score": 0.8877292275428772
         }
     },
     "gdino_improved_readable": {
-        "1": "PS1 Original Analog Con SCPH-1080",
+        "1": "PS1",
         "2": "PS1 Original Analog Con SCPH-1080"
     },
     "gdino_similarity_scores": {
-        "1": 0.8718,
-        "2": 0.8594
+        "1": 0.8489,
+        "2": 0.8877
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

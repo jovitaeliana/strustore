@@ -20,7 +20,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8546329736709595
+            "similarity_score": 0.8526998162269592
         },
         "2": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -34,7 +34,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8568668961524963
+            "similarity_score": 0.8530967831611633
         }
     },
     "gdino_improved_readable": {
@@ -42,21 +42,28 @@
         "2": "DS Lite Boxed"
     },
     "gdino_similarity_scores": {
-        "1": 0.8546,
-        "2": 0.8569
+        "1": 0.8527,
+        "2": 0.8531
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

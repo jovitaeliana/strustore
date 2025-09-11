@@ -7,38 +7,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "RLTezhK4keTvDr70COUX",
-            "reference_name": "DS Original",
+            "id": "661vCTO6E1TjeJnEcxGb",
+            "reference_name": "GC [DOL-001]",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "Nintendo DS",
+            "model": "DOL-001",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS",
-            "vector_index": 111,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "70",
-            "similarity_score": 0.8331066370010376
+            "contextual_text": "GC [DOL-001] | id: 661vCTO6E1TjeJnEcxGb | category: Video Game Consoles | model: DOL-001 | GameCube",
+            "vector_index": 23,
+            "embedding_norm": 1.0,
+            "legacyId": "58",
+            "similarity_score": 0.8152896165847778
         }
     },
     "gdino_improved_readable": {
-        "1": "DS Original"
+        "1": "GC [DOL-001]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8331
+        "1": 0.8153
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -11,18 +11,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "8zDMF4CCUEmyUqsRJ52j",
-            "reference_name": "N64",
+            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "reference_name": "Blue N64 Con (boxed)",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo 64",
+            "category": "Controllers & Attachments",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "N64 | id: 8zDMF4CCUEmyUqsRJ52j | category: Video Game Consoles | model: Nintendo 64 | Nintendo 64",
-            "vector_index": 32,
+            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 103,
             "embedding_norm": 1.0,
-            "legacyId": "60",
-            "similarity_score": 0.8660728931427002
+            "legacyId": null,
+            "similarity_score": 0.8647072315216064
         },
         "2": {
             "id": "PaVQDrGaUjcYp3KPYkmN",
@@ -36,7 +36,7 @@
             "vector_index": 103,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8544175624847412
+            "similarity_score": 0.8506941199302673
         },
         "3": {
             "id": "YsZuDWV6LEmWyyg3Vkhn",
@@ -50,31 +50,38 @@
             "vector_index": 142,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8615658283233643
+            "similarity_score": 0.8677265644073486
         }
     },
     "gdino_improved_readable": {
-        "1": "N64",
+        "1": "Blue N64 Con (boxed)",
         "2": "Blue N64 Con (boxed)",
         "3": "N64 [Boxed]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8661,
-        "2": 0.8544,
-        "3": 0.8616
+        "1": 0.8647,
+        "2": 0.8507,
+        "3": 0.8677
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

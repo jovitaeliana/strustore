@@ -30,7 +30,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8656473159790039
+            "similarity_score": 0.8381965160369873
         },
         "2": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -44,7 +44,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8696103096008301
+            "similarity_score": 0.8298960328102112
         },
         "3": {
             "id": "BX6U5HsUfOtCWnR8PCdr",
@@ -58,7 +58,7 @@
             "vector_index": 42,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.86656254529953
+            "similarity_score": 0.8438900113105774
         },
         "4": {
             "id": "PF6zWiWOjRxwKrmRw2oA",
@@ -72,7 +72,7 @@
             "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8165322542190552
+            "similarity_score": 0.7933697700500488
         },
         "5": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -86,7 +86,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8636273145675659
+            "similarity_score": 0.8376854062080383
         },
         "6": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -100,7 +100,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8672544956207275
+            "similarity_score": 0.8492913246154785
         },
         "7": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -114,7 +114,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8636273145675659
+            "similarity_score": 0.8444429636001587
         }
     },
     "gdino_improved_readable": {
@@ -127,26 +127,33 @@
         "7": "Gameboy Player"
     },
     "gdino_similarity_scores": {
-        "1": 0.8656,
-        "2": 0.8696,
-        "3": 0.8666,
-        "4": 0.8165,
-        "5": 0.8636,
-        "6": 0.8673,
-        "7": 0.8636
+        "1": 0.8382,
+        "2": 0.8299,
+        "3": 0.8439,
+        "4": 0.7934,
+        "5": 0.8377,
+        "6": 0.8493,
+        "7": 0.8444
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

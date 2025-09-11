@@ -26,7 +26,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8463945388793945
+            "similarity_score": 0.8281663656234741
         },
         "2": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -40,7 +40,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8323092460632324
+            "similarity_score": 0.8241494297981262
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -54,7 +54,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8458489775657654
+            "similarity_score": 0.8480575084686279
         },
         "4": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -68,7 +68,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8608608245849609
+            "similarity_score": 0.8281584978103638
         },
         "5": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -82,7 +82,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.869960367679596
+            "similarity_score": 0.8471662402153015
         }
     },
     "gdino_improved_readable": {
@@ -93,24 +93,31 @@
         "5": "Switch"
     },
     "gdino_similarity_scores": {
-        "1": 0.8464,
-        "2": 0.8323,
-        "3": 0.8458,
-        "4": 0.8609,
-        "5": 0.87
+        "1": 0.8282,
+        "2": 0.8241,
+        "3": 0.8481,
+        "4": 0.8282,
+        "5": 0.8472
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

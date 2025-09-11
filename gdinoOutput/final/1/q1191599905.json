@@ -70,7 +70,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8621560335159302
+            "similarity_score": 0.8681385517120361
         },
         "2": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -84,7 +84,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8504663109779358
+            "similarity_score": 0.8564393520355225
         },
         "3": {
             "id": "Sb63aOKKGWawJOyhoDm0",
@@ -98,7 +98,7 @@
             "vector_index": 118,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8601113557815552
+            "similarity_score": 0.8481480479240417
         },
         "4": {
             "id": "IpSmFvIFCTx0NaFFB2JW",
@@ -112,7 +112,7 @@
             "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.824436604976654
+            "similarity_score": 0.8253999352455139
         },
         "5": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -126,51 +126,37 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8528191447257996
+            "similarity_score": 0.854755163192749
         },
         "6": {
-            "id": "eDXOwaOyWKtH2nQwCYan",
-            "reference_name": "Gameboy Advance",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Advance | id: eDXOwaOyWKtH2nQwCYan | category: Video Game Consoles",
-            "vector_index": 170,
-            "embedding_norm": 0.9999999403953552,
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8236557245254517
+            "similarity_score": 0.806463897228241
         },
         "7": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+            "id": "ZcSSpwtX8cl9fICLin8R",
+            "reference_name": "NDEV",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Nintendo Wii",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
+            "contextual_text": "NDEV | id: ZcSSpwtX8cl9fICLin8R | category: Video Game Consoles | model: Nintendo Wii",
+            "vector_index": 150,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8080588579177856
+            "legacyId": "52",
+            "similarity_score": 0.7893847823143005
         },
         "8": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
-            "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8761926889419556
-        },
-        "9": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
             "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
@@ -182,7 +168,21 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8454620838165283
+            "similarity_score": 0.864211916923523
+        },
+        "9": {
+            "id": "vwJlo3b8trreu9qHbruz",
+            "reference_name": "DS Keyboard",
+            "itemtypes_name": null,
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DS Keyboard | id: vwJlo3b8trreu9qHbruz | category: Controllers & Attachments | Nintendo DS | gaming controller device | gamepad peripheral",
+            "vector_index": 220,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "139",
+            "similarity_score": 0.8332826495170593
         },
         "10": {
             "id": "No Match",
@@ -210,7 +210,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8572012186050415
+            "similarity_score": 0.8481235504150391
         },
         "12": {
             "id": "No Match",
@@ -238,51 +238,79 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8497156500816345
+            "similarity_score": 0.8447223901748657
         },
         "14": {
-            "id": "No Match",
-            "reference_name": "No Match",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
+            "reference_name": "Gameboy Player",
             "itemtypes_name": null,
-            "category": "",
+            "category": "Video Game Consoles",
             "model": "",
             "brand": "",
-            "source": "none",
-            "contextual_text": "",
-            "vector_index": null,
-            "embedding_norm": null,
+            "source": "vector_database",
+            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
+            "vector_index": 143,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.0
+            "similarity_score": 0.7937352657318115
         },
         "15": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+            "id": "C7RieEggjBciPVYt7ggm",
+            "reference_name": "Wii Con Jacket",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
+            "contextual_text": "Wii Con Jacket | id: C7RieEggjBciPVYt7ggm | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
+            "vector_index": 47,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8197271823883057
+            "similarity_score": 0.7892630696296692
         },
         "16": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8030205368995667
+            "similarity_score": 0.802464485168457
         },
         "17": {
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
+            "itemtypes_name": null,
+            "category": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.797908365726471
+        },
+        "18": {
+            "id": "Ki56uOTUOWgh998rBi8J",
+            "reference_name": "Inazuma Eleven Strikers 2012 Xtreme (Wii)",
+            "itemtypes_name": null,
+            "category": "Video Games",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Inazuma Eleven Strikers 2012 Xtreme (Wii) | id: Ki56uOTUOWgh998rBi8J | category: Video Games | Nintendo Wii | Nintendo Wii console game | motion control gaming | video game software",
+            "vector_index": 84,
+            "embedding_norm": 1.0,
+            "legacyId": "104",
+            "similarity_score": 0.8072137832641602
+        },
+        "19": {
             "id": "Irh72HART2knkr1jxuG7",
             "reference_name": "Shipping Label",
             "itemtypes_name": null,
@@ -294,49 +322,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.7958813905715942
+            "similarity_score": 0.8124645948410034
         },
-        "18": {
-            "id": "ZcSSpwtX8cl9fICLin8R",
-            "reference_name": "NDEV",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo Wii",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "NDEV | id: ZcSSpwtX8cl9fICLin8R | category: Video Game Consoles | model: Nintendo Wii",
-            "vector_index": 150,
-            "embedding_norm": 1.0,
-            "legacyId": "52",
-            "similarity_score": 0.8580263257026672
-        },
-        "19": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+        "20": {
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
-            "embedding_norm": 1.0,
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8292772769927979
-        },
-        "20": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
-            "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8599231243133545
+            "similarity_score": 0.8433672189712524
         },
         "21": {
             "id": "svXJEQMnwuDfLPUHUUCi",
@@ -350,21 +350,21 @@
             "vector_index": 213,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.842651903629303
+            "similarity_score": 0.8104636669158936
         },
         "22": {
-            "id": "CqdH1LClrrfOP3GTa1fR",
-            "reference_name": "PS1 Original Analog Con SCPH-1080",
+            "id": "JTLnaMb1XfcGGcw96G08",
+            "reference_name": "DRM Mic",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS1 Original Analog Con SCPH-1080 | id: CqdH1LClrrfOP3GTa1fR | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 50,
+            "contextual_text": "DRM Mic | id: JTLnaMb1XfcGGcw96G08 | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 80,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8130286931991577
+            "legacyId": "16",
+            "similarity_score": 0.8176661133766174
         },
         "23": {
             "id": "PF6zWiWOjRxwKrmRw2oA",
@@ -378,21 +378,21 @@
             "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8006676435470581
+            "similarity_score": 0.8108236789703369
         },
         "24": {
-            "id": "No Match",
-            "reference_name": "No Match",
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
             "itemtypes_name": null,
-            "category": "",
+            "category": "Labels",
             "model": "",
             "brand": "",
-            "source": "none",
-            "contextual_text": "",
-            "vector_index": null,
-            "embedding_norm": null,
+            "source": "vector_database",
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.0
+            "similarity_score": 0.8064771890640259
         },
         "25": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -406,7 +406,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8204103708267212
+            "similarity_score": 0.8254902362823486
         },
         "26": {
             "id": "No Match",
@@ -434,7 +434,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8582339286804199
+            "similarity_score": 0.8368558883666992
         }
     },
     "gdino_improved_readable": {
@@ -443,70 +443,77 @@
         "3": "PS3 Fat",
         "4": "DRM Shell",
         "5": "DS Lite Boxed",
-        "6": "Gameboy Advance",
-        "7": "Saturn",
-        "8": "DS Lite",
-        "9": "DS Lite Boxed",
+        "6": "SFC",
+        "7": "NDEV",
+        "8": "DS Lite Boxed",
+        "9": "DS Keyboard",
         "10": "No Match",
         "11": "DS Lite Boxed",
         "12": "No Match",
         "13": "DS Lite Boxed",
-        "14": "No Match",
-        "15": "Saturn",
-        "16": "Shipping Label",
-        "17": "Shipping Label",
-        "18": "NDEV",
-        "19": "Saturn",
-        "20": "DS Lite",
+        "14": "Gameboy Player",
+        "15": "Wii Con Jacket",
+        "16": "R.O.B. (boxed)",
+        "17": "R.O.B. (boxed)",
+        "18": "Inazuma Eleven Strikers 2012 Xtreme (Wii)",
+        "19": "Shipping Label",
+        "20": "DS Lite Boxed",
         "21": "2DS",
-        "22": "PS1 Original Analog Con SCPH-1080",
+        "22": "DRM Mic",
         "23": "R.O.B. (boxed)",
-        "24": "No Match",
+        "24": "Shipping Label",
         "25": "Gameboy Advance",
         "26": "No Match",
         "27": "DS Lite Boxed"
     },
     "gdino_similarity_scores": {
-        "1": 0.8622,
-        "2": 0.8505,
-        "3": 0.8601,
-        "4": 0.8244,
-        "5": 0.8528,
-        "6": 0.8237,
-        "7": 0.8081,
-        "8": 0.8762,
-        "9": 0.8455,
+        "1": 0.8681,
+        "2": 0.8564,
+        "3": 0.8481,
+        "4": 0.8254,
+        "5": 0.8548,
+        "6": 0.8065,
+        "7": 0.7894,
+        "8": 0.8642,
+        "9": 0.8333,
         "10": 0.0,
-        "11": 0.8572,
+        "11": 0.8481,
         "12": 0.0,
-        "13": 0.8497,
-        "14": 0.0,
-        "15": 0.8197,
-        "16": 0.803,
-        "17": 0.7959,
-        "18": 0.858,
-        "19": 0.8293,
-        "20": 0.8599,
-        "21": 0.8427,
-        "22": 0.813,
-        "23": 0.8007,
-        "24": 0.0,
-        "25": 0.8204,
+        "13": 0.8447,
+        "14": 0.7937,
+        "15": 0.7893,
+        "16": 0.8025,
+        "17": 0.7979,
+        "18": 0.8072,
+        "19": 0.8125,
+        "20": 0.8434,
+        "21": 0.8105,
+        "22": 0.8177,
+        "23": 0.8108,
+        "24": 0.8065,
+        "25": 0.8255,
         "26": 0.0,
-        "27": 0.8582
+        "27": 0.8369
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

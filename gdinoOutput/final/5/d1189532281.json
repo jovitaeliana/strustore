@@ -17,18 +17,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "fPlmsqNzKxyVjqsEmulZ",
-            "reference_name": "GC DK Bongos",
+            "id": "Gynna5OzYWWE6y8WpgpO",
+            "reference_name": "GC Wavebird Con",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "GC DK Bongos | id: fPlmsqNzKxyVjqsEmulZ | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
-            "vector_index": 174,
+            "contextual_text": "GC Wavebird Con | id: Gynna5OzYWWE6y8WpgpO | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+            "vector_index": 68,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8581894636154175
+            "similarity_score": 0.8501681089401245
         },
         "2": {
             "id": "fPlmsqNzKxyVjqsEmulZ",
@@ -42,7 +42,7 @@
             "vector_index": 174,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.850263237953186
+            "similarity_score": 0.8491841554641724
         },
         "3": {
             "id": "Gynna5OzYWWE6y8WpgpO",
@@ -56,23 +56,37 @@
             "vector_index": 68,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8795723915100098
+            "similarity_score": 0.8683611750602722
         },
         "4": {
-            "id": "fPlmsqNzKxyVjqsEmulZ",
-            "reference_name": "GC DK Bongos",
+            "id": "NmqlKnIQH4m6NTtCEMAI",
+            "reference_name": "GC [DOL-101]",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": "Video Game Consoles",
+            "model": "DOL-101",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "GC [DOL-101] | id: NmqlKnIQH4m6NTtCEMAI | category: Video Game Consoles | model: DOL-101 | GameCube",
+            "vector_index": 97,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8403066396713257
+        },
+        "5": {
+            "id": "2ib0YdgBr6F2ZNKARP5p",
+            "reference_name": "Wario World (GC)",
+            "itemtypes_name": null,
+            "category": "Video Games",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "GC DK Bongos | id: fPlmsqNzKxyVjqsEmulZ | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
-            "vector_index": 174,
+            "contextual_text": "Wario World (GC) | id: 2ib0YdgBr6F2ZNKARP5p | category: Video Games | GameCube | GameCube console game | Nintendo GameCube | video game software",
+            "vector_index": 10,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8606913089752197
+            "similarity_score": 0.8436578512191772
         },
-        "5": {
+        "6": {
             "id": "Gynna5OzYWWE6y8WpgpO",
             "reference_name": "GC Wavebird Con",
             "itemtypes_name": null,
@@ -84,51 +98,44 @@
             "vector_index": 68,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8540689945220947
-        },
-        "6": {
-            "id": "YzDfvc0FLvQkBtcpEcfX",
-            "reference_name": "GC Con",
-            "itemtypes_name": null,
-            "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "GC Con | id: YzDfvc0FLvQkBtcpEcfX | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
-            "vector_index": 144,
-            "embedding_norm": 1.0,
-            "legacyId": "19",
-            "similarity_score": 0.8503718972206116
+            "similarity_score": 0.8448372483253479
         }
     },
     "gdino_improved_readable": {
-        "1": "GC DK Bongos",
+        "1": "GC Wavebird Con",
         "2": "GC DK Bongos",
         "3": "GC Wavebird Con",
-        "4": "GC DK Bongos",
-        "5": "GC Wavebird Con",
-        "6": "GC Con"
+        "4": "GC [DOL-101]",
+        "5": "Wario World (GC)",
+        "6": "GC Wavebird Con"
     },
     "gdino_similarity_scores": {
-        "1": 0.8582,
-        "2": 0.8503,
-        "3": 0.8796,
-        "4": 0.8607,
-        "5": 0.8541,
-        "6": 0.8504
+        "1": 0.8502,
+        "2": 0.8492,
+        "3": 0.8684,
+        "4": 0.8403,
+        "5": 0.8437,
+        "6": 0.8448
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

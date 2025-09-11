@@ -28,21 +28,21 @@
             "vector_index": 70,
             "embedding_norm": 1.0,
             "legacyId": "127",
-            "similarity_score": 0.8376962542533875
+            "similarity_score": 0.8340845108032227
         },
         "2": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "HNljomQEwfkntYmDylny",
+            "reference_name": "Switch Pokèball",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
+            "vector_index": 70,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8353895545005798
+            "legacyId": "127",
+            "similarity_score": 0.8312323689460754
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -56,79 +56,86 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8432259559631348
+            "similarity_score": 0.8241180181503296
         },
         "4": {
-            "id": "HNljomQEwfkntYmDylny",
-            "reference_name": "Switch Pokèball",
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
-            "vector_index": 70,
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
             "embedding_norm": 1.0,
-            "legacyId": "127",
-            "similarity_score": 0.8500963449478149
+            "legacyId": null,
+            "similarity_score": 0.8245035409927368
         },
         "5": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "cVUvSD1xHC978Kx7GlzU",
+            "reference_name": "Wii Sensor Bar",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "Other Video Game Accessories",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "Wii Sensor Bar | id: cVUvSD1xHC978Kx7GlzU | category: Other Video Game Accessories | Nintendo Wii",
+            "vector_index": 162,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8174896836280823
+            "similarity_score": 0.8051682710647583
         },
         "6": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "61YaiPCF0A3TI0SGyCXF",
+            "reference_name": "NFC Reader",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "Other Video Game Accessories",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "NFC Reader | id: 61YaiPCF0A3TI0SGyCXF | category: Other Video Game Accessories",
+            "vector_index": 22,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8320785760879517
+            "legacyId": "92",
+            "similarity_score": 0.808098554611206
         }
     },
     "gdino_improved_readable": {
         "1": "Switch Pokèball",
-        "2": "Switch",
+        "2": "Switch Pokèball",
         "3": "Switch",
-        "4": "Switch Pokèball",
-        "5": "Shipping Label",
-        "6": "Shipping Label"
+        "4": "Switch",
+        "5": "Wii Sensor Bar",
+        "6": "NFC Reader"
     },
     "gdino_similarity_scores": {
-        "1": 0.8377,
-        "2": 0.8354,
-        "3": 0.8432,
-        "4": 0.8501,
-        "5": 0.8175,
-        "6": 0.8321
+        "1": 0.8341,
+        "2": 0.8312,
+        "3": 0.8241,
+        "4": 0.8245,
+        "5": 0.8052,
+        "6": 0.8081
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

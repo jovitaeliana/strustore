@@ -9,54 +9,61 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "HNljomQEwfkntYmDylny",
-            "reference_name": "Switch Pokèball",
+            "id": "c64umpuDWdeuRLUD2jHn",
+            "reference_name": "DRM Power Strip",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": "Other Video Game Accessories",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
-            "vector_index": 70,
+            "contextual_text": "DRM Power Strip | id: c64umpuDWdeuRLUD2jHn | category: Other Video Game Accessories",
+            "vector_index": 160,
             "embedding_norm": 1.0,
-            "legacyId": "127",
-            "similarity_score": 0.8246579170227051
+            "legacyId": null,
+            "similarity_score": 0.8069170713424683
         },
         "2": {
-            "id": "HNljomQEwfkntYmDylny",
-            "reference_name": "Switch Pokèball",
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": "Labels",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
-            "vector_index": 70,
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
             "embedding_norm": 1.0,
-            "legacyId": "127",
-            "similarity_score": 0.8285616636276245
+            "legacyId": null,
+            "similarity_score": 0.8066729307174683
         }
     },
     "gdino_improved_readable": {
-        "1": "Switch Pokèball",
-        "2": "Switch Pokèball"
+        "1": "DRM Power Strip",
+        "2": "Shipping Label"
     },
     "gdino_similarity_scores": {
-        "1": 0.8247,
-        "2": 0.8286
+        "1": 0.8069,
+        "2": 0.8067
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

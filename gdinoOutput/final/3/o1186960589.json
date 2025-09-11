@@ -32,7 +32,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8799972534179688
+            "similarity_score": 0.8516298532485962
         },
         "2": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -46,7 +46,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8807942867279053
+            "similarity_score": 0.8515448570251465
         },
         "3": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -60,7 +60,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8775106072425842
+            "similarity_score": 0.8654096126556396
         },
         "4": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -74,7 +74,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8766330480575562
+            "similarity_score": 0.8513182401657104
         },
         "5": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -88,7 +88,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8740119934082031
+            "similarity_score": 0.8620212078094482
         },
         "6": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -102,7 +102,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8781481385231018
+            "similarity_score": 0.8654096126556396
         },
         "7": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -116,21 +116,21 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8725255131721497
+            "similarity_score": 0.850545346736908
         },
         "8": {
-            "id": "9BFdEKX2JzO7D54fwMNi",
-            "reference_name": "Saturn Karaoke",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
             "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn Karaoke | id: 9BFdEKX2JzO7D54fwMNi | category: None",
-            "vector_index": 34,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8104478120803833
+            "similarity_score": 0.7898293733596802
         }
     },
     "gdino_improved_readable": {
@@ -141,30 +141,37 @@
         "5": "Gameboy Advance",
         "6": "Gameboy Advance",
         "7": "Gameboy Advance",
-        "8": "Saturn Karaoke"
+        "8": "R.O.B. (boxed)"
     },
     "gdino_similarity_scores": {
-        "1": 0.88,
-        "2": 0.8808,
-        "3": 0.8775,
-        "4": 0.8766,
-        "5": 0.874,
-        "6": 0.8781,
-        "7": 0.8725,
-        "8": 0.8104
+        "1": 0.8516,
+        "2": 0.8515,
+        "3": 0.8654,
+        "4": 0.8513,
+        "5": 0.862,
+        "6": 0.8654,
+        "7": 0.8505,
+        "8": 0.7898
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -7,38 +7,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "YsZuDWV6LEmWyyg3Vkhn",
-            "reference_name": "N64 [Boxed]",
+            "id": "UtTSNvusObuHWpIpk4aM",
+            "reference_name": "N64 Con (Loose Stick)",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "N64 [Boxed] | id: YsZuDWV6LEmWyyg3Vkhn | category: Video Game Consoles | Nintendo 64",
-            "vector_index": 142,
+            "contextual_text": "N64 Con (Loose Stick) | id: UtTSNvusObuHWpIpk4aM | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 125,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.861872673034668
+            "similarity_score": 0.8631455898284912
         }
     },
     "gdino_improved_readable": {
-        "1": "N64 [Boxed]"
+        "1": "N64 Con (Loose Stick)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8619
+        "1": 0.8631
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

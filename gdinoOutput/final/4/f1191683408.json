@@ -15,32 +15,32 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "boP0HPaJuFshEG2KxH6X",
+            "reference_name": "Hori Compact Joystick",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 157,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8343446850776672
+            "similarity_score": 0.8393689393997192
         },
         "2": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8381208181381226
+            "similarity_score": 0.8125332593917847
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -54,7 +54,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8587801456451416
+            "similarity_score": 0.8556915521621704
         },
         "4": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -68,49 +68,56 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8405489325523376
+            "similarity_score": 0.8340839147567749
         },
         "5": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "rr4wZ1XXjF4M2JU5aVGh",
+            "reference_name": "GC Region Switched",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Nintendo GameCube",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "GC Region Switched | id: rr4wZ1XXjF4M2JU5aVGh | category: Video Game Consoles | model: Nintendo GameCube | GameCube | Nintendo Switch",
+            "vector_index": 207,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.839322566986084
+            "legacyId": "59",
+            "similarity_score": 0.8240421414375305
         }
     },
     "gdino_improved_readable": {
-        "1": "Switch",
-        "2": "Shipping Label",
+        "1": "Hori Compact Joystick",
+        "2": "R.O.B. (boxed)",
         "3": "Switch",
         "4": "Switch",
-        "5": "Switch"
+        "5": "GC Region Switched"
     },
     "gdino_similarity_scores": {
-        "1": 0.8343,
-        "2": 0.8381,
-        "3": 0.8588,
-        "4": 0.8405,
-        "5": 0.8393
+        "1": 0.8394,
+        "2": 0.8125,
+        "3": 0.8557,
+        "4": 0.8341,
+        "5": 0.824
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

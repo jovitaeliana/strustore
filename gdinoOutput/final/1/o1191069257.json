@@ -22,7 +22,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8521058559417725
+            "similarity_score": 0.832264244556427
         },
         "2": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -36,7 +36,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8581141233444214
+            "similarity_score": 0.837608814239502
         },
         "3": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -50,7 +50,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8445534706115723
+            "similarity_score": 0.8378514051437378
         }
     },
     "gdino_improved_readable": {
@@ -59,22 +59,29 @@
         "3": "DS Lite Boxed"
     },
     "gdino_similarity_scores": {
-        "1": 0.8521,
-        "2": 0.8581,
-        "3": 0.8446
+        "1": 0.8323,
+        "2": 0.8376,
+        "3": 0.8379
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -88,7 +88,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8201038837432861
+            "similarity_score": 0.811089038848877
         },
         "2": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -102,21 +102,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8205620050430298
+            "similarity_score": 0.8178881406784058
         },
         "3": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Labels",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8186087608337402
+            "similarity_score": 0.7938997745513916
         },
         "4": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -130,7 +130,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8216378688812256
+            "similarity_score": 0.8111439943313599
         },
         "5": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -144,21 +144,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8115891218185425
+            "similarity_score": 0.8015639781951904
         },
         "6": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8198654055595398
+            "similarity_score": 0.8070734739303589
         },
         "7": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -172,21 +172,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8285181522369385
+            "similarity_score": 0.8128917217254639
         },
         "8": {
-            "id": "3ZQ8aYagBMX0rkJL2m63",
-            "reference_name": "FC 2P Con",
+            "id": "QXMQ0LntKXiKdHL4Y7Sw",
+            "reference_name": "Taiko Drum",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "FC 2P Con | id: 3ZQ8aYagBMX0rkJL2m63 | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 13,
+            "contextual_text": "Taiko Drum | id: QXMQ0LntKXiKdHL4Y7Sw | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 106,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8211115598678589
+            "legacyId": "53",
+            "similarity_score": 0.8099223971366882
         },
         "9": {
             "id": "GgWTR9QoWKoUkJ3kr5ga",
@@ -200,7 +200,7 @@
             "vector_index": 66,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8573071956634521
+            "similarity_score": 0.8416644334793091
         },
         "10": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -214,7 +214,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8077808022499084
+            "similarity_score": 0.7899467349052429
         },
         "11": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -228,63 +228,63 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8350714445114136
+            "similarity_score": 0.8256276845932007
         },
         "12": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "bCs9Y7puTSp91kDdqhx8",
+            "reference_name": "DS Original Charger",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "Power Cables & Connectors",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "DS Original Charger | id: bCs9Y7puTSp91kDdqhx8 | category: Power Cables & Connectors | Nintendo DS | power supply cable | electrical connector",
+            "vector_index": 156,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8015094995498657
+            "legacyId": "141",
+            "similarity_score": 0.7919800281524658
         },
         "13": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8168256282806396
+            "similarity_score": 0.7975245714187622
         },
         "14": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8120783567428589
+            "similarity_score": 0.7880551815032959
         },
         "15": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "CtJuoTNmpqb8lTLL8pug",
+            "reference_name": "GC Unidentified Misc Black",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "Memory Cards & Expansion Packs",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8078674674034119
+            "contextual_text": "GC Unidentified Misc Black | id: CtJuoTNmpqb8lTLL8pug | category: Memory Cards & Expansion Packs | GameCube | memory storage device | game save storage",
+            "vector_index": 51,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "128",
+            "similarity_score": 0.7945597171783447
         },
         "16": {
             "id": "GgWTR9QoWKoUkJ3kr5ga",
@@ -298,35 +298,35 @@
             "vector_index": 66,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8429278135299683
+            "similarity_score": 0.8268613815307617
         },
         "17": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "9BFdEKX2JzO7D54fwMNi",
+            "reference_name": "Saturn Karaoke",
             "itemtypes_name": null,
             "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
+            "contextual_text": "Saturn Karaoke | id: 9BFdEKX2JzO7D54fwMNi | category: None",
+            "vector_index": 34,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8148400783538818
+            "similarity_score": 0.8105769157409668
         },
         "18": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Labels",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8160735368728638
+            "similarity_score": 0.7946099042892456
         },
         "19": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -340,7 +340,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8317239880561829
+            "similarity_score": 0.7982678413391113
         },
         "20": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -354,21 +354,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8362869024276733
+            "similarity_score": 0.8271324038505554
         },
         "21": {
-            "id": "w6kd36hPgJ19alc4Uq8U",
-            "reference_name": "SFC Box",
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Labels",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "SFC Box | id: w6kd36hPgJ19alc4Uq8U | category: Video Game Consoles",
-            "vector_index": 221,
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8125031590461731
+            "similarity_score": 0.7734460234642029
         },
         "22": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -382,21 +382,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8150174021720886
+            "similarity_score": 0.8042196035385132
         },
         "23": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Labels",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8087186813354492
+            "similarity_score": 0.7851476669311523
         },
         "24": {
             "id": "fq7GUL3199356TwLkdC3",
@@ -410,7 +410,7 @@
             "vector_index": 178,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8135727643966675
+            "similarity_score": 0.8010219931602478
         },
         "25": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -424,7 +424,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8654803037643433
+            "similarity_score": 0.8567724227905273
         },
         "26": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -438,63 +438,63 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8197048306465149
+            "similarity_score": 0.8061830401420593
         },
         "27": {
-            "id": "No Match",
-            "reference_name": "No Match",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "",
+            "category": null,
             "model": "",
             "brand": "",
-            "source": "none",
-            "contextual_text": "",
-            "vector_index": null,
-            "embedding_norm": null,
+            "source": "vector_database",
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.0
+            "similarity_score": 0.7904891967773438
         },
         "28": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8134596347808838
+            "similarity_score": 0.7953413724899292
         },
         "29": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
-            "itemtypes_name": null,
-            "category": "Labels",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.811760425567627
-        },
-        "30": {
-            "id": "GgWTR9QoWKoUkJ3kr5ga",
-            "reference_name": "DSi",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
+            "reference_name": "Gameboy Player",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
-            "vector_index": 66,
+            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
+            "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8508607149124146
+            "similarity_score": 0.7879793643951416
+        },
+        "30": {
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8382587432861328
         },
         "31": {
             "id": "STKdatHmQLwNLJXq1fxP",
@@ -508,21 +508,21 @@
             "vector_index": 117,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8734057545661926
+            "similarity_score": 0.8593156337738037
         },
         "32": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.791260838508606
+            "similarity_score": 0.7730470299720764
         },
         "33": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -536,21 +536,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8138296008110046
+            "similarity_score": 0.8117535710334778
         },
         "34": {
-            "id": "ZcSSpwtX8cl9fICLin8R",
-            "reference_name": "NDEV",
+            "id": "F5lnUW6QS1FD2LAwvk9A",
+            "reference_name": "GC Con Sealed",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo Wii",
+            "category": "Controllers & Attachments",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "NDEV | id: ZcSSpwtX8cl9fICLin8R | category: Video Game Consoles | model: Nintendo Wii",
-            "vector_index": 150,
+            "contextual_text": "GC Con Sealed | id: F5lnUW6QS1FD2LAwvk9A | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+            "vector_index": 59,
             "embedding_norm": 1.0,
-            "legacyId": "52",
-            "similarity_score": 0.8192623853683472
+            "legacyId": "18",
+            "similarity_score": 0.8143749237060547
         },
         "35": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -564,7 +564,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.823270857334137
+            "similarity_score": 0.8027991056442261
         },
         "36": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -578,97 +578,104 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8140101432800293
+            "similarity_score": 0.8007996082305908
         }
     },
     "gdino_improved_readable": {
         "1": "Shipping Label",
         "2": "Shipping Label",
-        "3": "Saturn",
+        "3": "Shipping Label",
         "4": "Shipping Label",
         "5": "Shipping Label",
-        "6": "Shipping Label",
+        "6": "DRM Shell",
         "7": "Shipping Label",
-        "8": "FC 2P Con",
+        "8": "Taiko Drum",
         "9": "DSi",
         "10": "Shipping Label",
         "11": "Shipping Label",
-        "12": "Shipping Label",
-        "13": "Shipping Label",
-        "14": "Shipping Label",
-        "15": "Shipping Label",
+        "12": "DS Original Charger",
+        "13": "R.O.B. (boxed)",
+        "14": "R.O.B. (boxed)",
+        "15": "GC Unidentified Misc Black",
         "16": "DSi",
-        "17": "R.O.B. (boxed)",
-        "18": "Gameboy Player",
+        "17": "Saturn Karaoke",
+        "18": "Shipping Label",
         "19": "Shipping Label",
         "20": "Shipping Label",
-        "21": "SFC Box",
+        "21": "Shipping Label",
         "22": "Shipping Label",
-        "23": "Gameboy Player",
+        "23": "Shipping Label",
         "24": "Lenovo AC Adapter",
         "25": "DS Lite Boxed",
         "26": "Shipping Label",
-        "27": "No Match",
-        "28": "Shipping Label",
-        "29": "Shipping Label",
-        "30": "DSi",
+        "27": "R.O.B. (boxed)",
+        "28": "DRM Shell",
+        "29": "Gameboy Player",
+        "30": "DS Lite Boxed",
         "31": "DS Lite Charger",
-        "32": "Shipping Label",
+        "32": "R.O.B. (boxed)",
         "33": "Shipping Label",
-        "34": "NDEV",
+        "34": "GC Con Sealed",
         "35": "Shipping Label",
         "36": "Shipping Label"
     },
     "gdino_similarity_scores": {
-        "1": 0.8201,
-        "2": 0.8206,
-        "3": 0.8186,
-        "4": 0.8216,
-        "5": 0.8116,
-        "6": 0.8199,
-        "7": 0.8285,
-        "8": 0.8211,
-        "9": 0.8573,
-        "10": 0.8078,
-        "11": 0.8351,
-        "12": 0.8015,
-        "13": 0.8168,
-        "14": 0.8121,
-        "15": 0.8079,
-        "16": 0.8429,
-        "17": 0.8148,
-        "18": 0.8161,
-        "19": 0.8317,
-        "20": 0.8363,
-        "21": 0.8125,
-        "22": 0.815,
-        "23": 0.8087,
-        "24": 0.8136,
-        "25": 0.8655,
-        "26": 0.8197,
-        "27": 0.0,
-        "28": 0.8135,
-        "29": 0.8118,
-        "30": 0.8509,
-        "31": 0.8734,
-        "32": 0.7913,
-        "33": 0.8138,
-        "34": 0.8193,
-        "35": 0.8233,
-        "36": 0.814
+        "1": 0.8111,
+        "2": 0.8179,
+        "3": 0.7939,
+        "4": 0.8111,
+        "5": 0.8016,
+        "6": 0.8071,
+        "7": 0.8129,
+        "8": 0.8099,
+        "9": 0.8417,
+        "10": 0.7899,
+        "11": 0.8256,
+        "12": 0.792,
+        "13": 0.7975,
+        "14": 0.7881,
+        "15": 0.7946,
+        "16": 0.8269,
+        "17": 0.8106,
+        "18": 0.7946,
+        "19": 0.7983,
+        "20": 0.8271,
+        "21": 0.7734,
+        "22": 0.8042,
+        "23": 0.7851,
+        "24": 0.801,
+        "25": 0.8568,
+        "26": 0.8062,
+        "27": 0.7905,
+        "28": 0.7953,
+        "29": 0.788,
+        "30": 0.8383,
+        "31": 0.8593,
+        "32": 0.773,
+        "33": 0.8118,
+        "34": 0.8144,
+        "35": 0.8028,
+        "36": 0.8008
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

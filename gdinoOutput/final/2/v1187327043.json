@@ -13,18 +13,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "OvnaIjSBeoFBsRS0Y6GI",
-            "reference_name": "SFC",
+            "id": "FOe9YCwQEruTSN6BPjAq",
+            "reference_name": "PS2 HDD",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Super Famicom",
+            "category": "Internal Hard Disk Drives",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
-            "vector_index": 101,
+            "contextual_text": "PS2 HDD | id: FOe9YCwQEruTSN6BPjAq | category: Internal Hard Disk Drives | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product",
+            "vector_index": 61,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8525774478912354
+            "legacyId": "130",
+            "similarity_score": 0.8409982919692993
         },
         "2": {
             "id": "Pse4aMX8v9HeE72C0wNB",
@@ -38,9 +38,23 @@
             "vector_index": 104,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8472573757171631
+            "similarity_score": 0.8514874577522278
         },
         "3": {
+            "id": "J4L1xsDD5I1OLZSjSRpN",
+            "reference_name": "DRM Disc Drive",
+            "itemtypes_name": null,
+            "category": "Other Video Game Accessories",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DRM Disc Drive | id: J4L1xsDD5I1OLZSjSRpN | category: Other Video Game Accessories",
+            "vector_index": 76,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "154",
+            "similarity_score": 0.8350391387939453
+        },
+        "4": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
             "reference_name": "SFC",
             "itemtypes_name": null,
@@ -52,47 +66,40 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8451209664344788
-        },
-        "4": {
-            "id": "dHZsC4olhShVBHfmoleE",
-            "reference_name": "SFC [Boxed]",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Super Famicom",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
-            "vector_index": 167,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": null,
-            "similarity_score": 0.860529899597168
+            "similarity_score": 0.8447952270507812
         }
     },
     "gdino_improved_readable": {
-        "1": "SFC",
+        "1": "PS2 HDD",
         "2": "N64 Turbo Con (Hudson)",
-        "3": "SFC",
-        "4": "SFC [Boxed]"
+        "3": "DRM Disc Drive",
+        "4": "SFC"
     },
     "gdino_similarity_scores": {
-        "1": 0.8526,
-        "2": 0.8473,
-        "3": 0.8451,
-        "4": 0.8605
+        "1": 0.841,
+        "2": 0.8515,
+        "3": 0.835,
+        "4": 0.8448
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

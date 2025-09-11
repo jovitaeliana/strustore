@@ -26,7 +26,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8332924842834473
+            "similarity_score": 0.8289692997932434
         },
         "2": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -40,7 +40,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8358814120292664
+            "similarity_score": 0.8310345411300659
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -54,23 +54,9 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8490083813667297
+            "similarity_score": 0.8319316506385803
         },
         "4": {
-            "id": "ST8yllzbAiBh5De8O8kP",
-            "reference_name": "Wii U Con",
-            "itemtypes_name": null,
-            "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Wii U Con | id: ST8yllzbAiBh5De8O8kP | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 116,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8347171545028687
-        },
-        "5": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": null,
@@ -82,35 +68,56 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8453717827796936
+            "similarity_score": 0.8354586958885193
+        },
+        "5": {
+            "id": "ZcSSpwtX8cl9fICLin8R",
+            "reference_name": "NDEV",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "Nintendo Wii",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "NDEV | id: ZcSSpwtX8cl9fICLin8R | category: Video Game Consoles | model: Nintendo Wii",
+            "vector_index": 150,
+            "embedding_norm": 1.0,
+            "legacyId": "52",
+            "similarity_score": 0.8378878831863403
         }
     },
     "gdino_improved_readable": {
         "1": "Switch",
         "2": "Switch",
         "3": "Switch",
-        "4": "Wii U Con",
-        "5": "Switch"
+        "4": "Switch",
+        "5": "NDEV"
     },
     "gdino_similarity_scores": {
-        "1": 0.8333,
-        "2": 0.8359,
-        "3": 0.849,
-        "4": 0.8347,
-        "5": 0.8454
+        "1": 0.829,
+        "2": 0.831,
+        "3": 0.8319,
+        "4": 0.8355,
+        "5": 0.8379
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -13,18 +13,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Fu009vbiv7CbGJdvp4f5",
-            "reference_name": "Wii Con Knockoff",
+            "id": "52CUM8wHtys9ZaXza2jH",
+            "reference_name": "Royds Stick",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Wii Con Knockoff | id: Fu009vbiv7CbGJdvp4f5 | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 63,
-            "embedding_norm": 1.0,
-            "legacyId": "125",
-            "similarity_score": 0.8329280614852905
+            "contextual_text": "Royds Stick | id: 52CUM8wHtys9ZaXza2jH | category: Controllers & Attachments | Nintendo DS | gaming controller device | gamepad peripheral",
+            "vector_index": 19,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.820789098739624
         },
         "2": {
             "id": "HNljomQEwfkntYmDylny",
@@ -38,7 +38,7 @@
             "vector_index": 70,
             "embedding_norm": 1.0,
             "legacyId": "127",
-            "similarity_score": 0.8360202312469482
+            "similarity_score": 0.8217106461524963
         },
         "3": {
             "id": "Fu009vbiv7CbGJdvp4f5",
@@ -52,7 +52,7 @@
             "vector_index": 63,
             "embedding_norm": 1.0,
             "legacyId": "125",
-            "similarity_score": 0.8288555145263672
+            "similarity_score": 0.8187684416770935
         },
         "4": {
             "id": "HNljomQEwfkntYmDylny",
@@ -66,33 +66,40 @@
             "vector_index": 70,
             "embedding_norm": 1.0,
             "legacyId": "127",
-            "similarity_score": 0.828590989112854
+            "similarity_score": 0.8335205316543579
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Con Knockoff",
+        "1": "Royds Stick",
         "2": "Switch Pokèball",
         "3": "Wii Con Knockoff",
         "4": "Switch Pokèball"
     },
     "gdino_similarity_scores": {
-        "1": 0.8329,
-        "2": 0.836,
-        "3": 0.8289,
-        "4": 0.8286
+        "1": 0.8208,
+        "2": 0.8217,
+        "3": 0.8188,
+        "4": 0.8335
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

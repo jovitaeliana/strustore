@@ -22,7 +22,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8504745364189148
+            "similarity_score": 0.8442507982254028
         },
         "2": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -36,45 +36,52 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8405443429946899
+            "similarity_score": 0.8429561257362366
         },
         "3": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8276462554931641
+            "similarity_score": 0.8118433356285095
         }
     },
     "gdino_improved_readable": {
         "1": "SFC",
         "2": "SFC",
-        "3": "Shipping Label"
+        "3": "R.O.B. (boxed)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8505,
-        "2": 0.8405,
-        "3": 0.8276
+        "1": 0.8443,
+        "2": 0.843,
+        "3": 0.8118
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -9,18 +9,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "y94oJNaPD2VI2396Pq3m",
+            "reference_name": "Wii Classic Con",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8278968334197998
+            "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
+            "vector_index": 227,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "146",
+            "similarity_score": 0.8244369029998779
         },
         "2": {
             "id": "PaVQDrGaUjcYp3KPYkmN",
@@ -34,29 +34,36 @@
             "vector_index": 103,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8472527265548706
+            "similarity_score": 0.8396050930023193
         }
     },
     "gdino_improved_readable": {
-        "1": "Switch",
+        "1": "Wii Classic Con",
         "2": "Blue N64 Con (boxed)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8279,
-        "2": 0.8473
+        "1": 0.8244,
+        "2": 0.8396
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

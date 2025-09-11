@@ -20,43 +20,50 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8492872714996338
+            "similarity_score": 0.8426178693771362
         },
         "2": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8421255946159363
+            "similarity_score": 0.8264501690864563
         }
     },
     "gdino_improved_readable": {
         "1": "SFC",
-        "2": "Switch"
+        "2": "SFC"
     },
     "gdino_similarity_scores": {
-        "1": 0.8493,
-        "2": 0.8421
+        "1": 0.8426,
+        "2": 0.8265
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

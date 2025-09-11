@@ -22,7 +22,7 @@
             "vector_index": 42,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.855288028717041
+            "similarity_score": 0.8424281477928162
         },
         "2": {
             "id": "BX6U5HsUfOtCWnR8PCdr",
@@ -36,7 +36,7 @@
             "vector_index": 42,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8714693188667297
+            "similarity_score": 0.8603945970535278
         },
         "3": {
             "id": "BX6U5HsUfOtCWnR8PCdr",
@@ -50,7 +50,7 @@
             "vector_index": 42,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8598331809043884
+            "similarity_score": 0.8487562537193298
         }
     },
     "gdino_improved_readable": {
@@ -59,22 +59,29 @@
         "3": "Game Boy Pocket"
     },
     "gdino_similarity_scores": {
-        "1": 0.8553,
-        "2": 0.8715,
-        "3": 0.8598
+        "1": 0.8424,
+        "2": 0.8604,
+        "3": 0.8488
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

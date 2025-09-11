@@ -20,7 +20,7 @@
             "vector_index": 109,
             "embedding_norm": 1.0,
             "legacyId": "27",
-            "similarity_score": 0.8531094789505005
+            "similarity_score": 0.8501076698303223
         },
         "2": {
             "id": "QvUB8tHBNDmkwWhylwa5",
@@ -34,7 +34,7 @@
             "vector_index": 109,
             "embedding_norm": 1.0,
             "legacyId": "27",
-            "similarity_score": 0.8378127813339233
+            "similarity_score": 0.8411650657653809
         }
     },
     "gdino_improved_readable": {
@@ -42,21 +42,28 @@
         "2": "PS3 Con"
     },
     "gdino_similarity_scores": {
-        "1": 0.8531,
-        "2": 0.8378
+        "1": 0.8501,
+        "2": 0.8412
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

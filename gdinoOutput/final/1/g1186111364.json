@@ -19,6 +19,34 @@
     },
     "gdino_improved": {
         "1": {
+            "id": "STKdatHmQLwNLJXq1fxP",
+            "reference_name": "DS Lite Charger",
+            "itemtypes_name": null,
+            "category": "Power Cables & Connectors",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector",
+            "vector_index": 117,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8689450025558472
+        },
+        "2": {
+            "id": "aH9iGjlVeTjiCSWI8DIe",
+            "reference_name": "Saturn",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
+            "vector_index": 152,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8319041132926941
+        },
+        "3": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
             "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
@@ -30,49 +58,21 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.849968671798706
-        },
-        "2": {
-            "id": "zLLBDzmDK3ShYnB3SSdc",
-            "reference_name": "3DS",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo 3DS",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "3DS | id: zLLBDzmDK3ShYnB3SSdc | category: Video Game Consoles | model: Nintendo 3DS | Nintendo DS | Nintendo 3DS",
-            "vector_index": 229,
-            "embedding_norm": 1.0,
-            "legacyId": "90",
-            "similarity_score": 0.8488277196884155
-        },
-        "3": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
-            "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8560488224029541
+            "similarity_score": 0.8365281224250793
         },
         "4": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
-            "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8765758275985718
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8551189303398132
         },
         "5": {
             "id": "wVqFEwclOVFUhO6J1Idm",
@@ -86,67 +86,74 @@
             "vector_index": 222,
             "embedding_norm": 1.0,
             "legacyId": "120",
-            "similarity_score": 0.861390233039856
+            "similarity_score": 0.84918612241745
         },
         "6": {
-            "id": "svXJEQMnwuDfLPUHUUCi",
-            "reference_name": "2DS",
+            "id": "QXMQ0LntKXiKdHL4Y7Sw",
+            "reference_name": "Taiko Drum",
+            "itemtypes_name": null,
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Taiko Drum | id: QXMQ0LntKXiKdHL4Y7Sw | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 106,
+            "embedding_norm": 1.0,
+            "legacyId": "53",
+            "similarity_score": 0.8359006643295288
+        },
+        "7": {
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "2DS | id: svXJEQMnwuDfLPUHUUCi | category: Video Game Consoles | Nintendo DS",
-            "vector_index": 213,
-            "embedding_norm": 1.0,
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8452519774436951
-        },
-        "7": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
-            "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8422955870628357
+            "similarity_score": 0.8735035061836243
         }
     },
     "gdino_improved_readable": {
-        "1": "DS Lite Boxed",
-        "2": "3DS",
-        "3": "DS Lite",
-        "4": "DS Lite",
+        "1": "DS Lite Charger",
+        "2": "Saturn",
+        "3": "DS Lite Boxed",
+        "4": "DS Lite Boxed",
         "5": "3DS LL",
-        "6": "2DS",
-        "7": "DS Lite"
+        "6": "Taiko Drum",
+        "7": "DS Lite Boxed"
     },
     "gdino_similarity_scores": {
-        "1": 0.85,
-        "2": 0.8488,
-        "3": 0.856,
-        "4": 0.8766,
-        "5": 0.8614,
-        "6": 0.8453,
-        "7": 0.8423
+        "1": 0.8689,
+        "2": 0.8319,
+        "3": 0.8365,
+        "4": 0.8551,
+        "5": 0.8492,
+        "6": 0.8359,
+        "7": 0.8735
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

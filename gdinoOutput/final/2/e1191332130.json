@@ -36,7 +36,7 @@
             "vector_index": 167,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8614052534103394
+            "similarity_score": 0.850483775138855
         },
         "2": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -50,7 +50,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8738806843757629
+            "similarity_score": 0.8706259727478027
         },
         "3": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -64,21 +64,21 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8815923929214478
+            "similarity_score": 0.8720627427101135
         },
         "4": {
-            "id": "dHZsC4olhShVBHfmoleE",
-            "reference_name": "SFC [Boxed]",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
-            "vector_index": 167,
-            "embedding_norm": 0.9999999403953552,
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8600606918334961
+            "similarity_score": 0.8412166833877563
         },
         "5": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -92,7 +92,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8252530097961426
+            "similarity_score": 0.8161622285842896
         },
         "6": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -106,21 +106,21 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8387649059295654
+            "similarity_score": 0.8231806755065918
         },
         "7": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8346032500267029
+            "similarity_score": 0.8232781291007996
         },
         "8": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -134,21 +134,21 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8411023020744324
+            "similarity_score": 0.8276913166046143
         },
         "9": {
-            "id": "IpSmFvIFCTx0NaFFB2JW",
-            "reference_name": "DRM Shell",
+            "id": "l3ZEWkPvmSplLql2xB2i",
+            "reference_name": "DRM Popn",
             "itemtypes_name": null,
-            "category": null,
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
-            "vector_index": 73,
+            "contextual_text": "DRM Popn | id: l3ZEWkPvmSplLql2xB2i | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 190,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.80992591381073
+            "similarity_score": 0.8181477189064026
         },
         "10": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -162,45 +162,52 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.846233606338501
+            "similarity_score": 0.8347296714782715
         }
     },
     "gdino_improved_readable": {
         "1": "SFC [Boxed]",
         "2": "SFC",
         "3": "SFC",
-        "4": "SFC [Boxed]",
+        "4": "SFC",
         "5": "Shipping Label",
         "6": "SFC",
-        "7": "Switch",
+        "7": "SFC",
         "8": "SFC",
-        "9": "DRM Shell",
+        "9": "DRM Popn",
         "10": "SFC"
     },
     "gdino_similarity_scores": {
-        "1": 0.8614,
-        "2": 0.8739,
-        "3": 0.8816,
-        "4": 0.8601,
-        "5": 0.8253,
-        "6": 0.8388,
-        "7": 0.8346,
-        "8": 0.8411,
-        "9": 0.8099,
-        "10": 0.8462
+        "1": 0.8505,
+        "2": 0.8706,
+        "3": 0.8721,
+        "4": 0.8412,
+        "5": 0.8162,
+        "6": 0.8232,
+        "7": 0.8233,
+        "8": 0.8277,
+        "9": 0.8181,
+        "10": 0.8347
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

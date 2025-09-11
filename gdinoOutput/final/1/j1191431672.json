@@ -30,7 +30,7 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8648201823234558
+            "similarity_score": 0.8544794321060181
         },
         "2": {
             "id": "svXJEQMnwuDfLPUHUUCi",
@@ -44,7 +44,7 @@
             "vector_index": 213,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8255758881568909
+            "similarity_score": 0.823477566242218
         },
         "3": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -58,7 +58,7 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8210644125938416
+            "similarity_score": 0.8151972889900208
         },
         "4": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -72,37 +72,9 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8311485052108765
+            "similarity_score": 0.8176906704902649
         },
         "5": {
-            "id": "svXJEQMnwuDfLPUHUUCi",
-            "reference_name": "2DS",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "2DS | id: svXJEQMnwuDfLPUHUUCi | category: Video Game Consoles | Nintendo DS",
-            "vector_index": 213,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8270144462585449
-        },
-        "6": {
-            "id": "svXJEQMnwuDfLPUHUUCi",
-            "reference_name": "2DS",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "2DS | id: svXJEQMnwuDfLPUHUUCi | category: Video Game Consoles | Nintendo DS",
-            "vector_index": 213,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8357556462287903
-        },
-        "7": {
             "id": "aH9iGjlVeTjiCSWI8DIe",
             "reference_name": "Saturn",
             "itemtypes_name": null,
@@ -114,7 +86,35 @@
             "vector_index": 152,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8224213719367981
+            "similarity_score": 0.8247988224029541
+        },
+        "6": {
+            "id": "2ib0YdgBr6F2ZNKARP5p",
+            "reference_name": "Wario World (GC)",
+            "itemtypes_name": null,
+            "category": "Video Games",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Wario World (GC) | id: 2ib0YdgBr6F2ZNKARP5p | category: Video Games | GameCube | GameCube console game | Nintendo GameCube | video game software",
+            "vector_index": 10,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8370884656906128
+        },
+        "7": {
+            "id": "GgWTR9QoWKoUkJ3kr5ga",
+            "reference_name": "DSi",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
+            "vector_index": 66,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8022860884666443
         }
     },
     "gdino_improved_readable": {
@@ -122,31 +122,38 @@
         "2": "2DS",
         "3": "Gameboy Advance",
         "4": "Gameboy Player",
-        "5": "2DS",
-        "6": "2DS",
-        "7": "Saturn"
+        "5": "Saturn",
+        "6": "Wario World (GC)",
+        "7": "DSi"
     },
     "gdino_similarity_scores": {
-        "1": 0.8648,
-        "2": 0.8256,
-        "3": 0.8211,
-        "4": 0.8311,
-        "5": 0.827,
-        "6": 0.8358,
-        "7": 0.8224
+        "1": 0.8545,
+        "2": 0.8235,
+        "3": 0.8152,
+        "4": 0.8177,
+        "5": 0.8248,
+        "6": 0.8371,
+        "7": 0.8023
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -74,21 +74,21 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8769732713699341
+            "similarity_score": 0.8783673048019409
         },
         "3": {
-            "id": "RA1sLo6TzHsbRjgqZMHq",
-            "reference_name": "DS Lite Boxed",
+            "id": "STKdatHmQLwNLJXq1fxP",
+            "reference_name": "DS Lite Charger",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Power Cables & Connectors",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 110,
+            "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector",
+            "vector_index": 117,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8566296696662903
+            "similarity_score": 0.8636382818222046
         },
         "4": {
             "id": "zLLBDzmDK3ShYnB3SSdc",
@@ -102,7 +102,7 @@
             "vector_index": 229,
             "embedding_norm": 1.0,
             "legacyId": "90",
-            "similarity_score": 0.8603981137275696
+            "similarity_score": 0.8350616097450256
         },
         "5": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -116,7 +116,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8110265731811523
+            "similarity_score": 0.7932644486427307
         },
         "6": {
             "id": "c1CUzPNNcPsi6EBoa5rI",
@@ -130,7 +130,7 @@
             "vector_index": 158,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8586347103118896
+            "similarity_score": 0.8511126041412354
         },
         "7": {
             "id": "zLLBDzmDK3ShYnB3SSdc",
@@ -144,7 +144,7 @@
             "vector_index": 229,
             "embedding_norm": 1.0,
             "legacyId": "90",
-            "similarity_score": 0.8359942436218262
+            "similarity_score": 0.8230195641517639
         },
         "8": {
             "id": "zLLBDzmDK3ShYnB3SSdc",
@@ -158,7 +158,7 @@
             "vector_index": 229,
             "embedding_norm": 1.0,
             "legacyId": "90",
-            "similarity_score": 0.8582101464271545
+            "similarity_score": 0.8447464108467102
         },
         "9": {
             "id": "wVqFEwclOVFUhO6J1Idm",
@@ -172,7 +172,7 @@
             "vector_index": 222,
             "embedding_norm": 1.0,
             "legacyId": "120",
-            "similarity_score": 0.8695533275604248
+            "similarity_score": 0.8475392460823059
         },
         "10": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -186,7 +186,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8601784706115723
+            "similarity_score": 0.84212327003479
         },
         "11": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -200,21 +200,21 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.872803270816803
+            "similarity_score": 0.8546603918075562
         },
         "12": {
-            "id": "No Match",
-            "reference_name": "No Match",
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
             "itemtypes_name": null,
-            "category": "",
+            "category": null,
             "model": "",
             "brand": "",
-            "source": "none",
-            "contextual_text": "",
-            "vector_index": null,
-            "embedding_norm": null,
+            "source": "vector_database",
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.0
+            "similarity_score": 0.7821581363677979
         },
         "13": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -228,7 +228,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8656293153762817
+            "similarity_score": 0.8476852178573608
         },
         "14": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -242,7 +242,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8399609327316284
+            "similarity_score": 0.8015609979629517
         },
         "15": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -256,7 +256,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8191366195678711
+            "similarity_score": 0.7901462912559509
         },
         "16": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -270,7 +270,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8212118744850159
+            "similarity_score": 0.7961151003837585
         },
         "17": {
             "id": "wVqFEwclOVFUhO6J1Idm",
@@ -284,21 +284,21 @@
             "vector_index": 222,
             "embedding_norm": 1.0,
             "legacyId": "120",
-            "similarity_score": 0.8596270084381104
+            "similarity_score": 0.8453065156936646
         },
         "18": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
-            "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8770662546157837
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8639824390411377
         },
         "19": {
             "id": "No Match",
@@ -326,21 +326,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8173489570617676
+            "similarity_score": 0.7989081740379333
         },
         "21": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "AQYzm7WvlInRgxNirtbR",
+            "reference_name": "DRM",
             "itemtypes_name": null,
-            "category": null,
-            "model": "",
+            "category": "Video Game Consoles",
+            "model": "Not Applicable",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
+            "contextual_text": "DRM | id: AQYzm7WvlInRgxNirtbR | category: Video Game Consoles | model: Not Applicable",
+            "vector_index": 37,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.7962290048599243
+            "legacyId": "61",
+            "similarity_score": 0.7816808223724365
         },
         "22": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -354,13 +354,13 @@
             "vector_index": 170,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8441569805145264
+            "similarity_score": 0.8282434940338135
         }
     },
     "gdino_improved_readable": {
         "1": "No Match",
         "2": "DS Lite Boxed",
-        "3": "DS Lite Boxed",
+        "3": "DS Lite Charger",
         "4": "3DS",
         "5": "Shipping Label",
         "6": "PS2 SCPH-10000",
@@ -369,54 +369,61 @@
         "9": "3DS LL",
         "10": "Gameboy Player",
         "11": "Gameboy Advance",
-        "12": "No Match",
+        "12": "DRM Shell",
         "13": "Gameboy Player",
         "14": "Gameboy Player",
         "15": "Gameboy Player",
         "16": "Gameboy Player",
         "17": "3DS LL",
-        "18": "DS Lite",
+        "18": "DS Lite Boxed",
         "19": "No Match",
         "20": "Shipping Label",
-        "21": "R.O.B. (boxed)",
+        "21": "DRM",
         "22": "Gameboy Advance"
     },
     "gdino_similarity_scores": {
         "1": 0.0,
-        "2": 0.877,
-        "3": 0.8566,
-        "4": 0.8604,
-        "5": 0.811,
-        "6": 0.8586,
-        "7": 0.836,
-        "8": 0.8582,
-        "9": 0.8696,
-        "10": 0.8602,
-        "11": 0.8728,
-        "12": 0.0,
-        "13": 0.8656,
-        "14": 0.84,
-        "15": 0.8191,
-        "16": 0.8212,
-        "17": 0.8596,
-        "18": 0.8771,
+        "2": 0.8784,
+        "3": 0.8636,
+        "4": 0.8351,
+        "5": 0.7933,
+        "6": 0.8511,
+        "7": 0.823,
+        "8": 0.8447,
+        "9": 0.8475,
+        "10": 0.8421,
+        "11": 0.8547,
+        "12": 0.7822,
+        "13": 0.8477,
+        "14": 0.8016,
+        "15": 0.7901,
+        "16": 0.7961,
+        "17": 0.8453,
+        "18": 0.864,
         "19": 0.0,
-        "20": 0.8173,
-        "21": 0.7962,
-        "22": 0.8442
+        "20": 0.7989,
+        "21": 0.7817,
+        "22": 0.8282
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -24,7 +24,7 @@
             "vector_index": 13,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.838424801826477
+            "similarity_score": 0.8277519345283508
         },
         "2": {
             "id": "52CUM8wHtys9ZaXza2jH",
@@ -38,7 +38,7 @@
             "vector_index": 19,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8494551777839661
+            "similarity_score": 0.8421177864074707
         },
         "3": {
             "id": "dHZsC4olhShVBHfmoleE",
@@ -52,7 +52,7 @@
             "vector_index": 167,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8695399165153503
+            "similarity_score": 0.8498956561088562
         },
         "4": {
             "id": "dHZsC4olhShVBHfmoleE",
@@ -66,7 +66,7 @@
             "vector_index": 167,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.869881272315979
+            "similarity_score": 0.8710235953330994
         }
     },
     "gdino_improved_readable": {
@@ -76,23 +76,30 @@
         "4": "SFC [Boxed]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8384,
-        "2": 0.8495,
-        "3": 0.8695,
-        "4": 0.8699
+        "1": 0.8278,
+        "2": 0.8421,
+        "3": 0.8499,
+        "4": 0.871
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

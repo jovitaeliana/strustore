@@ -22,7 +22,7 @@
             "vector_index": 206,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.853339433670044
+            "similarity_score": 0.8238784074783325
         },
         "2": {
             "id": "087lkATTCpKIRfuZXSyO",
@@ -36,45 +36,52 @@
             "vector_index": 1,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8488525152206421
+            "similarity_score": 0.8465275764465332
         },
         "3": {
-            "id": "YDxwch9Hzj13EqLj79f2",
-            "reference_name": "Xbox 360 Con",
+            "id": "087lkATTCpKIRfuZXSyO",
+            "reference_name": "Xbox 360 Power Cord",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": "Power Cables & Connectors",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
-            "vector_index": 137,
-            "embedding_norm": 1.0,
-            "legacyId": "82",
-            "similarity_score": 0.8522300720214844
+            "contextual_text": "Xbox 360 Power Cord | id: 087lkATTCpKIRfuZXSyO | category: Power Cables & Connectors | Microsoft Xbox | power supply cable | electrical connector | Microsoft Xbox gaming product",
+            "vector_index": 1,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": null,
+            "similarity_score": 0.8486207723617554
         }
     },
     "gdino_improved_readable": {
         "1": "Xbox One",
         "2": "Xbox 360 Power Cord",
-        "3": "Xbox 360 Con"
+        "3": "Xbox 360 Power Cord"
     },
     "gdino_similarity_scores": {
-        "1": 0.8533,
-        "2": 0.8489,
-        "3": 0.8522
+        "1": 0.8239,
+        "2": 0.8465,
+        "3": 0.8486
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

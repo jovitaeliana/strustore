@@ -45,46 +45,46 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "F5lnUW6QS1FD2LAwvk9A",
+            "reference_name": "GC Con Sealed",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "GC Con Sealed | id: F5lnUW6QS1FD2LAwvk9A | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+            "vector_index": 59,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.81740802526474
+            "legacyId": "18",
+            "similarity_score": 0.7876607179641724
         },
         "2": {
-            "id": "lUX9PIFzOObfP7B9eq9E",
-            "reference_name": "new 3DS",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "new 3DS | id: lUX9PIFzOObfP7B9eq9E | category: Video Game Consoles | Nintendo DS | Nintendo 3DS",
-            "vector_index": 191,
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8451629877090454
+            "similarity_score": 0.8289408683776855
         },
         "3": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "svXJEQMnwuDfLPUHUUCi",
+            "reference_name": "2DS",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "2DS | id: svXJEQMnwuDfLPUHUUCi | category: Video Game Consoles | Nintendo DS",
+            "vector_index": 213,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8362621068954468
+            "similarity_score": 0.8325172662734985
         },
         "4": {
             "id": "sopGAgdK3BME51HDaWjU",
@@ -98,21 +98,21 @@
             "vector_index": 211,
             "embedding_norm": 1.0,
             "legacyId": "49",
-            "similarity_score": 0.8013180494308472
+            "similarity_score": 0.7894370555877686
         },
         "5": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "Ki56uOTUOWgh998rBi8J",
+            "reference_name": "Inazuma Eleven Strikers 2012 Xtreme (Wii)",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Video Games",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "Inazuma Eleven Strikers 2012 Xtreme (Wii) | id: Ki56uOTUOWgh998rBi8J | category: Video Games | Nintendo Wii | Nintendo Wii console game | motion control gaming | video game software",
+            "vector_index": 84,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8166040778160095
+            "legacyId": "104",
+            "similarity_score": 0.778671145439148
         },
         "6": {
             "id": "No Match",
@@ -140,7 +140,7 @@
             "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8114722967147827
+            "similarity_score": 0.7974621057510376
         },
         "8": {
             "id": "aH9iGjlVeTjiCSWI8DIe",
@@ -154,7 +154,7 @@
             "vector_index": 152,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.831560492515564
+            "similarity_score": 0.8286924362182617
         },
         "9": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -168,35 +168,35 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.839280366897583
+            "similarity_score": 0.8232371807098389
         },
         "10": {
-            "id": "w6kd36hPgJ19alc4Uq8U",
-            "reference_name": "SFC Box",
+            "id": "JNb0wUdOQTcqz5MBRtve",
+            "reference_name": "N64 VRS",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "",
+            "category": "Memory Cards & Expansion Packs",
+            "model": "NUS-020",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "SFC Box | id: w6kd36hPgJ19alc4Uq8U | category: Video Game Consoles",
-            "vector_index": 221,
+            "contextual_text": "N64 VRS | id: JNb0wUdOQTcqz5MBRtve | category: Memory Cards & Expansion Packs | model: NUS-020 | Nintendo 64 | memory storage device | game save storage",
+            "vector_index": 79,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8082156181335449
+            "similarity_score": 0.8050321936607361
         },
         "11": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.7981347441673279
+            "similarity_score": 0.7712032198905945
         },
         "12": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -210,35 +210,35 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.7991246581077576
+            "similarity_score": 0.787963330745697
         },
         "13": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
+            "reference_name": "Gameboy Player",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
+            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
+            "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8255172967910767
+            "similarity_score": 0.8322986364364624
         },
         "14": {
-            "id": "lUX9PIFzOObfP7B9eq9E",
-            "reference_name": "new 3DS",
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "new 3DS | id: lUX9PIFzOObfP7B9eq9E | category: Video Game Consoles | Nintendo DS | Nintendo 3DS",
-            "vector_index": 191,
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8179442882537842
+            "similarity_score": 0.7958410382270813
         },
         "15": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -252,7 +252,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8572266697883606
+            "similarity_score": 0.8321221470832825
         },
         "16": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -266,21 +266,21 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8146469593048096
+            "similarity_score": 0.8000879287719727
         },
         "17": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8340602517127991
+            "similarity_score": 0.8222700953483582
         },
         "18": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -294,7 +294,7 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.7940982580184937
+            "similarity_score": 0.8181506395339966
         },
         "19": {
             "id": "No Match",
@@ -322,65 +322,72 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8094907402992249
+            "similarity_score": 0.8025612235069275
         }
     },
     "gdino_improved_readable": {
-        "1": "Shipping Label",
-        "2": "new 3DS",
-        "3": "Gameboy Player",
+        "1": "GC Con Sealed",
+        "2": "SFC",
+        "3": "2DS",
         "4": "SFC SGB",
-        "5": "Gameboy Player",
+        "5": "Inazuma Eleven Strikers 2012 Xtreme (Wii)",
         "6": "No Match",
         "7": "R.O.B. (boxed)",
         "8": "Saturn",
         "9": "SFC",
-        "10": "SFC Box",
-        "11": "Gameboy Player",
+        "10": "N64 VRS",
+        "11": "R.O.B. (boxed)",
         "12": "Gameboy Player",
-        "13": "Saturn",
-        "14": "new 3DS",
+        "13": "Gameboy Player",
+        "14": "Switch",
         "15": "SFC",
         "16": "Shipping Label",
-        "17": "Gameboy Player",
+        "17": "SFC",
         "18": "Gameboy Player",
         "19": "No Match",
         "20": "Shipping Label"
     },
     "gdino_similarity_scores": {
-        "1": 0.8174,
-        "2": 0.8452,
-        "3": 0.8363,
-        "4": 0.8013,
-        "5": 0.8166,
+        "1": 0.7877,
+        "2": 0.8289,
+        "3": 0.8325,
+        "4": 0.7894,
+        "5": 0.7787,
         "6": 0.0,
-        "7": 0.8115,
-        "8": 0.8316,
-        "9": 0.8393,
-        "10": 0.8082,
-        "11": 0.7981,
-        "12": 0.7991,
-        "13": 0.8255,
-        "14": 0.8179,
-        "15": 0.8572,
-        "16": 0.8146,
-        "17": 0.8341,
-        "18": 0.7941,
+        "7": 0.7975,
+        "8": 0.8287,
+        "9": 0.8232,
+        "10": 0.805,
+        "11": 0.7712,
+        "12": 0.788,
+        "13": 0.8323,
+        "14": 0.7958,
+        "15": 0.8321,
+        "16": 0.8001,
+        "17": 0.8223,
+        "18": 0.8182,
         "19": 0.0,
-        "20": 0.8095
+        "20": 0.8026
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

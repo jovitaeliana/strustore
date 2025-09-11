@@ -78,7 +78,7 @@
             "vector_index": 152,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8641575574874878
+            "similarity_score": 0.8381718993186951
         },
         "2": {
             "id": "PaVQDrGaUjcYp3KPYkmN",
@@ -92,7 +92,7 @@
             "vector_index": 103,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8569289445877075
+            "similarity_score": 0.8572967648506165
         },
         "3": {
             "id": "JrwrnOoJORdTTkvW8pTX",
@@ -106,7 +106,7 @@
             "vector_index": 83,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8584362268447876
+            "similarity_score": 0.8428996801376343
         },
         "4": {
             "id": "aH9iGjlVeTjiCSWI8DIe",
@@ -120,7 +120,7 @@
             "vector_index": 152,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8546761274337769
+            "similarity_score": 0.8358616828918457
         },
         "5": {
             "id": "60QzDajbkQRYVGg9Jgup",
@@ -134,7 +134,7 @@
             "vector_index": 21,
             "embedding_norm": 1.0,
             "legacyId": "95",
-            "similarity_score": 0.8639926910400391
+            "similarity_score": 0.8467733860015869
         },
         "6": {
             "id": "JrwrnOoJORdTTkvW8pTX",
@@ -148,21 +148,21 @@
             "vector_index": 83,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8550771474838257
+            "similarity_score": 0.8469146490097046
         },
         "7": {
-            "id": "kcyOqlpSjOxpv9ZpONeh",
-            "reference_name": "Xbox 360",
+            "id": "YDxwch9Hzj13EqLj79f2",
+            "reference_name": "Xbox 360 Con",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Microsoft Xbox 360",
+            "category": "Controllers & Attachments",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Xbox 360 | id: kcyOqlpSjOxpv9ZpONeh | category: Video Game Consoles | model: Microsoft Xbox 360 | Microsoft Xbox | Microsoft Xbox gaming product",
-            "vector_index": 189,
+            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
+            "vector_index": 137,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8644276857376099
+            "legacyId": "82",
+            "similarity_score": 0.8525121212005615
         },
         "8": {
             "id": "QvUB8tHBNDmkwWhylwa5",
@@ -176,7 +176,7 @@
             "vector_index": 109,
             "embedding_norm": 1.0,
             "legacyId": "27",
-            "similarity_score": 0.8610435724258423
+            "similarity_score": 0.8505586981773376
         },
         "9": {
             "id": "60QzDajbkQRYVGg9Jgup",
@@ -190,49 +190,49 @@
             "vector_index": 21,
             "embedding_norm": 1.0,
             "legacyId": "95",
-            "similarity_score": 0.870080292224884
+            "similarity_score": 0.8503076434135437
         },
         "10": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
+            "id": "rr4wZ1XXjF4M2JU5aVGh",
+            "reference_name": "GC Region Switched",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Nintendo GameCube",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "GC Region Switched | id: rr4wZ1XXjF4M2JU5aVGh | category: Video Game Consoles | model: Nintendo GameCube | GameCube | Nintendo Switch",
+            "vector_index": 207,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8476170301437378
+            "legacyId": "59",
+            "similarity_score": 0.8316260576248169
         },
         "11": {
-            "id": "kcyOqlpSjOxpv9ZpONeh",
-            "reference_name": "Xbox 360",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Microsoft Xbox 360",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Xbox 360 | id: kcyOqlpSjOxpv9ZpONeh | category: Video Game Consoles | model: Microsoft Xbox 360 | Microsoft Xbox | Microsoft Xbox gaming product",
-            "vector_index": 189,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8651449084281921
-        },
-        "12": {
-            "id": "60QzDajbkQRYVGg9Jgup",
-            "reference_name": "Saturn Con",
+            "id": "YDxwch9Hzj13EqLj79f2",
+            "reference_name": "Xbox 360 Con",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn Con | id: 60QzDajbkQRYVGg9Jgup | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 21,
+            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
+            "vector_index": 137,
             "embedding_norm": 1.0,
-            "legacyId": "95",
-            "similarity_score": 0.8651938438415527
+            "legacyId": "82",
+            "similarity_score": 0.8468798398971558
+        },
+        "12": {
+            "id": "aH9iGjlVeTjiCSWI8DIe",
+            "reference_name": "Saturn",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
+            "vector_index": 152,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8463411927223206
         },
         "13": {
             "id": "wviDZriLtZag6FCXscHP",
@@ -246,7 +246,7 @@
             "vector_index": 224,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8631795644760132
+            "similarity_score": 0.8346477746963501
         },
         "14": {
             "id": "YDxwch9Hzj13EqLj79f2",
@@ -260,35 +260,35 @@
             "vector_index": 137,
             "embedding_norm": 1.0,
             "legacyId": "82",
-            "similarity_score": 0.8733367919921875
+            "similarity_score": 0.8684796690940857
         },
         "15": {
-            "id": "c1CUzPNNcPsi6EBoa5rI",
-            "reference_name": "PS2 SCPH-10000",
+            "id": "QvUB8tHBNDmkwWhylwa5",
+            "reference_name": "PS3 Con",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Sony PlayStation 2",
+            "category": "Controllers & Attachments",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS2 SCPH-10000 | id: c1CUzPNNcPsi6EBoa5rI | category: Video Game Consoles | model: Sony PlayStation 2 | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product",
-            "vector_index": 158,
+            "contextual_text": "PS3 Con | id: QvUB8tHBNDmkwWhylwa5 | category: Controllers & Attachments | PlayStation 3 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 109,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.856601893901825
+            "legacyId": "27",
+            "similarity_score": 0.8373883962631226
         },
         "16": {
-            "id": "kcyOqlpSjOxpv9ZpONeh",
-            "reference_name": "Xbox 360",
+            "id": "YDxwch9Hzj13EqLj79f2",
+            "reference_name": "Xbox 360 Con",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Microsoft Xbox 360",
+            "category": "Controllers & Attachments",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Xbox 360 | id: kcyOqlpSjOxpv9ZpONeh | category: Video Game Consoles | model: Microsoft Xbox 360 | Microsoft Xbox | Microsoft Xbox gaming product",
-            "vector_index": 189,
+            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
+            "vector_index": 137,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8502833843231201
+            "legacyId": "82",
+            "similarity_score": 0.8199077844619751
         },
         "17": {
             "id": "grBYZVKOdeZxSmRoDiTe",
@@ -302,7 +302,7 @@
             "vector_index": 180,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8486806154251099
+            "similarity_score": 0.8531101942062378
         },
         "18": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -316,7 +316,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.794478178024292
+            "similarity_score": 0.7709105014801025
         },
         "19": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -330,77 +330,77 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8225846886634827
+            "similarity_score": 0.8247514963150024
         },
         "20": {
-            "id": "ZBroqZgzmGouENEl1iVl",
-            "reference_name": "Switch Pro Controller",
+            "id": "UtTSNvusObuHWpIpk4aM",
+            "reference_name": "N64 Con (Loose Stick)",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch Pro Controller | id: ZBroqZgzmGouENEl1iVl | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
-            "vector_index": 146,
+            "contextual_text": "N64 Con (Loose Stick) | id: UtTSNvusObuHWpIpk4aM | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 125,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8768599629402161
+            "similarity_score": 0.8494703769683838
         },
         "21": {
-            "id": "IpSmFvIFCTx0NaFFB2JW",
-            "reference_name": "DRM Shell",
-            "itemtypes_name": null,
-            "category": null,
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
-            "vector_index": 73,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8092344403266907
-        },
-        "22": {
-            "id": "IpSmFvIFCTx0NaFFB2JW",
-            "reference_name": "DRM Shell",
-            "itemtypes_name": null,
-            "category": null,
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
-            "vector_index": 73,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8092344403266907
-        },
-        "23": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
-            "itemtypes_name": null,
-            "category": null,
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8056521415710449
-        },
-        "24": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
+            "reference_name": "Gameboy Player",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
+            "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.860434889793396
+            "similarity_score": 0.7891765236854553
+        },
+        "22": {
+            "id": "YxGyIhCoGGi6fsk3Beo8",
+            "reference_name": "Gameboy Player",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
+            "vector_index": 143,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.7891765236854553
+        },
+        "23": {
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
+            "itemtypes_name": null,
+            "category": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.7975711822509766
+        },
+        "24": {
+            "id": "UtTSNvusObuHWpIpk4aM",
+            "reference_name": "N64 Con (Loose Stick)",
+            "itemtypes_name": null,
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "N64 Con (Loose Stick) | id: UtTSNvusObuHWpIpk4aM | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 125,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8541315197944641
         },
         "25": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -414,77 +414,77 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8155452013015747
+            "similarity_score": 0.8025332689285278
         },
         "26": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
             "itemtypes_name": null,
             "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.7984320521354675
+            "similarity_score": 0.8156548738479614
         },
         "27": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8279866576194763
+            "similarity_score": 0.8073803186416626
         },
         "28": {
-            "id": "9BFdEKX2JzO7D54fwMNi",
-            "reference_name": "Saturn Karaoke",
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
             "itemtypes_name": null,
             "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn Karaoke | id: 9BFdEKX2JzO7D54fwMNi | category: None",
-            "vector_index": 34,
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.802364706993103
+            "similarity_score": 0.8090928792953491
         },
         "29": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
             "itemtypes_name": null,
             "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8150159120559692
+            "similarity_score": 0.8121870756149292
         },
         "30": {
-            "id": "kcyOqlpSjOxpv9ZpONeh",
-            "reference_name": "Xbox 360",
+            "id": "YDxwch9Hzj13EqLj79f2",
+            "reference_name": "Xbox 360 Con",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Microsoft Xbox 360",
+            "category": "Controllers & Attachments",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Xbox 360 | id: kcyOqlpSjOxpv9ZpONeh | category: Video Game Consoles | model: Microsoft Xbox 360 | Microsoft Xbox | Microsoft Xbox gaming product",
-            "vector_index": 189,
+            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
+            "vector_index": 137,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8690707683563232
+            "legacyId": "82",
+            "similarity_score": 0.8451076745986938
         },
         "31": {
             "id": "YDxwch9Hzj13EqLj79f2",
@@ -498,7 +498,7 @@
             "vector_index": 137,
             "embedding_norm": 1.0,
             "legacyId": "82",
-            "similarity_score": 0.8683272004127502
+            "similarity_score": 0.8495724201202393
         }
     },
     "gdino_improved_readable": {
@@ -508,77 +508,84 @@
         "4": "Saturn",
         "5": "Saturn Con",
         "6": "DRM GDEMU",
-        "7": "Xbox 360",
+        "7": "Xbox 360 Con",
         "8": "PS3 Con",
         "9": "Saturn Con",
-        "10": "Gameboy Player",
-        "11": "Xbox 360",
-        "12": "Saturn Con",
+        "10": "GC Region Switched",
+        "11": "Xbox 360 Con",
+        "12": "Saturn",
         "13": "PS1 Dual Analog Con SCPH-1180",
         "14": "Xbox 360 Con",
-        "15": "PS2 SCPH-10000",
-        "16": "Xbox 360",
+        "15": "PS3 Con",
+        "16": "Xbox 360 Con",
         "17": "Command Stick FS",
         "18": "Shipping Label",
         "19": "Shipping Label",
-        "20": "Switch Pro Controller",
-        "21": "DRM Shell",
-        "22": "DRM Shell",
-        "23": "R.O.B. (boxed)",
-        "24": "Switch",
+        "20": "N64 Con (Loose Stick)",
+        "21": "Gameboy Player",
+        "22": "Gameboy Player",
+        "23": "DRM Shell",
+        "24": "N64 Con (Loose Stick)",
         "25": "Shipping Label",
-        "26": "R.O.B. (boxed)",
-        "27": "Saturn",
-        "28": "Saturn Karaoke",
-        "29": "R.O.B. (boxed)",
-        "30": "Xbox 360",
+        "26": "DRM Shell",
+        "27": "DRM Shell",
+        "28": "DRM Shell",
+        "29": "DRM Shell",
+        "30": "Xbox 360 Con",
         "31": "Xbox 360 Con"
     },
     "gdino_similarity_scores": {
-        "1": 0.8642,
-        "2": 0.8569,
-        "3": 0.8584,
-        "4": 0.8547,
-        "5": 0.864,
-        "6": 0.8551,
-        "7": 0.8644,
-        "8": 0.861,
-        "9": 0.8701,
-        "10": 0.8476,
-        "11": 0.8651,
-        "12": 0.8652,
-        "13": 0.8632,
-        "14": 0.8733,
-        "15": 0.8566,
-        "16": 0.8503,
-        "17": 0.8487,
-        "18": 0.7945,
-        "19": 0.8226,
-        "20": 0.8769,
-        "21": 0.8092,
-        "22": 0.8092,
-        "23": 0.8057,
-        "24": 0.8604,
-        "25": 0.8155,
-        "26": 0.7984,
-        "27": 0.828,
-        "28": 0.8024,
-        "29": 0.815,
-        "30": 0.8691,
-        "31": 0.8683
+        "1": 0.8382,
+        "2": 0.8573,
+        "3": 0.8429,
+        "4": 0.8359,
+        "5": 0.8468,
+        "6": 0.8469,
+        "7": 0.8525,
+        "8": 0.8506,
+        "9": 0.8503,
+        "10": 0.8316,
+        "11": 0.8469,
+        "12": 0.8463,
+        "13": 0.8346,
+        "14": 0.8685,
+        "15": 0.8374,
+        "16": 0.8199,
+        "17": 0.8531,
+        "18": 0.7709,
+        "19": 0.8248,
+        "20": 0.8495,
+        "21": 0.7892,
+        "22": 0.7892,
+        "23": 0.7976,
+        "24": 0.8541,
+        "25": 0.8025,
+        "26": 0.8157,
+        "27": 0.8074,
+        "28": 0.8091,
+        "29": 0.8122,
+        "30": 0.8451,
+        "31": 0.8496
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

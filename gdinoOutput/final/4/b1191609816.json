@@ -28,21 +28,21 @@
             "vector_index": 146,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8841385245323181
+            "similarity_score": 0.86248779296875
         },
         "2": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "rr4wZ1XXjF4M2JU5aVGh",
+            "reference_name": "GC Region Switched",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Nintendo GameCube",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "GC Region Switched | id: rr4wZ1XXjF4M2JU5aVGh | category: Video Game Consoles | model: Nintendo GameCube | GameCube | Nintendo Switch",
+            "vector_index": 207,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.834180474281311
+            "legacyId": "59",
+            "similarity_score": 0.8210110664367676
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -56,7 +56,7 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8475282192230225
+            "similarity_score": 0.8274844884872437
         },
         "4": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -70,21 +70,21 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8369858860969543
+            "similarity_score": 0.8039734959602356
         },
         "5": {
-            "id": "boP0HPaJuFshEG2KxH6X",
-            "reference_name": "Hori Compact Joystick",
+            "id": "dHZsC4olhShVBHfmoleE",
+            "reference_name": "SFC [Boxed]",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
-            "model": "",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 157,
-            "embedding_norm": 1.0,
+            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 167,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8379005789756775
+            "similarity_score": 0.8212968111038208
         },
         "6": {
             "id": "oL2l1OjnB3BNLENQkoRb",
@@ -98,37 +98,44 @@
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8523849844932556
+            "similarity_score": 0.8392637372016907
         }
     },
     "gdino_improved_readable": {
         "1": "Switch Pro Controller",
-        "2": "Switch",
+        "2": "GC Region Switched",
         "3": "Switch",
         "4": "Switch",
-        "5": "Hori Compact Joystick",
+        "5": "SFC [Boxed]",
         "6": "Switch"
     },
     "gdino_similarity_scores": {
-        "1": 0.8841,
-        "2": 0.8342,
-        "3": 0.8475,
-        "4": 0.837,
-        "5": 0.8379,
-        "6": 0.8524
+        "1": 0.8625,
+        "2": 0.821,
+        "3": 0.8275,
+        "4": 0.804,
+        "5": 0.8213,
+        "6": 0.8393
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

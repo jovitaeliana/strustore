@@ -32,7 +32,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8685908317565918
+            "similarity_score": 0.8758001923561096
         },
         "2": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -46,7 +46,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.863771378993988
+            "similarity_score": 0.8779110908508301
         },
         "3": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -60,7 +60,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8578845262527466
+            "similarity_score": 0.8324234485626221
         },
         "4": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -74,7 +74,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8407191634178162
+            "similarity_score": 0.8183148503303528
         },
         "5": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -88,7 +88,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8692103624343872
+            "similarity_score": 0.8766009211540222
         },
         "6": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -102,7 +102,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8640812635421753
+            "similarity_score": 0.8359947204589844
         },
         "7": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -116,7 +116,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8474863767623901
+            "similarity_score": 0.8291242718696594
         },
         "8": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -130,7 +130,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8514759540557861
+            "similarity_score": 0.8373059034347534
         }
     },
     "gdino_improved_readable": {
@@ -144,27 +144,34 @@
         "8": "SFC"
     },
     "gdino_similarity_scores": {
-        "1": 0.8686,
-        "2": 0.8638,
-        "3": 0.8579,
-        "4": 0.8407,
-        "5": 0.8692,
-        "6": 0.8641,
-        "7": 0.8475,
-        "8": 0.8515
+        "1": 0.8758,
+        "2": 0.8779,
+        "3": 0.8324,
+        "4": 0.8183,
+        "5": 0.8766,
+        "6": 0.836,
+        "7": 0.8291,
+        "8": 0.8373
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

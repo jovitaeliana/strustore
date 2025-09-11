@@ -13,18 +13,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "soWEPSYoV7RoKO4kZztI",
-            "reference_name": "DRM Rumble Pak (Puru puru)",
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": "Labels",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DRM Rumble Pak (Puru puru) | id: soWEPSYoV7RoKO4kZztI | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 210,
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
             "embedding_norm": 1.0,
-            "legacyId": "71",
-            "similarity_score": 0.8120805025100708
+            "legacyId": null,
+            "similarity_score": 0.8078278303146362
         },
         "2": {
             "id": "soWEPSYoV7RoKO4kZztI",
@@ -38,21 +38,21 @@
             "vector_index": 210,
             "embedding_norm": 1.0,
             "legacyId": "71",
-            "similarity_score": 0.8325759172439575
+            "similarity_score": 0.8303395509719849
         },
         "3": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "Irh72HART2knkr1jxuG7",
+            "reference_name": "Shipping Label",
             "itemtypes_name": null,
-            "category": null,
+            "category": "Labels",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
+            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+            "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8033487200737
+            "similarity_score": 0.7917273044586182
         },
         "4": {
             "id": "IpSmFvIFCTx0NaFFB2JW",
@@ -66,33 +66,40 @@
             "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8156504034996033
+            "similarity_score": 0.8328331112861633
         }
     },
     "gdino_improved_readable": {
-        "1": "DRM Rumble Pak (Puru puru)",
+        "1": "Shipping Label",
         "2": "DRM Rumble Pak (Puru puru)",
-        "3": "R.O.B. (boxed)",
+        "3": "Shipping Label",
         "4": "DRM Shell"
     },
     "gdino_similarity_scores": {
-        "1": 0.8121,
-        "2": 0.8326,
-        "3": 0.8033,
-        "4": 0.8157
+        "1": 0.8078,
+        "2": 0.8303,
+        "3": 0.7917,
+        "4": 0.8328
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

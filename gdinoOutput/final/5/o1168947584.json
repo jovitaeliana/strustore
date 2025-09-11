@@ -9,54 +9,61 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "E4gdR1zQcZder6WVWIQx",
-            "reference_name": "Microsoft Flight Stick",
+            "id": "YDxwch9Hzj13EqLj79f2",
+            "reference_name": "Xbox 360 Con",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Microsoft Flight Stick | id: E4gdR1zQcZder6WVWIQx | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
-            "vector_index": 53,
+            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
+            "vector_index": 137,
             "embedding_norm": 1.0,
-            "legacyId": "85",
-            "similarity_score": 0.8439100980758667
+            "legacyId": "82",
+            "similarity_score": 0.8330870866775513
         },
         "3": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+            "id": "ri7BtZBzSxWd5jRBctFM",
+            "reference_name": "Xbox One",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Microsoft Xbox One",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
-            "embedding_norm": 1.0,
+            "contextual_text": "Xbox One | id: ri7BtZBzSxWd5jRBctFM | category: Video Game Consoles | model: Microsoft Xbox One | Microsoft Xbox | Microsoft Xbox gaming product",
+            "vector_index": 206,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8565848469734192
+            "similarity_score": 0.853952169418335
         }
     },
     "gdino_improved_readable": {
-        "1": "Microsoft Flight Stick",
-        "3": "Saturn"
+        "1": "Xbox 360 Con",
+        "3": "Xbox One"
     },
     "gdino_similarity_scores": {
-        "1": 0.8439,
-        "3": 0.8566
+        "1": 0.8331,
+        "3": 0.854
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

@@ -40,7 +40,7 @@
             "vector_index": 152,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8330581188201904
+            "similarity_score": 0.8017216920852661
         },
         "2": {
             "id": "RLTezhK4keTvDr70COUX",
@@ -54,23 +54,51 @@
             "vector_index": 111,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "70",
-            "similarity_score": 0.8460230231285095
+            "similarity_score": 0.8272182941436768
         },
         "3": {
-            "id": "svXJEQMnwuDfLPUHUUCi",
-            "reference_name": "2DS",
+            "id": "RLTezhK4keTvDr70COUX",
+            "reference_name": "DS Original",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
+            "model": "Nintendo DS",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS",
+            "vector_index": 111,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "70",
+            "similarity_score": 0.8313360214233398
+        },
+        "4": {
+            "id": "RLTezhK4keTvDr70COUX",
+            "reference_name": "DS Original",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "Nintendo DS",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS",
+            "vector_index": 111,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "70",
+            "similarity_score": 0.8275085091590881
+        },
+        "5": {
+            "id": "STKdatHmQLwNLJXq1fxP",
+            "reference_name": "DS Lite Charger",
+            "itemtypes_name": null,
+            "category": "Power Cables & Connectors",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "2DS | id: svXJEQMnwuDfLPUHUUCi | category: Video Game Consoles | Nintendo DS",
-            "vector_index": 213,
-            "embedding_norm": 1.0,
+            "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector",
+            "vector_index": 117,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8357911109924316
+            "similarity_score": 0.8253629207611084
         },
-        "4": {
+        "6": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
             "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
@@ -82,23 +110,23 @@
             "vector_index": 110,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8433908224105835
+            "similarity_score": 0.8190508484840393
         },
-        "5": {
-            "id": "O9858sZlGIlyY48TTOPK",
-            "reference_name": "PS1 Slimline Con",
+        "7": {
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
             "itemtypes_name": null,
-            "category": "Controllers & Attachments",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS1 Slimline Con | id: O9858sZlGIlyY48TTOPK | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 98,
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8307837843894958
+            "similarity_score": 0.7937560081481934
         },
-        "6": {
+        "8": {
             "id": "aH9iGjlVeTjiCSWI8DIe",
             "reference_name": "Saturn",
             "itemtypes_name": null,
@@ -110,35 +138,7 @@
             "vector_index": 152,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8285123109817505
-        },
-        "7": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
-            "itemtypes_name": null,
-            "category": null,
-            "model": "",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8261469602584839
-        },
-        "8": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
-            "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
-            "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
-            "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8307725787162781
+            "similarity_score": 0.8238589763641357
         },
         "9": {
             "id": "RLTezhK4keTvDr70COUX",
@@ -152,35 +152,35 @@
             "vector_index": 111,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "70",
-            "similarity_score": 0.8377386331558228
+            "similarity_score": 0.8252155780792236
         },
         "10": {
-            "id": "RLTezhK4keTvDr70COUX",
-            "reference_name": "DS Original",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "Nintendo DS",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS",
-            "vector_index": 111,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "70",
-            "similarity_score": 0.8467483520507812
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8491687774658203
         },
         "11": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "F5lnUW6QS1FD2LAwvk9A",
+            "reference_name": "GC Con Sealed",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "GC Con Sealed | id: F5lnUW6QS1FD2LAwvk9A | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+            "vector_index": 59,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8111005425453186
+            "legacyId": "18",
+            "similarity_score": 0.806522786617279
         },
         "12": {
             "id": "RLTezhK4keTvDr70COUX",
@@ -194,49 +194,56 @@
             "vector_index": 111,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "70",
-            "similarity_score": 0.8570898771286011
+            "similarity_score": 0.8287424445152283
         }
     },
     "gdino_improved_readable": {
         "1": "Saturn",
         "2": "DS Original",
-        "3": "2DS",
-        "4": "DS Lite Boxed",
-        "5": "PS1 Slimline Con",
-        "6": "Saturn",
-        "7": "R.O.B. (boxed)",
-        "8": "DS Lite",
+        "3": "DS Original",
+        "4": "DS Original",
+        "5": "DS Lite Charger",
+        "6": "DS Lite Boxed",
+        "7": "DRM Shell",
+        "8": "Saturn",
         "9": "DS Original",
-        "10": "DS Original",
-        "11": "Shipping Label",
+        "10": "SFC",
+        "11": "GC Con Sealed",
         "12": "DS Original"
     },
     "gdino_similarity_scores": {
-        "1": 0.8331,
-        "2": 0.846,
-        "3": 0.8358,
-        "4": 0.8434,
-        "5": 0.8308,
-        "6": 0.8285,
-        "7": 0.8261,
-        "8": 0.8308,
-        "9": 0.8377,
-        "10": 0.8467,
-        "11": 0.8111,
-        "12": 0.8571
+        "1": 0.8017,
+        "2": 0.8272,
+        "3": 0.8313,
+        "4": 0.8275,
+        "5": 0.8254,
+        "6": 0.8191,
+        "7": 0.7938,
+        "8": 0.8239,
+        "9": 0.8252,
+        "10": 0.8492,
+        "11": 0.8065,
+        "12": 0.8287
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

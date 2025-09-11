@@ -15,10 +15,7 @@ from tqdm import tqdm
 import faiss
 from sentence_transformers import SentenceTransformer
 
-# Import position-weighted classification system
-import sys
-sys.path.append('/Users/jovitaeliana/Personal/strustore')
-from position_weighted_embeddings import PositionWeightedTokenClassifier
+# Dynamic weighting system is implemented within this class
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -57,8 +54,7 @@ class GdinoResultEnhancer:
         self.itemtypes_embeddings = None
         self.itemtypes_index = None
         
-        # Position-weighted classifier
-        self.position_classifier = PositionWeightedTokenClassifier()
+        # Dynamic weighting system is implemented within class methods
         
     def load_vector_database(self) -> None:
         """Load the vector database and model for semantic search."""
@@ -207,13 +203,91 @@ class GdinoResultEnhancer:
             logger.error(f"Failed to load itemtypes database: {e}")
             # Continue without itemtypes support
     
-    def search_similar_items(self, tokens: List[str], k: int = 5, use_position_weighting: bool = True) -> List[Dict[str, Any]]:
+    def apply_dynamic_token_weighting(self, tokens: List[str], max_tokens: int = 10, 
+                                     decay_factor: float = 0.1, min_weight: float = 0.1) -> List[Dict[str, Any]]:
         """
-        Search for similar items based on token array using semantic search.
+        Apply dynamic priority-based token weighting using exponential decay.
         
         Args:
-            tokens: List of detection tokens
+            tokens: Ordered list of tokens (index 0 = highest priority)
+            max_tokens: Maximum number of tokens to consider
+            decay_factor: Exponential decay rate for token weights
+            min_weight: Minimum weight threshold for inclusion
+            
+        Returns:
+            List of weighted tokens with metadata
+        """
+        if not tokens:
+            return []
+        
+        # Noise terms that should be filtered out regardless of position
+        noise_terms = {
+            'de', 'en', 'com', 'por', 'para', 'con', 'las', 'los', 'el', 'la', 'w', 'r', 'l', 
+            'buy', 'best', 'online', 'youtube', 'tiktok', 'facebook', 'mercadolibre', 'wallapop', 
+            'amazon', 'ebay', 'price', 'precio', 'estado', 'condition', 'new', 'used', 'segunda', 
+            'mano', 'original', 'genuine', 'oem', 'tested', 'working', 'bundle', 'set', 'kit', 
+            'box', 'caja', 'メルカリ', 'ラクマ', 'yahoo', 'オークション', 'フリマ', 'eur'
+        }
+        
+        # Industry-specific boost keywords
+        hardware_keywords = {
+            'nintendo', 'playstation', 'xbox', 'switch', 'controller', 'console',
+            'ds', 'dsi', 'psp', 'vita', 'gamecube', 'wii', 'joy', 'con', 'joycon',
+            'ps1', 'ps2', 'ps3', 'ps4', 'ps5', '3ds', 'gba', 'n64', 'snes',
+            'scph', 'oled', 'pro', 'slim', 'lite', 'memory', 'card', 'handheld',
+            'dualshock', 'sixaxis', 'dualsense', 'gameboy', 'saturn', 'genesis'
+        }
+        
+        weighted_tokens = []
+        
+        for idx, token in enumerate(tokens[:max_tokens]):
+            token_clean = token.strip().lower()
+            
+            # Skip empty or very short tokens
+            if len(token_clean) < 2:
+                continue
+                
+            # Skip noise terms
+            if token_clean in noise_terms:
+                continue
+            
+            # Calculate exponential decay weight based on position
+            # Weight = 1.0 * e^(-decay_factor * index)
+            position_weight = np.exp(-decay_factor * idx)
+            
+            # Apply hardware boost if token is hardware-related
+            hardware_boost = 1.5 if any(hw in token_clean for hw in hardware_keywords) else 1.0
+            
+            # Calculate final weight
+            final_weight = position_weight * hardware_boost
+            
+            # Only include tokens above minimum weight threshold
+            if final_weight >= min_weight:
+                weighted_tokens.append({
+                    'token': token,
+                    'position_index': idx,
+                    'position_weight': position_weight,
+                    'hardware_boost': hardware_boost,
+                    'final_weight': final_weight,
+                    'is_hardware': hardware_boost > 1.0,
+                    'token_clean': token_clean
+                })
+        
+        # Sort by final weight (descending)
+        weighted_tokens.sort(key=lambda x: x['final_weight'], reverse=True)
+        
+        return weighted_tokens
+
+    def search_similar_items(self, tokens: List[str], k: int = 5, use_dynamic_weighting: bool = True, 
+                           weighting_config: Optional[Dict[str, float]] = None) -> List[Dict[str, Any]]:
+        """
+        Search for similar items based on token array using dynamic priority-based weighting.
+        
+        Args:
+            tokens: Ordered list of detection tokens (index 0 = highest priority)
             k: Number of similar items to return
+            use_dynamic_weighting: Enable dynamic token weighting system
+            weighting_config: Configuration for weighting algorithm
             
         Returns:
             List of similar items with similarity scores
@@ -221,67 +295,51 @@ class GdinoResultEnhancer:
         if not tokens:
             return []
         
-        try:
-            # Gaming-specific keywords to prioritize (used in both position-weighted and fallback modes)
-            gaming_keywords = {
-                'nintendo', 'playstation', 'xbox', 'switch', 'controller', 'console',
-                'ds', 'psp', 'vita', 'gamecube', 'wii', 'joy', 'con', 'joycon',
-                'ps1', 'ps2', 'ps3', 'ps4', 'ps5', '3ds', 'gba', 'n64', 'snes',
-                'scph', 'oled', 'pro', 'slim', 'lite', 'memory', 'card'
+        # Default weighting configuration
+        if weighting_config is None:
+            weighting_config = {
+                'max_tokens': 10,
+                'decay_factor': 0.1,
+                'min_weight': 0.1,
+                'hardware_boost': 1.5
             }
-            
-            # Apply position-weighted analysis if enabled
-            if use_position_weighting:
-                # Analyze tokens with position weighting
-                token_analysis = self.position_classifier.classify_hardware_tokens(tokens)
+        
+        try:
+            if use_dynamic_weighting:
+                # Apply dynamic priority-based weighting
+                weighted_tokens = self.apply_dynamic_token_weighting(
+                    tokens, 
+                    max_tokens=weighting_config['max_tokens'],
+                    decay_factor=weighting_config['decay_factor'],
+                    min_weight=weighting_config['min_weight']
+                )
                 
-                # Extract tokens with their weights for prioritized search
-                weighted_tokens = []
-                for token_data in token_analysis['weighted_analysis']:
-                    if token_data['final_weight'] > 0.2:  # Only use tokens above threshold
-                        weighted_tokens.append({
-                            'token': token_data['token'],
-                            'weight': token_data['final_weight'],
-                            'is_hardware': token_data['is_hardware_term']
-                        })
+                if not weighted_tokens:
+                    logger.debug("No valid tokens after dynamic weighting")
+                    return []
                 
-                # Sort by weight (descending)
-                weighted_tokens.sort(key=lambda x: x['weight'], reverse=True)
+                # Create query from weighted tokens (prioritize high-weight tokens)
+                query_tokens = [wt['token'] for wt in weighted_tokens[:15]]
                 
-                # Create prioritized token list based on position weighting
-                important_tokens = [t['token'] for t in weighted_tokens[:8]]  # Top 8 weighted
-                secondary_tokens = [t['token'] for t in weighted_tokens[8:15]]  # Next 7
+                logger.debug(f"Dynamic weighting applied: {len(weighted_tokens)} valid tokens")
+                # Fixed logging statement
+                top_tokens_str = ', '.join([f"{wt['token']}({wt['final_weight']:.2f})" for wt in weighted_tokens[:5]])
+                logger.debug(f"Top 5 weighted tokens: {top_tokens_str}")
                 
-                logger.debug(f"Position-weighted token analysis: hardware_score={token_analysis['hardware_relevance_score']:.3f}")
-                logger.debug(f"Top weighted tokens: {important_tokens[:5]}")
             else:
-                # Fallback to original prioritization logic
-                important_tokens = []
-                secondary_tokens = []
+                # Fallback to simple filtering
+                filtered_tokens = []
+                for token in tokens[:15]:
+                    token_clean = token.strip().lower()
+                    if len(token_clean) >= 2:
+                        filtered_tokens.append(token)
+                
+                query_tokens = filtered_tokens
             
-            # Filter and prioritize tokens
-            for token in tokens:
-                token_clean = token.strip().lower()
-                if len(token_clean) < 2:
-                    continue
-                    
-                # Skip common non-gaming words
-                if token_clean in {'de', 'en', 'com', 'por', 'para', 'con', 'las', 'los', 'el', 'la', 'w', 'r', 'l', 'buy', 'best', 'online', 'youtube', 'tiktok', 'facebook', 'mercadolibre', 'wallapop', 'amazon', 'ebay', 'price', 'precio', 'estado', 'condition', 'new', 'used', 'segunda', 'mano', 'original', 'genuine', 'oem', 'tested', 'working', 'bundle', 'set', 'kit', 'box', 'caja'}:
-                    continue
-                    
-                # Prioritize gaming-related tokens
-                if any(keyword in token_clean for keyword in gaming_keywords):
-                    important_tokens.append(token)
-                else:
-                    secondary_tokens.append(token)
-            
-            # Combine tokens with priority to important ones
-            all_tokens = important_tokens + secondary_tokens
-            if not all_tokens:
+            if not query_tokens:
                 return []
             
-            # Create search query - use up to 15 tokens with preference for important ones
-            query_tokens = all_tokens[:15]
+            # Create search query
             query_text = ' '.join(query_tokens)
             
             # Add E5 query prefix for better retrieval performance
@@ -307,14 +365,17 @@ class GdinoResultEnhancer:
         except Exception as e:
             logger.error(f"Search failed for tokens: {e}")
             return []
-    
-    def search_itemtypes(self, tokens: List[str], k: int = 5, use_position_weighting: bool = True) -> List[Dict[str, Any]]:
+
+    def search_itemtypes(self, tokens: List[str], k: int = 5, use_dynamic_weighting: bool = True,
+                       weighting_config: Optional[Dict[str, float]] = None) -> List[Dict[str, Any]]:
         """
-        Search for similar items in the itemtypes database.
+        Search for similar items in the itemtypes database using dynamic priority-based weighting.
         
         Args:
-            tokens: List of detection tokens
+            tokens: Ordered list of detection tokens (index 0 = highest priority)
             k: Number of similar items to return
+            use_dynamic_weighting: Enable dynamic token weighting system
+            weighting_config: Configuration for weighting algorithm
             
         Returns:
             List of similar items with similarity scores
@@ -322,67 +383,48 @@ class GdinoResultEnhancer:
         if not tokens or self.itemtypes_index is None:
             return []
         
-        try:
-            # Gaming-specific keywords to prioritize (used in both position-weighted and fallback modes)
-            gaming_keywords = {
-                'nintendo', 'playstation', 'xbox', 'switch', 'controller', 'console',
-                'ds', 'psp', 'vita', 'gamecube', 'wii', 'joy', 'con', 'joycon',
-                'ps1', 'ps2', 'ps3', 'ps4', 'ps5', '3ds', 'gba', 'n64', 'snes',
-                'scph', 'oled', 'pro', 'slim', 'lite', 'memory', 'card', 'dualshock',
-                'sixaxis', 'dualsense'
+        # Default weighting configuration
+        if weighting_config is None:
+            weighting_config = {
+                'max_tokens': 10,
+                'decay_factor': 0.1,
+                'min_weight': 0.1,
+                'hardware_boost': 1.5
             }
-            
-            # Apply position-weighted analysis if enabled
-            if use_position_weighting:
-                # Analyze tokens with position weighting
-                token_analysis = self.position_classifier.classify_hardware_tokens(tokens)
+        
+        try:
+            if use_dynamic_weighting:
+                # Apply dynamic priority-based weighting
+                weighted_tokens = self.apply_dynamic_token_weighting(
+                    tokens, 
+                    max_tokens=weighting_config['max_tokens'],
+                    decay_factor=weighting_config['decay_factor'],
+                    min_weight=weighting_config['min_weight']
+                )
                 
-                # Extract tokens with their weights for prioritized search
-                weighted_tokens = []
-                for token_data in token_analysis['weighted_analysis']:
-                    if token_data['final_weight'] > 0.2:  # Only use tokens above threshold
-                        weighted_tokens.append({
-                            'token': token_data['token'],
-                            'weight': token_data['final_weight'],
-                            'is_hardware': token_data['is_hardware_term']
-                        })
+                if not weighted_tokens:
+                    logger.debug("Itemtypes: No valid tokens after dynamic weighting")
+                    return []
                 
-                # Sort by weight (descending)
-                weighted_tokens.sort(key=lambda x: x['weight'], reverse=True)
+                # Create query from weighted tokens
+                query_tokens = [wt['token'] for wt in weighted_tokens[:15]]
                 
-                # Create prioritized token list based on position weighting
-                important_tokens = [t['token'] for t in weighted_tokens[:8]]  # Top 8 weighted
-                secondary_tokens = [t['token'] for t in weighted_tokens[8:15]]  # Next 7
+                logger.debug(f"Itemtypes dynamic weighting: {len(weighted_tokens)} valid tokens")
                 
-                logger.debug(f"Itemtypes position-weighted analysis: hardware_score={token_analysis['hardware_relevance_score']:.3f}")
             else:
-                # Fallback to original prioritization logic
-                important_tokens = []
-                secondary_tokens = []
+                # Fallback to simple filtering
+                filtered_tokens = []
+                for token in tokens[:15]:
+                    token_clean = token.strip().lower()
+                    if len(token_clean) >= 2:
+                        filtered_tokens.append(token)
+                
+                query_tokens = filtered_tokens
             
-            # Filter and prioritize tokens
-            for token in tokens:
-                token_clean = token.strip().lower()
-                if len(token_clean) < 2:
-                    continue
-                    
-                # Skip common non-gaming words
-                if token_clean in {'de', 'en', 'com', 'por', 'para', 'con', 'las', 'los', 'el', 'la', 'w', 'r', 'l', 'buy', 'best', 'online', 'youtube', 'tiktok', 'facebook', 'mercadolibre', 'wallapop', 'amazon', 'ebay', 'price', 'precio', 'estado', 'condition', 'new', 'used', 'segunda', 'mano', 'original', 'genuine', 'oem', 'tested', 'working', 'bundle', 'set', 'kit', 'box', 'caja'}:
-                    continue
-                    
-                # Prioritize gaming-related tokens
-                if any(keyword in token_clean for keyword in gaming_keywords):
-                    important_tokens.append(token)
-                else:
-                    secondary_tokens.append(token)
-            
-            # Combine tokens with priority to important ones
-            all_tokens = important_tokens + secondary_tokens
-            if not all_tokens:
+            if not query_tokens:
                 return []
             
-            # Create search query - use up to 15 tokens with preference for important ones
-            query_tokens = all_tokens[:15]
+            # Create search query
             query_text = ' '.join(query_tokens)
             
             # Add E5 query prefix for better retrieval performance
@@ -409,13 +451,14 @@ class GdinoResultEnhancer:
             logger.error(f"Itemtypes search failed: {e}")
             return []
 
-    def find_itemtypes_match(self, tokens: List[str], min_similarity: float = 0.3, use_position_weighting: bool = True) -> Optional[Dict[str, Any]]:
+    def find_itemtypes_match(self, tokens: List[str], min_similarity: float = 0.3, use_dynamic_weighting: bool = True) -> Optional[Dict[str, Any]]:
         """
-        Find the best itemtypes match for given tokens.
+        Find the best itemtypes match for given tokens using dynamic weighting.
         
         Args:
             tokens: Detection tokens
             min_similarity: Minimum similarity threshold
+            use_dynamic_weighting: Enable dynamic token weighting system
             
         Returns:
             Best itemtypes match or None
@@ -423,16 +466,19 @@ class GdinoResultEnhancer:
         if not self.itemtypes_index:
             return None
             
-        itemtype_results = self.search_itemtypes(tokens, k=3, use_position_weighting=use_position_weighting)
+        itemtype_results = self.search_itemtypes(tokens, k=3, use_dynamic_weighting=use_dynamic_weighting)
         if itemtype_results and itemtype_results[0]['similarity_score'] >= min_similarity:
-            # Add position-weighted analysis metadata
-            if use_position_weighting:
-                token_analysis = self.position_classifier.classify_hardware_tokens(tokens)
-                itemtype_results[0]['position_weighted_analysis'] = {
-                    'hardware_relevance_score': token_analysis['hardware_relevance_score'],
-                    'predicted_hardware': token_analysis['predicted_hardware'],
-                    'top_8_tokens': token_analysis['top_8_tokens']
-                }
+            # Add dynamic weighting analysis metadata if enabled
+            if use_dynamic_weighting:
+                # Add metadata about token prioritization
+                weighted_tokens = self.apply_dynamic_token_weighting(tokens)
+                if weighted_tokens:
+                    itemtype_results[0]['dynamic_weighting_analysis'] = {
+                        'top_weighted_tokens': [wt['token'] for wt in weighted_tokens[:5]],
+                        'total_weighted_tokens': len(weighted_tokens),
+                        'highest_weight': weighted_tokens[0]['final_weight'] if weighted_tokens else 0.0,
+                        'has_hardware_terms': any(wt['is_hardware'] for wt in weighted_tokens)
+                    }
             return itemtype_results[0]
         return None
 
@@ -529,72 +575,113 @@ class GdinoResultEnhancer:
             'hardware_token_count': len(hardware_tokens)
         }
 
-    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.5, use_position_weighting: bool = True) -> Optional[Dict[str, Any]]:
+    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.5, 
+                              use_dynamic_weighting: bool = True, 
+                              weighting_config: Optional[Dict[str, float]] = None) -> Optional[Dict[str, Any]]:
         """
-        Get the best classification for a set of tokens using hybrid approach.
-        Creates comprehensive metadata with both reference and itemtypes names.
+        Get the best classification for a set of tokens using dynamic priority-based weighting.
+        Handles "No Match" cases when similarity is below threshold.
         
         Args:
-            tokens: Detection tokens
-            min_similarity: Minimum similarity threshold
+            tokens: Ordered detection tokens (index 0 = highest priority)
+            min_similarity: Minimum similarity threshold for valid classification
+            use_dynamic_weighting: Enable dynamic token weighting system
+            weighting_config: Configuration for weighting algorithm
             
         Returns:
-            Dict with complete metadata including both naming systems
+            Dict with complete metadata or None for "No Match" cases
         """
         if not tokens:
+            logger.debug("No tokens provided - returning None")
             return None
         
-        # Search both databases with position weighting
-        itemtype_match = self.find_itemtypes_match(tokens, min_similarity, use_position_weighting=use_position_weighting)
+        # Configure dynamic weighting parameters
+        if weighting_config is None:
+            weighting_config = {
+                'max_tokens': 10,
+                'decay_factor': 0.1,
+                'min_weight': 0.1,
+                'hardware_boost': 1.5
+            }
         
-        similar_items = self.search_similar_items(tokens, k=3, use_position_weighting=use_position_weighting)
+        # Assess token quality using dynamic weighting
+        token_quality = self.assess_token_quality(tokens)
+        
+        # Apply stricter filtering based on token quality
+        quality_threshold = 0.2  # Minimum quality score required
+        if token_quality['quality_score'] < quality_threshold:
+            logger.debug(f"Token quality too low: {token_quality['quality_score']:.3f} < {quality_threshold} - No Match")
+            return None
+        
+        # Apply dynamic weighting to understand token priorities
+        if use_dynamic_weighting:
+            weighted_tokens = self.apply_dynamic_token_weighting(
+                tokens,
+                max_tokens=weighting_config['max_tokens'],
+                decay_factor=weighting_config['decay_factor'],
+                min_weight=weighting_config['min_weight']
+            )
+            
+            if not weighted_tokens:
+                logger.debug("No valid weighted tokens - No Match")
+                return None
+                
+            logger.debug(f"Dynamic weighting: {len(weighted_tokens)} valid tokens from {len(tokens)} total")
+        
+        # Search both databases with dynamic weighting
+        itemtype_match = self.find_itemtypes_match(
+            tokens, min_similarity, use_dynamic_weighting=use_dynamic_weighting
+        )
+        
+        similar_items = self.search_similar_items(
+            tokens, k=3, use_dynamic_weighting=use_dynamic_weighting, 
+            weighting_config=weighting_config
+        )
         vector_match = None
         if similar_items and similar_items[0]['similarity_score'] >= min_similarity:
             vector_match = similar_items[0]
         
-        # Perform position-weighted analysis for enhanced metadata
-        position_analysis = None
-        if use_position_weighting:
-            position_analysis = self.position_classifier.classify_hardware_tokens(tokens)
-        
-        # Assess token quality before proceeding
-        token_quality = self.assess_token_quality(tokens)
-        
-        # Apply stricter filtering based on token quality
-        quality_threshold = 0.3  # Minimum quality score required
-        if token_quality['quality_score'] < quality_threshold:
-            logger.debug(f"Token quality too low: {token_quality['quality_score']:.3f} < {quality_threshold}")
-            return None
-        
-        # Apply dynamic similarity thresholds based on token quality
-        if token_quality['quality_score'] < 0.5:
+        # Apply dynamic similarity thresholds based on token quality and context
+        if token_quality['quality_score'] < 0.4:
             # For low quality tokens, require higher similarity
-            adjusted_min_similarity = min_similarity * 1.3
-        elif token_quality['has_hardware_terms']:
-            # For hardware-relevant tokens, allow slightly lower similarity
-            adjusted_min_similarity = min_similarity * 0.9
+            adjusted_min_similarity = min_similarity * 1.2
+            logger.debug(f"Low token quality, increasing threshold to {adjusted_min_similarity:.3f}")
+        elif token_quality['has_hardware_terms'] and use_dynamic_weighting and weighted_tokens:
+            # For hardware-relevant tokens with good weighting, allow slightly lower similarity
+            hardware_token_ratio = sum(1 for wt in weighted_tokens if wt['is_hardware']) / len(weighted_tokens)
+            if hardware_token_ratio > 0.5:  # More than 50% hardware tokens
+                adjusted_min_similarity = min_similarity * 0.9
+                logger.debug(f"High hardware relevance, decreasing threshold to {adjusted_min_similarity:.3f}")
+            else:
+                adjusted_min_similarity = min_similarity
         else:
             adjusted_min_similarity = min_similarity
         
-        # Re-evaluate matches with adjusted threshold
+        # Re-evaluate matches with adjusted threshold for "No Match" detection
         if itemtype_match and itemtype_match['similarity_score'] < adjusted_min_similarity:
+            logger.debug(f"Itemtype match below threshold: {itemtype_match['similarity_score']:.3f} < {adjusted_min_similarity:.3f}")
             itemtype_match = None
         if vector_match and vector_match['similarity_score'] < adjusted_min_similarity:
+            logger.debug(f"Vector match below threshold: {vector_match['similarity_score']:.3f} < {adjusted_min_similarity:.3f}")
             vector_match = None
         
-        # Determine primary match based on similarity scores and position weighting
+        # If no matches meet the threshold, return None for "No Match"
+        if not itemtype_match and not vector_match:
+            logger.debug(f"No matches above similarity threshold {adjusted_min_similarity:.3f} - No Match")
+            return None
+        
+        # Determine primary match based on similarity scores and dynamic weighting
         primary_source = None
         if itemtype_match and vector_match:
             # Prioritize itemtypes for better naming consistency
             itemtype_score = itemtype_match['similarity_score']
             vector_score = vector_match['similarity_score']
             
-            # Apply position-weighted boost for hardware-relevant matches
-            if position_analysis:
-                hardware_score = position_analysis['hardware_relevance_score']
-                if hardware_score > 2.0:  # High hardware relevance
-                    # Boost itemtypes match slightly for better naming
-                    itemtype_score *= 1.2
+            # Apply hardware boost if dynamic weighting shows strong hardware context
+            if use_dynamic_weighting and weighted_tokens:
+                hardware_weight_sum = sum(wt['final_weight'] for wt in weighted_tokens if wt['is_hardware'])
+                if hardware_weight_sum > 2.0:  # Strong hardware context
+                    itemtype_score *= 1.1  # Slight boost for itemtypes naming
             
             # Prefer itemtypes if scores are close (within 10%)
             if abs(itemtype_score - vector_score) < 0.1:
@@ -607,8 +694,6 @@ class GdinoResultEnhancer:
             primary_source = 'itemtypes'
         elif vector_match:
             primary_source = 'vector_database'
-        else:
-            return None
         
         # Build comprehensive result with improved naming logic
         if primary_source == 'itemtypes':
@@ -654,7 +739,7 @@ class GdinoResultEnhancer:
                 'legacyId': original_metadata.get('legacyId', None)
             }
             
-            # FIXED: Always try to find corresponding itemtypes match for enhanced naming
+            # Try to find corresponding itemtypes match for enhanced naming
             if itemtype_match:
                 result['itemtypes_name'] = itemtype_match['name']
                 result['itemtypes_similarity'] = itemtype_match['similarity_score']
@@ -662,22 +747,25 @@ class GdinoResultEnhancer:
                 if itemtype_match.get('brand'):
                     result['brand'] = itemtype_match['brand']
             else:
-                # Try to search for itemtypes match even if not found before
-                fallback_itemtype = self.find_itemtypes_match(tokens, min_similarity * 0.8, use_position_weighting)
+                # Try to search for itemtypes match with lower threshold
+                fallback_itemtype = self.find_itemtypes_match(
+                    tokens, min_similarity * 0.8, use_dynamic_weighting=use_dynamic_weighting
+                )
                 if fallback_itemtype:
                     result['itemtypes_name'] = fallback_itemtype['name']
                     result['itemtypes_similarity'] = fallback_itemtype['similarity_score']
                     if fallback_itemtype.get('brand'):
                         result['brand'] = fallback_itemtype['brand']
         
-        # Add comprehensive analysis metadata to result
-        if use_position_weighting and position_analysis:
-            result['position_weighted_metadata'] = {
-                'hardware_relevance_score': position_analysis['hardware_relevance_score'],
-                'predicted_hardware': position_analysis['predicted_hardware'],
-                'top_8_tokens': position_analysis['top_8_tokens'],
-                'hardware_tokens_count': len(position_analysis['hardware_tokens']),
-                'brand_tokens_count': len(position_analysis['brand_tokens'])
+        # Add dynamic weighting analysis metadata to result
+        if use_dynamic_weighting and weighted_tokens:
+            result['dynamic_weighting_metadata'] = {
+                'total_weighted_tokens': len(weighted_tokens),
+                'hardware_tokens_count': sum(1 for wt in weighted_tokens if wt['is_hardware']),
+                'top_5_tokens': [wt['token'] for wt in weighted_tokens[:5]],
+                'highest_weight': weighted_tokens[0]['final_weight'],
+                'hardware_weight_sum': sum(wt['final_weight'] for wt in weighted_tokens if wt['is_hardware']),
+                'weighting_config': weighting_config
             }
         
         # Add token quality assessment metadata
@@ -688,6 +776,9 @@ class GdinoResultEnhancer:
             'valid_token_count': token_quality['valid_token_count'],
             'adjusted_min_similarity': adjusted_min_similarity
         }
+        
+        logger.debug(f"Classification successful: {result.get('itemtypes_name') or result.get('reference_name')} "
+                    f"(similarity: {result['similarity_score']:.3f}, source: {result['source']})")
         
         return result
     
@@ -722,13 +813,20 @@ class GdinoResultEnhancer:
                 'vector_db_version': '2.1',
                 'model_used': str(self.model_path),
                 'min_similarity_threshold': 0.5,
-                'position_weighting_enabled': True,
-                'position_classifier_config': {
-                    'decay_rate': self.position_classifier.decay_rate,
-                    'top_k_boost': self.position_classifier.top_k_boost,
-                    'min_weight': self.position_classifier.min_weight,
-                    'hardware_boost': self.position_classifier.hardware_boost
-                }
+                'dynamic_weighting_enabled': True,
+                'weighting_algorithm': 'exponential_decay_with_priority',
+                'weighting_config': {
+                    'max_tokens': 10,
+                    'decay_factor': 0.1,
+                    'min_weight': 0.1,
+                    'hardware_boost': 1.5
+                },
+                'features': [
+                    'dynamic_token_prioritization',
+                    'no_match_detection',
+                    'hardware_context_boost',
+                    'quality_based_threshold_adjustment'
+                ]
             }
             
             # Add gdino_tokens at the end
@@ -758,8 +856,20 @@ class GdinoResultEnhancer:
                     enhanced_data['gdino_similarity_scores'][detection_id] = 0.0
                     continue
                 
-                # Get best classification from hybrid approach with position weighting (stricter threshold)
-                classification_result = self.get_best_classification(tokens, min_similarity=0.5, use_position_weighting=True)
+                # Get best classification using dynamic weighting system
+                weighting_config = {
+                    'max_tokens': 10,  # Consider top 10 priority tokens
+                    'decay_factor': 0.1,  # Exponential decay rate
+                    'min_weight': 0.1,  # Minimum weight threshold
+                    'hardware_boost': 1.5  # Boost for hardware-related tokens
+                }
+                
+                classification_result = self.get_best_classification(
+                    tokens, 
+                    min_similarity=0.5, 
+                    use_dynamic_weighting=True,
+                    weighting_config=weighting_config
+                )
                 
                 if classification_result:
                     # Store comprehensive metadata in gdino_improved

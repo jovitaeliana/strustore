@@ -20,43 +20,50 @@
             "vector_index": 227,
             "embedding_norm": 0.9999999403953552,
             "legacyId": "146",
-            "similarity_score": 0.8496354818344116
+            "similarity_score": 0.8295242190361023
         },
         "2": {
-            "id": "y94oJNaPD2VI2396Pq3m",
-            "reference_name": "Wii Classic Con",
+            "id": "dCgppzGDzN4lB4HOyrha",
+            "reference_name": "N64 ASCII Fishing Reels",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
-            "vector_index": 227,
+            "contextual_text": "N64 ASCII Fishing Reels | id: dCgppzGDzN4lB4HOyrha | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 165,
             "embedding_norm": 0.9999999403953552,
-            "legacyId": "146",
-            "similarity_score": 0.8510335683822632
+            "legacyId": null,
+            "similarity_score": 0.8267078399658203
         }
     },
     "gdino_improved_readable": {
         "1": "Wii Classic Con",
-        "2": "Wii Classic Con"
+        "2": "N64 ASCII Fishing Reels"
     },
     "gdino_similarity_scores": {
-        "1": 0.8496,
-        "2": 0.851
+        "1": 0.8295,
+        "2": 0.8267
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

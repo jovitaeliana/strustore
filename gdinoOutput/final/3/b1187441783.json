@@ -7,38 +7,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "pINnaOh7hK6yso0Nhp6O",
-            "reference_name": "PS2 Mem Card [KOTOBUKI]",
+            "id": "dHZsC4olhShVBHfmoleE",
+            "reference_name": "SFC [Boxed]",
             "itemtypes_name": null,
-            "category": "Memory Cards & Expansion Packs",
-            "model": "",
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS2 Mem Card [KOTOBUKI] | id: pINnaOh7hK6yso0Nhp6O | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product",
-            "vector_index": 199,
+            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 167,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8264170289039612
+            "similarity_score": 0.8096349239349365
         }
     },
     "gdino_improved_readable": {
-        "1": "PS2 Mem Card [KOTOBUKI]"
+        "1": "SFC [Boxed]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8264
+        "1": 0.8096
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

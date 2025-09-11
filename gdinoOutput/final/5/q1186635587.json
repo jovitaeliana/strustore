@@ -20,43 +20,50 @@
             "vector_index": 157,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8673401474952698
+            "similarity_score": 0.8587797284126282
         },
         "2": {
-            "id": "3q8Qn0PapaacnX1DcknO",
-            "reference_name": "DRM V0/2",
+            "id": "L5oyhMGV3FLMdGhpYpvA",
+            "reference_name": "DRM Power Cord",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Not Applicable",
+            "category": "Power Cables & Connectors",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DRM V0/2 | id: 3q8Qn0PapaacnX1DcknO | category: Video Game Consoles | model: Not Applicable",
-            "vector_index": 15,
+            "contextual_text": "DRM Power Cord | id: L5oyhMGV3FLMdGhpYpvA | category: Power Cables & Connectors | power supply cable | electrical connector",
+            "vector_index": 87,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.7981259822845459
+            "similarity_score": 0.7893552780151367
         }
     },
     "gdino_improved_readable": {
         "1": "Hori Compact Joystick",
-        "2": "DRM V0/2"
+        "2": "DRM Power Cord"
     },
     "gdino_similarity_scores": {
-        "1": 0.8673,
-        "2": 0.7981
+        "1": 0.8588,
+        "2": 0.7894
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

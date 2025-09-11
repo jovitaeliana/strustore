@@ -26,21 +26,21 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8708065152168274
+            "similarity_score": 0.8657894134521484
         },
         "2": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
+            "model": "Super Famicom",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8463939428329468
+            "similarity_score": 0.8275154829025269
         },
         "3": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -54,7 +54,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8580149412155151
+            "similarity_score": 0.8503810167312622
         },
         "4": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -68,7 +68,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8439972400665283
+            "similarity_score": 0.8304682970046997
         },
         "5": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -82,35 +82,42 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8494526147842407
+            "similarity_score": 0.8416998982429504
         }
     },
     "gdino_improved_readable": {
         "1": "SFC",
-        "2": "Switch",
+        "2": "SFC",
         "3": "SFC",
         "4": "SFC",
         "5": "SFC"
     },
     "gdino_similarity_scores": {
-        "1": 0.8708,
-        "2": 0.8464,
-        "3": 0.858,
-        "4": 0.844,
-        "5": 0.8495
+        "1": 0.8658,
+        "2": 0.8275,
+        "3": 0.8504,
+        "4": 0.8305,
+        "5": 0.8417
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

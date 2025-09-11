@@ -13,86 +13,93 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "52CUM8wHtys9ZaXza2jH",
-            "reference_name": "Royds Stick",
+            "id": "boP0HPaJuFshEG2KxH6X",
+            "reference_name": "Hori Compact Joystick",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Royds Stick | id: 52CUM8wHtys9ZaXza2jH | category: Controllers & Attachments | Nintendo DS | gaming controller device | gamepad peripheral",
-            "vector_index": 19,
-            "embedding_norm": 0.9999999403953552,
+            "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 157,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.861339807510376
+            "similarity_score": 0.8546420335769653
         },
         "2": {
-            "id": "zozySuTIGhMbNDGRlxQr",
-            "reference_name": "PS Real Arcade Pro FS",
+            "id": "grBYZVKOdeZxSmRoDiTe",
+            "reference_name": "Command Stick FS",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS Real Arcade Pro FS | id: zozySuTIGhMbNDGRlxQr | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 231,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "44",
-            "similarity_score": 0.8600165843963623
+            "contextual_text": "Command Stick FS | id: grBYZVKOdeZxSmRoDiTe | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 180,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.867455244064331
         },
         "3": {
-            "id": "grBYZVKOdeZxSmRoDiTe",
-            "reference_name": "Command Stick FS",
+            "id": "2PnU9mELDvB44P40zpmZ",
+            "reference_name": "DRM ASCII Stick FT",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Command Stick FS | id: grBYZVKOdeZxSmRoDiTe | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 180,
+            "contextual_text": "DRM ASCII Stick FT | id: 2PnU9mELDvB44P40zpmZ | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 9,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8553569316864014
+            "legacyId": "43",
+            "similarity_score": 0.8255311250686646
         },
         "4": {
-            "id": "grBYZVKOdeZxSmRoDiTe",
-            "reference_name": "Command Stick FS",
+            "id": "boP0HPaJuFshEG2KxH6X",
+            "reference_name": "Hori Compact Joystick",
             "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Command Stick FS | id: grBYZVKOdeZxSmRoDiTe | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
-            "vector_index": 180,
+            "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 157,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8649082183837891
+            "similarity_score": 0.8506337404251099
         }
     },
     "gdino_improved_readable": {
-        "1": "Royds Stick",
-        "2": "PS Real Arcade Pro FS",
-        "3": "Command Stick FS",
-        "4": "Command Stick FS"
+        "1": "Hori Compact Joystick",
+        "2": "Command Stick FS",
+        "3": "DRM ASCII Stick FT",
+        "4": "Hori Compact Joystick"
     },
     "gdino_similarity_scores": {
-        "1": 0.8613,
-        "2": 0.86,
-        "3": 0.8554,
-        "4": 0.8649
+        "1": 0.8546,
+        "2": 0.8675,
+        "3": 0.8255,
+        "4": 0.8506
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

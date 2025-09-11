@@ -7,38 +7,45 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
+            "id": "cVUvSD1xHC978Kx7GlzU",
+            "reference_name": "Wii Sensor Bar",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
-            "model": "Nintendo DS Lite",
+            "category": "Other Video Game Accessories",
+            "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
-            "vector_index": 182,
+            "contextual_text": "Wii Sensor Bar | id: cVUvSD1xHC978Kx7GlzU | category: Other Video Game Accessories | Nintendo Wii",
+            "vector_index": 162,
             "embedding_norm": 1.0,
-            "legacyId": "69",
-            "similarity_score": 0.8238308429718018
+            "legacyId": null,
+            "similarity_score": 0.7942291498184204
         }
     },
     "gdino_improved_readable": {
-        "1": "DS Lite"
+        "1": "Wii Sensor Bar"
     },
     "gdino_similarity_scores": {
-        "1": 0.8238
+        "1": 0.7942
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

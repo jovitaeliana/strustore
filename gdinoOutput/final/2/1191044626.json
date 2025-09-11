@@ -40,7 +40,7 @@
             "vector_index": 82,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8523745536804199
+            "similarity_score": 0.8565278053283691
         },
         "2": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -54,7 +54,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8501083254814148
+            "similarity_score": 0.848010241985321
         },
         "3": {
             "id": "CqdH1LClrrfOP3GTa1fR",
@@ -68,7 +68,7 @@
             "vector_index": 50,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8607781529426575
+            "similarity_score": 0.8695648908615112
         },
         "4": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -82,7 +82,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8646749258041382
+            "similarity_score": 0.8607890605926514
         },
         "5": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -96,7 +96,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8567919135093689
+            "similarity_score": 0.8467339277267456
         },
         "6": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -110,7 +110,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8781846761703491
+            "similarity_score": 0.8650771379470825
         },
         "7": {
             "id": "S5WCwU2E9mlm0WcyhMbT",
@@ -124,7 +124,7 @@
             "vector_index": 113,
             "embedding_norm": 1.0,
             "legacyId": "106",
-            "similarity_score": 0.848060131072998
+            "similarity_score": 0.8329942226409912
         },
         "8": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -138,7 +138,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8592146039009094
+            "similarity_score": 0.8517558574676514
         },
         "9": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -152,7 +152,7 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8635434508323669
+            "similarity_score": 0.8577200174331665
         },
         "10": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -166,7 +166,7 @@
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.7948379516601562
+            "similarity_score": 0.7886677980422974
         },
         "11": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
@@ -180,21 +180,21 @@
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.862946629524231
+            "similarity_score": 0.8742542266845703
         },
         "12": {
-            "id": "aH9iGjlVeTjiCSWI8DIe",
-            "reference_name": "Saturn",
+            "id": "GCI6ylnMHiTVurfM09Js",
+            "reference_name": "Super Mario 64 (N64)",
             "itemtypes_name": null,
-            "category": "Video Game Consoles",
+            "category": "Video Games",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles",
-            "vector_index": 152,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8494438529014587
+            "contextual_text": "Super Mario 64 (N64) | id: GCI6ylnMHiTVurfM09Js | category: Video Games | Nintendo 64 | Nintendo 64 console game | N64 cartridge | video game software",
+            "vector_index": 65,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "102",
+            "similarity_score": 0.833242654800415
         }
     },
     "gdino_improved_readable": {
@@ -209,34 +209,41 @@
         "9": "SFC",
         "10": "Shipping Label",
         "11": "SFC",
-        "12": "Saturn"
+        "12": "Super Mario 64 (N64)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8524,
-        "2": 0.8501,
-        "3": 0.8608,
-        "4": 0.8647,
-        "5": 0.8568,
-        "6": 0.8782,
-        "7": 0.8481,
-        "8": 0.8592,
-        "9": 0.8635,
-        "10": 0.7948,
-        "11": 0.8629,
-        "12": 0.8494
+        "1": 0.8565,
+        "2": 0.848,
+        "3": 0.8696,
+        "4": 0.8608,
+        "5": 0.8467,
+        "6": 0.8651,
+        "7": 0.833,
+        "8": 0.8518,
+        "9": 0.8577,
+        "10": 0.7887,
+        "11": 0.8743,
+        "12": 0.8332
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

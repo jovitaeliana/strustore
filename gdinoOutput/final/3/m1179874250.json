@@ -22,59 +22,66 @@
             "vector_index": 143,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8614033460617065
+            "similarity_score": 0.856823742389679
         },
         "2": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": null,
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8153043985366821
+            "similarity_score": 0.8023977279663086
         },
         "3": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "EYlCqZZt8F11X2mysvF4",
+            "reference_name": "N64 Rumble Pak",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "Memory Cards & Expansion Packs",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
+            "contextual_text": "N64 Rumble Pak | id: EYlCqZZt8F11X2mysvF4 | category: Memory Cards & Expansion Packs | Nintendo 64 | memory storage device | game save storage",
+            "vector_index": 57,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8225729465484619
+            "legacyId": "134",
+            "similarity_score": 0.8008456826210022
         }
     },
     "gdino_improved_readable": {
         "1": "Gameboy Player",
-        "2": "Shipping Label",
-        "3": "Shipping Label"
+        "2": "R.O.B. (boxed)",
+        "3": "N64 Rumble Pak"
     },
     "gdino_similarity_scores": {
-        "1": 0.8614,
-        "2": 0.8153,
-        "3": 0.8226
+        "1": 0.8568,
+        "2": 0.8024,
+        "3": 0.8008
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

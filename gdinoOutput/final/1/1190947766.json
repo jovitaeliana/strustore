@@ -9,18 +9,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "GgWTR9QoWKoUkJ3kr5ga",
-            "reference_name": "DSi",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
             "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
-            "vector_index": 66,
-            "embedding_norm": 1.0,
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.860937237739563
+            "similarity_score": 0.8561573028564453
         },
         "2": {
             "id": "lUX9PIFzOObfP7B9eq9E",
@@ -34,29 +34,36 @@
             "vector_index": 191,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8341055512428284
+            "similarity_score": 0.8291864395141602
         }
     },
     "gdino_improved_readable": {
-        "1": "DSi",
+        "1": "DS Lite Boxed",
         "2": "new 3DS"
     },
     "gdino_similarity_scores": {
-        "1": 0.8609,
-        "2": 0.8341
+        "1": 0.8562,
+        "2": 0.8292
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [

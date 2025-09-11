@@ -20,43 +20,50 @@
             "vector_index": 70,
             "embedding_norm": 1.0,
             "legacyId": "127",
-            "similarity_score": 0.8550397157669067
+            "similarity_score": 0.8377863168716431
         },
         "2": {
-            "id": "2ib0YdgBr6F2ZNKARP5p",
-            "reference_name": "Wario World (GC)",
+            "id": "MVic11qQbvgEP3xjwveL",
+            "reference_name": "Wii U AC Adapter WUP-002",
             "itemtypes_name": null,
-            "category": "Video Games",
+            "category": "Power Cables & Connectors",
             "model": "",
             "brand": "",
             "source": "vector_database",
-            "contextual_text": "Wario World (GC) | id: 2ib0YdgBr6F2ZNKARP5p | category: Video Games | GameCube | GameCube console game | Nintendo GameCube | video game software",
-            "vector_index": 10,
-            "embedding_norm": 1.0,
+            "contextual_text": "Wii U AC Adapter WUP-002 | id: MVic11qQbvgEP3xjwveL | category: Power Cables & Connectors | Nintendo Wii | power supply cable | electrical connector",
+            "vector_index": 90,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8618690967559814
+            "similarity_score": 0.8501853942871094
         }
     },
     "gdino_improved_readable": {
         "1": "Switch Pokèball",
-        "2": "Wario World (GC)"
+        "2": "Wii U AC Adapter WUP-002"
     },
     "gdino_similarity_scores": {
-        "1": 0.855,
-        "2": 0.8619
+        "1": 0.8378,
+        "2": 0.8502
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757577641.438643",
+        "processed_date": "1757581265.7518241",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
         "min_similarity_threshold": 0.5,
-        "position_weighting_enabled": true,
-        "position_classifier_config": {
-            "decay_rate": 0.1,
-            "top_k_boost": 8,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
             "min_weight": 0.1,
             "hardware_boost": 1.5
-        }
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
     },
     "gdino_tokens": {
         "1": [
