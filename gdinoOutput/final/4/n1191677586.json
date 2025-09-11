@@ -17,98 +17,100 @@
         "1": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8653750419616699,
-            "itemtypes_similarity": 0.8526946306228638
+            "similarity_score": 0.8463945388793945
         },
         "2": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8866042494773865,
-            "vector_reference_similarity": 0.8584402203559875
+            "similarity_score": 0.8323092460632324
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8609306216239929,
-            "itemtypes_similarity": 0.8559086322784424
+            "similarity_score": 0.8458489775657654
         },
         "4": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8597961664199829,
-            "itemtypes_similarity": 0.8338117003440857
+            "similarity_score": 0.8608608245849609
         },
         "5": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch OLED Console",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8753703832626343,
-            "itemtypes_similarity": 0.874580442905426
+            "similarity_score": 0.869960367679596
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Joy-Con (R) (Switch)",
-        "2": "Nintendo Switch Joy-Con Pair (Switch)",
-        "3": "Nintendo Switch Joy-Con (R) (Switch)",
-        "4": "Nintendo Switch Joy-Con (L) (Switch)",
-        "5": "Nintendo Switch OLED Console (Switch)"
+        "1": "Switch",
+        "2": "Switch",
+        "3": "Switch",
+        "4": "Switch",
+        "5": "Switch"
     },
     "gdino_similarity_scores": {
-        "1": 0.8654,
-        "2": 0.8866,
-        "3": 0.8609,
-        "4": 0.8598,
-        "5": 0.8754
+        "1": 0.8464,
+        "2": 0.8323,
+        "3": 0.8458,
+        "4": 0.8609,
+        "5": 0.87
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

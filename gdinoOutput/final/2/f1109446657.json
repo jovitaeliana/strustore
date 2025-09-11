@@ -11,47 +11,52 @@
         "1": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
             "reference_name": "SFC",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8720083236694336,
-            "itemtypes_similarity": 0.8432897329330444
+            "similarity_score": 0.8675466179847717
         },
         "2": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
             "reference_name": "SFC",
-            "itemtypes_name": "Wii Classic Controller",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8675802946090698,
-            "itemtypes_similarity": 0.856521725654602
+            "similarity_score": 0.866592288017273
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Joy-Con (R) (SFC)",
-        "2": "Wii Classic Controller (SFC)"
+        "1": "SFC",
+        "2": "SFC"
     },
     "gdino_similarity_scores": {
-        "1": 0.872,
-        "2": 0.8676
+        "1": 0.8675,
+        "2": 0.8666
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

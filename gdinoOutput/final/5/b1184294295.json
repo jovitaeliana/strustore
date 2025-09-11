@@ -9,30 +9,36 @@
         "1": {
             "id": "Gynna5OzYWWE6y8WpgpO",
             "reference_name": "GC Wavebird Con",
-            "itemtypes_name": "GameCube Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo GameCube",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "GC Wavebird Con | id: Gynna5OzYWWE6y8WpgpO | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+            "vector_index": 68,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8480725884437561,
-            "vector_reference_similarity": 0.846435010433197
+            "similarity_score": 0.8457673788070679
         }
     },
     "gdino_improved_readable": {
-        "1": "GameCube Controller (GC Wavebird Con)"
+        "1": "GC Wavebird Con"
     },
     "gdino_similarity_scores": {
-        "1": 0.8481
+        "1": 0.8458
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

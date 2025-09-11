@@ -15,6 +15,11 @@ from tqdm import tqdm
 import faiss
 from sentence_transformers import SentenceTransformer
 
+# Import position-weighted classification system
+import sys
+sys.path.append('/Users/jovitaeliana/Personal/strustore')
+from position_weighted_embeddings import PositionWeightedTokenClassifier
+
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -51,6 +56,9 @@ class GdinoResultEnhancer:
         self.itemtypes_data = None
         self.itemtypes_embeddings = None
         self.itemtypes_index = None
+        
+        # Position-weighted classifier
+        self.position_classifier = PositionWeightedTokenClassifier()
         
     def load_vector_database(self) -> None:
         """Load the vector database and model for semantic search."""
@@ -199,7 +207,7 @@ class GdinoResultEnhancer:
             logger.error(f"Failed to load itemtypes database: {e}")
             # Continue without itemtypes support
     
-    def search_similar_items(self, tokens: List[str], k: int = 5) -> List[Dict[str, Any]]:
+    def search_similar_items(self, tokens: List[str], k: int = 5, use_position_weighting: bool = True) -> List[Dict[str, Any]]:
         """
         Search for similar items based on token array using semantic search.
         
@@ -214,17 +222,42 @@ class GdinoResultEnhancer:
             return []
         
         try:
-            # Prioritize important gaming-related tokens
-            important_tokens = []
-            secondary_tokens = []
-            
-            # Gaming-specific keywords to prioritize
+            # Gaming-specific keywords to prioritize (used in both position-weighted and fallback modes)
             gaming_keywords = {
                 'nintendo', 'playstation', 'xbox', 'switch', 'controller', 'console',
                 'ds', 'psp', 'vita', 'gamecube', 'wii', 'joy', 'con', 'joycon',
                 'ps1', 'ps2', 'ps3', 'ps4', 'ps5', '3ds', 'gba', 'n64', 'snes',
                 'scph', 'oled', 'pro', 'slim', 'lite', 'memory', 'card'
             }
+            
+            # Apply position-weighted analysis if enabled
+            if use_position_weighting:
+                # Analyze tokens with position weighting
+                token_analysis = self.position_classifier.classify_hardware_tokens(tokens)
+                
+                # Extract tokens with their weights for prioritized search
+                weighted_tokens = []
+                for token_data in token_analysis['weighted_analysis']:
+                    if token_data['final_weight'] > 0.2:  # Only use tokens above threshold
+                        weighted_tokens.append({
+                            'token': token_data['token'],
+                            'weight': token_data['final_weight'],
+                            'is_hardware': token_data['is_hardware_term']
+                        })
+                
+                # Sort by weight (descending)
+                weighted_tokens.sort(key=lambda x: x['weight'], reverse=True)
+                
+                # Create prioritized token list based on position weighting
+                important_tokens = [t['token'] for t in weighted_tokens[:8]]  # Top 8 weighted
+                secondary_tokens = [t['token'] for t in weighted_tokens[8:15]]  # Next 7
+                
+                logger.debug(f"Position-weighted token analysis: hardware_score={token_analysis['hardware_relevance_score']:.3f}")
+                logger.debug(f"Top weighted tokens: {important_tokens[:5]}")
+            else:
+                # Fallback to original prioritization logic
+                important_tokens = []
+                secondary_tokens = []
             
             # Filter and prioritize tokens
             for token in tokens:
@@ -275,7 +308,7 @@ class GdinoResultEnhancer:
             logger.error(f"Search failed for tokens: {e}")
             return []
     
-    def search_itemtypes(self, tokens: List[str], k: int = 5) -> List[Dict[str, Any]]:
+    def search_itemtypes(self, tokens: List[str], k: int = 5, use_position_weighting: bool = True) -> List[Dict[str, Any]]:
         """
         Search for similar items in the itemtypes database.
         
@@ -290,11 +323,7 @@ class GdinoResultEnhancer:
             return []
         
         try:
-            # Prioritize important gaming-related tokens
-            important_tokens = []
-            secondary_tokens = []
-            
-            # Gaming-specific keywords to prioritize
+            # Gaming-specific keywords to prioritize (used in both position-weighted and fallback modes)
             gaming_keywords = {
                 'nintendo', 'playstation', 'xbox', 'switch', 'controller', 'console',
                 'ds', 'psp', 'vita', 'gamecube', 'wii', 'joy', 'con', 'joycon',
@@ -302,6 +331,34 @@ class GdinoResultEnhancer:
                 'scph', 'oled', 'pro', 'slim', 'lite', 'memory', 'card', 'dualshock',
                 'sixaxis', 'dualsense'
             }
+            
+            # Apply position-weighted analysis if enabled
+            if use_position_weighting:
+                # Analyze tokens with position weighting
+                token_analysis = self.position_classifier.classify_hardware_tokens(tokens)
+                
+                # Extract tokens with their weights for prioritized search
+                weighted_tokens = []
+                for token_data in token_analysis['weighted_analysis']:
+                    if token_data['final_weight'] > 0.2:  # Only use tokens above threshold
+                        weighted_tokens.append({
+                            'token': token_data['token'],
+                            'weight': token_data['final_weight'],
+                            'is_hardware': token_data['is_hardware_term']
+                        })
+                
+                # Sort by weight (descending)
+                weighted_tokens.sort(key=lambda x: x['weight'], reverse=True)
+                
+                # Create prioritized token list based on position weighting
+                important_tokens = [t['token'] for t in weighted_tokens[:8]]  # Top 8 weighted
+                secondary_tokens = [t['token'] for t in weighted_tokens[8:15]]  # Next 7
+                
+                logger.debug(f"Itemtypes position-weighted analysis: hardware_score={token_analysis['hardware_relevance_score']:.3f}")
+            else:
+                # Fallback to original prioritization logic
+                important_tokens = []
+                secondary_tokens = []
             
             # Filter and prioritize tokens
             for token in tokens:
@@ -352,7 +409,7 @@ class GdinoResultEnhancer:
             logger.error(f"Itemtypes search failed: {e}")
             return []
 
-    def find_itemtypes_match(self, tokens: List[str], min_similarity: float = 0.3) -> Optional[Dict[str, Any]]:
+    def find_itemtypes_match(self, tokens: List[str], min_similarity: float = 0.3, use_position_weighting: bool = True) -> Optional[Dict[str, Any]]:
         """
         Find the best itemtypes match for given tokens.
         
@@ -366,12 +423,20 @@ class GdinoResultEnhancer:
         if not self.itemtypes_index:
             return None
             
-        itemtype_results = self.search_itemtypes(tokens, k=3)
+        itemtype_results = self.search_itemtypes(tokens, k=3, use_position_weighting=use_position_weighting)
         if itemtype_results and itemtype_results[0]['similarity_score'] >= min_similarity:
+            # Add position-weighted analysis metadata
+            if use_position_weighting:
+                token_analysis = self.position_classifier.classify_hardware_tokens(tokens)
+                itemtype_results[0]['position_weighted_analysis'] = {
+                    'hardware_relevance_score': token_analysis['hardware_relevance_score'],
+                    'predicted_hardware': token_analysis['predicted_hardware'],
+                    'top_8_tokens': token_analysis['top_8_tokens']
+                }
             return itemtype_results[0]
         return None
 
-    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.3) -> Optional[Dict[str, Any]]:
+    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.3, use_position_weighting: bool = True) -> Optional[Dict[str, Any]]:
         """
         Get the best classification for a set of tokens using hybrid approach.
         Creates comprehensive metadata with both reference and itemtypes names.
@@ -386,19 +451,37 @@ class GdinoResultEnhancer:
         if not tokens:
             return None
         
-        # Search both databases
-        itemtype_match = self.find_itemtypes_match(tokens, min_similarity)
+        # Search both databases with position weighting
+        itemtype_match = self.find_itemtypes_match(tokens, min_similarity, use_position_weighting=use_position_weighting)
         
-        similar_items = self.search_similar_items(tokens, k=3)
+        similar_items = self.search_similar_items(tokens, k=3, use_position_weighting=use_position_weighting)
         vector_match = None
         if similar_items and similar_items[0]['similarity_score'] >= min_similarity:
             vector_match = similar_items[0]
         
-        # Determine primary match based on similarity scores
+        # Perform position-weighted analysis for enhanced metadata
+        position_analysis = None
+        if use_position_weighting:
+            position_analysis = self.position_classifier.classify_hardware_tokens(tokens)
+        
+        # Determine primary match based on similarity scores and position weighting
         primary_source = None
         if itemtype_match and vector_match:
-            # Use the one with higher similarity
-            if itemtype_match['similarity_score'] >= vector_match['similarity_score']:
+            # Consider position-weighted hardware relevance in decision
+            itemtype_score = itemtype_match['similarity_score']
+            vector_score = vector_match['similarity_score']
+            
+            # Apply position-weighted boost for hardware-relevant matches
+            if position_analysis:
+                hardware_score = position_analysis['hardware_relevance_score']
+                if hardware_score > 2.0:  # High hardware relevance
+                    # Boost the higher scoring match slightly
+                    if itemtype_score >= vector_score:
+                        itemtype_score *= 1.1
+                    else:
+                        vector_score *= 1.1
+            
+            if itemtype_score >= vector_score:
                 primary_source = 'itemtypes'
             else:
                 primary_source = 'vector_database'
@@ -461,6 +544,16 @@ class GdinoResultEnhancer:
                 if itemtype_match.get('brand'):
                     result['brand'] = itemtype_match['brand']
         
+        # Add position-weighted analysis metadata to result
+        if use_position_weighting and position_analysis:
+            result['position_weighted_metadata'] = {
+                'hardware_relevance_score': position_analysis['hardware_relevance_score'],
+                'predicted_hardware': position_analysis['predicted_hardware'],
+                'top_8_tokens': position_analysis['top_8_tokens'],
+                'hardware_tokens_count': len(position_analysis['hardware_tokens']),
+                'brand_tokens_count': len(position_analysis['brand_tokens'])
+            }
+        
         return result
     
     def enhance_gdino_file(self, file_path: Path) -> Dict[str, Any]:
@@ -491,9 +584,16 @@ class GdinoResultEnhancer:
             enhanced_data['gdino_similarity_scores'] = {}
             enhanced_data['gdino_classification_metadata'] = {
                 'processed_date': str(Path(__file__).stat().st_mtime),
-                'vector_db_version': '2.0',
+                'vector_db_version': '2.1',
                 'model_used': str(self.model_path),
-                'min_similarity_threshold': 0.3
+                'min_similarity_threshold': 0.3,
+                'position_weighting_enabled': True,
+                'position_classifier_config': {
+                    'decay_rate': self.position_classifier.decay_rate,
+                    'top_k_boost': self.position_classifier.top_k_boost,
+                    'min_weight': self.position_classifier.min_weight,
+                    'hardware_boost': self.position_classifier.hardware_boost
+                }
             }
             
             # Add gdino_tokens at the end
@@ -510,8 +610,8 @@ class GdinoResultEnhancer:
                     enhanced_data['gdino_similarity_scores'][detection_id] = 0.0
                     continue
                 
-                # Get best classification from hybrid approach
-                classification_result = self.get_best_classification(tokens)
+                # Get best classification from hybrid approach with position weighting
+                classification_result = self.get_best_classification(tokens, use_position_weighting=True)
                 
                 if classification_result:
                     # Store comprehensive metadata in gdino_improved
@@ -692,11 +792,36 @@ class GdinoResultEnhancer:
 def main():
     """Main function to enhance GroundingDINO results."""
     
-    # Configuration
-    vector_db_path = "models/vector_database"
+    # Configuration - adapt paths based on current directory
     model_path = "intfloat/multilingual-e5-base" 
-    gdino_output_dir = "../gdinoOutput/final"
-    itemtypes_path = "itemtypes.json"
+    
+    # Check if we're running from strustore or strustore-vector-classification directory
+    import os
+    current_dir = os.getcwd()
+    if current_dir.endswith('strustore-vector-classification'):
+        vector_db_path = "models/vector_database"
+        gdino_output_dir = "../gdinoOutput/final"
+        itemtypes_path = "../itemtypes.json"
+    else:
+        # Running from strustore directory
+        vector_db_path = "strustore-vector-classification/models/vector_database"
+        gdino_output_dir = "gdinoOutput/final"
+        itemtypes_path = "itemtypes.json"
+    
+    # Debug: Check if paths exist
+    from pathlib import Path
+    gdino_path = Path(gdino_output_dir)
+    vector_path = Path(vector_db_path)
+    itemtypes_file = Path(itemtypes_path)
+    
+    logger.info(f"🔍 Current directory: {current_dir}")
+    logger.info(f"🔍 GDINO path '{gdino_path}' exists: {gdino_path.exists()}")
+    logger.info(f"🔍 Vector DB path '{vector_path}' exists: {vector_path.exists()}")
+    logger.info(f"🔍 Itemtypes path '{itemtypes_file}' exists: {itemtypes_file.exists()}")
+    
+    if gdino_path.exists():
+        json_files = list(gdino_path.rglob("*.json"))
+        logger.info(f"🔍 Found {len(json_files)} JSON files in GDINO directory")
     
     logger.info("🚀 Starting GroundingDINO Result Enhancement Pipeline with Itemtypes Support")
     

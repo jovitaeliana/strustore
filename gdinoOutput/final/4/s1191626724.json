@@ -7,32 +7,38 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "id": "stnz63AAGyUMZzQWn63s",
+            "reference_name": "Wii M+ Con",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con (R) | Joy-Con (R) | Right Joy-Con | Nintendo Switch Joy-Con Right | Joy-Con Right Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | right | nintendo | switch | controller | r | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.9044183492660522,
-            "vector_reference_similarity": 0.8488802909851074
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Wii M+ Con | id: stnz63AAGyUMZzQWn63s | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
+            "vector_index": 212,
+            "embedding_norm": 1.0,
+            "legacyId": "14",
+            "similarity_score": 0.834719181060791
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Joy-Con (R) (Switch)"
+        "1": "Wii M+ Con"
     },
     "gdino_similarity_scores": {
-        "1": 0.9044
+        "1": 0.8347
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

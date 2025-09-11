@@ -11,66 +11,70 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "kcyOqlpSjOxpv9ZpONeh",
-            "reference_name": "Xbox 360",
-            "itemtypes_name": "Xbox 360 Controller",
+            "id": "YDxwch9Hzj13EqLj79f2",
+            "reference_name": "Xbox 360 Con",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Xbox 360",
-            "brand": "Microsoft",
-            "source": "itemtypes",
-            "contextual_text": "Xbox 360 Controller | Xbox 360 Wireless Controller | Xbox 360 Wired Controller | brand: Microsoft | console: Xbox 360 | xbox | 360 | controller | microsoft | wireless | wired | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8817539811134338,
-            "vector_reference_similarity": 0.8631905913352966
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
+            "vector_index": 137,
+            "embedding_norm": 1.0,
+            "legacyId": "82",
+            "similarity_score": 0.8575730323791504
         },
         "2": {
             "id": "UQAiJaSEgXisBIPIMPnD",
             "reference_name": "Xbox Orig Con",
-            "itemtypes_name": "Xbox Controller (Original)",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Xbox",
-            "brand": "Microsoft",
-            "source": "itemtypes",
-            "contextual_text": "Xbox Controller (Original) | Original Xbox Controller | Xbox Duke Controller | Xbox Controller S | brand: Microsoft | console: Xbox | xbox | original | controller | microsoft | duke | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8803019523620605,
-            "vector_reference_similarity": 0.8555613160133362
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Xbox Orig Con | id: UQAiJaSEgXisBIPIMPnD | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product",
+            "vector_index": 123,
+            "embedding_norm": 1.0,
+            "legacyId": "20",
+            "similarity_score": 0.8525647521018982
         },
         "3": {
-            "id": "ri7BtZBzSxWd5jRBctFM",
-            "reference_name": "Xbox One",
-            "itemtypes_name": "Xbox Series Controller",
+            "id": "kcyOqlpSjOxpv9ZpONeh",
+            "reference_name": "Xbox 360",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "Microsoft Xbox One",
-            "brand": "Microsoft",
+            "model": "Microsoft Xbox 360",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "Xbox One | id: ri7BtZBzSxWd5jRBctFM | category: Video Game Consoles | model: Microsoft Xbox One | Microsoft Xbox | Microsoft Xbox gaming product",
-            "vector_index": 206,
-            "embedding_norm": 0.9999999403953552,
+            "contextual_text": "Xbox 360 | id: kcyOqlpSjOxpv9ZpONeh | category: Video Game Consoles | model: Microsoft Xbox 360 | Microsoft Xbox | Microsoft Xbox gaming product",
+            "vector_index": 189,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.839380145072937,
-            "itemtypes_similarity": 0.8211369514465332
+            "similarity_score": 0.8568402528762817
         }
     },
     "gdino_improved_readable": {
-        "1": "Xbox 360 Controller (Xbox 360)",
-        "2": "Xbox Controller (Original) (Xbox Orig Con)",
-        "3": "Xbox Series Controller (Xbox One)"
+        "1": "Xbox 360 Con",
+        "2": "Xbox Orig Con",
+        "3": "Xbox 360"
     },
     "gdino_similarity_scores": {
-        "1": 0.8818,
-        "2": 0.8803,
-        "3": 0.8394
+        "1": 0.8576,
+        "2": 0.8526,
+        "3": 0.8568
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

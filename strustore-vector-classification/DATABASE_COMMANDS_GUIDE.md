@@ -3,6 +3,7 @@
 ## Quick Navigation
 - [Database Status Commands](#database-status-commands)
 - [Testing Commands](#testing-commands)
+- [Position-Weighted Classification](#position-weighted-classification)
 - [Codebase Overview](#codebase-overview)
 - [Vector Embedding Explanation](#vector-embedding-explanation)
 - [File Structure Analysis](#file-structure-analysis)
@@ -154,6 +155,72 @@ cd strustore-vector-classification
 
 ---
 
+## Position-Weighted Classification
+
+### Overview
+The position-weighted classification system enhances GDINO token analysis by applying exponential decay weighting based on token position. This leverages the fact that GDINO tokens are ranked by confidence, with the highest confidence tokens appearing first.
+
+### Key Features
+- **Exponential Decay Weighting**: Position 0 = weight 1.0, position 1 = weight 0.9, etc.
+- **Top-8 Token Prioritization**: Higher weights for the most confident tokens
+- **Hardware-Specific Enhancement**: Additional weighting for gaming hardware terms
+- **Semantic Importance Scoring**: Model numbers and brand terms receive boost
+
+### Position Weighting Formula
+```
+weight = max(min_weight, exp(-decay_rate × position)) × semantic_importance
+
+where:
+- decay_rate = 0.1 (10% decay per position)
+- min_weight = 0.1 (minimum threshold)
+- semantic_importance = 1.0-1.5 (hardware terms get 1.5x boost)
+```
+
+### Example Token Analysis
+For tokens: `["nintendo", "dsi", "nintendo dsi", "console", "black", "japan", "tested", "charger"]`
+
+| Position | Token | Position Weight | Semantic Weight | Final Weight | Reason |
+|----------|-------|----------------|-----------------|--------------|--------|
+| 0 | nintendo | 1.10 | 1.5 | 1.65 | Hardware term + top position |
+| 1 | dsi | 0.99 | 1.5 | 1.49 | Hardware term + high position |
+| 2 | nintendo dsi | 0.89 | 1.2 | 1.07 | Compound hardware term |
+| 3 | console | 0.80 | 1.5 | 1.20 | Hardware descriptor |
+| 4 | black | 0.72 | 1.0 | 0.72 | Color term |
+| 5 | japan | 0.65 | 1.0 | 0.65 | Geographic term |
+| 6 | tested | 0.58 | 1.0 | 0.58 | Condition term |
+| 7 | charger | 0.52 | 1.5 | 0.78 | Hardware accessory |
+
+### Configuration Options
+```python
+from position_weighted_embeddings import PositionWeightedTokenClassifier
+
+# Default configuration
+classifier = PositionWeightedTokenClassifier(
+    decay_rate=0.1,        # Exponential decay rate
+    top_k_boost=8,         # Number of top tokens to prioritize
+    min_weight=0.1,        # Minimum weight threshold
+    hardware_boost=1.5     # Multiplier for hardware terms
+)
+
+# Custom configuration for more aggressive weighting
+classifier = PositionWeightedTokenClassifier(
+    decay_rate=0.15,       # Faster decay (more emphasis on top tokens)
+    top_k_boost=5,         # Focus on top 5 tokens only
+    min_weight=0.05,       # Lower minimum weight
+    hardware_boost=2.0     # Higher hardware term boost
+)
+```
+
+### Hardware Terms Recognition
+The system recognizes these categories of hardware-specific terms:
+
+**Console Brands**: nintendo, sony, microsoft, sega, playstation, xbox
+**Console Types**: ds, dsi, 3ds, switch, wii, ps2, ps3, ps4, gamecube
+**Model Numbers**: dol-001, ntr-001, usg-001, twl-001, scph-1001
+**Hardware Descriptors**: console, handheld, controller, system
+
+---
+
 ## Testing Commands
 
 ### Run Real Classification Tests
@@ -164,6 +231,36 @@ python src/test_real_classification.py
 
 # Or from strustore home directory:
 cd strustore-vector-classification && python src/test_real_classification.py
+```
+
+### Run Advanced Position-Weighted Classification Tests
+```bash
+# From strustore home directory (not strustore-vector-classification)
+# Test the new position-weighted classification system
+python test_advanced_classifier.py
+
+# This will:
+# - Analyze GDINO token ranking patterns
+# - Compare position-weighted vs baseline classification
+# - Generate comprehensive performance reports
+# - Create visualization plots in advanced_test_results/
+```
+
+### Test Position-Weighted Token Analysis
+```bash
+# From strustore home directory
+# Demonstrate position weighting on example tokens
+python -c "
+from position_weighted_embeddings import demonstrate_position_weighting
+demonstrate_position_weighting()
+"
+
+# Or analyze a specific GDINO file
+python -c "
+from position_weighted_embeddings import analyze_gdino_file_with_position_weighting
+results = analyze_gdino_file_with_position_weighting('gdinoOutput/final/1/r1172860507.json')
+print('Position-weighted analysis:', results)
+"
 ```
 
 ### Test Vector Database Loading

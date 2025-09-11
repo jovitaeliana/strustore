@@ -9,30 +9,36 @@
         "1": {
             "id": "Irh72HART2knkr1jxuG7",
             "reference_name": "Shipping Label",
-            "itemtypes_name": "GameCube Memory Card",
+            "itemtypes_name": null,
             "category": "Labels",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8173866271972656,
-            "itemtypes_similarity": 0.7807335257530212
+            "similarity_score": 0.8037346601486206
         }
     },
     "gdino_improved_readable": {
-        "1": "GameCube Memory Card (Shipping Label)"
+        "1": "Shipping Label"
     },
     "gdino_similarity_scores": {
-        "1": 0.8174
+        "1": 0.8037
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

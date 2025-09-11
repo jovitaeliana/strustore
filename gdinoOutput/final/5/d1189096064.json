@@ -11,66 +11,70 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "dCgppzGDzN4lB4HOyrha",
-            "reference_name": "N64 ASCII Fishing Reels",
-            "itemtypes_name": "Wii Classic Controller",
+            "id": "qkdRnxKlU4c7mGy7EVvS",
+            "reference_name": "N64 Turbo Con (ACII)",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "N64 ASCII Fishing Reels | id: dCgppzGDzN4lB4HOyrha | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 165,
+            "contextual_text": "N64 Turbo Con (ACII) | id: qkdRnxKlU4c7mGy7EVvS | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 201,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8461194038391113,
-            "itemtypes_similarity": 0.836698591709137
+            "similarity_score": 0.8546023368835449
         },
         "2": {
-            "id": "YsZuDWV6LEmWyyg3Vkhn",
-            "reference_name": "N64 [Boxed]",
-            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "id": "8zDMF4CCUEmyUqsRJ52j",
+            "reference_name": "N64",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
+            "model": "Nintendo 64",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "N64 [Boxed] | id: YsZuDWV6LEmWyyg3Vkhn | category: Video Game Consoles | Nintendo 64",
-            "vector_index": 142,
+            "contextual_text": "N64 | id: 8zDMF4CCUEmyUqsRJ52j | category: Video Game Consoles | model: Nintendo 64 | Nintendo 64",
+            "vector_index": 32,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8732669353485107,
-            "itemtypes_similarity": 0.8458194732666016
+            "legacyId": "60",
+            "similarity_score": 0.8703240156173706
         },
         "3": {
             "id": "YsZuDWV6LEmWyyg3Vkhn",
             "reference_name": "N64 [Boxed]",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "N64 [Boxed] | id: YsZuDWV6LEmWyyg3Vkhn | category: Video Game Consoles | Nintendo 64",
             "vector_index": 142,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8678539991378784,
-            "itemtypes_similarity": 0.848677396774292
+            "similarity_score": 0.8601089715957642
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Classic Controller (N64 ASCII Fishing Reels)",
-        "2": "Nintendo Switch Pro Controller (N64 [Boxed])",
-        "3": "Nintendo Switch Joy-Con (R) (N64 [Boxed])"
+        "1": "N64 Turbo Con (ACII)",
+        "2": "N64",
+        "3": "N64 [Boxed]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8461,
-        "2": 0.8733,
-        "3": 0.8679
+        "1": 0.8546,
+        "2": 0.8703,
+        "3": 0.8601
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

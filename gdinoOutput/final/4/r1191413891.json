@@ -17,98 +17,100 @@
         "1": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo DS",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8241991400718689,
-            "itemtypes_similarity": 0.8065271377563477
+            "similarity_score": 0.8352874517440796
         },
         "2": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Console",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8529118299484253,
-            "itemtypes_similarity": 0.8198994398117065
+            "similarity_score": 0.84830641746521
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch OLED Console",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.851878821849823,
-            "itemtypes_similarity": 0.8347744941711426
+            "similarity_score": 0.8367859721183777
         },
         "4": {
             "id": "1Naw8n1OaREesfNU2WQJ",
             "reference_name": "PS2 Mem Card [FUJIWORK]",
-            "itemtypes_name": "PlayStation 2 Memory Card",
+            "itemtypes_name": null,
             "category": "Memory Cards & Expansion Packs",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "PS2 Mem Card [FUJIWORK] | id: 1Naw8n1OaREesfNU2WQJ | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product",
             "vector_index": 5,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8551387786865234,
-            "itemtypes_similarity": 0.8539037108421326
+            "similarity_score": 0.8551707863807678
         },
         "5": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Dock",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8473319411277771,
-            "itemtypes_similarity": 0.8204913139343262
+            "similarity_score": 0.8417368531227112
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DS (Switch)",
-        "2": "Nintendo Switch Console (Switch)",
-        "3": "Nintendo Switch OLED Console (Switch)",
-        "4": "PlayStation 2 Memory Card (PS2 Mem Card [FUJIWORK])",
-        "5": "Nintendo Switch Dock (Switch)"
+        "1": "Switch",
+        "2": "Switch",
+        "3": "Switch",
+        "4": "PS2 Mem Card [FUJIWORK]",
+        "5": "Switch"
     },
     "gdino_similarity_scores": {
-        "1": 0.8242,
-        "2": 0.8529,
-        "3": 0.8519,
-        "4": 0.8551,
-        "5": 0.8473
+        "1": 0.8353,
+        "2": 0.8483,
+        "3": 0.8368,
+        "4": 0.8552,
+        "5": 0.8417
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

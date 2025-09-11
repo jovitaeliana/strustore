@@ -11,47 +11,52 @@
         "1": {
             "id": "Sb63aOKKGWawJOyhoDm0",
             "reference_name": "PS3 Fat",
-            "itemtypes_name": "PlayStation 3 DualShock 3",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation 3",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "Sony PlayStation 3",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "PS3 Fat | id: Sb63aOKKGWawJOyhoDm0 | category: Video Game Consoles | model: Sony PlayStation 3 | PlayStation 3 | Sony PlayStation gaming product",
+            "vector_index": 118,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8631065487861633,
-            "vector_reference_similarity": 0.8366639614105225
+            "similarity_score": 0.8449110388755798
         },
         "2": {
             "id": "QvUB8tHBNDmkwWhylwa5",
             "reference_name": "PS3 Con",
-            "itemtypes_name": "PlayStation 3 DualShock 3",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "PlayStation 3",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8969019651412964,
-            "vector_reference_similarity": 0.8501725792884827
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "PS3 Con | id: QvUB8tHBNDmkwWhylwa5 | category: Controllers & Attachments | PlayStation 3 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 109,
+            "embedding_norm": 1.0,
+            "legacyId": "27",
+            "similarity_score": 0.8500667214393616
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation 3 DualShock 3 (PS3 Fat)",
-        "2": "PlayStation 3 DualShock 3 (PS3 Con)"
+        "1": "PS3 Fat",
+        "2": "PS3 Con"
     },
     "gdino_similarity_scores": {
-        "1": 0.8631,
-        "2": 0.8969
+        "1": 0.8449,
+        "2": 0.8501
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

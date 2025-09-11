@@ -1,0 +1,24 @@
+{
+  "created_date": "2025-09-11T15:36:53.925701",
+  "model_path": "intfloat/multilingual-e5-base",
+  "master_items_path": "/Users/jovitaeliana/Personal/strustore/items.json",
+  "total_items": 232,
+  "total_categories": 11,
+  "category_distribution": {
+    "Controllers & Attachments": 86,
+    "Power Cables & Connectors": 25,
+    "Memory Cards & Expansion Packs": 28,
+    "Video Games": 18,
+    "Other Video Game Accessories": 22,
+    "Video Game Consoles": 44,
+    "null": 3,
+    "Internal Hard Disk Drives": 3,
+    "Cables & Adapters": 1,
+    "Labels": 1,
+    "Chargers & Charging Docks": 1
+  },
+  "embedding_dimension": 768,
+  "index_type": "IndexFlatIP",
+  "database_version": "2.1",
+  "position_weighting_enabled": true
+}

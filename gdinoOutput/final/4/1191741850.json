@@ -15,81 +15,84 @@
         "1": {
             "id": "Fu009vbiv7CbGJdvp4f5",
             "reference_name": "Wii Con Knockoff",
-            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8824036717414856,
-            "vector_reference_similarity": 0.854282557964325
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Wii Con Knockoff | id: Fu009vbiv7CbGJdvp4f5 | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
+            "vector_index": 63,
+            "embedding_norm": 1.0,
+            "legacyId": "125",
+            "similarity_score": 0.8329280614852905
         },
         "2": {
-            "id": "Fu009vbiv7CbGJdvp4f5",
-            "reference_name": "Wii Con Knockoff",
-            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
+            "id": "HNljomQEwfkntYmDylny",
+            "reference_name": "Switch Pokèball",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con (L) | Joy-Con (L) | Left Joy-Con | Nintendo Switch Joy-Con Left | Joy-Con Left Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | left | nintendo | switch | controller | l | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8835442662239075,
-            "vector_reference_similarity": 0.8500213027000427
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
+            "vector_index": 70,
+            "embedding_norm": 1.0,
+            "legacyId": "127",
+            "similarity_score": 0.8360202312469482
         },
         "3": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8803991079330444,
-            "vector_reference_similarity": 0.85127192735672
-        },
-        "4": {
             "id": "Fu009vbiv7CbGJdvp4f5",
             "reference_name": "Wii Con Knockoff",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con (R) | Joy-Con (R) | Right Joy-Con | Nintendo Switch Joy-Con Right | Joy-Con Right Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | right | nintendo | switch | controller | r | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8867039680480957,
-            "vector_reference_similarity": 0.8482641577720642
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Wii Con Knockoff | id: Fu009vbiv7CbGJdvp4f5 | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
+            "vector_index": 63,
+            "embedding_norm": 1.0,
+            "legacyId": "125",
+            "similarity_score": 0.8288555145263672
+        },
+        "4": {
+            "id": "HNljomQEwfkntYmDylny",
+            "reference_name": "Switch Pokèball",
+            "itemtypes_name": null,
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
+            "vector_index": 70,
+            "embedding_norm": 1.0,
+            "legacyId": "127",
+            "similarity_score": 0.828590989112854
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Joy-Con Pair (Wii Con Knockoff)",
-        "2": "Nintendo Switch Joy-Con (L) (Wii Con Knockoff)",
-        "3": "Nintendo Switch Joy-Con Pair (Switch)",
-        "4": "Nintendo Switch Joy-Con (R) (Wii Con Knockoff)"
+        "1": "Wii Con Knockoff",
+        "2": "Switch Pokèball",
+        "3": "Wii Con Knockoff",
+        "4": "Switch Pokèball"
     },
     "gdino_similarity_scores": {
-        "1": 0.8824,
-        "2": 0.8835,
-        "3": 0.8804,
-        "4": 0.8867
+        "1": 0.8329,
+        "2": 0.836,
+        "3": 0.8289,
+        "4": 0.8286
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

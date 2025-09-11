@@ -13,83 +13,86 @@
     },
     "gdino_improved": {
         "1": {
+            "id": "PF6zWiWOjRxwKrmRw2oA",
+            "reference_name": "R.O.B. (boxed)",
+            "itemtypes_name": null,
+            "category": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+            "vector_index": 102,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8181093335151672
+        },
+        "2": {
+            "id": "hVKSTky2gYJAeDddNOQV",
+            "reference_name": "DS Lite",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "Nintendo DS Lite",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 182,
+            "embedding_norm": 1.0,
+            "legacyId": "69",
+            "similarity_score": 0.8506950736045837
+        },
+        "3": {
+            "id": "hVKSTky2gYJAeDddNOQV",
+            "reference_name": "DS Lite",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "Nintendo DS Lite",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 182,
+            "embedding_norm": 1.0,
+            "legacyId": "69",
+            "similarity_score": 0.8391149640083313
+        },
+        "4": {
             "id": "Irh72HART2knkr1jxuG7",
             "reference_name": "Shipping Label",
-            "itemtypes_name": "PlayStation Vita",
+            "itemtypes_name": null,
             "category": "Labels",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8116416335105896,
-            "itemtypes_similarity": 0.7617651224136353
-        },
-        "2": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Lite Console",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "vector_database",
-            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
-            "vector_index": 197,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8535366058349609,
-            "itemtypes_similarity": 0.8510787487030029
-        },
-        "3": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
-            "itemtypes_name": "Nintendo Switch Lite Console",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Lite Console | Nintendo Switch Lite | Switch Lite | brand: Nintendo | model: HDH-001 | nintendo | switch | lite | console | hdh-001 | handheld | portable | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8859732151031494,
-            "vector_reference_similarity": 0.8565052151679993
-        },
-        "4": {
-            "id": "eDXOwaOyWKtH2nQwCYan",
-            "reference_name": "Gameboy Advance",
-            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "vector_database",
-            "contextual_text": "Gameboy Advance | id: eDXOwaOyWKtH2nQwCYan | category: Video Game Consoles",
-            "vector_index": 170,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": null,
-            "similarity_score": 0.7882122993469238,
-            "itemtypes_similarity": 0.7539448738098145
+            "similarity_score": 0.7819485068321228
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation Vita (Shipping Label)",
-        "2": "Nintendo Switch Lite Console (Switch)",
-        "3": "Nintendo Switch Lite Console (DS Lite)",
-        "4": "Nintendo Switch Joy-Con Pair (Gameboy Advance)"
+        "1": "R.O.B. (boxed)",
+        "2": "DS Lite",
+        "3": "DS Lite",
+        "4": "Shipping Label"
     },
     "gdino_similarity_scores": {
-        "1": 0.8116,
-        "2": 0.8535,
-        "3": 0.886,
-        "4": 0.7882
+        "1": 0.8181,
+        "2": 0.8507,
+        "3": 0.8391,
+        "4": 0.7819
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

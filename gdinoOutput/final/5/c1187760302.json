@@ -9,49 +9,54 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "NmqlKnIQH4m6NTtCEMAI",
-            "reference_name": "GC [DOL-101]",
-            "itemtypes_name": "GameCube Controller",
-            "category": "Controllers & Attachments",
+            "id": "rr4wZ1XXjF4M2JU5aVGh",
+            "reference_name": "GC Region Switched",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
             "model": "Nintendo GameCube",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8895672559738159,
-            "vector_reference_similarity": 0.8673573732376099
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "GC Region Switched | id: rr4wZ1XXjF4M2JU5aVGh | category: Video Game Consoles | model: Nintendo GameCube | GameCube | Nintendo Switch",
+            "vector_index": 207,
+            "embedding_norm": 1.0,
+            "legacyId": "59",
+            "similarity_score": 0.847671627998352
         },
         "2": {
             "id": "NmqlKnIQH4m6NTtCEMAI",
             "reference_name": "GC [DOL-101]",
-            "itemtypes_name": "GameCube Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo GameCube",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "DOL-101",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "GC [DOL-101] | id: NmqlKnIQH4m6NTtCEMAI | category: Video Game Consoles | model: DOL-101 | GameCube",
+            "vector_index": 97,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8906542062759399,
-            "vector_reference_similarity": 0.8591151833534241
+            "similarity_score": 0.8646450042724609
         }
     },
     "gdino_improved_readable": {
-        "1": "GameCube Controller (GC [DOL-101])",
-        "2": "GameCube Controller (GC [DOL-101])"
+        "1": "GC Region Switched",
+        "2": "GC [DOL-101]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8896,
-        "2": 0.8907
+        "1": 0.8477,
+        "2": 0.8646
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

@@ -11,47 +11,52 @@
         "1": {
             "id": "hVKSTky2gYJAeDddNOQV",
             "reference_name": "DS Lite",
-            "itemtypes_name": "Nintendo Switch Lite Console",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Nintendo DS Lite",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
             "vector_index": 182,
             "embedding_norm": 1.0,
             "legacyId": "69",
-            "similarity_score": 0.8846638202667236,
-            "itemtypes_similarity": 0.8756565451622009
+            "similarity_score": 0.8781094551086426
         },
         "2": {
             "id": "vFaxxpsx5W7yH6fzI4Zx",
             "reference_name": "N64 Carrying Case",
-            "itemtypes_name": "Nintendo DSi",
+            "itemtypes_name": null,
             "category": "Other Video Game Accessories",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "N64 Carrying Case | id: vFaxxpsx5W7yH6fzI4Zx | category: Other Video Game Accessories | Nintendo 64",
             "vector_index": 217,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8264222741127014,
-            "itemtypes_similarity": 0.8050774335861206
+            "similarity_score": 0.8226785659790039
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Lite Console (DS Lite)",
-        "2": "Nintendo DSi (N64 Carrying Case)"
+        "1": "DS Lite",
+        "2": "N64 Carrying Case"
     },
     "gdino_similarity_scores": {
-        "1": 0.8847,
-        "2": 0.8264
+        "1": 0.8781,
+        "2": 0.8227
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

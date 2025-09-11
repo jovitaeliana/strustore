@@ -11,47 +11,52 @@
         "1": {
             "id": "HNljomQEwfkntYmDylny",
             "reference_name": "Switch Pokèball",
-            "itemtypes_name": "PlayStation 1 Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
             "vector_index": 70,
             "embedding_norm": 1.0,
             "legacyId": "127",
-            "similarity_score": 0.8194738626480103,
-            "itemtypes_similarity": 0.8175483345985413
+            "similarity_score": 0.8246579170227051
         },
         "2": {
             "id": "HNljomQEwfkntYmDylny",
             "reference_name": "Switch Pokèball",
-            "itemtypes_name": "PlayStation 1 Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
             "vector_index": 70,
             "embedding_norm": 1.0,
             "legacyId": "127",
-            "similarity_score": 0.8287585973739624,
-            "itemtypes_similarity": 0.8241162300109863
+            "similarity_score": 0.8285616636276245
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation 1 Controller (Switch Pokèball)",
-        "2": "PlayStation 1 Controller (Switch Pokèball)"
+        "1": "Switch Pokèball",
+        "2": "Switch Pokèball"
     },
     "gdino_similarity_scores": {
-        "1": 0.8195,
-        "2": 0.8288
+        "1": 0.8247,
+        "2": 0.8286
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

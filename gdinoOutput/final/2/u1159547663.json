@@ -15,81 +15,84 @@
         "1": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
             "reference_name": "SFC",
-            "itemtypes_name": "Nintendo DS",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8780199885368347,
-            "itemtypes_similarity": 0.8376410603523254
+            "similarity_score": 0.8667460680007935
         },
         "2": {
             "id": "JfpzfVMgPVKgYvc3Mt1r",
             "reference_name": "SNES Super Scope",
-            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SNES Super Scope | id: JfpzfVMgPVKgYvc3Mt1r | category: Controllers & Attachments | Super Nintendo Entertainment System | Nintendo Entertainment System | gaming controller device | gamepad peripheral",
             "vector_index": 82,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8753103017807007,
-            "itemtypes_similarity": 0.8715507984161377
+            "similarity_score": 0.8665156364440918
         },
         "3": {
             "id": "JfpzfVMgPVKgYvc3Mt1r",
             "reference_name": "SNES Super Scope",
-            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SNES Super Scope | id: JfpzfVMgPVKgYvc3Mt1r | category: Controllers & Attachments | Super Nintendo Entertainment System | Nintendo Entertainment System | gaming controller device | gamepad peripheral",
             "vector_index": 82,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8651795387268066,
-            "itemtypes_similarity": 0.8586191534996033
+            "similarity_score": 0.8685801029205322
         },
         "4": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
             "reference_name": "SFC",
-            "itemtypes_name": "Nintendo DS",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8600329756736755,
-            "itemtypes_similarity": 0.8430471420288086
+            "similarity_score": 0.8545302152633667
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DS (SFC)",
-        "2": "Nintendo Switch Pro Controller (SNES Super Scope)",
-        "3": "Nintendo Switch Joy-Con Pair (SNES Super Scope)",
-        "4": "Nintendo DS (SFC)"
+        "1": "SFC",
+        "2": "SNES Super Scope",
+        "3": "SNES Super Scope",
+        "4": "SFC"
     },
     "gdino_similarity_scores": {
-        "1": 0.878,
-        "2": 0.8753,
-        "3": 0.8652,
-        "4": 0.86
+        "1": 0.8667,
+        "2": 0.8665,
+        "3": 0.8686,
+        "4": 0.8545
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

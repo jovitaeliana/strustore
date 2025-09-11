@@ -7,32 +7,38 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "FJGbvQWAPRbFV7ebvzqU",
-            "reference_name": "Wii Wheel",
-            "itemtypes_name": "Xbox Series Controller",
-            "category": "Other Video Game Accessories",
+            "id": "9LnofBZ9ZGaRBpWFEoLe",
+            "reference_name": "Mario Wheel",
+            "itemtypes_name": null,
+            "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Microsoft",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "Wii Wheel | id: FJGbvQWAPRbFV7ebvzqU | category: Other Video Game Accessories | Nintendo Wii",
-            "vector_index": 60,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": null,
-            "similarity_score": 0.8150578737258911,
-            "itemtypes_similarity": 0.7962675094604492
+            "contextual_text": "Mario Wheel | id: 9LnofBZ9ZGaRBpWFEoLe | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 36,
+            "embedding_norm": 1.0,
+            "legacyId": "63",
+            "similarity_score": 0.8159161806106567
         }
     },
     "gdino_improved_readable": {
-        "1": "Xbox Series Controller (Wii Wheel)"
+        "1": "Mario Wheel"
     },
     "gdino_similarity_scores": {
-        "1": 0.8151
+        "1": 0.8159
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

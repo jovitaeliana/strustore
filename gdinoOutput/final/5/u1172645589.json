@@ -11,47 +11,52 @@
         "1": {
             "id": "PaVQDrGaUjcYp3KPYkmN",
             "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
             "vector_index": 103,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8629002571105957,
-            "itemtypes_similarity": 0.8400914072990417
+            "similarity_score": 0.8602745532989502
         },
         "2": {
             "id": "PaVQDrGaUjcYp3KPYkmN",
             "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
             "vector_index": 103,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8689944744110107,
-            "itemtypes_similarity": 0.8361837863922119
+            "similarity_score": 0.8702918887138367
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Pro Controller (Blue N64 Con (boxed))",
-        "2": "Nintendo Switch Pro Controller (Blue N64 Con (boxed))"
+        "1": "Blue N64 Con (boxed)",
+        "2": "Blue N64 Con (boxed)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8629,
-        "2": 0.869
+        "1": 0.8603,
+        "2": 0.8703
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

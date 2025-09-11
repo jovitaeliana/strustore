@@ -9,30 +9,36 @@
         "1": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
             "reference_name": "SFC",
-            "itemtypes_name": "Nintendo DS",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8545105457305908,
-            "itemtypes_similarity": 0.8163503408432007
+            "similarity_score": 0.8661210536956787
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DS (SFC)"
+        "1": "SFC"
     },
     "gdino_similarity_scores": {
-        "1": 0.8545
+        "1": 0.8661
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

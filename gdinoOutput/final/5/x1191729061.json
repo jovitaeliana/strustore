@@ -11,47 +11,52 @@
         "1": {
             "id": "CqdH1LClrrfOP3GTa1fR",
             "reference_name": "PS1 Original Analog Con SCPH-1080",
-            "itemtypes_name": "PlayStation 1 Analog Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "PlayStation",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 1 Analog Controller | PS1 Analog Controller | PlayStation Analog Joystick | SCPH-1150 | SCPH-1180 | brand: Sony | console: PlayStation | model: SCPH-1150 | model: SCPH-1180 | model: SCPH-1200 | ps1 | playstation | analog | controller | sony | scph-1150 | scph-1180 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "PS1 Original Analog Con SCPH-1080 | id: CqdH1LClrrfOP3GTa1fR | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 50,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8798470497131348,
-            "vector_reference_similarity": 0.8774256706237793
+            "similarity_score": 0.8718026876449585
         },
         "2": {
             "id": "CqdH1LClrrfOP3GTa1fR",
             "reference_name": "PS1 Original Analog Con SCPH-1080",
-            "itemtypes_name": "PlayStation 1 Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "PlayStation",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 1 Controller | PS1 Controller | PlayStation Controller | SCPH-1010 | Digital Controller | brand: Sony | console: PlayStation | model: SCPH-1010 | ps1 | playstation | controller | sony | scph-1010 | digital | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "PS1 Original Analog Con SCPH-1080 | id: CqdH1LClrrfOP3GTa1fR | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 50,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8829565048217773,
-            "vector_reference_similarity": 0.8731896877288818
+            "similarity_score": 0.8593950271606445
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation 1 Analog Controller (PS1 Original Analog Con SCPH-1080)",
-        "2": "PlayStation 1 Controller (PS1 Original Analog Con SCPH-1080)"
+        "1": "PS1 Original Analog Con SCPH-1080",
+        "2": "PS1 Original Analog Con SCPH-1080"
     },
     "gdino_similarity_scores": {
-        "1": 0.8798,
-        "2": 0.883
+        "1": 0.8718,
+        "2": 0.8594
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

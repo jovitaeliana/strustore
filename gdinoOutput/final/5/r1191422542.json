@@ -11,47 +11,52 @@
         "1": {
             "id": "CIBq2rlcju72zy1LxZsa",
             "reference_name": "PS Zerotech Racing Con",
-            "itemtypes_name": "Xbox One Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Microsoft",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "PS Zerotech Racing Con | id: CIBq2rlcju72zy1LxZsa | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
             "vector_index": 48,
             "embedding_norm": 1.0,
             "legacyId": "88",
-            "similarity_score": 0.8570400476455688,
-            "itemtypes_similarity": 0.8332579135894775
+            "similarity_score": 0.8528034090995789
         },
         "2": {
             "id": "Irh72HART2knkr1jxuG7",
             "reference_name": "Shipping Label",
-            "itemtypes_name": "GameCube Memory Card",
+            "itemtypes_name": null,
             "category": "Labels",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8162673711776733,
-            "itemtypes_similarity": 0.7490608096122742
+            "similarity_score": 0.8289487361907959
         }
     },
     "gdino_improved_readable": {
-        "1": "Xbox One Controller (PS Zerotech Racing Con)",
-        "2": "GameCube Memory Card (Shipping Label)"
+        "1": "PS Zerotech Racing Con",
+        "2": "Shipping Label"
     },
     "gdino_similarity_scores": {
-        "1": 0.857,
-        "2": 0.8163
+        "1": 0.8528,
+        "2": 0.8289
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

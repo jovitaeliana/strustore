@@ -11,47 +11,52 @@
         "1": {
             "id": "GgWTR9QoWKoUkJ3kr5ga",
             "reference_name": "DSi",
-            "itemtypes_name": "Nintendo DSi",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
             "vector_index": 66,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8668069839477539,
-            "itemtypes_similarity": 0.8630955219268799
+            "similarity_score": 0.860937237739563
         },
         "2": {
             "id": "lUX9PIFzOObfP7B9eq9E",
             "reference_name": "new 3DS",
-            "itemtypes_name": "Nintendo New 3DS",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "new 3DS | id: lUX9PIFzOObfP7B9eq9E | category: Video Game Consoles | Nintendo DS | Nintendo 3DS",
             "vector_index": 191,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8254728317260742,
-            "itemtypes_similarity": 0.8113722205162048
+            "similarity_score": 0.8341055512428284
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DSi (DSi)",
-        "2": "Nintendo New 3DS (new 3DS)"
+        "1": "DSi",
+        "2": "new 3DS"
     },
     "gdino_similarity_scores": {
-        "1": 0.8668,
-        "2": 0.8255
+        "1": 0.8609,
+        "2": 0.8341
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

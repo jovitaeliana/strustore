@@ -7,32 +7,38 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "PaVQDrGaUjcYp3KPYkmN",
-            "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
-            "category": "Controllers & Attachments",
+            "id": "YsZuDWV6LEmWyyg3Vkhn",
+            "reference_name": "N64 [Boxed]",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 103,
+            "contextual_text": "N64 [Boxed] | id: YsZuDWV6LEmWyyg3Vkhn | category: Video Game Consoles | Nintendo 64",
+            "vector_index": 142,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8631123304367065,
-            "itemtypes_similarity": 0.8377964496612549
+            "similarity_score": 0.861872673034668
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Joy-Con (R) (Blue N64 Con (boxed))"
+        "1": "N64 [Boxed]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8631
+        "1": 0.8619
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

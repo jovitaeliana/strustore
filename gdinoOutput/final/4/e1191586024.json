@@ -15,81 +15,84 @@
         "1": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch AC Adapter",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8328245282173157,
-            "itemtypes_similarity": 0.8164507150650024
+            "similarity_score": 0.8481989502906799
         },
         "2": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
+            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "reference_name": "Blue N64 Con (boxed)",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con (L) | Joy-Con (L) | Left Joy-Con | Nintendo Switch Joy-Con Left | Joy-Con Left Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | left | nintendo | switch | controller | l | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 103,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8934859037399292,
-            "vector_reference_similarity": 0.8445865511894226
+            "similarity_score": 0.8483367562294006
         },
         "3": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con (R) | Joy-Con (R) | Right Joy-Con | Nintendo Switch Joy-Con Right | Joy-Con Right Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | right | nintendo | switch | controller | r | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8856898546218872,
-            "vector_reference_similarity": 0.8693479299545288
-        },
-        "4": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
-            "itemtypes_name": "Nintendo Switch OLED Console",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.81798255443573,
-            "itemtypes_similarity": 0.8055593967437744
+            "similarity_score": 0.853843629360199
+        },
+        "4": {
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.817797839641571
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch AC Adapter (Switch)",
-        "2": "Nintendo Switch Joy-Con (L) (Switch)",
-        "3": "Nintendo Switch Joy-Con (R) (Switch)",
-        "4": "Nintendo Switch OLED Console (Gameboy Player)"
+        "1": "Switch",
+        "2": "Blue N64 Con (boxed)",
+        "3": "Switch",
+        "4": "Switch"
     },
     "gdino_similarity_scores": {
-        "1": 0.8328,
-        "2": 0.8935,
-        "3": 0.8857,
-        "4": 0.818
+        "1": 0.8482,
+        "2": 0.8483,
+        "3": 0.8538,
+        "4": 0.8178
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

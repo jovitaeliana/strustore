@@ -13,64 +13,68 @@
         "1": {
             "id": "GgWTR9QoWKoUkJ3kr5ga",
             "reference_name": "DSi",
-            "itemtypes_name": "Nintendo DSi",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
             "vector_index": 66,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.85371994972229,
-            "itemtypes_similarity": 0.8438423871994019
+            "similarity_score": 0.8559106588363647
         },
         "2": {
             "id": "GgWTR9QoWKoUkJ3kr5ga",
             "reference_name": "DSi",
-            "itemtypes_name": "Nintendo DS",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
             "vector_index": 66,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8626537322998047,
-            "itemtypes_similarity": 0.839073896408081
+            "similarity_score": 0.8579522371292114
         },
         "3": {
-            "id": "STKdatHmQLwNLJXq1fxP",
-            "reference_name": "DS Lite Charger",
-            "itemtypes_name": "Nintendo Switch AC Adapter",
+            "id": "3lUqLwE4sNwMFPNCvVb8",
+            "reference_name": "GC Power Cord",
+            "itemtypes_name": null,
             "category": "Power Cables & Connectors",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector",
-            "vector_index": 117,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": null,
-            "similarity_score": 0.7998563051223755,
-            "itemtypes_similarity": 0.7823550701141357
+            "contextual_text": "GC Power Cord | id: 3lUqLwE4sNwMFPNCvVb8 | category: Power Cables & Connectors | GameCube | power supply cable | electrical connector",
+            "vector_index": 14,
+            "embedding_norm": 1.0,
+            "legacyId": "76",
+            "similarity_score": 0.8082419633865356
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DSi (DSi)",
-        "2": "Nintendo DS (DSi)",
-        "3": "Nintendo Switch AC Adapter (DS Lite Charger)"
+        "1": "DSi",
+        "2": "DSi",
+        "3": "GC Power Cord"
     },
     "gdino_similarity_scores": {
-        "1": 0.8537,
-        "2": 0.8627,
-        "3": 0.7999
+        "1": 0.8559,
+        "2": 0.858,
+        "3": 0.8082
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

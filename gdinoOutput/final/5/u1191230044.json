@@ -11,66 +11,70 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "PaVQDrGaUjcYp3KPYkmN",
-            "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": "Wii Nunchuk Controller",
-            "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "vector_database",
-            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 103,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8653514385223389,
-            "itemtypes_similarity": 0.832783579826355
-        },
-        "2": {
-            "id": "PaVQDrGaUjcYp3KPYkmN",
-            "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": "Wii Nunchuk Controller",
-            "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "vector_database",
-            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
-            "vector_index": 103,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.854366660118103,
-            "itemtypes_similarity": 0.8407366871833801
-        },
-        "3": {
             "id": "8zDMF4CCUEmyUqsRJ52j",
             "reference_name": "N64",
-            "itemtypes_name": "GameCube Memory Card",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Nintendo 64",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "N64 | id: 8zDMF4CCUEmyUqsRJ52j | category: Video Game Consoles | model: Nintendo 64 | Nintendo 64",
             "vector_index": 32,
             "embedding_norm": 1.0,
             "legacyId": "60",
-            "similarity_score": 0.8662229776382446,
-            "itemtypes_similarity": 0.8434127569198608
+            "similarity_score": 0.8660728931427002
+        },
+        "2": {
+            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "reference_name": "Blue N64 Con (boxed)",
+            "itemtypes_name": null,
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 103,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8544175624847412
+        },
+        "3": {
+            "id": "YsZuDWV6LEmWyyg3Vkhn",
+            "reference_name": "N64 [Boxed]",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "N64 [Boxed] | id: YsZuDWV6LEmWyyg3Vkhn | category: Video Game Consoles | Nintendo 64",
+            "vector_index": 142,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8615658283233643
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Nunchuk Controller (Blue N64 Con (boxed))",
-        "2": "Wii Nunchuk Controller (Blue N64 Con (boxed))",
-        "3": "GameCube Memory Card (N64)"
+        "1": "N64",
+        "2": "Blue N64 Con (boxed)",
+        "3": "N64 [Boxed]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8654,
+        "1": 0.8661,
         "2": 0.8544,
-        "3": 0.8662
+        "3": 0.8616
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

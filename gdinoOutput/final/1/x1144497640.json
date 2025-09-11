@@ -7,32 +7,38 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "hVKSTky2gYJAeDddNOQV",
-            "reference_name": "DS Lite",
-            "itemtypes_name": "Nintendo DS",
+            "id": "RLTezhK4keTvDr70COUX",
+            "reference_name": "DS Original",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo DS | DS | Nintendo DS | NTR-001 | brand: Nintendo | model: NTR-001 | nintendo | ds | ntr-001 | handheld | dual | screen | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8643258810043335,
-            "vector_reference_similarity": 0.8570442795753479
+            "model": "Nintendo DS",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS",
+            "vector_index": 111,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "70",
+            "similarity_score": 0.8421323895454407
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DS (DS Lite)"
+        "1": "DS Original"
     },
     "gdino_similarity_scores": {
-        "1": 0.8643
+        "1": 0.8421
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

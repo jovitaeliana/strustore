@@ -19,6 +19,11 @@ from sentence_transformers import SentenceTransformer
 import faiss
 from sklearn.metrics.pairwise import cosine_similarity
 
+# Import position-weighted classification system
+import sys
+sys.path.append('/Users/jovitaeliana/Personal/strustore')
+from position_weighted_embeddings import PositionWeightedTokenClassifier
+
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -129,7 +134,7 @@ class VectorDatabaseCreator:
         except Exception as e:
             raise RuntimeError(f"Failed to load master items: {e}")
     
-    def create_contextual_text(self, item_name: str, category: str, model: str = "", item_id: str = "") -> str:
+    def create_contextual_text(self, item_name: str, category: str, model: str = "", item_id: str = "", position_weighted: bool = True) -> str:
         """
         Create richer contextual text for enhanced semantic embedding while preserving Firebase data integrity.
         
@@ -266,9 +271,37 @@ class VectorDatabaseCreator:
                     unique_terms.append(term)
             context_parts.extend(unique_terms)
         
+        # Apply position-weighted enhancement if enabled
+        if position_weighted:
+            # Initialize position-weighted classifier for contextual enhancement
+            classifier = PositionWeightedTokenClassifier()
+            
+            # Create hardware-focused context based on position weighting principles
+            hardware_context = []
+            item_lower = item_name.lower()
+            
+            # Priority hardware terms (equivalent to position 0-3 in GDINO ranking)
+            priority_terms = []
+            for term in classifier.hardware_terms:
+                if term in item_lower:
+                    priority_terms.append(term)
+            
+            # Add top priority terms first (simulating high-confidence GDINO tokens)
+            if priority_terms:
+                hardware_context.extend(priority_terms[:4])  # Top 4 most relevant
+            
+            # Add brand context with high weighting
+            for brand, terms in classifier.brand_terms.items():
+                if any(term in item_lower for term in terms):
+                    hardware_context.append(f"{brand} gaming hardware")
+                    break
+            
+            if hardware_context:
+                context_parts.extend(hardware_context)
+        
         return ' | '.join(context_parts)
 
-    def generate_embeddings(self) -> Tuple[np.ndarray, List[Dict[str, Any]]]:
+    def generate_embeddings(self, use_position_weighting: bool = True) -> Tuple[np.ndarray, List[Dict[str, Any]]]:
         """
         Generate embeddings for all master items with enhanced contextual text.
         
@@ -286,7 +319,7 @@ class VectorDatabaseCreator:
             # Create contextual texts for better semantic understanding
             contextual_texts = []
             for item_name, item_id, category, model in zip(items, item_ids, item_categories, item_models):
-                contextual_text = self.create_contextual_text(item_name, category, model, item_id)
+                contextual_text = self.create_contextual_text(item_name, category, model, item_id, use_position_weighting)
                 contextual_texts.append(contextual_text)
             
             logger.info(f"Created contextual texts for {len(contextual_texts)} items")
@@ -316,8 +349,10 @@ class VectorDatabaseCreator:
             # Concatenate all embeddings
             embeddings = np.vstack(all_embeddings)
             
-            # Create enhanced metadata for each item
+            # Create enhanced metadata for each item with position-weighting info
             metadata = []
+            classifier = PositionWeightedTokenClassifier() if use_position_weighting else None
+            
             for idx, (item_id, item_name, item_category, item_model, contextual_text) in enumerate(
                 zip(item_ids, items, item_categories, item_models, contextual_texts)
             ):
@@ -330,6 +365,20 @@ class VectorDatabaseCreator:
                     'vector_index': idx,
                     'embedding_norm': float(np.linalg.norm(embeddings[idx]))
                 }
+                
+                # Add position-weighted analysis if enabled
+                if use_position_weighting and classifier:
+                    # Simulate token analysis for database items
+                    item_tokens = item_name.lower().split()
+                    if len(item_tokens) > 0:
+                        token_analysis = classifier.classify_hardware_tokens(item_tokens)
+                        meta['hardware_relevance_score'] = token_analysis.get('hardware_relevance_score', 0.0)
+                        meta['predicted_hardware'] = token_analysis.get('predicted_hardware', {})
+                        meta['position_weighted'] = True
+                    else:
+                        meta['position_weighted'] = False
+                else:
+                    meta['position_weighted'] = False
                 
                 # Add additional columns if they exist
                 for col in self.master_items.columns:
@@ -400,7 +449,8 @@ class VectorDatabaseCreator:
     def save_database(self, 
                      embeddings: np.ndarray, 
                      metadata: List[Dict[str, Any]], 
-                     faiss_index: faiss.Index) -> None:
+                     faiss_index: faiss.Index,
+                     use_position_weighting: bool = True) -> None:
         """
         Save the complete vector database to disk.
         
@@ -451,7 +501,8 @@ class VectorDatabaseCreator:
                 'category_distribution': category_stats,
                 'embedding_dimension': embeddings.shape[1],
                 'index_type': type(faiss_index).__name__,
-                'database_version': '2.0'  # Updated version for JSON-based taxonomy
+                'database_version': '2.1',  # Updated version with position weighting
+                'position_weighting_enabled': use_position_weighting
             }
             
             config_path = self.database_output_path / "database_config.json"
@@ -504,7 +555,7 @@ class VectorDatabaseCreator:
         except Exception as e:
             logger.error(f"Database testing failed: {e}")
     
-    def create_complete_database(self) -> Dict[str, Any]:
+    def create_complete_database(self, use_position_weighting: bool = True) -> Dict[str, Any]:
         """
         Execute complete vector database creation pipeline.
         
@@ -523,8 +574,8 @@ class VectorDatabaseCreator:
             self.load_master_items()
             
             # Step 3: Generate embeddings
-            logger.info("\n🔄 Step 3: Generating Embeddings")
-            embeddings, metadata = self.generate_embeddings()
+            logger.info(f"\n🔄 Step 3: Generating Embeddings (Position Weighting: {use_position_weighting})")
+            embeddings, metadata = self.generate_embeddings(use_position_weighting)
             
             # Step 4: Create FAISS index
             logger.info("\n📊 Step 4: Creating Search Index")
@@ -532,7 +583,7 @@ class VectorDatabaseCreator:
             
             # Step 5: Save database
             logger.info("\n💾 Step 5: Saving Vector Database")
-            self.save_database(embeddings, metadata, faiss_index)
+            self.save_database(embeddings, metadata, faiss_index, use_position_weighting)
             
             # Step 6: Test database
             logger.info("\n🧪 Step 6: Testing Database")

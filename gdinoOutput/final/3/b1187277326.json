@@ -11,47 +11,52 @@
         "1": {
             "id": "y94oJNaPD2VI2396Pq3m",
             "reference_name": "Wii Classic Con",
-            "itemtypes_name": "Wii Classic Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Wii",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Wii Classic Controller | Classic Controller | Wii Classic Controller | RVL-005 | brand: Nintendo | console: Nintendo Wii | model: RVL-005 | wii | classic | controller | nintendo | rvl-005 | traditional | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8661737442016602,
-            "vector_reference_similarity": 0.8649109601974487
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
+            "vector_index": 227,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "146",
+            "similarity_score": 0.8496354818344116
         },
         "2": {
             "id": "y94oJNaPD2VI2396Pq3m",
             "reference_name": "Wii Classic Con",
-            "itemtypes_name": "Wii Classic Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Wii",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Wii Classic Controller | Classic Controller | Wii Classic Controller | RVL-005 | brand: Nintendo | console: Nintendo Wii | model: RVL-005 | wii | classic | controller | nintendo | rvl-005 | traditional | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8657699227333069,
-            "vector_reference_similarity": 0.861149251461029
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral",
+            "vector_index": 227,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "146",
+            "similarity_score": 0.8510335683822632
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii Classic Controller (Wii Classic Con)",
-        "2": "Wii Classic Controller (Wii Classic Con)"
+        "1": "Wii Classic Con",
+        "2": "Wii Classic Con"
     },
     "gdino_similarity_scores": {
-        "1": 0.8662,
-        "2": 0.8658
+        "1": 0.8496,
+        "2": 0.851
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

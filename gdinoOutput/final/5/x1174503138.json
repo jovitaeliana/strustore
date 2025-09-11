@@ -7,32 +7,38 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "ST8yllzbAiBh5De8O8kP",
-            "reference_name": "Wii U Con",
-            "itemtypes_name": "Wii U GamePad",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Wii U",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Wii U GamePad | GamePad | Wii U GamePad Controller | WUP-010 | brand: Nintendo | console: Nintendo Wii U | model: WUP-010 | wii | u | gamepad | nintendo | wup-010 | tablet | screen | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "id": "k40etST2II6zvZLnwAFz",
+            "reference_name": "Wii U Gamepad",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Wii U Gamepad | id: k40etST2II6zvZLnwAFz | category: Video Game Consoles | Nintendo Wii",
+            "vector_index": 186,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.866249680519104,
-            "vector_reference_similarity": 0.8521151542663574
+            "similarity_score": 0.8346798419952393
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii U GamePad (Wii U Con)"
+        "1": "Wii U Gamepad"
     },
     "gdino_similarity_scores": {
-        "1": 0.8662
+        "1": 0.8347
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

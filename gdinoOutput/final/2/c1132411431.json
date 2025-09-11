@@ -15,81 +15,84 @@
         "1": {
             "id": "3ZQ8aYagBMX0rkJL2m63",
             "reference_name": "FC 2P Con",
-            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "FC 2P Con | id: 3ZQ8aYagBMX0rkJL2m63 | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
             "vector_index": 13,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8453900218009949,
-            "itemtypes_similarity": 0.8416424989700317
+            "similarity_score": 0.838424801826477
         },
         "2": {
-            "id": "O9858sZlGIlyY48TTOPK",
-            "reference_name": "PS1 Slimline Con",
-            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "id": "52CUM8wHtys9ZaXza2jH",
+            "reference_name": "Royds Stick",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con Pair | Joy-Con (L)/(R) | Joy-Con Set | Nintendo Switch Joy-Con Controllers | Joy-Con Pair | Switch Joy-Cons | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | pair | set | nintendo | switch | controllers | l | r | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Royds Stick | id: 52CUM8wHtys9ZaXza2jH | category: Controllers & Attachments | Nintendo DS | gaming controller device | gamepad peripheral",
+            "vector_index": 19,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8611750602722168,
-            "vector_reference_similarity": 0.8487322330474854
+            "similarity_score": 0.8494551777839661
         },
         "3": {
             "id": "dHZsC4olhShVBHfmoleE",
             "reference_name": "SFC [Boxed]",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
             "vector_index": 167,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.867271900177002,
-            "itemtypes_similarity": 0.8391053676605225
+            "similarity_score": 0.8695399165153503
         },
         "4": {
             "id": "dHZsC4olhShVBHfmoleE",
             "reference_name": "SFC [Boxed]",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
             "vector_index": 167,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8669819831848145,
-            "itemtypes_similarity": 0.8282939791679382
+            "similarity_score": 0.869881272315979
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Joy-Con (L) (FC 2P Con)",
-        "2": "Nintendo Switch Joy-Con Pair (PS1 Slimline Con)",
-        "3": "Nintendo Switch Joy-Con (R) (SFC [Boxed])",
-        "4": "Nintendo Switch Joy-Con (R) (SFC [Boxed])"
+        "1": "FC 2P Con",
+        "2": "Royds Stick",
+        "3": "SFC [Boxed]",
+        "4": "SFC [Boxed]"
     },
     "gdino_similarity_scores": {
-        "1": 0.8454,
-        "2": 0.8612,
-        "3": 0.8673,
-        "4": 0.867
+        "1": 0.8384,
+        "2": 0.8495,
+        "3": 0.8695,
+        "4": 0.8699
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

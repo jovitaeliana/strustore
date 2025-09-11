@@ -15,81 +15,84 @@
         "1": {
             "id": "52CUM8wHtys9ZaXza2jH",
             "reference_name": "Royds Stick",
-            "itemtypes_name": "PlayStation 3 SIXAXIS Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Royds Stick | id: 52CUM8wHtys9ZaXza2jH | category: Controllers & Attachments | Nintendo DS | gaming controller device | gamepad peripheral",
             "vector_index": 19,
             "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8687039017677307,
-            "itemtypes_similarity": 0.8508679866790771
+            "similarity_score": 0.861339807510376
         },
         "2": {
-            "id": "QvUB8tHBNDmkwWhylwa5",
-            "reference_name": "PS3 Con",
-            "itemtypes_name": "PlayStation 3 DualShock 3",
+            "id": "zozySuTIGhMbNDGRlxQr",
+            "reference_name": "PS Real Arcade Pro FS",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "PlayStation 3",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.859262228012085,
-            "vector_reference_similarity": 0.8559514284133911
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "PS Real Arcade Pro FS | id: zozySuTIGhMbNDGRlxQr | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 231,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "44",
+            "similarity_score": 0.8600165843963623
         },
         "3": {
-            "id": "YxGyIhCoGGi6fsk3Beo8",
-            "reference_name": "Gameboy Player",
-            "itemtypes_name": "Nintendo Switch Joy-Con (R)",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "vector_database",
-            "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles",
-            "vector_index": 143,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8524982929229736,
-            "itemtypes_similarity": 0.8341768980026245
-        },
-        "4": {
-            "id": "QvUB8tHBNDmkwWhylwa5",
-            "reference_name": "PS3 Con",
-            "itemtypes_name": "PlayStation 3 SIXAXIS Controller",
+            "id": "grBYZVKOdeZxSmRoDiTe",
+            "reference_name": "Command Stick FS",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS3 Con | id: QvUB8tHBNDmkwWhylwa5 | category: Controllers & Attachments | PlayStation 3 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 109,
+            "contextual_text": "Command Stick FS | id: grBYZVKOdeZxSmRoDiTe | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 180,
             "embedding_norm": 1.0,
-            "legacyId": "27",
-            "similarity_score": 0.8627399206161499,
-            "itemtypes_similarity": 0.8617756366729736
+            "legacyId": null,
+            "similarity_score": 0.8553569316864014
+        },
+        "4": {
+            "id": "grBYZVKOdeZxSmRoDiTe",
+            "reference_name": "Command Stick FS",
+            "itemtypes_name": null,
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Command Stick FS | id: grBYZVKOdeZxSmRoDiTe | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 180,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8649082183837891
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation 3 SIXAXIS Controller (Royds Stick)",
-        "2": "PlayStation 3 DualShock 3 (PS3 Con)",
-        "3": "Nintendo Switch Joy-Con (R) (Gameboy Player)",
-        "4": "PlayStation 3 SIXAXIS Controller (PS3 Con)"
+        "1": "Royds Stick",
+        "2": "PS Real Arcade Pro FS",
+        "3": "Command Stick FS",
+        "4": "Command Stick FS"
     },
     "gdino_similarity_scores": {
-        "1": 0.8687,
-        "2": 0.8593,
-        "3": 0.8525,
-        "4": 0.8627
+        "1": 0.8613,
+        "2": 0.86,
+        "3": 0.8554,
+        "4": 0.8649
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

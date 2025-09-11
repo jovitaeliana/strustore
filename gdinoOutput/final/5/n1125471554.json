@@ -9,30 +9,36 @@
         "1": {
             "id": "boP0HPaJuFshEG2KxH6X",
             "reference_name": "Hori Compact Joystick",
-            "itemtypes_name": "PlayStation 1 Analog Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
             "vector_index": 157,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.886890172958374,
-            "itemtypes_similarity": 0.8679919242858887
+            "similarity_score": 0.8981151580810547
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation 1 Analog Controller (Hori Compact Joystick)"
+        "1": "Hori Compact Joystick"
     },
     "gdino_similarity_scores": {
-        "1": 0.8869
+        "1": 0.8981
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

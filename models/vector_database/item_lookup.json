@@ -1,0 +1,5351 @@
+{
+  "00GeemSSwZjPuDwsNaIW": {
+    "id": "00GeemSSwZjPuDwsNaIW",
+    "name": "GC Con Loose Stick",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "GC Con Loose Stick | id: 00GeemSSwZjPuDwsNaIW | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+    "vector_index": 0,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "087lkATTCpKIRfuZXSyO": {
+    "id": "087lkATTCpKIRfuZXSyO",
+    "name": "Xbox 360 Power Cord",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "Xbox 360 Power Cord | id: 087lkATTCpKIRfuZXSyO | category: Power Cables & Connectors | Microsoft Xbox | power supply cable | electrical connector | Microsoft Xbox gaming product | xbox | 360 | microsoft gaming hardware",
+    "vector_index": 1,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 5.817335415991698,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "microsoft",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "xbox",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "microsoft": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "xbox": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "0GvXSuXwC92q3kXRBvyH": {
+    "id": "0GvXSuXwC92q3kXRBvyH",
+    "name": "GC Mic",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "GC Mic | id: 0GvXSuXwC92q3kXRBvyH | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+    "vector_index": 2,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "21"
+  },
+  "0UHdamzjYh3f6ZaVdHUz": {
+    "id": "0UHdamzjYh3f6ZaVdHUz",
+    "name": "GC Mem 59",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "GC Mem 59 | id: 0UHdamzjYh3f6ZaVdHUz | category: Memory Cards & Expansion Packs | GameCube | memory storage device | game save storage",
+    "vector_index": 3,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "22"
+  },
+  "0mxTnXnArFOs8JxxMNmy": {
+    "id": "0mxTnXnArFOs8JxxMNmy",
+    "name": "DDR Pad (boxed)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DDR Pad (boxed) | id: 0mxTnXnArFOs8JxxMNmy | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 4,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "1Naw8n1OaREesfNU2WQJ": {
+    "id": "1Naw8n1OaREesfNU2WQJ",
+    "name": "PS2 Mem Card [FUJIWORK]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "PS2 Mem Card [FUJIWORK] | id: 1Naw8n1OaREesfNU2WQJ | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 5,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "1uBNzDNpTbm27EyCSPse": {
+    "id": "1uBNzDNpTbm27EyCSPse",
+    "name": "Dragon Quest V (PS2)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Dragon Quest V (PS2) | id: 1uBNzDNpTbm27EyCSPse | category: Video Games | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | video game software | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 6,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 1.44459553032935
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 1.44459553032935
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 1.44459553032935
+      },
+      "all_console_scores": {
+        "ps2": 1.44459553032935
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "27fXVeIzXxxVntEVDa1G": {
+    "id": "27fXVeIzXxxVntEVDa1G",
+    "name": "SFC AC Adapter",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "SFC AC Adapter | id: 27fXVeIzXxxVntEVDa1G | category: Power Cables & Connectors | power supply cable | electrical connector",
+    "vector_index": 7,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "29I5eCZFVcAW6xYdVAoH": {
+    "id": "29I5eCZFVcAW6xYdVAoH",
+    "name": "Inazuma Eleven Strikers 2013 (Wii)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Inazuma Eleven Strikers 2013 (Wii) | id: 29I5eCZFVcAW6xYdVAoH | category: Video Games | Nintendo Wii | Nintendo Wii console game | motion control gaming | video game software | wii",
+    "vector_index": 8,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 0.938448064449895
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 0.938448064449895
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "2PnU9mELDvB44P40zpmZ": {
+    "id": "2PnU9mELDvB44P40zpmZ",
+    "name": "DRM ASCII Stick FT",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM ASCII Stick FT | id: 2PnU9mELDvB44P40zpmZ | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 9,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "43"
+  },
+  "2ib0YdgBr6F2ZNKARP5p": {
+    "id": "2ib0YdgBr6F2ZNKARP5p",
+    "name": "Wario World (GC)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Wario World (GC) | id: 2ib0YdgBr6F2ZNKARP5p | category: Video Games | GameCube | GameCube console game | Nintendo GameCube | video game software",
+    "vector_index": 10,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "38NvyBCPiHRc1gunZpbx": {
+    "id": "38NvyBCPiHRc1gunZpbx",
+    "name": "Hori FS SS",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Hori FS SS | id: 38NvyBCPiHRc1gunZpbx | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 11,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "3ASctRAhZQKR1qcyGtvQ": {
+    "id": "3ASctRAhZQKR1qcyGtvQ",
+    "name": "Gameboy Printer",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "Gameboy Printer | id: 3ASctRAhZQKR1qcyGtvQ | category: Other Video Game Accessories | gameboy",
+    "vector_index": 12,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "3ZQ8aYagBMX0rkJL2m63": {
+    "id": "3ZQ8aYagBMX0rkJL2m63",
+    "name": "FC 2P Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "FC 2P Con | id: 3ZQ8aYagBMX0rkJL2m63 | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 13,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "3lUqLwE4sNwMFPNCvVb8": {
+    "id": "3lUqLwE4sNwMFPNCvVb8",
+    "name": "GC Power Cord",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "GC Power Cord | id: 3lUqLwE4sNwMFPNCvVb8 | category: Power Cables & Connectors | GameCube | power supply cable | electrical connector",
+    "vector_index": 14,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "76"
+  },
+  "3q8Qn0PapaacnX1DcknO": {
+    "id": "3q8Qn0PapaacnX1DcknO",
+    "name": "DRM V0/2",
+    "category": "Video Game Consoles",
+    "model": "Not Applicable",
+    "contextual_text": "DRM V0/2 | id: 3q8Qn0PapaacnX1DcknO | category: Video Game Consoles | model: Not Applicable",
+    "vector_index": 15,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "3v2V01ll83X9TpoptKee": {
+    "id": "3v2V01ll83X9TpoptKee",
+    "name": "Wii",
+    "category": "Video Game Consoles",
+    "model": "Nintendo Wii",
+    "contextual_text": "Wii | id: 3v2V01ll83X9TpoptKee | category: Video Game Consoles | model: Nintendo Wii | Nintendo Wii | wii",
+    "vector_index": 16,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "8"
+  },
+  "40IldAR262Z0lY8jju1e": {
+    "id": "40IldAR262Z0lY8jju1e",
+    "name": "DRM Gun Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Gun Con | id: 40IldAR262Z0lY8jju1e | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 17,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "4NvB321Orceb07xUxICD": {
+    "id": "4NvB321Orceb07xUxICD",
+    "name": "Wii U Zelda",
+    "category": "Video Game Consoles",
+    "model": "Nintendo Wii U - Deluxe",
+    "contextual_text": "Wii U Zelda | id: 4NvB321Orceb07xUxICD | category: Video Game Consoles | model: Nintendo Wii U - Deluxe | Nintendo Wii | wii",
+    "vector_index": 18,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "52CUM8wHtys9ZaXza2jH": {
+    "id": "52CUM8wHtys9ZaXza2jH",
+    "name": "Royds Stick",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Royds Stick | id: 52CUM8wHtys9ZaXza2jH | category: Controllers & Attachments | Nintendo DS | gaming controller device | gamepad peripheral | ds",
+    "vector_index": 19,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 1.8
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 1.8
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "5Esn9GfoSTE1hrh9K6NE": {
+    "id": "5Esn9GfoSTE1hrh9K6NE",
+    "name": "SFC Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "SFC Con | id: 5Esn9GfoSTE1hrh9K6NE | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 20,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "60QzDajbkQRYVGg9Jgup": {
+    "id": "60QzDajbkQRYVGg9Jgup",
+    "name": "Saturn Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Saturn Con | id: 60QzDajbkQRYVGg9Jgup | category: Controllers & Attachments | gaming controller device | gamepad peripheral | saturn",
+    "vector_index": 21,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "95"
+  },
+  "61YaiPCF0A3TI0SGyCXF": {
+    "id": "61YaiPCF0A3TI0SGyCXF",
+    "name": "NFC Reader",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "NFC Reader | id: 61YaiPCF0A3TI0SGyCXF | category: Other Video Game Accessories",
+    "vector_index": 22,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "92"
+  },
+  "661vCTO6E1TjeJnEcxGb": {
+    "id": "661vCTO6E1TjeJnEcxGb",
+    "name": "GC [DOL-001]",
+    "category": "Video Game Consoles",
+    "model": "DOL-001",
+    "contextual_text": "GC [DOL-001] | id: 661vCTO6E1TjeJnEcxGb | category: Video Game Consoles | model: DOL-001 | GameCube | dol-001",
+    "vector_index": 23,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "58"
+  },
+  "6GxyJr5S5ZTbgIcPdgLr": {
+    "id": "6GxyJr5S5ZTbgIcPdgLr",
+    "name": "N64 Con Pak",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "N64 Con Pak | id: 6GxyJr5S5ZTbgIcPdgLr | category: Memory Cards & Expansion Packs | Nintendo 64 | memory storage device | game save storage | n64",
+    "vector_index": 24,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "66"
+  },
+  "6ZPurHVarOQmMzlt89ES": {
+    "id": "6ZPurHVarOQmMzlt89ES",
+    "name": "DDR Pad",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DDR Pad | id: 6ZPurHVarOQmMzlt89ES | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 25,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "6v3aTU5GqVcof2OSrrGt": {
+    "id": "6v3aTU5GqVcof2OSrrGt",
+    "name": "Hori FS-3",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Hori FS-3 | id: 6v3aTU5GqVcof2OSrrGt | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 26,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "36"
+  },
+  "6zEknYROM4kKDePlBrCF": {
+    "id": "6zEknYROM4kKDePlBrCF",
+    "name": "Hori GC Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Hori GC Con | id: 6zEknYROM4kKDePlBrCF | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+    "vector_index": 27,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "7Ci0Pk1zOYPPexm3YJ8g": {
+    "id": "7Ci0Pk1zOYPPexm3YJ8g",
+    "name": "Wii Base Plate",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "Wii Base Plate | id: 7Ci0Pk1zOYPPexm3YJ8g | category: Other Video Game Accessories | Nintendo Wii | wii",
+    "vector_index": 28,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "7htk09RSOvqVgxTRhD0k": {
+    "id": "7htk09RSOvqVgxTRhD0k",
+    "name": "Dyson Supersonic Hair Dryer",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "Dyson Supersonic Hair Dryer | id: 7htk09RSOvqVgxTRhD0k | category: Power Cables & Connectors | power supply cable | electrical connector",
+    "vector_index": 29,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "8AodhRCGTqWyTZICKW5P": {
+    "id": "8AodhRCGTqWyTZICKW5P",
+    "name": "N64 Mic",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 Mic | id: 8AodhRCGTqWyTZICKW5P | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 30,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "8ES4hm3YJs9hiZ7Xy77y": {
+    "id": "8ES4hm3YJs9hiZ7Xy77y",
+    "name": "PS1 Dual Shock Con SCPH-1200",
+    "category": "Controllers & Attachments",
+    "model": "SCPH-1200",
+    "contextual_text": "PS1 Dual Shock Con SCPH-1200 | id: 8ES4hm3YJs9hiZ7Xy77y | category: Controllers & Attachments | model: SCPH-1200 | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | ps1 | sony gaming hardware",
+    "vector_index": 31,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": {
+        "name": "scph-1200",
+        "confidence": 1.313827290229853
+      },
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {
+        "scph-1200": 1.313827290229853
+      }
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "8zDMF4CCUEmyUqsRJ52j": {
+    "id": "8zDMF4CCUEmyUqsRJ52j",
+    "name": "N64",
+    "category": "Video Game Consoles",
+    "model": "Nintendo 64",
+    "contextual_text": "N64 | id: 8zDMF4CCUEmyUqsRJ52j | category: Video Game Consoles | model: Nintendo 64 | Nintendo 64 | n64",
+    "vector_index": 32,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "60"
+  },
+  "8zVIO6APRCqwpomb2Uma": {
+    "id": "8zVIO6APRCqwpomb2Uma",
+    "name": "PS Vita",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "PS Vita | id: 8zVIO6APRCqwpomb2Uma | category: Video Game Consoles | PlayStation Vita | Sony PlayStation gaming product | vita | sony gaming hardware",
+    "vector_index": 33,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.3073354159916972,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 2.3400000000000003
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 2.3400000000000003
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "9BFdEKX2JzO7D54fwMNi": {
+    "id": "9BFdEKX2JzO7D54fwMNi",
+    "name": "Saturn Karaoke",
+    "category": null,
+    "model": "",
+    "contextual_text": "Saturn Karaoke | id: 9BFdEKX2JzO7D54fwMNi | category: None | saturn",
+    "vector_index": 34,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "9IWjrZHIxHzvbR58NYpp": {
+    "id": "9IWjrZHIxHzvbR58NYpp",
+    "name": "PSU Power Supply",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "PSU Power Supply | id: 9IWjrZHIxHzvbR58NYpp | category: Power Cables & Connectors | power supply cable | electrical connector | Sony PlayStation gaming product | sony gaming hardware",
+    "vector_index": 35,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 2.3400000000000003
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 2.3400000000000003
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "9LnofBZ9ZGaRBpWFEoLe": {
+    "id": "9LnofBZ9ZGaRBpWFEoLe",
+    "name": "Mario Wheel",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Mario Wheel | id: 9LnofBZ9ZGaRBpWFEoLe | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 36,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "63"
+  },
+  "AQYzm7WvlInRgxNirtbR": {
+    "id": "AQYzm7WvlInRgxNirtbR",
+    "name": "DRM",
+    "category": "Video Game Consoles",
+    "model": "Not Applicable",
+    "contextual_text": "DRM | id: AQYzm7WvlInRgxNirtbR | category: Video Game Consoles | model: Not Applicable",
+    "vector_index": 37,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "61"
+  },
+  "AQuQu2Mf5VGpysxCbrQF": {
+    "id": "AQuQu2Mf5VGpysxCbrQF",
+    "name": "SFC Multitap",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "SFC Multitap | id: AQuQu2Mf5VGpysxCbrQF | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 38,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "57"
+  },
+  "BFgCueMoUi8iafcf7pKi": {
+    "id": "BFgCueMoUi8iafcf7pKi",
+    "name": "Katamari Damacy (PS2)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Katamari Damacy (PS2) | id: BFgCueMoUi8iafcf7pKi | category: Video Games | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | video game software | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 39,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 1.7029599664022024
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 1.7029599664022024
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 1.7029599664022024
+      },
+      "all_console_scores": {
+        "ps2": 1.7029599664022024
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "101"
+  },
+  "BIPB7oFNMGsO5sTPrJDJ": {
+    "id": "BIPB7oFNMGsO5sTPrJDJ",
+    "name": "Wii Stand",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "Wii Stand | id: BIPB7oFNMGsO5sTPrJDJ | category: Other Video Game Accessories | Nintendo Wii | wii",
+    "vector_index": 40,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "BSWF29eyueSvnqWThLCY": {
+    "id": "BSWF29eyueSvnqWThLCY",
+    "name": "VMU [Boxed]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "VMU [Boxed] | id: BSWF29eyueSvnqWThLCY | category: Memory Cards & Expansion Packs | memory storage device | game save storage",
+    "vector_index": 41,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "BX6U5HsUfOtCWnR8PCdr": {
+    "id": "BX6U5HsUfOtCWnR8PCdr",
+    "name": "Game Boy Pocket",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "Game Boy Pocket | id: BX6U5HsUfOtCWnR8PCdr | category: Video Game Consoles",
+    "vector_index": 42,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "BiJvJF8y0fGIeSuXugyx": {
+    "id": "BiJvJF8y0fGIeSuXugyx",
+    "name": "Karaoke Joysound DX",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Karaoke Joysound DX | id: BiJvJF8y0fGIeSuXugyx | category: Video Games | video game software",
+    "vector_index": 43,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "BoB5SwRQ1NA6k3nPtM96": {
+    "id": "BoB5SwRQ1NA6k3nPtM96",
+    "name": "VMU [English]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "VMU [English] | id: BoB5SwRQ1NA6k3nPtM96 | category: Memory Cards & Expansion Packs | memory storage device | game save storage",
+    "vector_index": 44,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "BuRjiUJv2q934iJHh1tZ": {
+    "id": "BuRjiUJv2q934iJHh1tZ",
+    "name": "ASCII Stick FT2",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "ASCII Stick FT2 | id: BuRjiUJv2q934iJHh1tZ | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 45,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "38"
+  },
+  "ByemchZ821wlJwgl5d3w": {
+    "id": "ByemchZ821wlJwgl5d3w",
+    "name": "GC AV Cable",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "GC AV Cable | id: ByemchZ821wlJwgl5d3w | category: Power Cables & Connectors | GameCube | power supply cable | electrical connector",
+    "vector_index": 46,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "C7RieEggjBciPVYt7ggm": {
+    "id": "C7RieEggjBciPVYt7ggm",
+    "name": "Wii Con Jacket",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Con Jacket | id: C7RieEggjBciPVYt7ggm | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 47,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "CIBq2rlcju72zy1LxZsa": {
+    "id": "CIBq2rlcju72zy1LxZsa",
+    "name": "PS Zerotech Racing Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "PS Zerotech Racing Con | id: CIBq2rlcju72zy1LxZsa | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | sony gaming hardware",
+    "vector_index": 48,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 2.3400000000000003
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 2.3400000000000003
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "88"
+  },
+  "CQ6dpOCJydbN7QIp7tWD": {
+    "id": "CQ6dpOCJydbN7QIp7tWD",
+    "name": "Wii Sports Resort (Wii)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Wii Sports Resort (Wii) | id: CQ6dpOCJydbN7QIp7tWD | category: Video Games | Nintendo Wii | Nintendo Wii console game | motion control gaming | video game software | wii",
+    "vector_index": 49,
+    "embedding_norm": 1.0000001192092896,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 3.811227331022577
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 3.811227331022577
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "107"
+  },
+  "CqdH1LClrrfOP3GTa1fR": {
+    "id": "CqdH1LClrrfOP3GTa1fR",
+    "name": "PS1 Original Analog Con SCPH-1080",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "PS1 Original Analog Con SCPH-1080 | id: CqdH1LClrrfOP3GTa1fR | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | ps1 | sony gaming hardware",
+    "vector_index": 50,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": {
+        "name": "scph-1080",
+        "confidence": 1.313827290229853
+      },
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {
+        "scph-1080": 1.313827290229853
+      }
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "CtJuoTNmpqb8lTLL8pug": {
+    "id": "CtJuoTNmpqb8lTLL8pug",
+    "name": "GC Unidentified Misc Black",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "GC Unidentified Misc Black | id: CtJuoTNmpqb8lTLL8pug | category: Memory Cards & Expansion Packs | GameCube | memory storage device | game save storage",
+    "vector_index": 51,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "128"
+  },
+  "DOGFOTZV5AfNzbjZOvQs": {
+    "id": "DOGFOTZV5AfNzbjZOvQs",
+    "name": "PS2 Mem Card [Sammy Corp]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "PS2 Mem Card [Sammy Corp] | id: DOGFOTZV5AfNzbjZOvQs | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 52,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "E4gdR1zQcZder6WVWIQx": {
+    "id": "E4gdR1zQcZder6WVWIQx",
+    "name": "Microsoft Flight Stick",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Microsoft Flight Stick | id: E4gdR1zQcZder6WVWIQx | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product | microsoft gaming hardware",
+    "vector_index": 53,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "microsoft",
+        "confidence": 2.3400000000000003
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "microsoft": 2.3400000000000003
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "85"
+  },
+  "E4oZlDj5F5li3cp8MvkH": {
+    "id": "E4oZlDj5F5li3cp8MvkH",
+    "name": "8GB SD Card",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "8GB SD Card | id: E4oZlDj5F5li3cp8MvkH | category: Memory Cards & Expansion Packs | memory storage device | game save storage",
+    "vector_index": 54,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "149"
+  },
+  "E84fGtscixinqWoySR8t": {
+    "id": "E84fGtscixinqWoySR8t",
+    "name": "Mario DDR Pad (boxed)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Mario DDR Pad (boxed) | id: E84fGtscixinqWoySR8t | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 55,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "56"
+  },
+  "EVi5eanu8aB60BSx22Yu": {
+    "id": "EVi5eanu8aB60BSx22Yu",
+    "name": "Saturn Mem (King of Fighters)",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "Saturn Mem (King of Fighters) | id: EVi5eanu8aB60BSx22Yu | category: Memory Cards & Expansion Packs | memory storage device | game save storage | saturn",
+    "vector_index": 56,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "EYlCqZZt8F11X2mysvF4": {
+    "id": "EYlCqZZt8F11X2mysvF4",
+    "name": "N64 Rumble Pak",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "N64 Rumble Pak | id: EYlCqZZt8F11X2mysvF4 | category: Memory Cards & Expansion Packs | Nintendo 64 | memory storage device | game save storage | n64",
+    "vector_index": 57,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "134"
+  },
+  "EryOJJQhNnYSlRhZEIQE": {
+    "id": "EryOJJQhNnYSlRhZEIQE",
+    "name": "DRM Mic Adapter (No Mic)",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "DRM Mic Adapter (No Mic) | id: EryOJJQhNnYSlRhZEIQE | category: Other Video Game Accessories",
+    "vector_index": 58,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "F5lnUW6QS1FD2LAwvk9A": {
+    "id": "F5lnUW6QS1FD2LAwvk9A",
+    "name": "GC Con Sealed",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "GC Con Sealed | id: F5lnUW6QS1FD2LAwvk9A | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+    "vector_index": 59,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "18"
+  },
+  "FJGbvQWAPRbFV7ebvzqU": {
+    "id": "FJGbvQWAPRbFV7ebvzqU",
+    "name": "Wii Wheel",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "Wii Wheel | id: FJGbvQWAPRbFV7ebvzqU | category: Other Video Game Accessories | Nintendo Wii | wii",
+    "vector_index": 60,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "FOe9YCwQEruTSN6BPjAq": {
+    "id": "FOe9YCwQEruTSN6BPjAq",
+    "name": "PS2 HDD",
+    "category": "Internal Hard Disk Drives",
+    "model": "",
+    "contextual_text": "PS2 HDD | id: FOe9YCwQEruTSN6BPjAq | category: Internal Hard Disk Drives | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 61,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "130"
+  },
+  "FgKdiyg1Xgo3dljIHDAJ": {
+    "id": "FgKdiyg1Xgo3dljIHDAJ",
+    "name": "Wii LAN Adapter",
+    "category": "Cables & Adapters",
+    "model": "",
+    "contextual_text": "Wii LAN Adapter | id: FgKdiyg1Xgo3dljIHDAJ | category: Cables & Adapters | Nintendo Wii | wii",
+    "vector_index": 62,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "84"
+  },
+  "Fu009vbiv7CbGJdvp4f5": {
+    "id": "Fu009vbiv7CbGJdvp4f5",
+    "name": "Wii Con Knockoff",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Con Knockoff | id: Fu009vbiv7CbGJdvp4f5 | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 63,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "125"
+  },
+  "G53ey9Mz561vUtXdTtxM": {
+    "id": "G53ey9Mz561vUtXdTtxM",
+    "name": "256G SD Card",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "256G SD Card | id: G53ey9Mz561vUtXdTtxM | category: Memory Cards & Expansion Packs | memory storage device | game save storage",
+    "vector_index": 64,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "GCI6ylnMHiTVurfM09Js": {
+    "id": "GCI6ylnMHiTVurfM09Js",
+    "name": "Super Mario 64 (N64)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Super Mario 64 (N64) | id: GCI6ylnMHiTVurfM09Js | category: Video Games | Nintendo 64 | Nintendo 64 console game | N64 cartridge | video game software | n64",
+    "vector_index": 65,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "102"
+  },
+  "GgWTR9QoWKoUkJ3kr5ga": {
+    "id": "GgWTR9QoWKoUkJ3kr5ga",
+    "name": "DSi",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS | ds | dsi",
+    "vector_index": 66,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7,
+        "dsi": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Gu6jPAxldEW9W5xzEant": {
+    "id": "Gu6jPAxldEW9W5xzEant",
+    "name": "DRM V1",
+    "category": "Video Game Consoles",
+    "model": "Not Applicable",
+    "contextual_text": "DRM V1 | id: Gu6jPAxldEW9W5xzEant | category: Video Game Consoles | model: Not Applicable",
+    "vector_index": 67,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Gynna5OzYWWE6y8WpgpO": {
+    "id": "Gynna5OzYWWE6y8WpgpO",
+    "name": "GC Wavebird Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "GC Wavebird Con | id: Gynna5OzYWWE6y8WpgpO | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+    "vector_index": 68,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "H0RlXFvhKja39NWakUpa": {
+    "id": "H0RlXFvhKja39NWakUpa",
+    "name": "Wii Hori Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Hori Con | id: H0RlXFvhKja39NWakUpa | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 69,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "25"
+  },
+  "HNljomQEwfkntYmDylny": {
+    "id": "HNljomQEwfkntYmDylny",
+    "name": "Switch Pokèball",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral | switch",
+    "vector_index": 70,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "switch",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "switch": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "127"
+  },
+  "I1uSaklKbn6kOarfywUF": {
+    "id": "I1uSaklKbn6kOarfywUF",
+    "name": "3DS Joystick Rubber",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "3DS Joystick Rubber | id: I1uSaklKbn6kOarfywUF | category: Other Video Game Accessories | Nintendo DS | Nintendo 3DS | ds | 3ds",
+    "vector_index": 71,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7,
+        "3ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ITNZR4SLj67Kvk5Cw2qq": {
+    "id": "ITNZR4SLj67Kvk5Cw2qq",
+    "name": "DRM Mic + Adapter",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "DRM Mic + Adapter | id: ITNZR4SLj67Kvk5Cw2qq | category: Other Video Game Accessories",
+    "vector_index": 72,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "IpSmFvIFCTx0NaFFB2JW": {
+    "id": "IpSmFvIFCTx0NaFFB2JW",
+    "name": "DRM Shell",
+    "category": null,
+    "model": "",
+    "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+    "vector_index": 73,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Irh72HART2knkr1jxuG7": {
+    "id": "Irh72HART2knkr1jxuG7",
+    "name": "Shipping Label",
+    "category": "Labels",
+    "model": "",
+    "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
+    "vector_index": 74,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Iu8d8Y9vmIacG5dnvSF0": {
+    "id": "Iu8d8Y9vmIacG5dnvSF0",
+    "name": "PS1 Power Cord",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "PS1 Power Cord | id: Iu8d8Y9vmIacG5dnvSF0 | category: Power Cables & Connectors | PlayStation 1 | power supply cable | electrical connector | Sony PlayStation gaming product | ps1 | sony gaming hardware",
+    "vector_index": 75,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "J4L1xsDD5I1OLZSjSRpN": {
+    "id": "J4L1xsDD5I1OLZSjSRpN",
+    "name": "DRM Disc Drive",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "DRM Disc Drive | id: J4L1xsDD5I1OLZSjSRpN | category: Other Video Game Accessories",
+    "vector_index": 76,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "154"
+  },
+  "J6cJfg7qIyBmayaGkPTq": {
+    "id": "J6cJfg7qIyBmayaGkPTq",
+    "name": "DRM Gun",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Gun | id: J6cJfg7qIyBmayaGkPTq | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 77,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "116"
+  },
+  "JFhFjEAL84uIRDJ6othA": {
+    "id": "JFhFjEAL84uIRDJ6othA",
+    "name": "GC Mem 251",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "GC Mem 251 | id: JFhFjEAL84uIRDJ6othA | category: Memory Cards & Expansion Packs | GameCube | memory storage device | game save storage",
+    "vector_index": 78,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "23"
+  },
+  "JNb0wUdOQTcqz5MBRtve": {
+    "id": "JNb0wUdOQTcqz5MBRtve",
+    "name": "N64 VRS",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "NUS-020",
+    "contextual_text": "N64 VRS | id: JNb0wUdOQTcqz5MBRtve | category: Memory Cards & Expansion Packs | model: NUS-020 | Nintendo 64 | memory storage device | game save storage | n64",
+    "vector_index": 79,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "JTLnaMb1XfcGGcw96G08": {
+    "id": "JTLnaMb1XfcGGcw96G08",
+    "name": "DRM Mic",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Mic | id: JTLnaMb1XfcGGcw96G08 | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 80,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "16"
+  },
+  "JZQ3rL2NkPt7o8Sd2Fm5": {
+    "id": "JZQ3rL2NkPt7o8Sd2Fm5",
+    "name": "PS2 LAN Adapter",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "PS2 LAN Adapter | id: JZQ3rL2NkPt7o8Sd2Fm5 | category: Other Video Game Accessories | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 81,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "131"
+  },
+  "JfpzfVMgPVKgYvc3Mt1r": {
+    "id": "JfpzfVMgPVKgYvc3Mt1r",
+    "name": "SNES Super Scope",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "SNES Super Scope | id: JfpzfVMgPVKgYvc3Mt1r | category: Controllers & Attachments | Super Nintendo Entertainment System | Nintendo Entertainment System | gaming controller device | gamepad peripheral | nes | snes",
+    "vector_index": 82,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "JrwrnOoJORdTTkvW8pTX": {
+    "id": "JrwrnOoJORdTTkvW8pTX",
+    "name": "DRM GDEMU",
+    "category": "Video Game Consoles",
+    "model": "Dreamcast",
+    "contextual_text": "DRM GDEMU | id: JrwrnOoJORdTTkvW8pTX | category: Video Game Consoles | model: Dreamcast",
+    "vector_index": 83,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Ki56uOTUOWgh998rBi8J": {
+    "id": "Ki56uOTUOWgh998rBi8J",
+    "name": "Inazuma Eleven Strikers 2012 Xtreme (Wii)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Inazuma Eleven Strikers 2012 Xtreme (Wii) | id: Ki56uOTUOWgh998rBi8J | category: Video Games | Nintendo Wii | Nintendo Wii console game | motion control gaming | video game software | wii",
+    "vector_index": 84,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 0.7884898576264234
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 0.7884898576264234
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "104"
+  },
+  "KjcYMcDbqpbGV5Klfrj1": {
+    "id": "KjcYMcDbqpbGV5Klfrj1",
+    "name": "New 2DS XL",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "New 2DS XL | id: KjcYMcDbqpbGV5Klfrj1 | category: Video Game Consoles | Nintendo DS | ds",
+    "vector_index": 85,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 1.5382236106611313
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 1.5382236106611313
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "L2YJzzkfj6j4BQ1hEs8M": {
+    "id": "L2YJzzkfj6j4BQ1hEs8M",
+    "name": "PS1 Hori Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "PS1 Hori Con | id: L2YJzzkfj6j4BQ1hEs8M | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | ps1 | sony gaming hardware",
+    "vector_index": 86,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "28"
+  },
+  "L5oyhMGV3FLMdGhpYpvA": {
+    "id": "L5oyhMGV3FLMdGhpYpvA",
+    "name": "DRM Power Cord",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "DRM Power Cord | id: L5oyhMGV3FLMdGhpYpvA | category: Power Cables & Connectors | power supply cable | electrical connector",
+    "vector_index": 87,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "LK69eegFwn2onBK7j6rF": {
+    "id": "LK69eegFwn2onBK7j6rF",
+    "name": "Wii Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Con | id: LK69eegFwn2onBK7j6rF | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 88,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "13"
+  },
+  "LxEzMxwfFxyXkfzXw73f": {
+    "id": "LxEzMxwfFxyXkfzXw73f",
+    "name": "GC Con Joystick Cap",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "GC Con Joystick Cap | id: LxEzMxwfFxyXkfzXw73f | category: Other Video Game Accessories | GameCube",
+    "vector_index": 89,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "MVic11qQbvgEP3xjwveL": {
+    "id": "MVic11qQbvgEP3xjwveL",
+    "name": "Wii U AC Adapter WUP-002",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "Wii U AC Adapter WUP-002 | id: MVic11qQbvgEP3xjwveL | category: Power Cables & Connectors | Nintendo Wii | power supply cable | electrical connector | wii",
+    "vector_index": 90,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": {
+        "name": "wup-002",
+        "confidence": 1.313827290229853
+      },
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {
+        "wup-002": 1.313827290229853
+      }
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "MiHrfjmgylh1GdiKJhal": {
+    "id": "MiHrfjmgylh1GdiKJhal",
+    "name": "Wii TV Remote",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii TV Remote | id: MiHrfjmgylh1GdiKJhal | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 91,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "78"
+  },
+  "MnXL65CEkGZeQy1L2hsI": {
+    "id": "MnXL65CEkGZeQy1L2hsI",
+    "name": "N64 Fishing Rod",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 Fishing Rod | id: MnXL65CEkGZeQy1L2hsI | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 92,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "159"
+  },
+  "NOORX2h2HbrIM0GJjL9J": {
+    "id": "NOORX2h2HbrIM0GJjL9J",
+    "name": "N64 AC Adapter",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "N64 AC Adapter | id: NOORX2h2HbrIM0GJjL9J | category: Power Cables & Connectors | Nintendo 64 | power supply cable | electrical connector | n64",
+    "vector_index": 93,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "NYAQa0fSZKaow2O4FJjG": {
+    "id": "NYAQa0fSZKaow2O4FJjG",
+    "name": "Wii Mic",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Mic | id: NYAQa0fSZKaow2O4FJjG | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 94,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "77"
+  },
+  "Ng8nNXvI76XstlkIMh9s": {
+    "id": "Ng8nNXvI76XstlkIMh9s",
+    "name": "Pop'n Music Pad",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Pop'n Music Pad | id: Ng8nNXvI76XstlkIMh9s | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 95,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "158"
+  },
+  "NgY0wsqcNH8Ja96oUc6V": {
+    "id": "NgY0wsqcNH8Ja96oUc6V",
+    "name": "PS4 VR Headset",
+    "category": "Controllers & Attachments",
+    "model": "Playstation",
+    "contextual_text": "PS4 VR Headset | id: NgY0wsqcNH8Ja96oUc6V | category: Controllers & Attachments | model: Playstation | PlayStation 4 | Nintendo DS | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | ds | ps4 | sony gaming hardware",
+    "vector_index": 96,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps4",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps4": 3.5100000000000002,
+        "ds": 1.309969204924771
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "160"
+  },
+  "NmqlKnIQH4m6NTtCEMAI": {
+    "id": "NmqlKnIQH4m6NTtCEMAI",
+    "name": "GC [DOL-101]",
+    "category": "Video Game Consoles",
+    "model": "DOL-101",
+    "contextual_text": "GC [DOL-101] | id: NmqlKnIQH4m6NTtCEMAI | category: Video Game Consoles | model: DOL-101 | GameCube | dol-101",
+    "vector_index": 97,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "O9858sZlGIlyY48TTOPK": {
+    "id": "O9858sZlGIlyY48TTOPK",
+    "name": "PS1 Slimline Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "PS1 Slimline Con | id: O9858sZlGIlyY48TTOPK | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | ps1 | sony gaming hardware",
+    "vector_index": 98,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "OVfawgZCe29SxG7CLr5R": {
+    "id": "OVfawgZCe29SxG7CLr5R",
+    "name": "DSi LL",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "DSi LL | id: OVfawgZCe29SxG7CLr5R | category: Video Game Consoles | Nintendo DS | ds | dsi",
+    "vector_index": 99,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7,
+        "dsi": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ObRlHmCaeI91m67FPZcU": {
+    "id": "ObRlHmCaeI91m67FPZcU",
+    "name": "N64 Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 Con | id: ObRlHmCaeI91m67FPZcU | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 100,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "OvnaIjSBeoFBsRS0Y6GI": {
+    "id": "OvnaIjSBeoFBsRS0Y6GI",
+    "name": "SFC",
+    "category": "Video Game Consoles",
+    "model": "Super Famicom",
+    "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+    "vector_index": 101,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "PF6zWiWOjRxwKrmRw2oA": {
+    "id": "PF6zWiWOjRxwKrmRw2oA",
+    "name": "R.O.B. (boxed)",
+    "category": null,
+    "model": "",
+    "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
+    "vector_index": 102,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "PaVQDrGaUjcYp3KPYkmN": {
+    "id": "PaVQDrGaUjcYp3KPYkmN",
+    "name": "Blue N64 Con (boxed)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 103,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.3073354159916972,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Pse4aMX8v9HeE72C0wNB": {
+    "id": "Pse4aMX8v9HeE72C0wNB",
+    "name": "N64 Turbo Con (Hudson)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 Turbo Con (Hudson) | id: Pse4aMX8v9HeE72C0wNB | category: Controllers & Attachments | Nintendo DS | Nintendo 64 | gaming controller device | gamepad peripheral | ds | n64",
+    "vector_index": 104,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 1.1112273310225769
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 1.1112273310225769
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Q8thI8MOnGNIVf261whb": {
+    "id": "Q8thI8MOnGNIVf261whb",
+    "name": "Sega DS Card Reader",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "Sega DS Card Reader | id: Q8thI8MOnGNIVf261whb | category: Other Video Game Accessories | Nintendo DS | Sega gaming product | ds | sega gaming hardware",
+    "vector_index": 105,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.3073354159916972,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sega",
+        "confidence": 2.3400000000000003
+      },
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.3073354159916972
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sega": 2.3400000000000003
+      },
+      "all_console_scores": {
+        "ds": 2.3073354159916972
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "89"
+  },
+  "QXMQ0LntKXiKdHL4Y7Sw": {
+    "id": "QXMQ0LntKXiKdHL4Y7Sw",
+    "name": "Taiko Drum",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Taiko Drum | id: QXMQ0LntKXiKdHL4Y7Sw | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 106,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "53"
+  },
+  "QoIy5z7ALxygRFigBAFq": {
+    "id": "QoIy5z7ALxygRFigBAFq",
+    "name": "Saturn Mem",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "Saturn Mem | id: QoIy5z7ALxygRFigBAFq | category: Memory Cards & Expansion Packs | memory storage device | game save storage | saturn",
+    "vector_index": 107,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "136"
+  },
+  "QpyOFnPXfR4LPDUCdQrP": {
+    "id": "QpyOFnPXfR4LPDUCdQrP",
+    "name": "Sega FS",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Sega FS | id: QpyOFnPXfR4LPDUCdQrP | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sega gaming product | sega gaming hardware",
+    "vector_index": 108,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sega",
+        "confidence": 2.3400000000000003
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sega": 2.3400000000000003
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "QvUB8tHBNDmkwWhylwa5": {
+    "id": "QvUB8tHBNDmkwWhylwa5",
+    "name": "PS3 Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "PS3 Con | id: QvUB8tHBNDmkwWhylwa5 | category: Controllers & Attachments | PlayStation 3 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | ps3 | sony gaming hardware",
+    "vector_index": 109,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps3",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps3": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "27"
+  },
+  "RA1sLo6TzHsbRjgqZMHq": {
+    "id": "RA1sLo6TzHsbRjgqZMHq",
+    "name": "DS Lite Boxed",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device | ds | lite",
+    "vector_index": 110,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 5.007335415991697,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "RLTezhK4keTvDr70COUX": {
+    "id": "RLTezhK4keTvDr70COUX",
+    "name": "DS Original",
+    "category": "Video Game Consoles",
+    "model": "Nintendo DS",
+    "contextual_text": "DS Original | id: RLTezhK4keTvDr70COUX | category: Video Game Consoles | model: Nintendo DS | Nintendo DS | ds",
+    "vector_index": 111,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "70"
+  },
+  "RgHI0PNysdwZQ2Q2K5qH": {
+    "id": "RgHI0PNysdwZQ2Q2K5qH",
+    "name": "N64 Game [Boxed]",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "N64 Game [Boxed] | id: RgHI0PNysdwZQ2Q2K5qH | category: Video Games | Nintendo 64 | video game software | n64",
+    "vector_index": 112,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "S5WCwU2E9mlm0WcyhMbT": {
+    "id": "S5WCwU2E9mlm0WcyhMbT",
+    "name": "Mario Strikers Charged (Wii)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Mario Strikers Charged (Wii) | id: S5WCwU2E9mlm0WcyhMbT | category: Video Games | Nintendo Wii | Nintendo Wii console game | motion control gaming | video game software | wii",
+    "vector_index": 113,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 1.1112273310225769
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 1.1112273310225769
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "106"
+  },
+  "SPg2CuiOAQlcnmIZPAOv": {
+    "id": "SPg2CuiOAQlcnmIZPAOv",
+    "name": "Taiko Drum (boxed)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Taiko Drum (boxed) | id: SPg2CuiOAQlcnmIZPAOv | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 114,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "54"
+  },
+  "SQKlFz7S2x6PMXNAnNnD": {
+    "id": "SQKlFz7S2x6PMXNAnNnD",
+    "name": "N64 AV Cable",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "N64 AV Cable | id: SQKlFz7S2x6PMXNAnNnD | category: Power Cables & Connectors | Nintendo 64 | power supply cable | electrical connector | n64",
+    "vector_index": 115,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ST8yllzbAiBh5De8O8kP": {
+    "id": "ST8yllzbAiBh5De8O8kP",
+    "name": "Wii U Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii U Con | id: ST8yllzbAiBh5De8O8kP | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 116,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "STKdatHmQLwNLJXq1fxP": {
+    "id": "STKdatHmQLwNLJXq1fxP",
+    "name": "DS Lite Charger",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "DS Lite Charger | id: STKdatHmQLwNLJXq1fxP | category: Power Cables & Connectors | Nintendo DS | Nintendo DS handheld game | portable gaming device | power supply cable | electrical connector | ds | lite",
+    "vector_index": 117,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 5.007335415991697,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Sb63aOKKGWawJOyhoDm0": {
+    "id": "Sb63aOKKGWawJOyhoDm0",
+    "name": "PS3 Fat",
+    "category": "Video Game Consoles",
+    "model": "Sony PlayStation 3",
+    "contextual_text": "PS3 Fat | id: Sb63aOKKGWawJOyhoDm0 | category: Video Game Consoles | model: Sony PlayStation 3 | PlayStation 3 | Sony PlayStation gaming product | ps3 | sony gaming hardware",
+    "vector_index": 118,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps3",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps3": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "SpXG1Qbq7zMViUieqjdJ": {
+    "id": "SpXG1Qbq7zMViUieqjdJ",
+    "name": "Virtua Fighter 4 Stick",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Virtua Fighter 4 Stick | id: SpXG1Qbq7zMViUieqjdJ | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 119,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "41"
+  },
+  "SwZwDajjOeM327rA6Uw1": {
+    "id": "SwZwDajjOeM327rA6Uw1",
+    "name": "Drm Mission Stick",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Drm Mission Stick | id: SwZwDajjOeM327rA6Uw1 | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 120,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "46"
+  },
+  "TPn6WJv5zUMn2GLqQKwn": {
+    "id": "TPn6WJv5zUMn2GLqQKwn",
+    "name": "DS Original Motherboard",
+    "category": "Internal Hard Disk Drives",
+    "model": "",
+    "contextual_text": "DS Original Motherboard | id: TPn6WJv5zUMn2GLqQKwn | category: Internal Hard Disk Drives | Nintendo DS | ds",
+    "vector_index": 121,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ToNNNCTeSKGQuHeJy409": {
+    "id": "ToNNNCTeSKGQuHeJy409",
+    "name": "Saturn AV Cable",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "Saturn AV Cable | id: ToNNNCTeSKGQuHeJy409 | category: Power Cables & Connectors | power supply cable | electrical connector | saturn",
+    "vector_index": 122,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "UQAiJaSEgXisBIPIMPnD": {
+    "id": "UQAiJaSEgXisBIPIMPnD",
+    "name": "Xbox Orig Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Xbox Orig Con | id: UQAiJaSEgXisBIPIMPnD | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product | xbox | microsoft gaming hardware",
+    "vector_index": 123,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "microsoft",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "xbox",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "microsoft": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "xbox": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "20"
+  },
+  "Ubj4GTjF1hgFtxFHaGia": {
+    "id": "Ubj4GTjF1hgFtxFHaGia",
+    "name": "Mario DDR Pad",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Mario DDR Pad | id: Ubj4GTjF1hgFtxFHaGia | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 124,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "UtTSNvusObuHWpIpk4aM": {
+    "id": "UtTSNvusObuHWpIpk4aM",
+    "name": "N64 Con (Loose Stick)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 Con (Loose Stick) | id: UtTSNvusObuHWpIpk4aM | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 125,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "V1Bxblt6kGpCOQph4LP9": {
+    "id": "V1Bxblt6kGpCOQph4LP9",
+    "name": "GDEMU SD Extender Kit",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "GDEMU SD Extender Kit | id: V1Bxblt6kGpCOQph4LP9 | category: Other Video Game Accessories",
+    "vector_index": 126,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "VMOG89MRAOehGcYqHRrE": {
+    "id": "VMOG89MRAOehGcYqHRrE",
+    "name": "PS4",
+    "category": "Video Game Consoles",
+    "model": "Sony PlayStation 4",
+    "contextual_text": "PS4 | id: VMOG89MRAOehGcYqHRrE | category: Video Game Consoles | model: Sony PlayStation 4 | PlayStation 4 | Sony PlayStation gaming product | ps4 | sony gaming hardware",
+    "vector_index": 127,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps4",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps4": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "VZd8LM876rYPaXOPgSrB": {
+    "id": "VZd8LM876rYPaXOPgSrB",
+    "name": "GC Mem Knockoff 1019",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "GC Mem Knockoff 1019 | id: VZd8LM876rYPaXOPgSrB | category: Memory Cards & Expansion Packs | GameCube | memory storage device | game save storage",
+    "vector_index": 128,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Vi8nvewNnfADGqACmjTY": {
+    "id": "Vi8nvewNnfADGqACmjTY",
+    "name": "VMU",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "VMU | id: Vi8nvewNnfADGqACmjTY | category: Memory Cards & Expansion Packs | memory storage device | game save storage",
+    "vector_index": 129,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "10"
+  },
+  "VjBW5i3jU5G0qCjVzg7m": {
+    "id": "VjBW5i3jU5G0qCjVzg7m",
+    "name": "PS2 Mem Card [OEM]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "PS2 Mem Card [OEM] | id: VjBW5i3jU5G0qCjVzg7m | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 130,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "WSqm0efrktNI5TTPCJVX": {
+    "id": "WSqm0efrktNI5TTPCJVX",
+    "name": "Metal Gear Solid HD (American) (Xbox 360)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Metal Gear Solid HD (American) (Xbox 360) | id: WSqm0efrktNI5TTPCJVX | category: Video Games | Microsoft Xbox | video game software | Microsoft Xbox gaming product | xbox | 360 | microsoft gaming hardware",
+    "vector_index": 131,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "microsoft",
+        "confidence": 1.0250368149143505
+      },
+      "top_console": {
+        "name": "xbox",
+        "confidence": 1.0250368149143505
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "microsoft": 1.0250368149143505
+      },
+      "all_console_scores": {
+        "xbox": 1.0250368149143505
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "96"
+  },
+  "Ww2Sf4iypCZWsllkBp5e": {
+    "id": "Ww2Sf4iypCZWsllkBp5e",
+    "name": "PS1 Mem Card [OEM]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "PS1 Mem Card [OEM] | id: Ww2Sf4iypCZWsllkBp5e | category: Memory Cards & Expansion Packs | PlayStation 1 | memory storage device | game save storage | Sony PlayStation gaming product | ps1 | sony gaming hardware",
+    "vector_index": 132,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "11"
+  },
+  "X11jJFJx1ymgGSbDcdJS": {
+    "id": "X11jJFJx1ymgGSbDcdJS",
+    "name": "PS2 HDD (3.5 series)",
+    "category": "Internal Hard Disk Drives",
+    "model": "",
+    "contextual_text": "PS2 HDD (3.5 series) | id: X11jJFJx1ymgGSbDcdJS | category: Internal Hard Disk Drives | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 133,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "132"
+  },
+  "XM89BaYAPEcR4yeUtQUi": {
+    "id": "XM89BaYAPEcR4yeUtQUi",
+    "name": "Wii U (WUP-001(01)) (8GB)",
+    "category": "Video Game Consoles",
+    "model": "WUP-001(01)",
+    "contextual_text": "Wii U (WUP-001(01)) (8GB) | id: XM89BaYAPEcR4yeUtQUi | category: Video Game Consoles | model: WUP-001(01) | Nintendo Wii | wii",
+    "vector_index": 134,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Xkrg5XHercMS20qWarDQ": {
+    "id": "Xkrg5XHercMS20qWarDQ",
+    "name": "Inazuma Eleven Strikers (Wii)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Inazuma Eleven Strikers (Wii) | id: Xkrg5XHercMS20qWarDQ | category: Video Games | Nintendo Wii | Nintendo Wii console game | motion control gaming | video game software | wii",
+    "vector_index": 135,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 1.1112273310225769
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 1.1112273310225769
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "103"
+  },
+  "YD4IkqjiU6NnG9sD4qHp": {
+    "id": "YD4IkqjiU6NnG9sD4qHp",
+    "name": "DRM 4X Memory Card",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "DRM 4X Memory Card | id: YD4IkqjiU6NnG9sD4qHp | category: Memory Cards & Expansion Packs | memory storage device | game save storage",
+    "vector_index": 136,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "YDxwch9Hzj13EqLj79f2": {
+    "id": "YDxwch9Hzj13EqLj79f2",
+    "name": "Xbox 360 Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Xbox 360 Con | id: YDxwch9Hzj13EqLj79f2 | category: Controllers & Attachments | Microsoft Xbox | gaming controller device | gamepad peripheral | Microsoft Xbox gaming product | xbox | 360 | microsoft gaming hardware",
+    "vector_index": 137,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 5.817335415991698,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "microsoft",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "xbox",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "microsoft": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "xbox": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "82"
+  },
+  "YPTcMcgz6i1qeEIAJ7cD": {
+    "id": "YPTcMcgz6i1qeEIAJ7cD",
+    "name": "NFC Reader (boxed)",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "NFC Reader (boxed) | id: YPTcMcgz6i1qeEIAJ7cD | category: Other Video Game Accessories",
+    "vector_index": 138,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "93"
+  },
+  "YPfCn4DX2yfRdysR47ah": {
+    "id": "YPfCn4DX2yfRdysR47ah",
+    "name": "new3DS LL",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "new3DS LL | id: YPfCn4DX2yfRdysR47ah | category: Video Game Consoles | Nintendo DS | Nintendo 3DS | ds | 3ds",
+    "vector_index": 139,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 1.8
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 1.8,
+        "3ds": 1.8
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "YQlPav9nl4eO6o1cIQtF": {
+    "id": "YQlPav9nl4eO6o1cIQtF",
+    "name": "BustAMove Con (boxed)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "BustAMove Con (boxed) | id: YQlPav9nl4eO6o1cIQtF | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 140,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "YcWMd30IK5gewrzqAgzW": {
+    "id": "YcWMd30IK5gewrzqAgzW",
+    "name": "Saturn VCD",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "Saturn VCD | id: YcWMd30IK5gewrzqAgzW | category: Memory Cards & Expansion Packs | memory storage device | game save storage | saturn",
+    "vector_index": 141,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "118"
+  },
+  "YsZuDWV6LEmWyyg3Vkhn": {
+    "id": "YsZuDWV6LEmWyyg3Vkhn",
+    "name": "N64 [Boxed]",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "N64 [Boxed] | id: YsZuDWV6LEmWyyg3Vkhn | category: Video Game Consoles | Nintendo 64 | n64",
+    "vector_index": 142,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "YxGyIhCoGGi6fsk3Beo8": {
+    "id": "YxGyIhCoGGi6fsk3Beo8",
+    "name": "Gameboy Player",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "Gameboy Player | id: YxGyIhCoGGi6fsk3Beo8 | category: Video Game Consoles | gameboy",
+    "vector_index": 143,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "YzDfvc0FLvQkBtcpEcfX": {
+    "id": "YzDfvc0FLvQkBtcpEcfX",
+    "name": "GC Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "GC Con | id: YzDfvc0FLvQkBtcpEcfX | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+    "vector_index": 144,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "19"
+  },
+  "Z2fKG4V5qRNCuc5CzhNI": {
+    "id": "Z2fKG4V5qRNCuc5CzhNI",
+    "name": "DRM Keyboard",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Keyboard | id: Z2fKG4V5qRNCuc5CzhNI | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 145,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "133"
+  },
+  "ZBroqZgzmGouENEl1iVl": {
+    "id": "ZBroqZgzmGouENEl1iVl",
+    "name": "Switch Pro Controller",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Switch Pro Controller | id: ZBroqZgzmGouENEl1iVl | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral | controller | switch",
+    "vector_index": 146,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 4.664953807387157,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "switch",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "switch": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ZKCDLD6gzbnBtQwt55RC": {
+    "id": "ZKCDLD6gzbnBtQwt55RC",
+    "name": "GC Mem Knockoff 251",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "GC Mem Knockoff 251 | id: ZKCDLD6gzbnBtQwt55RC | category: Memory Cards & Expansion Packs | GameCube | memory storage device | game save storage",
+    "vector_index": 147,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ZN8KTWcIWxmNs5djjwrR": {
+    "id": "ZN8KTWcIWxmNs5djjwrR",
+    "name": "DRM Jump Pack",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "DRM Jump Pack | id: ZN8KTWcIWxmNs5djjwrR | category: Memory Cards & Expansion Packs | memory storage device | game save storage",
+    "vector_index": 148,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "Zaj2L6TlNi20r5YsGUpD": {
+    "id": "Zaj2L6TlNi20r5YsGUpD",
+    "name": "Hitachi Hisaturn",
+    "category": "Video Game Consoles",
+    "model": "Not Applicable",
+    "contextual_text": "Hitachi Hisaturn | id: Zaj2L6TlNi20r5YsGUpD | category: Video Game Consoles | model: Not Applicable | saturn",
+    "vector_index": 149,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ZcSSpwtX8cl9fICLin8R": {
+    "id": "ZcSSpwtX8cl9fICLin8R",
+    "name": "NDEV",
+    "category": "Video Game Consoles",
+    "model": "Nintendo Wii",
+    "contextual_text": "NDEV | id: ZcSSpwtX8cl9fICLin8R | category: Video Game Consoles | model: Nintendo Wii",
+    "vector_index": 150,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "52"
+  },
+  "ZnuE55ObaCm6FalhK5L7": {
+    "id": "ZnuE55ObaCm6FalhK5L7",
+    "name": "Saturn Gun",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Saturn Gun | id: ZnuE55ObaCm6FalhK5L7 | category: Controllers & Attachments | gaming controller device | gamepad peripheral | saturn",
+    "vector_index": 151,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "aH9iGjlVeTjiCSWI8DIe": {
+    "id": "aH9iGjlVeTjiCSWI8DIe",
+    "name": "Saturn",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "Saturn | id: aH9iGjlVeTjiCSWI8DIe | category: Video Game Consoles | saturn",
+    "vector_index": 152,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "aZ1t0v9ZQldFjSkDPOzJ": {
+    "id": "aZ1t0v9ZQldFjSkDPOzJ",
+    "name": "Pokémon Games",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Pokémon Games | id: aZ1t0v9ZQldFjSkDPOzJ | category: Video Games | video game software",
+    "vector_index": 153,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ae0MdU3jVsn12AFEjeeT": {
+    "id": "ae0MdU3jVsn12AFEjeeT",
+    "name": "Pokémon Battle Revolution (Wii)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Pokémon Battle Revolution (Wii) | id: ae0MdU3jVsn12AFEjeeT | category: Video Games | Nintendo Wii | Nintendo Wii console game | motion control gaming | video game software | wii",
+    "vector_index": 154,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 1.1112273310225769
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 1.1112273310225769
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "awWufKvFvvF1V9Q9IocI": {
+    "id": "awWufKvFvvF1V9Q9IocI",
+    "name": "Saturn Expansion Ram Cartridge",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "Saturn Expansion Ram Cartridge | id: awWufKvFvvF1V9Q9IocI | category: Memory Cards & Expansion Packs | memory storage device | game save storage | saturn",
+    "vector_index": 155,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "bCs9Y7puTSp91kDdqhx8": {
+    "id": "bCs9Y7puTSp91kDdqhx8",
+    "name": "DS Original Charger",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "DS Original Charger | id: bCs9Y7puTSp91kDdqhx8 | category: Power Cables & Connectors | Nintendo DS | power supply cable | electrical connector | ds",
+    "vector_index": 156,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "141"
+  },
+  "boP0HPaJuFshEG2KxH6X": {
+    "id": "boP0HPaJuFshEG2KxH6X",
+    "name": "Hori Compact Joystick",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Hori Compact Joystick | id: boP0HPaJuFshEG2KxH6X | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 157,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "c1CUzPNNcPsi6EBoa5rI": {
+    "id": "c1CUzPNNcPsi6EBoa5rI",
+    "name": "PS2 SCPH-10000",
+    "category": "Video Game Consoles",
+    "model": "Sony PlayStation 2",
+    "contextual_text": "PS2 SCPH-10000 | id: c1CUzPNNcPsi6EBoa5rI | category: Video Game Consoles | model: Sony PlayStation 2 | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 158,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": {
+        "name": "scph-10000",
+        "confidence": 2.153513054925584
+      },
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {
+        "scph-10000": 2.153513054925584
+      }
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "c2pB9as6K8BPmpppcUnX": {
+    "id": "c2pB9as6K8BPmpppcUnX",
+    "name": "GC AC Adapter",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "GC AC Adapter | id: c2pB9as6K8BPmpppcUnX | category: Power Cables & Connectors | GameCube | power supply cable | electrical connector",
+    "vector_index": 159,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "c64umpuDWdeuRLUD2jHn": {
+    "id": "c64umpuDWdeuRLUD2jHn",
+    "name": "DRM Power Strip",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "DRM Power Strip | id: c64umpuDWdeuRLUD2jHn | category: Other Video Game Accessories",
+    "vector_index": 160,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "cBxlsdDvO7MbspPalgOx": {
+    "id": "cBxlsdDvO7MbspPalgOx",
+    "name": "Wii AC Adapter",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "Wii AC Adapter | id: cBxlsdDvO7MbspPalgOx | category: Power Cables & Connectors | Nintendo Wii | power supply cable | electrical connector | wii",
+    "vector_index": 161,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "cVUvSD1xHC978Kx7GlzU": {
+    "id": "cVUvSD1xHC978Kx7GlzU",
+    "name": "Wii Sensor Bar",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "Wii Sensor Bar | id: cVUvSD1xHC978Kx7GlzU | category: Other Video Game Accessories | Nintendo Wii | wii",
+    "vector_index": 162,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "d5oHNa0s0ecbXFljqEqL": {
+    "id": "d5oHNa0s0ecbXFljqEqL",
+    "name": "DRM Twin Stick",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Twin Stick | id: d5oHNa0s0ecbXFljqEqL | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 163,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "d9egBrYYHhyZFAUiHPnv": {
+    "id": "d9egBrYYHhyZFAUiHPnv",
+    "name": "Wii U AC Adapter WUP-011",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "Wii U AC Adapter WUP-011 | id: d9egBrYYHhyZFAUiHPnv | category: Power Cables & Connectors | Nintendo Wii | power supply cable | electrical connector | wii",
+    "vector_index": 164,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": {
+        "name": "wup-011",
+        "confidence": 1.313827290229853
+      },
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {
+        "wup-011": 1.313827290229853
+      }
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "dCgppzGDzN4lB4HOyrha": {
+    "id": "dCgppzGDzN4lB4HOyrha",
+    "name": "N64 ASCII Fishing Reels",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 ASCII Fishing Reels | id: dCgppzGDzN4lB4HOyrha | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 165,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "dDlQXkL3Fp8V3DFASOse": {
+    "id": "dDlQXkL3Fp8V3DFASOse",
+    "name": "Wii Taiko Drum + Bachi [Box]",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Taiko Drum + Bachi [Box] | id: dDlQXkL3Fp8V3DFASOse | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 166,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "dHZsC4olhShVBHfmoleE": {
+    "id": "dHZsC4olhShVBHfmoleE",
+    "name": "SFC [Boxed]",
+    "category": "Video Game Consoles",
+    "model": "Super Famicom",
+    "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
+    "vector_index": 167,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "dSJfIYbQbCFRSZecownS": {
+    "id": "dSJfIYbQbCFRSZecownS",
+    "name": "DRM Fishing Reel",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Fishing Reel | id: dSJfIYbQbCFRSZecownS | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 168,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "145"
+  },
+  "dyp54Q7eGAs4lTHMJa8L": {
+    "id": "dyp54Q7eGAs4lTHMJa8L",
+    "name": "Mario 3D All-Stars",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Mario 3D All-Stars | id: dyp54Q7eGAs4lTHMJa8L | category: Video Games | video game software",
+    "vector_index": 169,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "91"
+  },
+  "eDXOwaOyWKtH2nQwCYan": {
+    "id": "eDXOwaOyWKtH2nQwCYan",
+    "name": "Gameboy Advance",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "Gameboy Advance | id: eDXOwaOyWKtH2nQwCYan | category: Video Game Consoles | gameboy",
+    "vector_index": 170,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "eMSVGJBsZcjgJw5HMC1t": {
+    "id": "eMSVGJBsZcjgJw5HMC1t",
+    "name": "Luigi Wheel",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Luigi Wheel | id: eMSVGJBsZcjgJw5HMC1t | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 171,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "64"
+  },
+  "es4vrQRmZdBX7yY3d4PD": {
+    "id": "es4vrQRmZdBX7yY3d4PD",
+    "name": "PS4 VR Processor V1",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "PS4 VR Processor V1 | id: es4vrQRmZdBX7yY3d4PD | category: Other Video Game Accessories | PlayStation 4 | Sony PlayStation gaming product | ps4 | sony gaming hardware",
+    "vector_index": 172,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps4",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps4": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "155"
+  },
+  "ewdOdDwxoO36y2m3XxMO": {
+    "id": "ewdOdDwxoO36y2m3XxMO",
+    "name": "Saturn Power Cord",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "Saturn Power Cord | id: ewdOdDwxoO36y2m3XxMO | category: Power Cables & Connectors | power supply cable | electrical connector | saturn",
+    "vector_index": 173,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "fPlmsqNzKxyVjqsEmulZ": {
+    "id": "fPlmsqNzKxyVjqsEmulZ",
+    "name": "GC DK Bongos",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "GC DK Bongos | id: fPlmsqNzKxyVjqsEmulZ | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
+    "vector_index": 174,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "fXBitYdaXXdMVte5Qk8C": {
+    "id": "fXBitYdaXXdMVte5Qk8C",
+    "name": "Saturn 3D Multi Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Saturn 3D Multi Con | id: fXBitYdaXXdMVte5Qk8C | category: Controllers & Attachments | gaming controller device | gamepad peripheral | saturn",
+    "vector_index": 175,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "fj8niKEiVeaKbKSUovPs": {
+    "id": "fj8niKEiVeaKbKSUovPs",
+    "name": "PS2 Dual Shock Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "PS2 Dual Shock Con | id: fj8niKEiVeaKbKSUovPs | category: Controllers & Attachments | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 176,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "26"
+  },
+  "fpDMH9d4pNaFs4dJRKSI": {
+    "id": "fpDMH9d4pNaFs4dJRKSI",
+    "name": "Saturm Mem",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "Saturm Mem | id: fpDMH9d4pNaFs4dJRKSI | category: Memory Cards & Expansion Packs | memory storage device | game save storage",
+    "vector_index": 177,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "48"
+  },
+  "fq7GUL3199356TwLkdC3": {
+    "id": "fq7GUL3199356TwLkdC3",
+    "name": "Lenovo AC Adapter",
+    "category": "Power Cables & Connectors",
+    "model": "Lenovo Laptop",
+    "contextual_text": "Lenovo AC Adapter | id: fq7GUL3199356TwLkdC3 | category: Power Cables & Connectors | model: Lenovo Laptop | power supply cable | electrical connector",
+    "vector_index": 178,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "fxY001U4uyqrmXmSAjtJ": {
+    "id": "fxY001U4uyqrmXmSAjtJ",
+    "name": "PS2 Mem Card [Hori]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "PS2 Mem Card [Hori] | id: fxY001U4uyqrmXmSAjtJ | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 179,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "grBYZVKOdeZxSmRoDiTe": {
+    "id": "grBYZVKOdeZxSmRoDiTe",
+    "name": "Command Stick FS",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Command Stick FS | id: grBYZVKOdeZxSmRoDiTe | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 180,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "h7tVryMdQf0861z6oyc3": {
+    "id": "h7tVryMdQf0861z6oyc3",
+    "name": "DRM Maracas",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Maracas | id: h7tVryMdQf0861z6oyc3 | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 181,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "32"
+  },
+  "hVKSTky2gYJAeDddNOQV": {
+    "id": "hVKSTky2gYJAeDddNOQV",
+    "name": "DS Lite",
+    "category": "Video Game Consoles",
+    "model": "Nintendo DS Lite",
+    "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device | ds | lite",
+    "vector_index": 182,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 5.007335415991697,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "69"
+  },
+  "iFqIB1yynIwBmfUg0Hjp": {
+    "id": "iFqIB1yynIwBmfUg0Hjp",
+    "name": "DRM AV Cable",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "DRM AV Cable | id: iFqIB1yynIwBmfUg0Hjp | category: Power Cables & Connectors | power supply cable | electrical connector",
+    "vector_index": 183,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "iNEZC1aBa66BtjSVyFZn": {
+    "id": "iNEZC1aBa66BtjSVyFZn",
+    "name": "PS4 VR Processor V2",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "PS4 VR Processor V2 | id: iNEZC1aBa66BtjSVyFZn | category: Other Video Game Accessories | PlayStation 4 | Sony PlayStation gaming product | ps4 | sony gaming hardware",
+    "vector_index": 184,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps4",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps4": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "156"
+  },
+  "iaaU91MbpUWAR8NQchyh": {
+    "id": "iaaU91MbpUWAR8NQchyh",
+    "name": "Wii Nunchuck",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Nunchuck | id: iaaU91MbpUWAR8NQchyh | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 185,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "68"
+  },
+  "k40etST2II6zvZLnwAFz": {
+    "id": "k40etST2II6zvZLnwAFz",
+    "name": "Wii U Gamepad",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "Wii U Gamepad | id: k40etST2II6zvZLnwAFz | category: Video Game Consoles | Nintendo Wii | wii",
+    "vector_index": 186,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "kBIYUpO1YSuw7DDU1xaU": {
+    "id": "kBIYUpO1YSuw7DDU1xaU",
+    "name": "Beavis and Butthead (PS)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "Beavis and Butthead (PS) | id: kBIYUpO1YSuw7DDU1xaU | category: Video Games | video game software | Sony PlayStation gaming product | sony gaming hardware",
+    "vector_index": 187,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 1.44459553032935
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 1.44459553032935
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "kCt6oojsowe40mds4qRk": {
+    "id": "kCt6oojsowe40mds4qRk",
+    "name": "PS1",
+    "category": "Video Game Consoles",
+    "model": "Sony PlayStation 1",
+    "contextual_text": "PS1 | id: kCt6oojsowe40mds4qRk | category: Video Game Consoles | model: Sony PlayStation 1 | PlayStation 1 | Sony PlayStation gaming product | ps1 | sony gaming hardware",
+    "vector_index": 188,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "62"
+  },
+  "kcyOqlpSjOxpv9ZpONeh": {
+    "id": "kcyOqlpSjOxpv9ZpONeh",
+    "name": "Xbox 360",
+    "category": "Video Game Consoles",
+    "model": "Microsoft Xbox 360",
+    "contextual_text": "Xbox 360 | id: kcyOqlpSjOxpv9ZpONeh | category: Video Game Consoles | model: Microsoft Xbox 360 | Microsoft Xbox | Microsoft Xbox gaming product | xbox | 360 | microsoft gaming hardware",
+    "vector_index": 189,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 5.817335415991698,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "microsoft",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "xbox",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "microsoft": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "xbox": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "l3ZEWkPvmSplLql2xB2i": {
+    "id": "l3ZEWkPvmSplLql2xB2i",
+    "name": "DRM Popn",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Popn | id: l3ZEWkPvmSplLql2xB2i | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 190,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "lUX9PIFzOObfP7B9eq9E": {
+    "id": "lUX9PIFzOObfP7B9eq9E",
+    "name": "new 3DS",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "new 3DS | id: lUX9PIFzOObfP7B9eq9E | category: Video Game Consoles | Nintendo DS | Nintendo 3DS | ds | 3ds",
+    "vector_index": 191,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.3073354159916972,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.3073354159916972
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.3073354159916972,
+        "3ds": 2.3073354159916972
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "lWdyGHaGwvl7DvLjqmKk": {
+    "id": "lWdyGHaGwvl7DvLjqmKk",
+    "name": "Capcom CPS Fighter",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Capcom CPS Fighter | id: lWdyGHaGwvl7DvLjqmKk | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | sony gaming hardware",
+    "vector_index": 192,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 1.9996906938594707
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 1.9996906938594707
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "luRZYx9KpAkCOBkKb9Ix": {
+    "id": "luRZYx9KpAkCOBkKb9Ix",
+    "name": "Wii M+ Adapter",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii M+ Adapter | id: luRZYx9KpAkCOBkKb9Ix | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 193,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "124"
+  },
+  "mLUj73E3frECJEUJL1qM": {
+    "id": "mLUj73E3frECJEUJL1qM",
+    "name": "GC Mem Knockoff",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "GC Mem Knockoff | id: mLUj73E3frECJEUJL1qM | category: Memory Cards & Expansion Packs | GameCube | memory storage device | game save storage",
+    "vector_index": 194,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "122"
+  },
+  "n2PMx7GYyOOZ8mQlxpsC": {
+    "id": "n2PMx7GYyOOZ8mQlxpsC",
+    "name": "PS2 Multitap",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "PS2 Multitap | id: n2PMx7GYyOOZ8mQlxpsC | category: Other Video Game Accessories | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 195,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "157"
+  },
+  "nJrfY1rtfMs0yqL4Vpfq": {
+    "id": "nJrfY1rtfMs0yqL4Vpfq",
+    "name": "Wii Pro Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Pro Con | id: nJrfY1rtfMs0yqL4Vpfq | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 196,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "24"
+  },
+  "oL2l1OjnB3BNLENQkoRb": {
+    "id": "oL2l1OjnB3BNLENQkoRb",
+    "name": "Switch",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch | switch",
+    "vector_index": 197,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "switch",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "switch": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ooZdAqnEFMdIOUD9H9xy": {
+    "id": "ooZdAqnEFMdIOUD9H9xy",
+    "name": "Gameboy Micro Charger",
+    "category": "Power Cables & Connectors",
+    "model": "Gameboy Micro",
+    "contextual_text": "Gameboy Micro Charger | id: ooZdAqnEFMdIOUD9H9xy | category: Power Cables & Connectors | model: Gameboy Micro | power supply cable | electrical connector | gameboy",
+    "vector_index": 198,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "pINnaOh7hK6yso0Nhp6O": {
+    "id": "pINnaOh7hK6yso0Nhp6O",
+    "name": "PS2 Mem Card [KOTOBUKI]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "PS2 Mem Card [KOTOBUKI] | id: pINnaOh7hK6yso0Nhp6O | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 199,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "pZKL1jKht3eFSKzV2olA": {
+    "id": "pZKL1jKht3eFSKzV2olA",
+    "name": "Hori FS SS (boxed)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Hori FS SS (boxed) | id: pZKL1jKht3eFSKzV2olA | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 200,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "34"
+  },
+  "qkdRnxKlU4c7mGy7EVvS": {
+    "id": "qkdRnxKlU4c7mGy7EVvS",
+    "name": "N64 Turbo Con (ACII)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 Turbo Con (ACII) | id: qkdRnxKlU4c7mGy7EVvS | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 201,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "qo4qJJbbcei9VThcT8ci": {
+    "id": "qo4qJJbbcei9VThcT8ci",
+    "name": "PS2 Mem Card [KEMCO]",
+    "category": "Memory Cards & Expansion Packs",
+    "model": "",
+    "contextual_text": "PS2 Mem Card [KEMCO] | id: qo4qJJbbcei9VThcT8ci | category: Memory Cards & Expansion Packs | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | memory storage device | game save storage | Sony PlayStation gaming product | ps2 | sony gaming hardware",
+    "vector_index": 202,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps2",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps2": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "qyEWkJHf9RXDlfQ7HzjM": {
+    "id": "qyEWkJHf9RXDlfQ7HzjM",
+    "name": "Wii Wheel [Boxed]",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "Wii Wheel [Boxed] | id: qyEWkJHf9RXDlfQ7HzjM | category: Other Video Game Accessories | Nintendo Wii | wii",
+    "vector_index": 203,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "rBVvI0sL1F4QjvYij1Nu": {
+    "id": "rBVvI0sL1F4QjvYij1Nu",
+    "name": "N64 Game",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "N64 Game | id: rBVvI0sL1F4QjvYij1Nu | category: Video Games | Nintendo 64 | video game software | n64",
+    "vector_index": 204,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "rMhwIgk3oyN1kS1ouzPq": {
+    "id": "rMhwIgk3oyN1kS1ouzPq",
+    "name": "Wii American",
+    "category": "Video Game Consoles",
+    "model": "Nintendo Wii",
+    "contextual_text": "Wii American | id: rMhwIgk3oyN1kS1ouzPq | category: Video Game Consoles | model: Nintendo Wii | Nintendo Wii | wii",
+    "vector_index": 205,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "ri7BtZBzSxWd5jRBctFM": {
+    "id": "ri7BtZBzSxWd5jRBctFM",
+    "name": "Xbox One",
+    "category": "Video Game Consoles",
+    "model": "Microsoft Xbox One",
+    "contextual_text": "Xbox One | id: ri7BtZBzSxWd5jRBctFM | category: Video Game Consoles | model: Microsoft Xbox One | Microsoft Xbox | Microsoft Xbox gaming product | xbox | microsoft gaming hardware",
+    "vector_index": 206,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "microsoft",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "xbox",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "microsoft": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "xbox": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "rr4wZ1XXjF4M2JU5aVGh": {
+    "id": "rr4wZ1XXjF4M2JU5aVGh",
+    "name": "GC Region Switched",
+    "category": "Video Game Consoles",
+    "model": "Nintendo GameCube",
+    "contextual_text": "GC Region Switched | id: rr4wZ1XXjF4M2JU5aVGh | category: Video Game Consoles | model: Nintendo GameCube | GameCube | Nintendo Switch | switch",
+    "vector_index": 207,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "switch",
+        "confidence": 1.309969204924771
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "switch": 1.309969204924771
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "59"
+  },
+  "s1IgA5F8SjT5iUO6fBPu": {
+    "id": "s1IgA5F8SjT5iUO6fBPu",
+    "name": "N64 Transfer Pak",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 Transfer Pak | id: s1IgA5F8SjT5iUO6fBPu | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 208,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "94"
+  },
+  "sKXAyphTo9mFCLCW1cqW": {
+    "id": "sKXAyphTo9mFCLCW1cqW",
+    "name": "SFC Bomberman Multitap",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "SFC Bomberman Multitap | id: sKXAyphTo9mFCLCW1cqW | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 209,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "115"
+  },
+  "soWEPSYoV7RoKO4kZztI": {
+    "id": "soWEPSYoV7RoKO4kZztI",
+    "name": "DRM Rumble Pak (Puru puru)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Rumble Pak (Puru puru) | id: soWEPSYoV7RoKO4kZztI | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 210,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "71"
+  },
+  "sopGAgdK3BME51HDaWjU": {
+    "id": "sopGAgdK3BME51HDaWjU",
+    "name": "SFC SGB",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "SFC SGB | id: sopGAgdK3BME51HDaWjU | category: Other Video Game Accessories",
+    "vector_index": 211,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "49"
+  },
+  "stnz63AAGyUMZzQWn63s": {
+    "id": "stnz63AAGyUMZzQWn63s",
+    "name": "Wii M+ Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii M+ Con | id: stnz63AAGyUMZzQWn63s | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 212,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "14"
+  },
+  "svXJEQMnwuDfLPUHUUCi": {
+    "id": "svXJEQMnwuDfLPUHUUCi",
+    "name": "2DS",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "2DS | id: svXJEQMnwuDfLPUHUUCi | category: Video Game Consoles | Nintendo DS | ds",
+    "vector_index": 213,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 1.8
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 1.8
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "tnv83uJ3kSa7NLLoD3Fd": {
+    "id": "tnv83uJ3kSa7NLLoD3Fd",
+    "name": "DRM Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DRM Con | id: tnv83uJ3kSa7NLLoD3Fd | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+    "vector_index": 214,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "15"
+  },
+  "uJ5EdHELiRYdU88MlKCe": {
+    "id": "uJ5EdHELiRYdU88MlKCe",
+    "name": "N64 Mic Adapter",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "N64 Mic Adapter | id: uJ5EdHELiRYdU88MlKCe | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral | n64",
+    "vector_index": 215,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "6"
+  },
+  "uhFdgu2lATzjc5v96uEn": {
+    "id": "uhFdgu2lATzjc5v96uEn",
+    "name": "DSO Charger (USB)",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "DSO Charger (USB) | id: uhFdgu2lATzjc5v96uEn | category: Power Cables & Connectors | Nintendo DS | power supply cable | electrical connector | ds",
+    "vector_index": 216,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 1.8
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 1.8
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "vFaxxpsx5W7yH6fzI4Zx": {
+    "id": "vFaxxpsx5W7yH6fzI4Zx",
+    "name": "N64 Carrying Case",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "contextual_text": "N64 Carrying Case | id: vFaxxpsx5W7yH6fzI4Zx | category: Other Video Game Accessories | Nintendo 64 | n64",
+    "vector_index": 217,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "vTQzFyQAZySq6m10hwOZ": {
+    "id": "vTQzFyQAZySq6m10hwOZ",
+    "name": "PSP",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "PSP | id: vTQzFyQAZySq6m10hwOZ | category: Video Game Consoles | PlayStation Portable | Sony PlayStation gaming product | psp | sony gaming hardware",
+    "vector_index": 218,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "vZl90mcfXOrm7MLaqAbU": {
+    "id": "vZl90mcfXOrm7MLaqAbU",
+    "name": "FIFA Street (PS3)",
+    "category": "Video Games",
+    "model": "",
+    "contextual_text": "FIFA Street (PS3) | id: vZl90mcfXOrm7MLaqAbU | category: Video Games | PlayStation 3 | video game software | Sony PlayStation gaming product | ps3 | sony gaming hardware",
+    "vector_index": 219,
+    "embedding_norm": 1.0000001192092896,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 1.7029599664022024
+      },
+      "top_console": {
+        "name": "ps3",
+        "confidence": 1.7029599664022024
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 1.7029599664022024
+      },
+      "all_console_scores": {
+        "ps3": 1.7029599664022024
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "vwJlo3b8trreu9qHbruz": {
+    "id": "vwJlo3b8trreu9qHbruz",
+    "name": "DS Keyboard",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "DS Keyboard | id: vwJlo3b8trreu9qHbruz | category: Controllers & Attachments | Nintendo DS | gaming controller device | gamepad peripheral | ds",
+    "vector_index": 220,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "139"
+  },
+  "w6kd36hPgJ19alc4Uq8U": {
+    "id": "w6kd36hPgJ19alc4Uq8U",
+    "name": "SFC Box",
+    "category": "Video Game Consoles",
+    "model": "",
+    "contextual_text": "SFC Box | id: w6kd36hPgJ19alc4Uq8U | category: Video Game Consoles",
+    "vector_index": 221,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "wVqFEwclOVFUhO6J1Idm": {
+    "id": "wVqFEwclOVFUhO6J1Idm",
+    "name": "3DS LL",
+    "category": "Video Game Consoles",
+    "model": "Nintendo 3DS XL",
+    "contextual_text": "3DS LL | id: wVqFEwclOVFUhO6J1Idm | category: Video Game Consoles | model: Nintendo 3DS XL | Nintendo DS | Nintendo 3DS | ds | 3ds",
+    "vector_index": 222,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7,
+        "3ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "120"
+  },
+  "wfnfrrKbyvkb7Gy7kZEw": {
+    "id": "wfnfrrKbyvkb7Gy7kZEw",
+    "name": "Wii U (WUP-101(01)) (32 GB)",
+    "category": "Video Game Consoles",
+    "model": "WUP-101(01)",
+    "contextual_text": "Wii U (WUP-101(01)) (32 GB) | id: wfnfrrKbyvkb7Gy7kZEw | category: Video Game Consoles | model: WUP-101(01) | Nintendo Wii | wii",
+    "vector_index": 223,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "wviDZriLtZag6FCXscHP": {
+    "id": "wviDZriLtZag6FCXscHP",
+    "name": "PS1 Dual Analog Con SCPH-1180",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "PS1 Dual Analog Con SCPH-1180 | id: wviDZriLtZag6FCXscHP | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | ps1 | sony gaming hardware",
+    "vector_index": 224,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": {
+        "name": "scph-1180",
+        "confidence": 1.313827290229853
+      },
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {
+        "scph-1180": 1.313827290229853
+      }
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "xEnm9qXmWYPspfvfb3J7": {
+    "id": "xEnm9qXmWYPspfvfb3J7",
+    "name": "Playstation AV Cable",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "Playstation AV Cable | id: xEnm9qXmWYPspfvfb3J7 | category: Power Cables & Connectors | power supply cable | electrical connector | Sony PlayStation gaming product | playstation | sony gaming hardware",
+    "vector_index": 225,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "xjEVhAlcMSlZL5Dvjpyi": {
+    "id": "xjEVhAlcMSlZL5Dvjpyi",
+    "name": "3DS Charger",
+    "category": "Chargers & Charging Docks",
+    "model": "",
+    "contextual_text": "3DS Charger | id: xjEVhAlcMSlZL5Dvjpyi | category: Chargers & Charging Docks | Nintendo DS | Nintendo 3DS | ds | 3ds",
+    "vector_index": 226,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7,
+        "3ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "119"
+  },
+  "y94oJNaPD2VI2396Pq3m": {
+    "id": "y94oJNaPD2VI2396Pq3m",
+    "name": "Wii Classic Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "Wii Classic Con | id: y94oJNaPD2VI2396Pq3m | category: Controllers & Attachments | Nintendo Wii | gaming controller device | gamepad peripheral | wii",
+    "vector_index": 227,
+    "embedding_norm": 0.9999999403953552,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "wii",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "wii": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "146"
+  },
+  "z0yNRGGPXS8TbUsN9l3R": {
+    "id": "z0yNRGGPXS8TbUsN9l3R",
+    "name": "HDMI Cable",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "HDMI Cable | id: z0yNRGGPXS8TbUsN9l3R | category: Power Cables & Connectors | power supply cable | electrical connector",
+    "vector_index": 228,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "zLLBDzmDK3ShYnB3SSdc": {
+    "id": "zLLBDzmDK3ShYnB3SSdc",
+    "name": "3DS",
+    "category": "Video Game Consoles",
+    "model": "Nintendo 3DS",
+    "contextual_text": "3DS | id: zLLBDzmDK3ShYnB3SSdc | category: Video Game Consoles | model: Nintendo 3DS | Nintendo DS | Nintendo 3DS | ds | 3ds",
+    "vector_index": 229,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 2.7,
+    "predicted_hardware": {
+      "top_brand": null,
+      "top_console": {
+        "name": "ds",
+        "confidence": 2.7
+      },
+      "top_model": null,
+      "all_brand_scores": {},
+      "all_console_scores": {
+        "ds": 2.7,
+        "3ds": 2.7
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "90"
+  },
+  "zkTdMEHBU7We3hyCIa8q": {
+    "id": "zkTdMEHBU7We3hyCIa8q",
+    "name": "PS3 Fat Power Cord",
+    "category": "Power Cables & Connectors",
+    "model": "",
+    "contextual_text": "PS3 Fat Power Cord | id: zkTdMEHBU7We3hyCIa8q | category: Power Cables & Connectors | PlayStation 3 | power supply cable | electrical connector | Sony PlayStation gaming product | ps3 | sony gaming hardware",
+    "vector_index": 230,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 3.5100000000000002,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 3.5100000000000002
+      },
+      "top_console": {
+        "name": "ps3",
+        "confidence": 3.5100000000000002
+      },
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 3.5100000000000002
+      },
+      "all_console_scores": {
+        "ps3": 3.5100000000000002
+      },
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": null
+  },
+  "zozySuTIGhMbNDGRlxQr": {
+    "id": "zozySuTIGhMbNDGRlxQr",
+    "name": "PS Real Arcade Pro FS",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "contextual_text": "PS Real Arcade Pro FS | id: zozySuTIGhMbNDGRlxQr | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product | sony gaming hardware",
+    "vector_index": 231,
+    "embedding_norm": 1.0,
+    "hardware_relevance_score": 0,
+    "predicted_hardware": {
+      "top_brand": {
+        "name": "sony",
+        "confidence": 2.3400000000000003
+      },
+      "top_console": null,
+      "top_model": null,
+      "all_brand_scores": {
+        "sony": 2.3400000000000003
+      },
+      "all_console_scores": {},
+      "all_model_scores": {}
+    },
+    "position_weighted": true,
+    "legacyId": "44"
+  }
+}

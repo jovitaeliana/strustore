@@ -11,47 +11,52 @@
         "1": {
             "id": "hVKSTky2gYJAeDddNOQV",
             "reference_name": "DS Lite",
-            "itemtypes_name": "Nintendo DS Lite",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Nintendo DS Lite",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
             "vector_index": 182,
             "embedding_norm": 1.0,
             "legacyId": "69",
-            "similarity_score": 0.8812954425811768,
-            "itemtypes_similarity": 0.8716404438018799
+            "similarity_score": 0.875629186630249
         },
         "2": {
             "id": "hVKSTky2gYJAeDddNOQV",
             "reference_name": "DS Lite",
-            "itemtypes_name": "Nintendo DS Lite",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Nintendo DS Lite",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "DS Lite | id: hVKSTky2gYJAeDddNOQV | category: Video Game Consoles | model: Nintendo DS Lite | Nintendo DS | Nintendo DS handheld game | portable gaming device",
             "vector_index": 182,
             "embedding_norm": 1.0,
             "legacyId": "69",
-            "similarity_score": 0.8776727914810181,
-            "itemtypes_similarity": 0.8735910058021545
+            "similarity_score": 0.8752099275588989
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DS Lite (DS Lite)",
-        "2": "Nintendo DS Lite (DS Lite)"
+        "1": "DS Lite",
+        "2": "DS Lite"
     },
     "gdino_similarity_scores": {
-        "1": 0.8813,
-        "2": 0.8777
+        "1": 0.8756,
+        "2": 0.8752
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

@@ -7,32 +7,38 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "GgWTR9QoWKoUkJ3kr5ga",
-            "reference_name": "DSi",
-            "itemtypes_name": "Nintendo DS Lite",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
+            "reference_name": "DS Lite Boxed",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "DSi | id: GgWTR9QoWKoUkJ3kr5ga | category: Video Game Consoles | Nintendo DS",
-            "vector_index": 66,
-            "embedding_norm": 1.0,
+            "contextual_text": "DS Lite Boxed | id: RA1sLo6TzHsbRjgqZMHq | category: Video Game Consoles | Nintendo DS | Nintendo DS handheld game | portable gaming device",
+            "vector_index": 110,
+            "embedding_norm": 0.9999999403953552,
             "legacyId": null,
-            "similarity_score": 0.8613561987876892,
-            "itemtypes_similarity": 0.8555762767791748
+            "similarity_score": 0.8560354709625244
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DS Lite (DSi)"
+        "1": "DS Lite Boxed"
     },
     "gdino_similarity_scores": {
-        "1": 0.8614
+        "1": 0.856
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

@@ -13,64 +13,68 @@
         "1": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con Pair",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
             "vector_index": 197,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8412001132965088,
-            "itemtypes_similarity": 0.8375791311264038
+            "similarity_score": 0.8364388942718506
         },
         "2": {
             "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Console",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Console | Nintendo Switch | Switch Console | Nintendo Switch (2017) | Switch HAC-001 | brand: Nintendo | model: HAC-001 | model: HAC-001(-01) | nintendo | switch | console | hac-001 | handheld | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8743076324462891,
-            "vector_reference_similarity": 0.8496865034103394
+            "similarity_score": 0.8408052921295166
         },
         "3": {
-            "id": "oL2l1OjnB3BNLENQkoRb",
-            "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Joy-Con (L)",
+            "id": "PaVQDrGaUjcYp3KPYkmN",
+            "reference_name": "Blue N64 Con (boxed)",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Joy-Con (L) | Joy-Con (L) | Left Joy-Con | Nintendo Switch Joy-Con Left | Joy-Con Left Controller | brand: Nintendo | console: Nintendo Switch | joy-con | joycon | left | nintendo | switch | controller | l | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Blue N64 Con (boxed) | id: PaVQDrGaUjcYp3KPYkmN | category: Controllers & Attachments | Nintendo 64 | gaming controller device | gamepad peripheral",
+            "vector_index": 103,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8854823708534241,
-            "vector_reference_similarity": 0.8624018430709839
+            "similarity_score": 0.8520787954330444
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Joy-Con Pair (Switch)",
-        "2": "Nintendo Switch Console (Switch)",
-        "3": "Nintendo Switch Joy-Con (L) (Switch)"
+        "1": "Switch",
+        "2": "Switch",
+        "3": "Blue N64 Con (boxed)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8412,
-        "2": 0.8743,
-        "3": 0.8855
+        "1": 0.8364,
+        "2": 0.8408,
+        "3": 0.8521
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

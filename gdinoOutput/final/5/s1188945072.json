@@ -7,32 +7,38 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Gynna5OzYWWE6y8WpgpO",
-            "reference_name": "GC Wavebird Con",
-            "itemtypes_name": "Wii U GamePad",
-            "category": "Controllers & Attachments",
-            "model": "",
-            "brand": "Nintendo",
+            "id": "rr4wZ1XXjF4M2JU5aVGh",
+            "reference_name": "GC Region Switched",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "Nintendo GameCube",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "GC Wavebird Con | id: Gynna5OzYWWE6y8WpgpO | category: Controllers & Attachments | GameCube | gaming controller device | gamepad peripheral",
-            "vector_index": 68,
+            "contextual_text": "GC Region Switched | id: rr4wZ1XXjF4M2JU5aVGh | category: Video Game Consoles | model: Nintendo GameCube | GameCube | Nintendo Switch",
+            "vector_index": 207,
             "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8601725101470947,
-            "itemtypes_similarity": 0.8527640700340271
+            "legacyId": "59",
+            "similarity_score": 0.8477038145065308
         }
     },
     "gdino_improved_readable": {
-        "1": "Wii U GamePad (GC Wavebird Con)"
+        "1": "GC Region Switched"
     },
     "gdino_similarity_scores": {
-        "1": 0.8602
+        "1": 0.8477
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

@@ -13,83 +13,86 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "n2PMx7GYyOOZ8mQlxpsC",
-            "reference_name": "PS2 Multitap",
-            "itemtypes_name": "PlayStation 2 DualShock 2",
-            "category": "Other Video Game Accessories",
-            "model": "",
-            "brand": "Sony",
-            "source": "vector_database",
-            "contextual_text": "PS2 Multitap | id: n2PMx7GYyOOZ8mQlxpsC | category: Other Video Game Accessories | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | Sony PlayStation gaming product",
-            "vector_index": 195,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": "157",
-            "similarity_score": 0.8148332238197327,
-            "itemtypes_similarity": 0.8005059957504272
-        },
-        "2": {
-            "id": "fj8niKEiVeaKbKSUovPs",
-            "reference_name": "PS2 Dual Shock Con",
-            "itemtypes_name": "PlayStation 2 DualShock 2",
+            "id": "soWEPSYoV7RoKO4kZztI",
+            "reference_name": "DRM Rumble Pak (Puru puru)",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS2 Dual Shock Con | id: fj8niKEiVeaKbKSUovPs | category: Controllers & Attachments | PlayStation 2 | PlayStation 2 console game | Sony PlayStation 2 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 176,
+            "contextual_text": "DRM Rumble Pak (Puru puru) | id: soWEPSYoV7RoKO4kZztI | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 210,
             "embedding_norm": 1.0,
-            "legacyId": "26",
-            "similarity_score": 0.8461709022521973,
-            "itemtypes_similarity": 0.8333214521408081
+            "legacyId": "71",
+            "similarity_score": 0.8120805025100708
+        },
+        "2": {
+            "id": "soWEPSYoV7RoKO4kZztI",
+            "reference_name": "DRM Rumble Pak (Puru puru)",
+            "itemtypes_name": null,
+            "category": "Controllers & Attachments",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "DRM Rumble Pak (Puru puru) | id: soWEPSYoV7RoKO4kZztI | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 210,
+            "embedding_norm": 1.0,
+            "legacyId": "71",
+            "similarity_score": 0.8325759172439575
         },
         "3": {
             "id": "PF6zWiWOjRxwKrmRw2oA",
             "reference_name": "R.O.B. (boxed)",
-            "itemtypes_name": "Nintendo 3DS XL",
+            "itemtypes_name": null,
             "category": null,
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
             "vector_index": 102,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8058931827545166,
-            "itemtypes_similarity": 0.7580612897872925
+            "similarity_score": 0.8033487200737
         },
         "4": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
-            "itemtypes_name": "Xbox Controller (Original)",
+            "id": "IpSmFvIFCTx0NaFFB2JW",
+            "reference_name": "DRM Shell",
+            "itemtypes_name": null,
             "category": null,
             "model": "",
-            "brand": "Microsoft",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
+            "contextual_text": "DRM Shell | id: IpSmFvIFCTx0NaFFB2JW | category: None",
+            "vector_index": 73,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.84470534324646,
-            "itemtypes_similarity": 0.7973182201385498
+            "similarity_score": 0.8156504034996033
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation 2 DualShock 2 (PS2 Multitap)",
-        "2": "PlayStation 2 DualShock 2 (PS2 Dual Shock Con)",
-        "3": "Nintendo 3DS XL (R.O.B. (boxed))",
-        "4": "Xbox Controller (Original) (R.O.B. (boxed))"
+        "1": "DRM Rumble Pak (Puru puru)",
+        "2": "DRM Rumble Pak (Puru puru)",
+        "3": "R.O.B. (boxed)",
+        "4": "DRM Shell"
     },
     "gdino_similarity_scores": {
-        "1": 0.8148,
-        "2": 0.8462,
-        "3": 0.8059,
-        "4": 0.8447
+        "1": 0.8121,
+        "2": 0.8326,
+        "3": 0.8033,
+        "4": 0.8157
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

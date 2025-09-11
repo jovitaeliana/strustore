@@ -9,49 +9,54 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "y94oJNaPD2VI2396Pq3m",
-            "reference_name": "Wii Classic Con",
-            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "id": "HNljomQEwfkntYmDylny",
+            "reference_name": "Switch Pokèball",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8636260032653809,
-            "vector_reference_similarity": 0.8596275448799133
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Switch Pokèball | id: HNljomQEwfkntYmDylny | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
+            "vector_index": 70,
+            "embedding_norm": 1.0,
+            "legacyId": "127",
+            "similarity_score": 0.8550397157669067
         },
         "2": {
-            "id": "nJrfY1rtfMs0yqL4Vpfq",
-            "reference_name": "Wii Pro Con",
-            "itemtypes_name": "Nintendo Switch Pro Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "id": "2ib0YdgBr6F2ZNKARP5p",
+            "reference_name": "Wario World (GC)",
+            "itemtypes_name": null,
+            "category": "Video Games",
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Wario World (GC) | id: 2ib0YdgBr6F2ZNKARP5p | category: Video Games | GameCube | GameCube console game | Nintendo GameCube | video game software",
+            "vector_index": 10,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8569949269294739,
-            "vector_reference_similarity": 0.8527383804321289
+            "similarity_score": 0.8618690967559814
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Pro Controller (Wii Classic Con)",
-        "2": "Nintendo Switch Pro Controller (Wii Pro Con)"
+        "1": "Switch Pokèball",
+        "2": "Wario World (GC)"
     },
     "gdino_similarity_scores": {
-        "1": 0.8636,
-        "2": 0.857
+        "1": 0.855,
+        "2": 0.8619
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

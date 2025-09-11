@@ -9,30 +9,36 @@
         "1": {
             "id": "svXJEQMnwuDfLPUHUUCi",
             "reference_name": "2DS",
-            "itemtypes_name": "Nintendo DS",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "2DS | id: svXJEQMnwuDfLPUHUUCi | category: Video Game Consoles | Nintendo DS",
             "vector_index": 213,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.859634518623352,
-            "itemtypes_similarity": 0.8402951955795288
+            "similarity_score": 0.850143551826477
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo DS (2DS)"
+        "1": "2DS"
     },
     "gdino_similarity_scores": {
-        "1": 0.8596
+        "1": 0.8501
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

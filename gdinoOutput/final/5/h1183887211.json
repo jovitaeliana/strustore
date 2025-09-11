@@ -9,30 +9,36 @@
         "1": {
             "id": "Ng8nNXvI76XstlkIMh9s",
             "reference_name": "Pop'n Music Pad",
-            "itemtypes_name": "PlayStation 1 Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Pop'n Music Pad | id: Ng8nNXvI76XstlkIMh9s | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
             "vector_index": 95,
             "embedding_norm": 1.0,
             "legacyId": "158",
-            "similarity_score": 0.870148777961731,
-            "itemtypes_similarity": 0.860622227191925
+            "similarity_score": 0.8662558794021606
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation 1 Controller (Pop'n Music Pad)"
+        "1": "Pop'n Music Pad"
     },
     "gdino_similarity_scores": {
-        "1": 0.8701
+        "1": 0.8663
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

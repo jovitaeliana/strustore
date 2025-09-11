@@ -9,30 +9,36 @@
         "1": {
             "id": "ZBroqZgzmGouENEl1iVl",
             "reference_name": "Switch Pro Controller",
-            "itemtypes_name": "Nintendo Switch Pro Controller",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
+            "model": "",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Switch Pro Controller | id: ZBroqZgzmGouENEl1iVl | category: Controllers & Attachments | Nintendo Switch | gaming controller device | gamepad peripheral",
+            "vector_index": 146,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.885795533657074,
-            "vector_reference_similarity": 0.8664106130599976
+            "similarity_score": 0.8551673293113708
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Pro Controller (Switch Pro Controller)"
+        "1": "Switch Pro Controller"
     },
     "gdino_similarity_scores": {
-        "1": 0.8858
+        "1": 0.8552
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

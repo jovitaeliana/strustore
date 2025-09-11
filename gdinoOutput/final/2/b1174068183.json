@@ -11,66 +11,70 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "dHZsC4olhShVBHfmoleE",
-            "reference_name": "SFC [Boxed]",
-            "itemtypes_name": "Nintendo Switch Console",
-            "category": "Video Game Consoles",
-            "model": "Super Famicom",
-            "brand": "Nintendo",
-            "source": "vector_database",
-            "contextual_text": "SFC [Boxed] | id: dHZsC4olhShVBHfmoleE | category: Video Game Consoles | model: Super Famicom",
-            "vector_index": 167,
-            "embedding_norm": 0.9999999403953552,
-            "legacyId": null,
-            "similarity_score": 0.8660213947296143,
-            "itemtypes_similarity": 0.8569875359535217
-        },
-        "2": {
             "id": "OvnaIjSBeoFBsRS0Y6GI",
             "reference_name": "SFC",
-            "itemtypes_name": "Nintendo Switch Console",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "Super Famicom",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
             "vector_index": 101,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8590490818023682,
-            "itemtypes_similarity": 0.8498018980026245
+            "similarity_score": 0.8504745364189148
+        },
+        "2": {
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
+            "reference_name": "SFC",
+            "itemtypes_name": null,
+            "category": "Video Game Consoles",
+            "model": "Super Famicom",
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "SFC | id: OvnaIjSBeoFBsRS0Y6GI | category: Video Game Consoles | model: Super Famicom",
+            "vector_index": 101,
+            "embedding_norm": 1.0,
+            "legacyId": null,
+            "similarity_score": 0.8405443429946899
         },
         "3": {
             "id": "Irh72HART2knkr1jxuG7",
             "reference_name": "Shipping Label",
-            "itemtypes_name": "Wii Remote Controller",
+            "itemtypes_name": null,
             "category": "Labels",
             "model": "",
-            "brand": "Nintendo",
+            "brand": "",
             "source": "vector_database",
             "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
             "vector_index": 74,
             "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8073116540908813,
-            "itemtypes_similarity": 0.7885556221008301
+            "similarity_score": 0.8276462554931641
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Console (SFC [Boxed])",
-        "2": "Nintendo Switch Console (SFC)",
-        "3": "Wii Remote Controller (Shipping Label)"
+        "1": "SFC",
+        "2": "SFC",
+        "3": "Shipping Label"
     },
     "gdino_similarity_scores": {
-        "1": 0.866,
-        "2": 0.859,
-        "3": 0.8073
+        "1": 0.8505,
+        "2": 0.8405,
+        "3": 0.8276
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

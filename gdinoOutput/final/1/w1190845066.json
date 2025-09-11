@@ -7,32 +7,38 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "RA1sLo6TzHsbRjgqZMHq",
-            "reference_name": "DS Lite Boxed",
-            "itemtypes_name": "Nintendo Switch Lite Console",
+            "id": "oL2l1OjnB3BNLENQkoRb",
+            "reference_name": "Switch",
+            "itemtypes_name": null,
             "category": "Video Game Consoles",
             "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Lite Console | Nintendo Switch Lite | Switch Lite | brand: Nintendo | model: HDH-001 | nintendo | switch | lite | console | hdh-001 | handheld | portable | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
+            "brand": "",
+            "source": "vector_database",
+            "contextual_text": "Switch | id: oL2l1OjnB3BNLENQkoRb | category: Video Game Consoles | Nintendo Switch",
+            "vector_index": 197,
+            "embedding_norm": 1.0,
             "legacyId": null,
-            "similarity_score": 0.8451517820358276,
-            "vector_reference_similarity": 0.8379063606262207
+            "similarity_score": 0.8483983278274536
         }
     },
     "gdino_improved_readable": {
-        "1": "Nintendo Switch Lite Console (DS Lite Boxed)"
+        "1": "Switch"
     },
     "gdino_similarity_scores": {
-        "1": 0.8452
+        "1": 0.8484
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [

@@ -9,49 +9,54 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "O9858sZlGIlyY48TTOPK",
-            "reference_name": "PS1 Slimline Con",
-            "itemtypes_name": "PlayStation 1 Controller",
+            "id": "zozySuTIGhMbNDGRlxQr",
+            "reference_name": "PS Real Arcade Pro FS",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS1 Slimline Con | id: O9858sZlGIlyY48TTOPK | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 98,
-            "embedding_norm": 1.0,
-            "legacyId": null,
-            "similarity_score": 0.8503583073616028,
-            "itemtypes_similarity": 0.8475498557090759
+            "contextual_text": "PS Real Arcade Pro FS | id: zozySuTIGhMbNDGRlxQr | category: Controllers & Attachments | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
+            "vector_index": 231,
+            "embedding_norm": 0.9999999403953552,
+            "legacyId": "44",
+            "similarity_score": 0.8434610962867737
         },
         "2": {
-            "id": "L2YJzzkfj6j4BQ1hEs8M",
-            "reference_name": "PS1 Hori Con",
-            "itemtypes_name": "PlayStation 1 Controller",
+            "id": "Ng8nNXvI76XstlkIMh9s",
+            "reference_name": "Pop'n Music Pad",
+            "itemtypes_name": null,
             "category": "Controllers & Attachments",
             "model": "",
-            "brand": "Sony",
+            "brand": "",
             "source": "vector_database",
-            "contextual_text": "PS1 Hori Con | id: L2YJzzkfj6j4BQ1hEs8M | category: Controllers & Attachments | PlayStation 1 | gaming controller device | gamepad peripheral | Sony PlayStation gaming product",
-            "vector_index": 86,
+            "contextual_text": "Pop'n Music Pad | id: Ng8nNXvI76XstlkIMh9s | category: Controllers & Attachments | gaming controller device | gamepad peripheral",
+            "vector_index": 95,
             "embedding_norm": 1.0,
-            "legacyId": "28",
-            "similarity_score": 0.8497642278671265,
-            "itemtypes_similarity": 0.8471302390098572
+            "legacyId": "158",
+            "similarity_score": 0.8387317061424255
         }
     },
     "gdino_improved_readable": {
-        "1": "PlayStation 1 Controller (PS1 Slimline Con)",
-        "2": "PlayStation 1 Controller (PS1 Hori Con)"
+        "1": "PS Real Arcade Pro FS",
+        "2": "Pop'n Music Pad"
     },
     "gdino_similarity_scores": {
-        "1": 0.8504,
-        "2": 0.8498
+        "1": 0.8435,
+        "2": 0.8387
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757493203.8888857",
-        "vector_db_version": "2.0",
+        "processed_date": "1757576414.8552215",
+        "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3
+        "min_similarity_threshold": 0.3,
+        "position_weighting_enabled": true,
+        "position_classifier_config": {
+            "decay_rate": 0.1,
+            "top_k_boost": 8,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        }
     },
     "gdino_tokens": {
         "1": [
