@@ -441,18 +441,18 @@
             "similarity_score": 0.8197048306465149
         },
         "27": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8204447031021118
+            "similarity_score": 0.0
         },
         "28": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -608,7 +608,7 @@
         "24": "Lenovo AC Adapter",
         "25": "DS Lite Boxed",
         "26": "Shipping Label",
-        "27": "Shipping Label",
+        "27": "No Match",
         "28": "Shipping Label",
         "29": "Shipping Label",
         "30": "DSi",
@@ -646,7 +646,7 @@
         "24": 0.8136,
         "25": 0.8655,
         "26": 0.8197,
-        "27": 0.8204,
+        "27": 0.0,
         "28": 0.8135,
         "29": 0.8118,
         "30": 0.8509,
@@ -658,10 +658,10 @@
         "36": 0.814
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757576414.8552215",
+        "processed_date": "1757577641.438643",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3,
+        "min_similarity_threshold": 0.5,
         "position_weighting_enabled": true,
         "position_classifier_config": {
             "decay_rate": 0.1,

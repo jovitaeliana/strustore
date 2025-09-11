@@ -115,18 +115,18 @@
             "similarity_score": 0.8166040778160095
         },
         "6": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": null,
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8055278658866882
+            "similarity_score": 0.0
         },
         "7": {
             "id": "PF6zWiWOjRxwKrmRw2oA",
@@ -297,18 +297,18 @@
             "similarity_score": 0.7940982580184937
         },
         "19": {
-            "id": "c64umpuDWdeuRLUD2jHn",
-            "reference_name": "DRM Power Strip",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": "Other Video Game Accessories",
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "DRM Power Strip | id: c64umpuDWdeuRLUD2jHn | category: Other Video Game Accessories",
-            "vector_index": 160,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8002079725265503
+            "similarity_score": 0.0
         },
         "20": {
             "id": "Irh72HART2knkr1jxuG7",
@@ -331,7 +331,7 @@
         "3": "Gameboy Player",
         "4": "SFC SGB",
         "5": "Gameboy Player",
-        "6": "R.O.B. (boxed)",
+        "6": "No Match",
         "7": "R.O.B. (boxed)",
         "8": "Saturn",
         "9": "SFC",
@@ -344,7 +344,7 @@
         "16": "Shipping Label",
         "17": "Gameboy Player",
         "18": "Gameboy Player",
-        "19": "DRM Power Strip",
+        "19": "No Match",
         "20": "Shipping Label"
     },
     "gdino_similarity_scores": {
@@ -353,7 +353,7 @@
         "3": 0.8363,
         "4": 0.8013,
         "5": 0.8166,
-        "6": 0.8055,
+        "6": 0.0,
         "7": 0.8115,
         "8": 0.8316,
         "9": 0.8393,
@@ -366,14 +366,14 @@
         "16": 0.8146,
         "17": 0.8341,
         "18": 0.7941,
-        "19": 0.8002,
+        "19": 0.0,
         "20": 0.8095
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757576414.8552215",
+        "processed_date": "1757577641.438643",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3,
+        "min_similarity_threshold": 0.5,
         "position_weighting_enabled": true,
         "position_classifier_config": {
             "decay_rate": 0.1,

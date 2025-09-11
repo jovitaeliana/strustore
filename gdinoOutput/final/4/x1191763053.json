@@ -107,18 +107,18 @@
             "similarity_score": 0.8346654772758484
         },
         "7": {
-            "id": "9BFdEKX2JzO7D54fwMNi",
-            "reference_name": "Saturn Karaoke",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": null,
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Saturn Karaoke | id: 9BFdEKX2JzO7D54fwMNi | category: None",
-            "vector_index": 34,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8001068830490112
+            "similarity_score": 0.0
         },
         "8": {
             "id": "J4L1xsDD5I1OLZSjSRpN",
@@ -156,7 +156,7 @@
         "4": "PS4",
         "5": "Switch",
         "6": "Hori Compact Joystick",
-        "7": "Saturn Karaoke",
+        "7": "No Match",
         "8": "DRM Disc Drive",
         "9": "Switch"
     },
@@ -167,15 +167,15 @@
         "4": 0.8507,
         "5": 0.8565,
         "6": 0.8347,
-        "7": 0.8001,
+        "7": 0.0,
         "8": 0.8252,
         "9": 0.8377
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757576414.8552215",
+        "processed_date": "1757577641.438643",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3,
+        "min_similarity_threshold": 0.5,
         "position_weighting_enabled": true,
         "position_classifier_config": {
             "decay_rate": 0.1,

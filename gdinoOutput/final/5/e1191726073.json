@@ -19,18 +19,18 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8033222556114197
+            "similarity_score": 0.0
         },
         "2": {
             "id": "y94oJNaPD2VI2396Pq3m",
@@ -118,7 +118,7 @@
         }
     },
     "gdino_improved_readable": {
-        "1": "Shipping Label",
+        "1": "No Match",
         "2": "Wii Classic Con",
         "3": "Wii Classic Con",
         "4": "Wii Classic Con",
@@ -127,7 +127,7 @@
         "7": "Wii Classic Con"
     },
     "gdino_similarity_scores": {
-        "1": 0.8033,
+        "1": 0.0,
         "2": 0.8559,
         "3": 0.8724,
         "4": 0.8581,
@@ -136,10 +136,10 @@
         "7": 0.8561
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757576414.8552215",
+        "processed_date": "1757577641.438643",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3,
+        "min_similarity_threshold": 0.5,
         "position_weighting_enabled": true,
         "position_classifier_config": {
             "decay_rate": 0.1,

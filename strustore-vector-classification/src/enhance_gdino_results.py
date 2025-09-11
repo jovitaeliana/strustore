@@ -436,7 +436,100 @@ class GdinoResultEnhancer:
             return itemtype_results[0]
         return None
 
-    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.3, use_position_weighting: bool = True) -> Optional[Dict[str, Any]]:
+    def assess_token_quality(self, tokens: List[str]) -> Dict[str, Any]:
+        """
+        Assess the quality of tokens for classification purposes.
+        
+        Args:
+            tokens: List of tokens to assess
+            
+        Returns:
+            Dictionary with quality metrics and filtered tokens
+        """
+        if not tokens:
+            return {'quality_score': 0.0, 'valid_tokens': [], 'has_hardware_terms': False}
+        
+        # Gaming-specific keywords for relevance check
+        gaming_keywords = {
+            'nintendo', 'playstation', 'xbox', 'switch', 'controller', 'console',
+            'ds', 'dsi', 'psp', 'vita', 'gamecube', 'wii', 'joy', 'con', 'joycon',
+            'ps1', 'ps2', 'ps3', 'ps4', 'ps5', '3ds', 'gba', 'n64', 'snes',
+            'scph', 'oled', 'pro', 'slim', 'lite', 'memory', 'card', 'handheld',
+            'dualshock', 'sixaxis', 'dualsense', 'gameboy', 'saturn', 'genesis'
+        }
+        
+        # Invalid token patterns (garbled text, special characters, etc.)
+        invalid_patterns = [
+            r'^[■▪▫□◯○●◆◇△▲▼◄►♠♥♦♣]+$',  # Special characters only
+            r'^[\d\s\W]+$',  # Only numbers/spaces/special chars
+            r'^.{1}$',  # Single character tokens
+            r'^[xX]+$',  # Just x's
+        ]
+        
+        # Common irrelevant terms that should lower quality
+        irrelevant_terms = {
+            'yahoo', 'ebay', 'amazon', 'mercado', 'libre', 'wallapop', 'facebook',
+            'tiktok', 'youtube', 'instagram', 'twitter', 'com', 'www', 'http',
+            'price', 'precio', 'estado', 'condition', 'shipping', 'free', 'best',
+            'buy', 'sale', 'nuevo', 'usado', 'second', 'hand', 'mano', 'de',
+            'en', 'el', 'la', 'los', 'las', 'por', 'para', 'con', 'sin',
+            '新品', '中古', '美品', 'オークション', 'メルカリ', 'ラクマ'
+        }
+        
+        valid_tokens = []
+        hardware_tokens = []
+        quality_score = 0.0
+        
+        import re
+        
+        for token in tokens:
+            token_clean = token.strip().lower()
+            
+            # Skip empty or very short tokens
+            if len(token_clean) < 2:
+                continue
+            
+            # Check for invalid patterns
+            is_invalid = any(re.match(pattern, token, re.IGNORECASE) for pattern in invalid_patterns)
+            if is_invalid:
+                quality_score -= 0.5  # Penalize invalid tokens
+                continue
+            
+            # Check if token is irrelevant
+            if token_clean in irrelevant_terms:
+                quality_score -= 0.2  # Light penalty for irrelevant terms
+                continue
+            
+            # Valid token - add to list
+            valid_tokens.append(token)
+            
+            # Check if it's a hardware-related token
+            if any(keyword in token_clean for keyword in gaming_keywords):
+                hardware_tokens.append(token)
+                quality_score += 1.0  # Boost for hardware relevance
+            else:
+                quality_score += 0.3  # Small boost for general valid tokens
+        
+        # Calculate final quality metrics
+        hardware_ratio = len(hardware_tokens) / len(tokens) if tokens else 0
+        valid_ratio = len(valid_tokens) / len(tokens) if tokens else 0
+        
+        # Final quality score (0-1 scale)
+        final_quality = min(1.0, max(0.0, (quality_score + hardware_ratio * 2 + valid_ratio) / 4))
+        
+        return {
+            'quality_score': final_quality,
+            'valid_tokens': valid_tokens,
+            'hardware_tokens': hardware_tokens,
+            'has_hardware_terms': len(hardware_tokens) > 0,
+            'hardware_ratio': hardware_ratio,
+            'valid_ratio': valid_ratio,
+            'total_tokens': len(tokens),
+            'valid_token_count': len(valid_tokens),
+            'hardware_token_count': len(hardware_tokens)
+        }
+
+    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.5, use_position_weighting: bool = True) -> Optional[Dict[str, Any]]:
         """
         Get the best classification for a set of tokens using hybrid approach.
         Creates comprehensive metadata with both reference and itemtypes names.
@@ -464,10 +557,35 @@ class GdinoResultEnhancer:
         if use_position_weighting:
             position_analysis = self.position_classifier.classify_hardware_tokens(tokens)
         
+        # Assess token quality before proceeding
+        token_quality = self.assess_token_quality(tokens)
+        
+        # Apply stricter filtering based on token quality
+        quality_threshold = 0.3  # Minimum quality score required
+        if token_quality['quality_score'] < quality_threshold:
+            logger.debug(f"Token quality too low: {token_quality['quality_score']:.3f} < {quality_threshold}")
+            return None
+        
+        # Apply dynamic similarity thresholds based on token quality
+        if token_quality['quality_score'] < 0.5:
+            # For low quality tokens, require higher similarity
+            adjusted_min_similarity = min_similarity * 1.3
+        elif token_quality['has_hardware_terms']:
+            # For hardware-relevant tokens, allow slightly lower similarity
+            adjusted_min_similarity = min_similarity * 0.9
+        else:
+            adjusted_min_similarity = min_similarity
+        
+        # Re-evaluate matches with adjusted threshold
+        if itemtype_match and itemtype_match['similarity_score'] < adjusted_min_similarity:
+            itemtype_match = None
+        if vector_match and vector_match['similarity_score'] < adjusted_min_similarity:
+            vector_match = None
+        
         # Determine primary match based on similarity scores and position weighting
         primary_source = None
         if itemtype_match and vector_match:
-            # Consider position-weighted hardware relevance in decision
+            # Prioritize itemtypes for better naming consistency
             itemtype_score = itemtype_match['similarity_score']
             vector_score = vector_match['similarity_score']
             
@@ -475,13 +593,13 @@ class GdinoResultEnhancer:
             if position_analysis:
                 hardware_score = position_analysis['hardware_relevance_score']
                 if hardware_score > 2.0:  # High hardware relevance
-                    # Boost the higher scoring match slightly
-                    if itemtype_score >= vector_score:
-                        itemtype_score *= 1.1
-                    else:
-                        vector_score *= 1.1
+                    # Boost itemtypes match slightly for better naming
+                    itemtype_score *= 1.2
             
-            if itemtype_score >= vector_score:
+            # Prefer itemtypes if scores are close (within 10%)
+            if abs(itemtype_score - vector_score) < 0.1:
+                primary_source = 'itemtypes'
+            elif itemtype_score >= vector_score:
                 primary_source = 'itemtypes'
             else:
                 primary_source = 'vector_database'
@@ -492,7 +610,7 @@ class GdinoResultEnhancer:
         else:
             return None
         
-        # Build comprehensive result
+        # Build comprehensive result with improved naming logic
         if primary_source == 'itemtypes':
             # Primary match is itemtypes
             result = {
@@ -524,7 +642,7 @@ class GdinoResultEnhancer:
             result = {
                 'id': original_id,
                 'reference_name': vector_match['name'],
-                'itemtypes_name': None,
+                'itemtypes_name': None,  # Will be set below if itemtype_match exists
                 'category': vector_match['category'],
                 'model': vector_match.get('model', ''),
                 'brand': '',  # Original database doesn't have brand field
@@ -536,15 +654,23 @@ class GdinoResultEnhancer:
                 'legacyId': original_metadata.get('legacyId', None)
             }
             
-            # Try to find corresponding itemtypes match for enhanced name
+            # FIXED: Always try to find corresponding itemtypes match for enhanced naming
             if itemtype_match:
                 result['itemtypes_name'] = itemtype_match['name']
                 result['itemtypes_similarity'] = itemtype_match['similarity_score']
                 # Update brand if itemtypes has better brand info
                 if itemtype_match.get('brand'):
                     result['brand'] = itemtype_match['brand']
+            else:
+                # Try to search for itemtypes match even if not found before
+                fallback_itemtype = self.find_itemtypes_match(tokens, min_similarity * 0.8, use_position_weighting)
+                if fallback_itemtype:
+                    result['itemtypes_name'] = fallback_itemtype['name']
+                    result['itemtypes_similarity'] = fallback_itemtype['similarity_score']
+                    if fallback_itemtype.get('brand'):
+                        result['brand'] = fallback_itemtype['brand']
         
-        # Add position-weighted analysis metadata to result
+        # Add comprehensive analysis metadata to result
         if use_position_weighting and position_analysis:
             result['position_weighted_metadata'] = {
                 'hardware_relevance_score': position_analysis['hardware_relevance_score'],
@@ -553,6 +679,15 @@ class GdinoResultEnhancer:
                 'hardware_tokens_count': len(position_analysis['hardware_tokens']),
                 'brand_tokens_count': len(position_analysis['brand_tokens'])
             }
+        
+        # Add token quality assessment metadata
+        result['token_quality_metadata'] = {
+            'quality_score': token_quality['quality_score'],
+            'has_hardware_terms': token_quality['has_hardware_terms'],
+            'hardware_ratio': token_quality['hardware_ratio'],
+            'valid_token_count': token_quality['valid_token_count'],
+            'adjusted_min_similarity': adjusted_min_similarity
+        }
         
         return result
     
@@ -586,7 +721,7 @@ class GdinoResultEnhancer:
                 'processed_date': str(Path(__file__).stat().st_mtime),
                 'vector_db_version': '2.1',
                 'model_used': str(self.model_path),
-                'min_similarity_threshold': 0.3,
+                'min_similarity_threshold': 0.5,
                 'position_weighting_enabled': True,
                 'position_classifier_config': {
                     'decay_rate': self.position_classifier.decay_rate,
@@ -605,13 +740,26 @@ class GdinoResultEnhancer:
             for detection_id, tokens in gdino_tokens.items():
                 if not tokens or not isinstance(tokens, list):
                     # No tokens available - mark as no match
-                    enhanced_data['gdino_improved'][detection_id] = {}
+                    enhanced_data['gdino_improved'][detection_id] = {
+                        'id': 'No Match',
+                        'reference_name': 'No Match',
+                        'itemtypes_name': None,
+                        'category': '',
+                        'model': '',
+                        'brand': '',
+                        'source': 'none',
+                        'contextual_text': '',
+                        'vector_index': None,
+                        'embedding_norm': None,
+                        'legacyId': None,
+                        'similarity_score': 0.0
+                    }
                     enhanced_data['gdino_improved_readable'][detection_id] = "No Match"
                     enhanced_data['gdino_similarity_scores'][detection_id] = 0.0
                     continue
                 
-                # Get best classification from hybrid approach with position weighting
-                classification_result = self.get_best_classification(tokens, use_position_weighting=True)
+                # Get best classification from hybrid approach with position weighting (stricter threshold)
+                classification_result = self.get_best_classification(tokens, min_similarity=0.5, use_position_weighting=True)
                 
                 if classification_result:
                     # Store comprehensive metadata in gdino_improved
@@ -650,8 +798,21 @@ class GdinoResultEnhancer:
                     enhanced_data['gdino_similarity_scores'][detection_id] = round(classification_result['similarity_score'], 4)
                     
                 else:
-                    # No good match found
-                    enhanced_data['gdino_improved'][detection_id] = {}
+                    # No good match found - create proper "No Match" entry
+                    enhanced_data['gdino_improved'][detection_id] = {
+                        'id': 'No Match',
+                        'reference_name': 'No Match',
+                        'itemtypes_name': None,
+                        'category': '',
+                        'model': '',
+                        'brand': '',
+                        'source': 'none',
+                        'contextual_text': '',
+                        'vector_index': None,
+                        'embedding_norm': None,
+                        'legacyId': None,
+                        'similarity_score': 0.0
+                    }
                     enhanced_data['gdino_improved_readable'][detection_id] = "No Match"
                     enhanced_data['gdino_similarity_scores'][detection_id] = 0.0
             

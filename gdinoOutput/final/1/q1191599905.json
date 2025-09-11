@@ -185,18 +185,18 @@
             "similarity_score": 0.8454620838165283
         },
         "10": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": null,
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.7894112467765808
+            "similarity_score": 0.0
         },
         "11": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -213,18 +213,18 @@
             "similarity_score": 0.8572012186050415
         },
         "12": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.7974846363067627
+            "similarity_score": 0.0
         },
         "13": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -241,18 +241,18 @@
             "similarity_score": 0.8497156500816345
         },
         "14": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": null,
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8249452114105225
+            "similarity_score": 0.0
         },
         "15": {
             "id": "aH9iGjlVeTjiCSWI8DIe",
@@ -381,18 +381,18 @@
             "similarity_score": 0.8006676435470581
         },
         "24": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.811518669128418
+            "similarity_score": 0.0
         },
         "25": {
             "id": "eDXOwaOyWKtH2nQwCYan",
@@ -409,18 +409,18 @@
             "similarity_score": 0.8204103708267212
         },
         "26": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8004533648490906
+            "similarity_score": 0.0
         },
         "27": {
             "id": "RA1sLo6TzHsbRjgqZMHq",
@@ -447,11 +447,11 @@
         "7": "Saturn",
         "8": "DS Lite",
         "9": "DS Lite Boxed",
-        "10": "R.O.B. (boxed)",
+        "10": "No Match",
         "11": "DS Lite Boxed",
-        "12": "Shipping Label",
+        "12": "No Match",
         "13": "DS Lite Boxed",
-        "14": "R.O.B. (boxed)",
+        "14": "No Match",
         "15": "Saturn",
         "16": "Shipping Label",
         "17": "Shipping Label",
@@ -461,9 +461,9 @@
         "21": "2DS",
         "22": "PS1 Original Analog Con SCPH-1080",
         "23": "R.O.B. (boxed)",
-        "24": "Shipping Label",
+        "24": "No Match",
         "25": "Gameboy Advance",
-        "26": "Shipping Label",
+        "26": "No Match",
         "27": "DS Lite Boxed"
     },
     "gdino_similarity_scores": {
@@ -476,11 +476,11 @@
         "7": 0.8081,
         "8": 0.8762,
         "9": 0.8455,
-        "10": 0.7894,
+        "10": 0.0,
         "11": 0.8572,
-        "12": 0.7975,
+        "12": 0.0,
         "13": 0.8497,
-        "14": 0.8249,
+        "14": 0.0,
         "15": 0.8197,
         "16": 0.803,
         "17": 0.7959,
@@ -490,16 +490,16 @@
         "21": 0.8427,
         "22": 0.813,
         "23": 0.8007,
-        "24": 0.8115,
+        "24": 0.0,
         "25": 0.8204,
-        "26": 0.8005,
+        "26": 0.0,
         "27": 0.8582
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757576414.8552215",
+        "processed_date": "1757577641.438643",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3,
+        "min_similarity_threshold": 0.5,
         "position_weighting_enabled": true,
         "position_classifier_config": {
             "decay_rate": 0.1,

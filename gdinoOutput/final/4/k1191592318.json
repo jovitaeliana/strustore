@@ -121,18 +121,18 @@
             "similarity_score": 0.8382050395011902
         },
         "8": {
-            "id": "PF6zWiWOjRxwKrmRw2oA",
-            "reference_name": "R.O.B. (boxed)",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": null,
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "R.O.B. (boxed) | id: PF6zWiWOjRxwKrmRw2oA | category: None",
-            "vector_index": 102,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8004297614097595
+            "similarity_score": 0.0
         },
         "9": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -157,7 +157,7 @@
         "5": "DS Lite",
         "6": "Gameboy Advance",
         "7": "Gameboy Player",
-        "8": "R.O.B. (boxed)",
+        "8": "No Match",
         "9": "Gameboy Player"
     },
     "gdino_similarity_scores": {
@@ -168,14 +168,14 @@
         "5": 0.8412,
         "6": 0.806,
         "7": 0.8382,
-        "8": 0.8004,
+        "8": 0.0,
         "9": 0.7861
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757576414.8552215",
+        "processed_date": "1757577641.438643",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3,
+        "min_similarity_threshold": 0.5,
         "position_weighting_enabled": true,
         "position_classifier_config": {
             "decay_rate": 0.1,

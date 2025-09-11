@@ -23,33 +23,33 @@
             "similarity_score": 0.8528034090995789
         },
         "2": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8289487361907959
+            "similarity_score": 0.0
         }
     },
     "gdino_improved_readable": {
         "1": "PS Zerotech Racing Con",
-        "2": "Shipping Label"
+        "2": "No Match"
     },
     "gdino_similarity_scores": {
         "1": 0.8528,
-        "2": 0.8289
+        "2": 0.0
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757576414.8552215",
+        "processed_date": "1757577641.438643",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3,
+        "min_similarity_threshold": 0.5,
         "position_weighting_enabled": true,
         "position_classifier_config": {
             "decay_rate": 0.1,

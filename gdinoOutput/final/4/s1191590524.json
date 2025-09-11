@@ -285,18 +285,18 @@
             "similarity_score": 0.8255349397659302
         },
         "18": {
-            "id": "Irh72HART2knkr1jxuG7",
-            "reference_name": "Shipping Label",
+            "id": "No Match",
+            "reference_name": "No Match",
             "itemtypes_name": null,
-            "category": "Labels",
+            "category": "",
             "model": "",
             "brand": "",
-            "source": "vector_database",
-            "contextual_text": "Shipping Label | id: Irh72HART2knkr1jxuG7 | category: Labels",
-            "vector_index": 74,
-            "embedding_norm": 1.0,
+            "source": "none",
+            "contextual_text": "",
+            "vector_index": null,
+            "embedding_norm": null,
             "legacyId": null,
-            "similarity_score": 0.8083345293998718
+            "similarity_score": 0.0
         },
         "19": {
             "id": "YxGyIhCoGGi6fsk3Beo8",
@@ -359,7 +359,7 @@
         "15": "DRM Shell",
         "16": "Shipping Label",
         "17": "Switch",
-        "18": "Shipping Label",
+        "18": "No Match",
         "19": "Gameboy Player",
         "20": "Shipping Label",
         "21": "Switch"
@@ -382,16 +382,16 @@
         "15": 0.8309,
         "16": 0.8124,
         "17": 0.8255,
-        "18": 0.8083,
+        "18": 0.0,
         "19": 0.8248,
         "20": 0.8075,
         "21": 0.8431
     },
     "gdino_classification_metadata": {
-        "processed_date": "1757576414.8552215",
+        "processed_date": "1757577641.438643",
         "vector_db_version": "2.1",
         "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.3,
+        "min_similarity_threshold": 0.5,
         "position_weighting_enabled": true,
         "position_classifier_config": {
             "decay_rate": 0.1,
