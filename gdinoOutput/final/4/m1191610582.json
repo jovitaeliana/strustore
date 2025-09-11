@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "y94oJNaPD2VI2396Pq3m",
             "reference_name": "Wii Classic Con",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -21,11 +21,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8947024941444397,
-            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
             "vector_reference_similarity": 0.8478845357894897
         },
         "2": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -37,7 +36,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8906751871109009,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8468537330627441
         }
     },

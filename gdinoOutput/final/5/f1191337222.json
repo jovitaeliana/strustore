@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "gamecube_controller",
+            "id": "ZcSSpwtX8cl9fICLin8R",
             "reference_name": "NDEV",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -21,11 +21,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8751449584960938,
-            "vector_reference_id": "ZcSSpwtX8cl9fICLin8R",
             "vector_reference_similarity": 0.8638997673988342
         },
         "2": {
-            "id": "gamecube_controller",
+            "id": "NmqlKnIQH4m6NTtCEMAI",
             "reference_name": "GC [DOL-101]",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -37,7 +36,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8678174018859863,
-            "vector_reference_id": "NmqlKnIQH4m6NTtCEMAI",
             "vector_reference_similarity": 0.8574844598770142
         }
     },

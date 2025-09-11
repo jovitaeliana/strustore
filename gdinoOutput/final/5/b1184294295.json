@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "gamecube_controller",
+            "id": "Gynna5OzYWWE6y8WpgpO",
             "reference_name": "GC Wavebird Con",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8480725884437561,
-            "vector_reference_id": "Gynna5OzYWWE6y8WpgpO",
             "vector_reference_similarity": 0.846435010433197
         }
     },

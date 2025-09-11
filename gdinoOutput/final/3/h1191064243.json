@@ -41,7 +41,7 @@
             "itemtypes_similarity": 0.847731351852417
         },
         "3": {
-            "id": "game_boy_advance",
+            "id": "BX6U5HsUfOtCWnR8PCdr",
             "reference_name": "Game Boy Pocket",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -53,7 +53,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8587414622306824,
-            "vector_reference_id": "BX6U5HsUfOtCWnR8PCdr",
             "vector_reference_similarity": 0.8504502177238464
         }
     },

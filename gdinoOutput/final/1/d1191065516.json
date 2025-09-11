@@ -60,7 +60,7 @@
             "itemtypes_similarity": 0.8608177900314331
         },
         "4": {
-            "id": "nintendo_ds",
+            "id": "bCs9Y7puTSp91kDdqhx8",
             "reference_name": "DS Original Charger",
             "itemtypes_name": "Nintendo DS",
             "category": "Video Game Consoles",
@@ -72,7 +72,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8616703748703003,
-            "vector_reference_id": "bCs9Y7puTSp91kDdqhx8",
             "vector_reference_similarity": 0.8496052622795105
         },
         "5": {

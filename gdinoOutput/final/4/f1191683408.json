@@ -15,7 +15,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -27,7 +27,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8910652995109558,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8616325259208679
         },
         "2": {
@@ -46,7 +45,7 @@
             "itemtypes_similarity": 0.7702162265777588
         },
         "3": {
-            "id": "nintendo_switch_dock",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Dock",
             "category": "Other Video Game Accessories",
@@ -58,11 +57,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.878218948841095,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8688853979110718
         },
         "4": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -74,7 +72,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8448436856269836,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8442072868347168
         },
         "5": {

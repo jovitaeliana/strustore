@@ -21,7 +21,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -33,11 +33,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8900682926177979,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.880215048789978
         },
         "2": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -49,11 +48,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8992536067962646,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.883797287940979
         },
         "3": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -65,7 +63,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8702605962753296,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.8684566020965576
         },
         "4": {
@@ -84,7 +81,7 @@
             "itemtypes_similarity": 0.8634920120239258
         },
         "5": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -96,11 +93,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8837684988975525,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.877557635307312
         },
         "6": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -112,11 +108,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8840559720993042,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.8768014311790466
         },
         "7": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -128,7 +123,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8892421722412109,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.870065450668335
         },
         "8": {

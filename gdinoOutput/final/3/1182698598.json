@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "game_boy_advance_sp",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance SP",
             "category": "Video Game Consoles",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8811511993408203,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.8763388991355896
         }
     },

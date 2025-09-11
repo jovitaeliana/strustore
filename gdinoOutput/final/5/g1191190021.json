@@ -157,7 +157,7 @@
             "itemtypes_similarity": 0.8535652756690979
         },
         "7": {
-            "id": "xbox_360_controller",
+            "id": "kcyOqlpSjOxpv9ZpONeh",
             "reference_name": "Xbox 360",
             "itemtypes_name": "Xbox 360 Controller",
             "category": "Controllers & Attachments",
@@ -169,11 +169,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8989874124526978,
-            "vector_reference_id": "kcyOqlpSjOxpv9ZpONeh",
             "vector_reference_similarity": 0.86783766746521
         },
         "8": {
-            "id": "playstation_3_dualshock_3",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -185,7 +184,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8938751220703125,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8712388277053833
         },
         "9": {
@@ -204,7 +202,7 @@
             "itemtypes_similarity": 0.8387930989265442
         },
         "10": {
-            "id": "gamecube_controller",
+            "id": "2ib0YdgBr6F2ZNKARP5p",
             "reference_name": "Wario World (GC)",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -216,11 +214,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.858639657497406,
-            "vector_reference_id": "2ib0YdgBr6F2ZNKARP5p",
             "vector_reference_similarity": 0.8574213981628418
         },
         "11": {
-            "id": "xbox_360_controller",
+            "id": "kcyOqlpSjOxpv9ZpONeh",
             "reference_name": "Xbox 360",
             "itemtypes_name": "Xbox 360 Controller",
             "category": "Controllers & Attachments",
@@ -232,7 +229,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8931236863136292,
-            "vector_reference_id": "kcyOqlpSjOxpv9ZpONeh",
             "vector_reference_similarity": 0.8683872222900391
         },
         "12": {
@@ -251,7 +247,7 @@
             "itemtypes_similarity": 0.8540468215942383
         },
         "13": {
-            "id": "playstation_1_analog_controller",
+            "id": "wviDZriLtZag6FCXscHP",
             "reference_name": "PS1 Dual Analog Con SCPH-1180",
             "itemtypes_name": "PlayStation 1 Analog Controller",
             "category": "Controllers & Attachments",
@@ -263,11 +259,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8696807026863098,
-            "vector_reference_id": "wviDZriLtZag6FCXscHP",
             "vector_reference_similarity": 0.8673951625823975
         },
         "14": {
-            "id": "xbox_360_controller",
+            "id": "YDxwch9Hzj13EqLj79f2",
             "reference_name": "Xbox 360 Con",
             "itemtypes_name": "Xbox 360 Controller",
             "category": "Controllers & Attachments",
@@ -279,11 +274,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8897963166236877,
-            "vector_reference_id": "YDxwch9Hzj13EqLj79f2",
             "vector_reference_similarity": 0.8789851665496826
         },
         "15": {
-            "id": "playstation_3_dualshock_3",
+            "id": "QvUB8tHBNDmkwWhylwa5",
             "reference_name": "PS3 Con",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -295,11 +289,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.869019091129303,
-            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
             "vector_reference_similarity": 0.8559986352920532
         },
         "16": {
-            "id": "xbox_original_controller",
+            "id": "YDxwch9Hzj13EqLj79f2",
             "reference_name": "Xbox 360 Con",
             "itemtypes_name": "Xbox Controller (Original)",
             "category": "Controllers & Attachments",
@@ -311,11 +304,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8615502119064331,
-            "vector_reference_id": "YDxwch9Hzj13EqLj79f2",
             "vector_reference_similarity": 0.8585391044616699
         },
         "17": {
-            "id": "wii_u_gamepad",
+            "id": "grBYZVKOdeZxSmRoDiTe",
             "reference_name": "Command Stick FS",
             "itemtypes_name": "Wii U GamePad",
             "category": "Controllers & Attachments",
@@ -327,7 +319,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8537829518318176,
-            "vector_reference_id": "grBYZVKOdeZxSmRoDiTe",
             "vector_reference_similarity": 0.8537414073944092
         },
         "18": {
@@ -361,7 +352,7 @@
             "itemtypes_similarity": 0.7633702754974365
         },
         "20": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "ZBroqZgzmGouENEl1iVl",
             "reference_name": "Switch Pro Controller",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -373,7 +364,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8746454119682312,
-            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
             "vector_reference_similarity": 0.8703928589820862
         },
         "21": {
@@ -422,7 +412,7 @@
             "itemtypes_similarity": 0.7462158799171448
         },
         "24": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "ZBroqZgzmGouENEl1iVl",
             "reference_name": "Switch Pro Controller",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -434,7 +424,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8718546032905579,
-            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
             "vector_reference_similarity": 0.8701083064079285
         },
         "25": {
@@ -513,7 +502,7 @@
             "itemtypes_similarity": 0.7649691700935364
         },
         "30": {
-            "id": "xbox_360_controller",
+            "id": "YDxwch9Hzj13EqLj79f2",
             "reference_name": "Xbox 360 Con",
             "itemtypes_name": "Xbox 360 Controller",
             "category": "Controllers & Attachments",
@@ -525,11 +514,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8844974637031555,
-            "vector_reference_id": "YDxwch9Hzj13EqLj79f2",
             "vector_reference_similarity": 0.8693138360977173
         },
         "31": {
-            "id": "xbox_360_controller",
+            "id": "YDxwch9Hzj13EqLj79f2",
             "reference_name": "Xbox 360 Con",
             "itemtypes_name": "Xbox 360 Controller",
             "category": "Controllers & Attachments",
@@ -541,7 +529,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9088112711906433,
-            "vector_reference_id": "YDxwch9Hzj13EqLj79f2",
             "vector_reference_similarity": 0.8663026094436646
         }
     },

@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8745911121368408,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.8705047369003296
         }
     },

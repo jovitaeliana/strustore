@@ -11,7 +11,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "xbox_one_controller",
+            "id": "ri7BtZBzSxWd5jRBctFM",
             "reference_name": "Xbox One",
             "itemtypes_name": "Xbox One Controller",
             "category": "Controllers & Attachments",
@@ -23,11 +23,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8808079361915588,
-            "vector_reference_id": "ri7BtZBzSxWd5jRBctFM",
             "vector_reference_similarity": 0.8601021766662598
         },
         "2": {
-            "id": "xbox_series_controller",
+            "id": "087lkATTCpKIRfuZXSyO",
             "reference_name": "Xbox 360 Power Cord",
             "itemtypes_name": "Xbox Series Controller",
             "category": "Controllers & Attachments",
@@ -39,11 +38,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8537663221359253,
-            "vector_reference_id": "087lkATTCpKIRfuZXSyO",
             "vector_reference_similarity": 0.8522336483001709
         },
         "3": {
-            "id": "xbox_series_controller",
+            "id": "087lkATTCpKIRfuZXSyO",
             "reference_name": "Xbox 360 Power Cord",
             "itemtypes_name": "Xbox Series Controller",
             "category": "Controllers & Attachments",
@@ -55,7 +53,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8699209094047546,
-            "vector_reference_id": "087lkATTCpKIRfuZXSyO",
             "vector_reference_similarity": 0.8563019037246704
         }
     },

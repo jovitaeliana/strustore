@@ -110,7 +110,7 @@
             "itemtypes_similarity": 0.7755898237228394
         },
         "6": {
-            "id": "playstation_portable",
+            "id": "vTQzFyQAZySq6m10hwOZ",
             "reference_name": "PSP",
             "itemtypes_name": "PlayStation Portable",
             "category": "Video Game Consoles",
@@ -122,7 +122,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8844639658927917,
-            "vector_reference_id": "vTQzFyQAZySq6m10hwOZ",
             "vector_reference_similarity": 0.8659834861755371
         },
         "7": {
@@ -171,7 +170,7 @@
             "itemtypes_similarity": 0.8466047644615173
         },
         "10": {
-            "id": "game_boy_advance",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
             "reference_name": "Gameboy Player",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -183,11 +182,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8577180504798889,
-            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
             "vector_reference_similarity": 0.8521477580070496
         },
         "11": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -199,7 +197,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8824297785758972,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.8809171915054321
         },
         "12": {
@@ -263,7 +260,7 @@
             "itemtypes_similarity": 0.8027907609939575
         },
         "16": {
-            "id": "game_boy_advance",
+            "id": "eDXOwaOyWKtH2nQwCYan",
             "reference_name": "Gameboy Advance",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -275,7 +272,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8315577507019043,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
             "vector_reference_similarity": 0.829909086227417
         },
         "17": {

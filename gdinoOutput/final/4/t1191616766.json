@@ -26,7 +26,7 @@
             "itemtypes_similarity": 0.8375791311264038
         },
         "2": {
-            "id": "nintendo_switch_console",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Console",
             "category": "Video Game Consoles",
@@ -38,11 +38,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8743076324462891,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8496865034103394
         },
         "3": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -54,7 +53,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8854823708534241,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8624018430709839
         }
     },

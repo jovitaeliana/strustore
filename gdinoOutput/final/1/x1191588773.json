@@ -512,7 +512,7 @@
             "itemtypes_similarity": 0.8029066920280457
         },
         "30": {
-            "id": "nintendo_dsi",
+            "id": "STKdatHmQLwNLJXq1fxP",
             "reference_name": "DS Lite Charger",
             "itemtypes_name": "Nintendo DSi",
             "category": "Video Game Consoles",
@@ -524,7 +524,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8510213494300842,
-            "vector_reference_id": "STKdatHmQLwNLJXq1fxP",
             "vector_reference_similarity": 0.8397431373596191
         },
         "31": {

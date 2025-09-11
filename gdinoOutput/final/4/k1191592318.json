@@ -83,7 +83,7 @@
             "itemtypes_similarity": 0.761561930179596
         },
         "5": {
-            "id": "nintendo_switch_lite",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
             "reference_name": "DS Lite Boxed",
             "itemtypes_name": "Nintendo Switch Lite Console",
             "category": "Video Game Consoles",
@@ -95,7 +95,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8766607046127319,
-            "vector_reference_id": "RA1sLo6TzHsbRjgqZMHq",
             "vector_reference_similarity": 0.8677976727485657
         },
         "6": {

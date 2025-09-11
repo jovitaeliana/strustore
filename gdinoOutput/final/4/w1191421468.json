@@ -17,7 +17,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "HNljomQEwfkntYmDylny",
             "reference_name": "Switch Pokèball",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -29,11 +29,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8780971169471741,
-            "vector_reference_id": "HNljomQEwfkntYmDylny",
             "vector_reference_similarity": 0.8519704937934875
         },
         "2": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -45,11 +44,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.88995361328125,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8558799028396606
         },
         "3": {
-            "id": "nintendo_switch_oled",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch OLED Console",
             "category": "Video Game Consoles",
@@ -61,11 +59,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8700822591781616,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8518913388252258
         },
         "4": {
-            "id": "nintendo_switch_oled",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch OLED Console",
             "category": "Video Game Consoles",
@@ -77,7 +74,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8928279876708984,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8655170202255249
         },
         "5": {

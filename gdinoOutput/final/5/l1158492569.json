@@ -76,7 +76,7 @@
             "itemtypes_similarity": 0.7886283993721008
         },
         "4": {
-            "id": "playstation_3_dualshock_3",
+            "id": "QvUB8tHBNDmkwWhylwa5",
             "reference_name": "PS3 Con",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -88,11 +88,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8537523746490479,
-            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
             "vector_reference_similarity": 0.8529748916625977
         },
         "5": {
-            "id": "playstation_3_dualshock_3",
+            "id": "QvUB8tHBNDmkwWhylwa5",
             "reference_name": "PS3 Con",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -104,7 +103,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8691699504852295,
-            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
             "vector_reference_similarity": 0.8639011383056641
         },
         "6": {
@@ -123,7 +121,7 @@
             "itemtypes_similarity": 0.8833770751953125
         },
         "7": {
-            "id": "playstation_2_dualshock_2",
+            "id": "fj8niKEiVeaKbKSUovPs",
             "reference_name": "PS2 Dual Shock Con",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -135,7 +133,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8636034727096558,
-            "vector_reference_id": "fj8niKEiVeaKbKSUovPs",
             "vector_reference_similarity": 0.8615137934684753
         },
         "8": {
@@ -154,7 +151,7 @@
             "itemtypes_similarity": 0.8357207775115967
         },
         "9": {
-            "id": "playstation_4_dualshock_4",
+            "id": "NgY0wsqcNH8Ja96oUc6V",
             "reference_name": "PS4 VR Headset",
             "itemtypes_name": "PlayStation 4 DualShock 4",
             "category": "Controllers & Attachments",
@@ -166,7 +163,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8944957852363586,
-            "vector_reference_id": "NgY0wsqcNH8Ja96oUc6V",
             "vector_reference_similarity": 0.847762942314148
         },
         "10": {
@@ -185,7 +181,7 @@
             "itemtypes_similarity": 0.841881275177002
         },
         "11": {
-            "id": "playstation_3_dualshock_3",
+            "id": "aH9iGjlVeTjiCSWI8DIe",
             "reference_name": "Saturn",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -197,11 +193,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.867122232913971,
-            "vector_reference_id": "aH9iGjlVeTjiCSWI8DIe",
             "vector_reference_similarity": 0.8545441031455994
         },
         "12": {
-            "id": "playstation_3_dualshock_3",
+            "id": "QvUB8tHBNDmkwWhylwa5",
             "reference_name": "PS3 Con",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -213,7 +208,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8677712678909302,
-            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
             "vector_reference_similarity": 0.8590227365493774
         },
         "13": {

@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "playstation_2_dualshock_2",
+            "id": "wviDZriLtZag6FCXscHP",
             "reference_name": "PS1 Dual Analog Con SCPH-1180",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8925431370735168,
-            "vector_reference_id": "wviDZriLtZag6FCXscHP",
             "vector_reference_similarity": 0.885294497013092
         }
     },

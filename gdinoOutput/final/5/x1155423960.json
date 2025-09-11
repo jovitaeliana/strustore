@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "y94oJNaPD2VI2396Pq3m",
             "reference_name": "Wii Classic Con",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -21,11 +21,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8636260032653809,
-            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
             "vector_reference_similarity": 0.8596275448799133
         },
         "2": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "nJrfY1rtfMs0yqL4Vpfq",
             "reference_name": "Wii Pro Con",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -37,7 +36,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8569949269294739,
-            "vector_reference_id": "nJrfY1rtfMs0yqL4Vpfq",
             "vector_reference_similarity": 0.8527383804321289
         }
     },

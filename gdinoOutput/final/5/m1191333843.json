@@ -28,7 +28,7 @@
             "itemtypes_similarity": 0.8508679866790771
         },
         "2": {
-            "id": "playstation_3_dualshock_3",
+            "id": "QvUB8tHBNDmkwWhylwa5",
             "reference_name": "PS3 Con",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -40,7 +40,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.859262228012085,
-            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
             "vector_reference_similarity": 0.8559514284133911
         },
         "3": {

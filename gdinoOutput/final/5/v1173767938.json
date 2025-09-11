@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "playstation_1_controller",
+            "id": "wviDZriLtZag6FCXscHP",
             "reference_name": "PS1 Dual Analog Con SCPH-1180",
             "itemtypes_name": "PlayStation 1 Controller",
             "category": "Controllers & Attachments",
@@ -21,11 +21,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8529463410377502,
-            "vector_reference_id": "wviDZriLtZag6FCXscHP",
             "vector_reference_similarity": 0.8517808318138123
         },
         "2": {
-            "id": "playstation_1_controller",
+            "id": "CqdH1LClrrfOP3GTa1fR",
             "reference_name": "PS1 Original Analog Con SCPH-1080",
             "itemtypes_name": "PlayStation 1 Controller",
             "category": "Controllers & Attachments",
@@ -37,7 +36,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8928571939468384,
-            "vector_reference_id": "CqdH1LClrrfOP3GTa1fR",
             "vector_reference_similarity": 0.8795313835144043
         }
     },

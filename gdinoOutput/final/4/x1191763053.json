@@ -23,7 +23,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -35,11 +35,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8777906894683838,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8543365001678467
         },
         "2": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -51,11 +50,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8633667230606079,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.846518874168396
         },
         "3": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "boP0HPaJuFshEG2KxH6X",
             "reference_name": "Hori Compact Joystick",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -67,11 +65,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8613853454589844,
-            "vector_reference_id": "boP0HPaJuFshEG2KxH6X",
             "vector_reference_similarity": 0.842846155166626
         },
         "4": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "O9858sZlGIlyY48TTOPK",
             "reference_name": "PS1 Slimline Con",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -83,7 +80,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8560041785240173,
-            "vector_reference_id": "O9858sZlGIlyY48TTOPK",
             "vector_reference_similarity": 0.8500608205795288
         },
         "5": {
@@ -102,7 +98,7 @@
             "itemtypes_similarity": 0.8606945276260376
         },
         "6": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "y94oJNaPD2VI2396Pq3m",
             "reference_name": "Wii Classic Con",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -114,7 +110,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8877105712890625,
-            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
             "vector_reference_similarity": 0.8552896976470947
         },
         "7": {

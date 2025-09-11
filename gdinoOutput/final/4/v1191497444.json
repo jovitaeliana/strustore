@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_oled",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch OLED Console",
             "category": "Video Game Consoles",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8831190466880798,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8531430959701538
         }
     },

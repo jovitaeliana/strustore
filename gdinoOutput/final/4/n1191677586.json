@@ -30,7 +30,7 @@
             "itemtypes_similarity": 0.8526946306228638
         },
         "2": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -42,7 +42,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8866042494773865,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8584402203559875
         },
         "3": {

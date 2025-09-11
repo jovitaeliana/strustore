@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_dsi",
+            "id": "GgWTR9QoWKoUkJ3kr5ga",
             "reference_name": "DSi",
             "itemtypes_name": "Nintendo DSi",
             "category": "Video Game Consoles",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8715822696685791,
-            "vector_reference_id": "GgWTR9QoWKoUkJ3kr5ga",
             "vector_reference_similarity": 0.8674424290657043
         }
     },

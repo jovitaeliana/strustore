@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "xbox_360_controller",
+            "id": "YDxwch9Hzj13EqLj79f2",
             "reference_name": "Xbox 360 Con",
             "itemtypes_name": "Xbox 360 Controller",
             "category": "Controllers & Attachments",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8774838447570801,
-            "vector_reference_id": "YDxwch9Hzj13EqLj79f2",
             "vector_reference_similarity": 0.8505774140357971
         }
     },

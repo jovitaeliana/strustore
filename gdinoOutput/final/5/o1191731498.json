@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "playstation_3_dualshock_3",
+            "id": "Sb63aOKKGWawJOyhoDm0",
             "reference_name": "PS3 Fat",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -21,7 +21,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8382092118263245,
-            "vector_reference_id": "Sb63aOKKGWawJOyhoDm0",
             "vector_reference_similarity": 0.8318743109703064
         },
         "2": {

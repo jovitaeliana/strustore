@@ -15,7 +15,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -27,11 +27,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8880521059036255,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8600938320159912
         },
         "2": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -43,11 +42,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.881266713142395,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8604578375816345
         },
         "3": {
-            "id": "nintendo_switch_oled",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch OLED Console",
             "category": "Video Game Consoles",
@@ -59,11 +57,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8737425804138184,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8517034649848938
         },
         "4": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -75,11 +72,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8923923969268799,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8540470004081726
         },
         "5": {
-            "id": "nintendo_switch_oled",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch OLED Console",
             "category": "Video Game Consoles",
@@ -91,7 +87,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8889880180358887,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8605263829231262
         }
     },

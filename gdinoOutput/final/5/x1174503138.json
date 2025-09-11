@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "wii_u_gamepad",
+            "id": "ST8yllzbAiBh5De8O8kP",
             "reference_name": "Wii U Con",
             "itemtypes_name": "Wii U GamePad",
             "category": "Controllers & Attachments",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.866249680519104,
-            "vector_reference_id": "ST8yllzbAiBh5De8O8kP",
             "vector_reference_similarity": 0.8521151542663574
         }
     },

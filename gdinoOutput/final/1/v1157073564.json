@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "game_boy_advance_sp",
+            "id": "aH9iGjlVeTjiCSWI8DIe",
             "reference_name": "Saturn",
             "itemtypes_name": "Game Boy Advance SP",
             "category": "Video Game Consoles",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8387564420700073,
-            "vector_reference_id": "aH9iGjlVeTjiCSWI8DIe",
             "vector_reference_similarity": 0.8379776477813721
         }
     },

@@ -43,7 +43,7 @@
             "itemtypes_similarity": 0.8510787487030029
         },
         "3": {
-            "id": "nintendo_switch_lite",
+            "id": "hVKSTky2gYJAeDddNOQV",
             "reference_name": "DS Lite",
             "itemtypes_name": "Nintendo Switch Lite Console",
             "category": "Video Game Consoles",
@@ -55,7 +55,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8859732151031494,
-            "vector_reference_id": "hVKSTky2gYJAeDddNOQV",
             "vector_reference_similarity": 0.8565052151679993
         },
         "4": {

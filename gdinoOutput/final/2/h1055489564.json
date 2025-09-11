@@ -42,7 +42,7 @@
             "itemtypes_similarity": 0.8206656575202942
         },
         "2": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "OvnaIjSBeoFBsRS0Y6GI",
             "reference_name": "SFC",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -54,11 +54,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8689373135566711,
-            "vector_reference_id": "OvnaIjSBeoFBsRS0Y6GI",
             "vector_reference_similarity": 0.8468661904335022
         },
         "3": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -70,7 +69,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8656997680664062,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8526414632797241
         },
         "4": {

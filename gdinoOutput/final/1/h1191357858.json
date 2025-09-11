@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_dsi",
+            "id": "hVKSTky2gYJAeDddNOQV",
             "reference_name": "DS Lite",
             "itemtypes_name": "Nintendo DSi",
             "category": "Video Game Consoles",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8188337087631226,
-            "vector_reference_id": "hVKSTky2gYJAeDddNOQV",
             "vector_reference_similarity": 0.8181853294372559
         }
     },

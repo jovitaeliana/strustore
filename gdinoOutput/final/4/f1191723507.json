@@ -27,7 +27,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_oled",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch OLED Console",
             "category": "Video Game Consoles",
@@ -39,11 +39,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9064610004425049,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8675976395606995
         },
         "3": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -55,11 +54,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8665146827697754,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8468128442764282
         },
         "4": {
-            "id": "nintendo_switch_oled",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch OLED Console",
             "category": "Video Game Consoles",
@@ -71,7 +69,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8820232152938843,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8537955284118652
         },
         "5": {
@@ -90,7 +87,7 @@
             "itemtypes_similarity": 0.8321963548660278
         },
         "6": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "LK69eegFwn2onBK7j6rF",
             "reference_name": "Wii Con",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -102,11 +99,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8782165050506592,
-            "vector_reference_id": "LK69eegFwn2onBK7j6rF",
             "vector_reference_similarity": 0.8523837327957153
         },
         "7": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "Fu009vbiv7CbGJdvp4f5",
             "reference_name": "Wii Con Knockoff",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -118,7 +114,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8833654522895813,
-            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
             "vector_reference_similarity": 0.8473914861679077
         },
         "8": {
@@ -167,7 +162,7 @@
             "itemtypes_similarity": 0.8299968242645264
         },
         "11": {
-            "id": "xbox_series_controller",
+            "id": "E4gdR1zQcZder6WVWIQx",
             "reference_name": "Microsoft Flight Stick",
             "itemtypes_name": "Xbox Series Controller",
             "category": "Controllers & Attachments",
@@ -179,7 +174,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8496481776237488,
-            "vector_reference_id": "E4gdR1zQcZder6WVWIQx",
             "vector_reference_similarity": 0.8453072905540466
         },
         "12": {

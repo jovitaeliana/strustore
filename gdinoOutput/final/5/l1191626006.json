@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "playstation_3_dualshock_3",
+            "id": "Sb63aOKKGWawJOyhoDm0",
             "reference_name": "PS3 Fat",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -21,11 +21,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8631065487861633,
-            "vector_reference_id": "Sb63aOKKGWawJOyhoDm0",
             "vector_reference_similarity": 0.8366639614105225
         },
         "2": {
-            "id": "playstation_3_dualshock_3",
+            "id": "QvUB8tHBNDmkwWhylwa5",
             "reference_name": "PS3 Con",
             "itemtypes_name": "PlayStation 3 DualShock 3",
             "category": "Controllers & Attachments",
@@ -37,7 +36,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8969019651412964,
-            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
             "vector_reference_similarity": 0.8501725792884827
         }
     },

@@ -26,7 +26,7 @@
             "itemtypes_similarity": 0.8589524030685425
         },
         "2": {
-            "id": "game_boy_advance",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
             "reference_name": "Gameboy Player",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -38,11 +38,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8456746935844421,
-            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
             "vector_reference_similarity": 0.8432382345199585
         },
         "3": {
-            "id": "game_boy_advance",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
             "reference_name": "Gameboy Player",
             "itemtypes_name": "Game Boy Advance",
             "category": "Video Game Consoles",
@@ -54,7 +53,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8442532420158386,
-            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
             "vector_reference_similarity": 0.8361670970916748
         }
     },

@@ -45,7 +45,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "playstation_1_dualshock",
+            "id": "8ES4hm3YJs9hiZ7Xy77y",
             "reference_name": "PS1 Dual Shock Con SCPH-1200",
             "itemtypes_name": "PlayStation 1 DualShock Controller",
             "category": "Controllers & Attachments",
@@ -57,11 +57,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9181798696517944,
-            "vector_reference_id": "8ES4hm3YJs9hiZ7Xy77y",
             "vector_reference_similarity": 0.8990883827209473
         },
         "2": {
-            "id": "playstation_2_dualshock_2",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -73,11 +72,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9021004438400269,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8786753416061401
         },
         "3": {
-            "id": "playstation_2_dualshock_2",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -89,11 +87,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9134606719017029,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8831316232681274
         },
         "4": {
-            "id": "playstation_2_dualshock_2",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -105,11 +102,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9071797132492065,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8849611878395081
         },
         "5": {
-            "id": "playstation_2_dualshock_2",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -121,11 +117,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8886743783950806,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8764396905899048
         },
         "6": {
-            "id": "playstation_2_dualshock_2",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -137,7 +132,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8941636681556702,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8792369961738586
         },
         "7": {
@@ -156,7 +150,7 @@
             "itemtypes_similarity": 0.7508379220962524
         },
         "8": {
-            "id": "playstation_1_dualshock",
+            "id": "CqdH1LClrrfOP3GTa1fR",
             "reference_name": "PS1 Original Analog Con SCPH-1080",
             "itemtypes_name": "PlayStation 1 DualShock Controller",
             "category": "Controllers & Attachments",
@@ -168,7 +162,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9112770557403564,
-            "vector_reference_id": "CqdH1LClrrfOP3GTa1fR",
             "vector_reference_similarity": 0.8912439346313477
         },
         "9": {
@@ -187,7 +180,7 @@
             "itemtypes_similarity": 0.7792674899101257
         },
         "10": {
-            "id": "playstation_1_analog_controller",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 1 Analog Controller",
             "category": "Controllers & Attachments",
@@ -199,7 +192,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.863794207572937,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8605455756187439
         },
         "11": {
@@ -218,7 +210,7 @@
             "itemtypes_similarity": 0.7816318869590759
         },
         "12": {
-            "id": "playstation_2_dualshock_2",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -230,11 +222,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.917428731918335,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8967937231063843
         },
         "13": {
-            "id": "playstation_1_dualshock",
+            "id": "8ES4hm3YJs9hiZ7Xy77y",
             "reference_name": "PS1 Dual Shock Con SCPH-1200",
             "itemtypes_name": "PlayStation 1 DualShock Controller",
             "category": "Controllers & Attachments",
@@ -246,7 +237,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9114487171173096,
-            "vector_reference_id": "8ES4hm3YJs9hiZ7Xy77y",
             "vector_reference_similarity": 0.9011374711990356
         },
         "14": {
@@ -265,7 +255,7 @@
             "itemtypes_similarity": 0.7602002024650574
         },
         "15": {
-            "id": "playstation_1_dualshock",
+            "id": "wviDZriLtZag6FCXscHP",
             "reference_name": "PS1 Dual Analog Con SCPH-1180",
             "itemtypes_name": "PlayStation 1 DualShock Controller",
             "category": "Controllers & Attachments",
@@ -277,11 +267,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9260424375534058,
-            "vector_reference_id": "wviDZriLtZag6FCXscHP",
             "vector_reference_similarity": 0.9057397246360779
         },
         "16": {
-            "id": "playstation_1_dualshock",
+            "id": "8ES4hm3YJs9hiZ7Xy77y",
             "reference_name": "PS1 Dual Shock Con SCPH-1200",
             "itemtypes_name": "PlayStation 1 DualShock Controller",
             "category": "Controllers & Attachments",
@@ -293,11 +282,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9148443341255188,
-            "vector_reference_id": "8ES4hm3YJs9hiZ7Xy77y",
             "vector_reference_similarity": 0.8967241048812866
         },
         "17": {
-            "id": "playstation_2_dualshock_2",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -309,11 +297,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8949299454689026,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8733505010604858
         },
         "18": {
-            "id": "playstation_2_dualshock_2",
+            "id": "c1CUzPNNcPsi6EBoa5rI",
             "reference_name": "PS2 SCPH-10000",
             "itemtypes_name": "PlayStation 2 DualShock 2",
             "category": "Controllers & Attachments",
@@ -325,7 +312,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8958436250686646,
-            "vector_reference_id": "c1CUzPNNcPsi6EBoa5rI",
             "vector_reference_similarity": 0.8777669668197632
         },
         "19": {
@@ -344,7 +330,7 @@
             "itemtypes_similarity": 0.7928640246391296
         },
         "20": {
-            "id": "playstation_1_dualshock",
+            "id": "wviDZriLtZag6FCXscHP",
             "reference_name": "PS1 Dual Analog Con SCPH-1180",
             "itemtypes_name": "PlayStation 1 DualShock Controller",
             "category": "Controllers & Attachments",
@@ -356,7 +342,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.9168764352798462,
-            "vector_reference_id": "wviDZriLtZag6FCXscHP",
             "vector_reference_similarity": 0.8939239382743835
         }
     },

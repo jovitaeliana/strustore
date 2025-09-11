@@ -28,7 +28,7 @@
             "itemtypes_similarity": 0.8416424989700317
         },
         "2": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "O9858sZlGIlyY48TTOPK",
             "reference_name": "PS1 Slimline Con",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -40,7 +40,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8611750602722168,
-            "vector_reference_id": "O9858sZlGIlyY48TTOPK",
             "vector_reference_similarity": 0.8487322330474854
         },
         "3": {

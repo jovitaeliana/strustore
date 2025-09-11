@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "playstation_1_analog_controller",
+            "id": "CqdH1LClrrfOP3GTa1fR",
             "reference_name": "PS1 Original Analog Con SCPH-1080",
             "itemtypes_name": "PlayStation 1 Analog Controller",
             "category": "Controllers & Attachments",
@@ -21,11 +21,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8798470497131348,
-            "vector_reference_id": "CqdH1LClrrfOP3GTa1fR",
             "vector_reference_similarity": 0.8774256706237793
         },
         "2": {
-            "id": "playstation_1_controller",
+            "id": "CqdH1LClrrfOP3GTa1fR",
             "reference_name": "PS1 Original Analog Con SCPH-1080",
             "itemtypes_name": "PlayStation 1 Controller",
             "category": "Controllers & Attachments",
@@ -37,7 +36,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8829565048217773,
-            "vector_reference_id": "CqdH1LClrrfOP3GTa1fR",
             "vector_reference_similarity": 0.8731896877288818
         }
     },

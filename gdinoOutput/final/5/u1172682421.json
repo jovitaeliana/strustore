@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "gamecube_controller",
+            "id": "HNljomQEwfkntYmDylny",
             "reference_name": "Switch Pokèball",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8561751842498779,
-            "vector_reference_id": "HNljomQEwfkntYmDylny",
             "vector_reference_similarity": 0.8543964624404907
         }
     },

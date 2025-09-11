@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_ds",
+            "id": "RLTezhK4keTvDr70COUX",
             "reference_name": "DS Original",
             "itemtypes_name": "Nintendo DS",
             "category": "Video Game Consoles",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8525482416152954,
-            "vector_reference_id": "RLTezhK4keTvDr70COUX",
             "vector_reference_similarity": 0.8481940031051636
         }
     },

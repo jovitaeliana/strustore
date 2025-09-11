@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "ZBroqZgzmGouENEl1iVl",
             "reference_name": "Switch Pro Controller",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -21,7 +21,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8665180206298828,
-            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
             "vector_reference_similarity": 0.8633766174316406
         },
         "2": {

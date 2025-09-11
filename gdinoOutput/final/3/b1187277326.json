@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "wii_classic_controller",
+            "id": "y94oJNaPD2VI2396Pq3m",
             "reference_name": "Wii Classic Con",
             "itemtypes_name": "Wii Classic Controller",
             "category": "Controllers & Attachments",
@@ -21,11 +21,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8661737442016602,
-            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
             "vector_reference_similarity": 0.8649109601974487
         },
         "2": {
-            "id": "wii_classic_controller",
+            "id": "y94oJNaPD2VI2396Pq3m",
             "reference_name": "Wii Classic Con",
             "itemtypes_name": "Wii Classic Controller",
             "category": "Controllers & Attachments",
@@ -37,7 +36,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8657699227333069,
-            "vector_reference_id": "y94oJNaPD2VI2396Pq3m",
             "vector_reference_similarity": 0.861149251461029
         }
     },

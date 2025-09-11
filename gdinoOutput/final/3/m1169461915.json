@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_oled",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
             "reference_name": "Gameboy Player",
             "itemtypes_name": "Nintendo Switch OLED Console",
             "category": "Video Game Consoles",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.872177243232727,
-            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
             "vector_reference_similarity": 0.868297278881073
         }
     },

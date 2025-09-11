@@ -38,7 +38,7 @@
             "itemtypes_similarity": 0.8059337139129639
         },
         "2": {
-            "id": "nintendo_ds",
+            "id": "RLTezhK4keTvDr70COUX",
             "reference_name": "DS Original",
             "itemtypes_name": "Nintendo DS",
             "category": "Video Game Consoles",
@@ -50,7 +50,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8642704486846924,
-            "vector_reference_id": "RLTezhK4keTvDr70COUX",
             "vector_reference_similarity": 0.8577706217765808
         },
         "3": {
@@ -69,7 +68,7 @@
             "itemtypes_similarity": 0.8273932933807373
         },
         "4": {
-            "id": "nintendo_ds_lite",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
             "reference_name": "DS Lite Boxed",
             "itemtypes_name": "Nintendo DS Lite",
             "category": "Video Game Consoles",
@@ -81,7 +80,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8636257648468018,
-            "vector_reference_id": "RA1sLo6TzHsbRjgqZMHq",
             "vector_reference_similarity": 0.8587645292282104
         },
         "5": {

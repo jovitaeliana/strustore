@@ -9,7 +9,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_lite",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Lite Console",
             "category": "Video Game Consoles",
@@ -21,7 +21,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8597055673599243,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8529708385467529
         },
         "2": {

@@ -59,7 +59,7 @@
             "itemtypes_similarity": 0.8652437329292297
         },
         "3": {
-            "id": "playstation_1_controller",
+            "id": "CqdH1LClrrfOP3GTa1fR",
             "reference_name": "PS1 Original Analog Con SCPH-1080",
             "itemtypes_name": "PlayStation 1 Controller",
             "category": "Controllers & Attachments",
@@ -71,7 +71,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.877597451210022,
-            "vector_reference_id": "CqdH1LClrrfOP3GTa1fR",
             "vector_reference_similarity": 0.8595020771026611
         },
         "4": {

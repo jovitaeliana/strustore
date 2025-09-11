@@ -11,7 +11,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "xbox_360_controller",
+            "id": "kcyOqlpSjOxpv9ZpONeh",
             "reference_name": "Xbox 360",
             "itemtypes_name": "Xbox 360 Controller",
             "category": "Controllers & Attachments",
@@ -23,11 +23,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8817539811134338,
-            "vector_reference_id": "kcyOqlpSjOxpv9ZpONeh",
             "vector_reference_similarity": 0.8631905913352966
         },
         "2": {
-            "id": "xbox_original_controller",
+            "id": "UQAiJaSEgXisBIPIMPnD",
             "reference_name": "Xbox Orig Con",
             "itemtypes_name": "Xbox Controller (Original)",
             "category": "Controllers & Attachments",
@@ -39,7 +38,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8803019523620605,
-            "vector_reference_id": "UQAiJaSEgXisBIPIMPnD",
             "vector_reference_similarity": 0.8555613160133362
         },
         "3": {

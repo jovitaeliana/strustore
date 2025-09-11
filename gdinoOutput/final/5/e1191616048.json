@@ -7,7 +7,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "playstation_3_sixaxis",
+            "id": "QvUB8tHBNDmkwWhylwa5",
             "reference_name": "PS3 Con",
             "itemtypes_name": "PlayStation 3 SIXAXIS Controller",
             "category": "Controllers & Attachments",
@@ -19,7 +19,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8578459024429321,
-            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
             "vector_reference_similarity": 0.8464022278785706
         }
     },

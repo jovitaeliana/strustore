@@ -13,7 +13,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "Fu009vbiv7CbGJdvp4f5",
             "reference_name": "Wii Con Knockoff",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -25,11 +25,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8824036717414856,
-            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
             "vector_reference_similarity": 0.854282557964325
         },
         "2": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "Fu009vbiv7CbGJdvp4f5",
             "reference_name": "Wii Con Knockoff",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -41,11 +40,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8835442662239075,
-            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
             "vector_reference_similarity": 0.8500213027000427
         },
         "3": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -57,11 +55,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8803991079330444,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.85127192735672
         },
         "4": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "Fu009vbiv7CbGJdvp4f5",
             "reference_name": "Wii Con Knockoff",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -73,7 +70,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8867039680480957,
-            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
             "vector_reference_similarity": 0.8482641577720642
         }
     },

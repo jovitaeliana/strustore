@@ -44,7 +44,7 @@
             "itemtypes_similarity": 0.8145564794540405
         },
         "2": {
-            "id": "nintendo_ds",
+            "id": "RLTezhK4keTvDr70COUX",
             "reference_name": "DS Original",
             "itemtypes_name": "Nintendo DS",
             "category": "Video Game Consoles",
@@ -56,7 +56,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8777841925621033,
-            "vector_reference_id": "RLTezhK4keTvDr70COUX",
             "vector_reference_similarity": 0.8461248278617859
         },
         "3": {
@@ -150,7 +149,7 @@
             "itemtypes_similarity": 0.8167497515678406
         },
         "9": {
-            "id": "nintendo_ds_lite",
+            "id": "RA1sLo6TzHsbRjgqZMHq",
             "reference_name": "DS Lite Boxed",
             "itemtypes_name": "Nintendo DS Lite",
             "category": "Video Game Consoles",
@@ -162,11 +161,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8629567623138428,
-            "vector_reference_id": "RA1sLo6TzHsbRjgqZMHq",
             "vector_reference_similarity": 0.8553962111473083
         },
         "10": {
-            "id": "nintendo_ds",
+            "id": "RLTezhK4keTvDr70COUX",
             "reference_name": "DS Original",
             "itemtypes_name": "Nintendo DS",
             "category": "Video Game Consoles",
@@ -178,7 +176,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8661392331123352,
-            "vector_reference_id": "RLTezhK4keTvDr70COUX",
             "vector_reference_similarity": 0.865009069442749
         },
         "11": {
@@ -197,7 +194,7 @@
             "itemtypes_similarity": 0.7615617513656616
         },
         "12": {
-            "id": "nintendo_ds",
+            "id": "RLTezhK4keTvDr70COUX",
             "reference_name": "DS Original",
             "itemtypes_name": "Nintendo DS",
             "category": "Video Game Consoles",
@@ -209,7 +206,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8702114224433899,
-            "vector_reference_id": "RLTezhK4keTvDr70COUX",
             "vector_reference_similarity": 0.8598917126655579
         }
     },

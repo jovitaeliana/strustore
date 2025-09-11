@@ -47,7 +47,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "ZBroqZgzmGouENEl1iVl",
             "reference_name": "Switch Pro Controller",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -59,11 +59,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8896045684814453,
-            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
             "vector_reference_similarity": 0.8706482648849487
         },
         "2": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "ZBroqZgzmGouENEl1iVl",
             "reference_name": "Switch Pro Controller",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -75,7 +74,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8803626298904419,
-            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
             "vector_reference_similarity": 0.8678529262542725
         },
         "3": {
@@ -109,7 +107,7 @@
             "itemtypes_similarity": 0.7923308610916138
         },
         "5": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "ZBroqZgzmGouENEl1iVl",
             "reference_name": "Switch Pro Controller",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -121,11 +119,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8863294124603271,
-            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
             "vector_reference_similarity": 0.8720242977142334
         },
         "6": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -137,11 +134,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.881388783454895,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8619964122772217
         },
         "7": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -153,11 +149,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8758378028869629,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8528393507003784
         },
         "8": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -169,11 +164,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8787782788276672,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8546760678291321
         },
         "9": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "Fu009vbiv7CbGJdvp4f5",
             "reference_name": "Wii Con Knockoff",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -185,11 +179,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8852090835571289,
-            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
             "vector_reference_similarity": 0.8550388216972351
         },
         "10": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "Fu009vbiv7CbGJdvp4f5",
             "reference_name": "Wii Con Knockoff",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -201,11 +194,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8809005618095398,
-            "vector_reference_id": "Fu009vbiv7CbGJdvp4f5",
             "vector_reference_similarity": 0.8493469953536987
         },
         "11": {
-            "id": "nintendo_switch_pro_controller",
+            "id": "ZBroqZgzmGouENEl1iVl",
             "reference_name": "Switch Pro Controller",
             "itemtypes_name": "Nintendo Switch Pro Controller",
             "category": "Controllers & Attachments",
@@ -217,11 +209,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8886505365371704,
-            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
             "vector_reference_similarity": 0.8723004460334778
         },
         "12": {
-            "id": "wii_remote_controller",
+            "id": "YQlPav9nl4eO6o1cIQtF",
             "reference_name": "BustAMove Con (boxed)",
             "itemtypes_name": "Wii Remote Controller",
             "category": "Controllers & Attachments",
@@ -233,7 +224,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.821617841720581,
-            "vector_reference_id": "YQlPav9nl4eO6o1cIQtF",
             "vector_reference_similarity": 0.8207581043243408
         },
         "13": {
@@ -252,7 +242,7 @@
             "itemtypes_similarity": 0.8330252170562744
         },
         "14": {
-            "id": "nintendo_switch_joycon_left",
+            "id": "C7RieEggjBciPVYt7ggm",
             "reference_name": "Wii Con Jacket",
             "itemtypes_name": "Nintendo Switch Joy-Con (L)",
             "category": "Controllers & Attachments",
@@ -264,7 +254,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8817663788795471,
-            "vector_reference_id": "C7RieEggjBciPVYt7ggm",
             "vector_reference_similarity": 0.8451640605926514
         },
         "15": {
@@ -298,7 +287,7 @@
             "itemtypes_similarity": 0.7822412252426147
         },
         "17": {
-            "id": "nintendo_switch_joycon_pair",
+            "id": "oL2l1OjnB3BNLENQkoRb",
             "reference_name": "Switch",
             "itemtypes_name": "Nintendo Switch Joy-Con Pair",
             "category": "Controllers & Attachments",
@@ -310,7 +299,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8230421543121338,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
             "vector_reference_similarity": 0.8210790157318115
         },
         "18": {

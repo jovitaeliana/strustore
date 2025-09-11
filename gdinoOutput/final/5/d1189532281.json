@@ -32,7 +32,7 @@
             "itemtypes_similarity": 0.8494737148284912
         },
         "2": {
-            "id": "gamecube_controller",
+            "id": "fPlmsqNzKxyVjqsEmulZ",
             "reference_name": "GC DK Bongos",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -44,7 +44,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8580629229545593,
-            "vector_reference_id": "fPlmsqNzKxyVjqsEmulZ",
             "vector_reference_similarity": 0.8491841554641724
         },
         "3": {
@@ -63,7 +62,7 @@
             "itemtypes_similarity": 0.856473445892334
         },
         "4": {
-            "id": "gamecube_controller",
+            "id": "Gynna5OzYWWE6y8WpgpO",
             "reference_name": "GC Wavebird Con",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -75,11 +74,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.861910879611969,
-            "vector_reference_id": "Gynna5OzYWWE6y8WpgpO",
             "vector_reference_similarity": 0.8585280776023865
         },
         "5": {
-            "id": "nintendo_switch_joycon_right",
+            "id": "Gynna5OzYWWE6y8WpgpO",
             "reference_name": "GC Wavebird Con",
             "itemtypes_name": "Nintendo Switch Joy-Con (R)",
             "category": "Controllers & Attachments",
@@ -91,11 +89,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.866019606590271,
-            "vector_reference_id": "Gynna5OzYWWE6y8WpgpO",
             "vector_reference_similarity": 0.8584761023521423
         },
         "6": {
-            "id": "gamecube_controller",
+            "id": "Gynna5OzYWWE6y8WpgpO",
             "reference_name": "GC Wavebird Con",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -107,7 +104,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.861709475517273,
-            "vector_reference_id": "Gynna5OzYWWE6y8WpgpO",
             "vector_reference_similarity": 0.8550337553024292
         }
     },

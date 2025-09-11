@@ -13,7 +13,7 @@
     },
     "gdino_improved": {
         "1": {
-            "id": "gamecube_controller",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
             "reference_name": "Gameboy Player",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -25,11 +25,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8589813709259033,
-            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
             "vector_reference_similarity": 0.858157217502594
         },
         "2": {
-            "id": "gamecube_controller",
+            "id": "YxGyIhCoGGi6fsk3Beo8",
             "reference_name": "Gameboy Player",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -41,11 +40,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8667747378349304,
-            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
             "vector_reference_similarity": 0.8526842594146729
         },
         "3": {
-            "id": "gamecube_controller",
+            "id": "F5lnUW6QS1FD2LAwvk9A",
             "reference_name": "GC Con Sealed",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -57,11 +55,10 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.842444121837616,
-            "vector_reference_id": "F5lnUW6QS1FD2LAwvk9A",
             "vector_reference_similarity": 0.8346481323242188
         },
         "4": {
-            "id": "gamecube_controller",
+            "id": "661vCTO6E1TjeJnEcxGb",
             "reference_name": "GC [DOL-001]",
             "itemtypes_name": "GameCube Controller",
             "category": "Controllers & Attachments",
@@ -73,7 +70,6 @@
             "embedding_norm": null,
             "legacyId": null,
             "similarity_score": 0.8751683235168457,
-            "vector_reference_id": "661vCTO6E1TjeJnEcxGb",
             "vector_reference_similarity": 0.8523106575012207
         }
     },
