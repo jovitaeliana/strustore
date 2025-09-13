@@ -1,0 +1,40 @@
+{
+    "gdino": {
+        "1": "19",
+        "2": "19"
+    },
+    "gdino_readable": {
+        "1": "Playstation Controller",
+        "2": "Playstation Controller"
+    },
+    "gdino_tokens": {
+        "1": [
+            "3",
+            "controller",
+            "sony",
+            "blue",
+            "playstation",
+            "ps3",
+            "playstation 3",
+            "sony playstation",
+            "wireless",
+            "wireless controller",
+            "dualshock",
+            "sony ps3",
+            "dualshock 3",
+            "buy",
+            "game",
+            "controllers"
+        ],
+        "2": [
+            "3",
+            "controller",
+            "blue",
+            "ps3",
+            "playstation",
+            "playstation 3",
+            "sony",
+            "oem"
+        ]
+    }
+}

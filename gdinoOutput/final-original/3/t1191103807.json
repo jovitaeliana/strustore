@@ -1,0 +1,55 @@
+{
+    "gdino": {
+        "1": "11"
+    },
+    "gdino_readable": {
+        "1": "Nintendo Game Boy Color Console"
+    },
+    "gdino_tokens": {
+        "1": [
+            "pocket",
+            "game",
+            "nintendo",
+            "boy",
+            "game boy",
+            "gameboy",
+            "boy pocket",
+            "clear",
+            "nintendo game",
+            "gameboy pocket",
+            "purple",
+            "pocket clear",
+            "consoles",
+            "nintendo gameboy",
+            "console",
+            "video",
+            "001",
+            "mgb",
+            "mgb 001",
+            "japan",
+            "video game",
+            "tested",
+            "handheld",
+            "atomic",
+            "atomic purple",
+            "clear purple",
+            "game consoles",
+            "transparent",
+            "system",
+            "color",
+            "gb",
+            "pocket atomic",
+            "purple console",
+            "handheld system",
+            "original",
+            "boy color",
+            "used",
+            "green",
+            "pocket console",
+            "working",
+            "tested working",
+            "box",
+            "systems"
+        ]
+    }
+}

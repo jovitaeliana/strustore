@@ -1,0 +1,38 @@
+{
+    "gdino": {
+        "1": "20",
+        "2": "16"
+    },
+    "gdino_readable": {
+        "1": "Nintendo Switch Pro Controller",
+        "2": "N64 Controller "
+    },
+    "gdino_tokens": {
+        "1": [
+            "controller",
+            "nintendo",
+            "64",
+            "green",
+            "nintendo 64",
+            "n64",
+            "hori",
+            "wired",
+            "pad",
+            "mini"
+        ],
+        "2": [
+            "n64",
+            "controller",
+            "green",
+            "nintendo",
+            "64",
+            "hori",
+            "nintendo 64",
+            "mini",
+            "blue",
+            "games",
+            "pad",
+            "hori pad"
+        ]
+    }
+}

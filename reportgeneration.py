@@ -21,7 +21,8 @@ COMBINED_PDF_NAME = "gdino_comparison_report.pdf"
 
 # Data paths - Update these to match your directory structure
 TEXT_PROMPT_CSV = "./zm_scraper/items-prompt.csv"  # CSV with item IDs
-GDINO_FINAL = "./gdinoOutput/final"  # Enhanced GDINO JSON results
+GDINO_FINAL_ORIGINAL = "./gdinoOutput/final-original"  # Original GDINO JSON results (gdino_readable, tokens)
+GDINO_FINAL = "./gdinoOutput/final"  # Enhanced GDINO JSON results (enhanced_classification only)
 GDINO_OUTPUT_IMAGES = "./gdinoOutput/output"  # GDINO detection images with bounding boxes
 COMPILED = "./gdino_reports"  # Output directory for PDFs
 
@@ -185,25 +186,49 @@ def draw_block_with_height_limit(c: canvas.Canvas, text: str, x: float, y_top: f
     return y, ""  # All text was drawn
 
 def limit_gdino_tokens(gdino_json: dict, max_tokens: int = 15) -> dict:
-    """Limit gdino_token to top N results."""
-    if not gdino_json or 'gdino_token' not in gdino_json:
+    """Limit gdino_tokens to top N results."""
+    if not gdino_json or 'gdino_tokens' not in gdino_json:
         return gdino_json
     
     limited_json = gdino_json.copy()
-    if isinstance(gdino_json['gdino_token'], list):
-        limited_json['gdino_token'] = gdino_json['gdino_token'][:max_tokens]
+    if isinstance(gdino_json['gdino_tokens'], dict):
+        # Limit tokens for each item key
+        limited_tokens = {}
+        for key, tokens in gdino_json['gdino_tokens'].items():
+            if isinstance(tokens, list):
+                limited_tokens[key] = tokens[:max_tokens]
+            else:
+                limited_tokens[key] = tokens
+        limited_json['gdino_tokens'] = limited_tokens
     
     return limited_json
 
-def format_gdino_data(gdino_json: dict) -> str:
-    """Format the exact JSON data for display with limited gdino_token."""
+def merge_gdino_data(original_json: dict, enhanced_json: dict) -> dict:
+    """Merge data from original and enhanced JSON files, keeping only specific fields."""
+    merged_data = {}
+    
+    # From original JSON: gdino_readable and gdino_tokens
+    if 'gdino_readable' in original_json:
+        merged_data['gdino_readable'] = original_json['gdino_readable']
+    
+    if 'gdino_tokens' in original_json:
+        merged_data['gdino_tokens'] = original_json['gdino_tokens']
+    
+    # From enhanced JSON: enhanced_classification only
+    if 'enhanced_classification' in enhanced_json:
+        merged_data['enhanced_classification'] = enhanced_json['enhanced_classification']
+    
+    return merged_data
+
+def format_gdino_data(merged_json: dict) -> str:
+    """Format the merged JSON data for display with limited gdino_tokens."""
     import json
     
-    if not gdino_json:
+    if not merged_json:
         return "No GDINO data available"
     
-    # Limit gdino_token to top 15 results
-    limited_json = limit_gdino_tokens(gdino_json, 15)
+    # Limit gdino_tokens to top 15 results
+    limited_json = limit_gdino_tokens(merged_json, 15)
     
     # Format the JSON with proper indentation
     try:
@@ -285,7 +310,7 @@ def render_continuation_page_header(c: canvas.Canvas, item_id: str, stem: str, p
 def render_listing_page(c: canvas.Canvas,
                         item_id: str, stem: str,
                         gdino_img: Optional[Path],
-                        gdino_json: dict) -> int:
+                        merged_json: dict) -> int:
     """Render pages showing GDINO detection image and complete JSON data. Returns number of pages used."""
     page_count = 1
     
@@ -318,9 +343,9 @@ def render_listing_page(c: canvas.Canvas,
             c.drawImage(ImageReader(str(gdino_img)), img_x, img_y_top - h,
                         width=w, height=h, preserveAspectRatio=True, anchor='sw')
             
-            # Add source path directly under image
+            # Add source paths directly under image
             c.setFont(FONT_REG, SIZE_SMALL)
-            source_path = f"Source: {Path(GDINO_FINAL).absolute()}/{item_id}/{stem}.json"
+            source_path = f"Data from: {Path(GDINO_FINAL_ORIGINAL).absolute()}/{item_id}/{stem}.json + {Path(GDINO_FINAL).absolute()}/{item_id}/{stem}.json"
             c.drawString(MARGIN, img_y_top - h - SIZE_SMALL - 3, source_path)
             
             # Start JSON content below source
@@ -329,25 +354,25 @@ def render_listing_page(c: canvas.Canvas,
         except Exception as e:
             c.setFont(FONT_REG, SIZE_SMALL)
             c.drawString(MARGIN, img_y_top - SIZE_SMALL, f"Error loading image: {e}")
-            # Still show source path
-            source_path = f"Source: {Path(GDINO_FINAL).absolute()}/{item_id}/{stem}.json"
+            # Still show source paths
+            source_path = f"Data from: {Path(GDINO_FINAL_ORIGINAL).absolute()}/{item_id}/{stem}.json + {Path(GDINO_FINAL).absolute()}/{item_id}/{stem}.json"
             c.drawString(MARGIN, img_y_top - SIZE_SMALL * 2 - 3, source_path)
             json_y_start = img_y_top - SIZE_SMALL * 2 - 15
     else:
         c.setFont(FONT_REG, SIZE_SMALL)
         c.drawString(MARGIN, img_y_top - SIZE_SMALL, "No GDINO detection image found")
-        # Still show source path
-        source_path = f"Source: {Path(GDINO_FINAL).absolute()}/{item_id}/{stem}.json"
+        # Still show source paths
+        source_path = f"Data from: {Path(GDINO_FINAL_ORIGINAL).absolute()}/{item_id}/{stem}.json + {Path(GDINO_FINAL).absolute()}/{item_id}/{stem}.json"
         c.drawString(MARGIN, img_y_top - SIZE_SMALL * 2 - 3, source_path)
         json_y_start = img_y_top - SIZE_SMALL * 2 - 15
 
     # JSON Data section - Dynamic column layout with pagination
     c.setFont(FONT_BOLD, SIZE_SUB)
-    c.drawString(MARGIN, json_y_start, "Complete JSON Data (Top 15 GDINO Tokens):")
+    c.drawString(MARGIN, json_y_start, "Merged JSON Data (gdino_readable + enhanced_classification + Top 15 tokens):")
     json_y_start -= (SIZE_SUB * 1.3)
     
     # Format JSON and determine optimal column layout
-    gdino_text = format_gdino_data(gdino_json)
+    gdino_text = format_gdino_data(merged_json)
     num_columns = calculate_optimal_columns(gdino_text)
     
     # Calculate available height for JSON content on first page
@@ -412,20 +437,35 @@ def main():
     processed_count = 0
 
     for item_id in ids:
-        # Collect GDINO JSON files
-        gdino_jsons = collect_json(Path(GDINO_FINAL) / item_id)
-        if not gdino_jsons:
-            print(f"[skip] {item_id}: no GDINO JSON files found in {GDINO_FINAL}/{item_id}")
+        # Collect original GDINO JSON files (for gdino_readable and gdino_tokens)
+        original_gdino_jsons = collect_json(Path(GDINO_FINAL_ORIGINAL) / item_id)
+        
+        # Collect enhanced GDINO JSON files (for enhanced_classification)
+        enhanced_gdino_jsons = collect_json(Path(GDINO_FINAL) / item_id)
+        
+        if not original_gdino_jsons and not enhanced_gdino_jsons:
+            print(f"[skip] {item_id}: no GDINO JSON files found in either {GDINO_FINAL_ORIGINAL}/{item_id} or {GDINO_FINAL}/{item_id}")
             continue
 
         # Collect GDINO output images (with detection boxes)
         gdino_output_imgs = collect_images(Path(GDINO_OUTPUT_IMAGES) / item_id)
 
         pages_data = []
-        for stem, gj_path in gdino_jsons.items():
-            gj = load_json(gj_path)
+        # Process files that exist in either directory
+        all_stems = set(original_gdino_jsons.keys()) | set(enhanced_gdino_jsons.keys())
+        
+        for stem in all_stems:
+            # Load original data (gdino_readable, gdino_tokens)
+            original_json = load_json(original_gdino_jsons.get(stem)) if stem in original_gdino_jsons else {}
+            
+            # Load enhanced data (enhanced_classification)
+            enhanced_json = load_json(enhanced_gdino_jsons.get(stem)) if stem in enhanced_gdino_jsons else {}
+            
+            # Merge the data keeping only the required fields
+            merged_json = merge_gdino_data(original_json, enhanced_json)
+            
             gdino_img = gdino_output_imgs.get(stem)
-            pages_data.append((stem, gj, gdino_img))
+            pages_data.append((stem, merged_json, gdino_img))
 
         if not pages_data:
             print(f"[skip] {item_id}: no valid data found")
@@ -436,8 +476,8 @@ def main():
             pdf_path = compiled_root / f"{item_id}_gdino_report.pdf"
             c = canvas.Canvas(str(pdf_path), pagesize=A4)
             total_item_pages = 0
-            for stem, gj, gdino_img in pages_data:
-                pages_used = render_listing_page(c, item_id, stem, gdino_img, gj)
+            for stem, merged_json, gdino_img in pages_data:
+                pages_used = render_listing_page(c, item_id, stem, gdino_img, merged_json)
                 total_item_pages += pages_used
             c.save()
             print(f"✓ Generated {pdf_path} ({total_item_pages} pages)")
@@ -452,8 +492,8 @@ def main():
         total_pages = 0
         
         for item_id, pages_data in all_pages_data:
-            for stem, gj, gdino_img in pages_data:
-                pages_used = render_listing_page(c, item_id, stem, gdino_img, gj)
+            for stem, merged_json, gdino_img in pages_data:
+                pages_used = render_listing_page(c, item_id, stem, gdino_img, merged_json)
                 total_pages += pages_used
         
         c.save()

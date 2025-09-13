@@ -1,0 +1,25 @@
+{
+    "gdino": {
+        "1": "10"
+    },
+    "gdino_readable": {
+        "1": "Nintendo Game Boy Advance SP Console "
+    },
+    "gdino_tokens": {
+        "1": [
+            "n64",
+            "nintendo",
+            "64",
+            "nintendo 64",
+            "controller",
+            "console",
+            "game",
+            "video",
+            "games",
+            "joystick",
+            "gray",
+            "com",
+            "video games"
+        ]
+    }
+}
