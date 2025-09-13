@@ -1,0 +1,422 @@
+{
+    "gaming_synonyms": {
+      "consoles": {
+        "nintendo_switch": [
+          "nintendo switch",
+          "switch",
+          "nsw",
+          "hac-001",
+          "hac-001(-01)"
+        ],
+        "nintendo_switch_oled": [
+          "nintendo switch oled",
+          "switch oled",
+          "heg-001"
+        ],
+        "nintendo_switch_lite": [
+          "nintendo switch lite",
+          "switch lite",
+          "hdh-001"
+        ],
+        "playstation_5": [
+          "playstation 5",
+          "ps5"
+        ],
+        "playstation_4": [
+          "playstation 4",
+          "ps4"
+        ],
+        "playstation_3": [
+          "playstation 3",
+          "ps3",
+          "ps3 fat"
+        ],
+        "playstation_2": [
+          "playstation 2",
+          "ps2",
+          "scph-10000",
+          "scph-55000"
+        ],
+        "playstation_1": [
+          "playstation 1",
+          "ps1",
+          "psone",
+          "scph-1000",
+          "scph-1200"
+        ],
+        "xbox_series_x": [
+          "xbox series x"
+        ],
+        "xbox_series_s": [
+          "xbox series s"
+        ],
+        "xbox_one": [
+          "xbox one"
+        ],
+        "xbox_360": [
+          "xbox 360",
+          "x360"
+        ],
+        "xbox": [
+          "xbox",
+          "original xbox"
+        ],
+        "nintendo_wii_u": [
+          "nintendo wii u",
+          "wii u",
+          "wup-001(01)",
+          "wup-101(01)"
+        ],
+        "nintendo_wii": [
+          "nintendo wii",
+          "wii",
+          "ndev"
+        ],
+        "nintendo_gamecube": [
+          "nintendo gamecube",
+          "gamecube",
+          "gc",
+          "dol-001",
+          "dol-101",
+          "gamecube region switched"
+        ],
+        "nintendo_64": [
+          "nintendo 64",
+          "n64"
+        ],
+        "super_nintendo": [
+          "super nintendo entertainment system",
+          "super nintendo",
+          "snes",
+          "super famicom",
+          "sfc",
+          "shvc-001"
+        ],
+        "nintendo_nes": [
+          "nintendo entertainment system",
+          "nes",
+          "famicom",
+          "family computer",
+          "hvc-001"
+        ],
+        "nintendo_3ds": [
+          "nintendo 3ds",
+          "3ds",
+          "ctr-001",
+          "new 3ds",
+          "new3ds ll",
+          "3ds ll"
+        ],
+        "nintendo_2ds": [
+          "nintendo 2ds",
+          "2ds",
+          "new 2ds xl"
+        ],
+        "nintendo_ds": [
+          "nintendo ds",
+          "ds",
+          "ntr-001",
+          "ds original"
+        ],
+        "nintendo_ds_lite": [
+          "nintendo ds lite",
+          "ds lite",
+          "usg-001"
+        ],
+        "nintendo_dsi": [
+          "nintendo dsi",
+          "dsi",
+          "twl-001",
+          "dsi ll"
+        ],
+        "game_boy_advance": [
+          "game boy advance",
+          "gba",
+          "agb-001"
+        ],
+        "game_boy_advance_sp": [
+          "game boy advance sp",
+          "gba sp",
+          "ags-001",
+          "ags-101"
+        ],
+        "game_boy_color": [
+          "game boy color",
+          "gbc",
+          "cgb-001"
+        ],
+        "game_boy": [
+          "game boy",
+          "gb",
+          "dmg-01",
+          "game boy pocket"
+        ],
+        "playstation_portable": [
+          "playstation portable",
+          "psp"
+        ],
+        "playstation_vita": [
+          "playstation vita",
+          "psvita",
+          "vita"
+        ],
+        "sega_dreamcast": [
+          "sega dreamcast",
+          "dreamcast",
+          "drm"
+        ],
+        "sega_saturn": [
+          "sega saturn",
+          "saturn",
+          "hitachi hisaturn"
+        ]
+      },
+      "controllers": {
+        "dualsense": [
+          "dualsense",
+          "ps5 controller"
+        ],
+        "dualshock_4": [
+          "dualshock 4",
+          "ds4",
+          "ps4 controller"
+        ],
+        "dualshock_3": [
+          "dualshock 3",
+          "ds3",
+          "ps3 controller",
+          "ps3 con"
+        ],
+        "dualshock_2": [
+          "dualshock 2",
+          "ps2 controller",
+          "ps2 dual shock con"
+        ],
+        "dualshock": [
+          "dualshock",
+          "ps1 controller",
+          "ps1 dual shock con",
+          "scph-1200"
+        ],
+        "joycon": [
+          "joycon",
+          "joy-con",
+          "switch controller",
+          "switch joy con"
+        ],
+        "switch_pro_controller": [
+          "switch pro controller"
+        ],
+        "wii_remote": [
+          "wii remote",
+          "wiimote",
+          "wii con"
+        ],
+        "wii_nunchuk": [
+          "wii nunchuk",
+          "nunchuk"
+        ],
+        "gamecube_controller": [
+          "gamecube controller",
+          "gc controller",
+          "gc con",
+          "wavebird"
+        ],
+        "n64_controller": [
+          "n64 controller",
+          "n64 con"
+        ],
+        "snes_controller": [
+          "snes controller",
+          "sfc con"
+        ],
+        "nes_controller": [
+          "nes controller",
+          "fc con"
+        ],
+        "xbox_360_controller": [
+          "xbox 360 controller",
+          "xbox 360 con"
+        ],
+        "xbox_controller": [
+          "xbox controller",
+          "xbox orig con"
+        ]
+      },
+      "accessories": {
+        "memory_card": [
+          "memory card",
+          "mem card",
+          "memory stick",
+          "vmu",
+          "gc mem 59",
+          "gc mem 251",
+          "ps2 mem card",
+          "n64 con pak"
+        ],
+        "power_adapter": [
+          "ac adapter",
+          "power cord",
+          "power supply",
+          "charger",
+          "sfc ac adapter",
+          "gc power cord",
+          "ds lite charger"
+        ],
+        "video_cable": [
+          "av cable",
+          "hdmi cable",
+          "gc av cable"
+        ],
+        "headset": [
+          "headset",
+          "mic",
+          "gc mic",
+          "n64 mic"
+        ]
+      },
+      "multilingual": {
+        "white": [
+          "white",
+          "ホワイト",
+          "화이트",
+          "branco",
+          "blanco",
+          "weiß"
+        ],
+        "black": [
+          "black",
+          "ブラック",
+          "블랙",
+          "preto",
+          "negro",
+          "schwarz"
+        ],
+        "blue": [
+          "blue",
+          "ブルー"
+        ],
+        "red": [
+          "red",
+          "レッド"
+        ],
+        "pink": [
+          "pink",
+          "ピンク"
+        ],
+        "silver": [
+          "silver",
+          "シルバー"
+        ],
+        "console": [
+          "console",
+          "本体",
+          "콘솔",
+          "consola"
+        ],
+        "controller": [
+          "controller",
+          "コントローラー",
+          "controle",
+          "mando",
+          "con"
+        ],
+        "nintendo": [
+          "nintendo",
+          "任天堂",
+          "닌텐도"
+        ],
+        "playstation": [
+          "playstation",
+          "プレイステーション"
+        ],
+        "tested_working": [
+          "tested working",
+          "動作確認済み"
+        ],
+        "new": [
+          "new",
+          "新品"
+        ],
+        "used": [
+          "used",
+          "中古"
+        ],
+        "mint_condition": [
+          "mint condition",
+          "美品"
+        ],
+        "game": [
+          "game",
+          "ゲーム",
+          "juego"
+        ]
+      },
+      "conditions": {
+        "new": [
+          "new",
+          "brand new",
+          "sealed",
+          "unopened",
+          "mint",
+          "cib"
+        ],
+        "used": [
+          "used",
+          "pre-owned",
+          "second hand",
+          "tested",
+          "working",
+          "loose",
+          "unboxed"
+        ],
+        "for_parts": [
+          "for parts",
+          "repair",
+          "junk",
+          "untested",
+          "broken",
+          "as-is",
+          "loose stick"
+        ]
+      },
+      "brands": {
+        "nintendo": [
+          "nintendo",
+          "任天堂",
+          "닌텐도"
+        ],
+        "sony": [
+          "sony",
+          "playstation"
+        ],
+        "microsoft": [
+          "microsoft",
+          "xbox"
+        ],
+        "sega": [
+          "sega"
+        ],
+        "hori": [
+          "hori"
+        ],
+        "ascii": [
+          "ascii"
+        ]
+      }
+    },
+    "token_mappings": {
+      "con": "controller",
+      "gc": "gamecube",
+      "gba": "game boy advance",
+      "gbc": "game boy color",
+      "mem": "memory",
+      "mic": "microphone",
+      "n64": "nintendo 64",
+      "nes": "nintendo entertainment system",
+      "ps": "playstation",
+      "sfc": "super famicom",
+      "snes": "super nintendo entertainment system",
+      "drm": "dreamcast"
+    }
+  }

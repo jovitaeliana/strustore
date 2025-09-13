@@ -1,0 +1,81 @@
+{
+  "1": {
+    "url": "https://storage.googleapis.com/strustore-dev.firebasestorage.app/gdino/1/x1191726070/mask_1.png",
+    "bbox": [
+      14,
+      84,
+      344,
+      390
+    ],
+    "results": [
+      {
+        "title": "Nintendo DS Lite White game Console japan japanese model japan | eBay",
+        "link": "https://www.ebay.ie/itm/124790845080",
+        "source": "www.ebay.ie",
+        "original_thumbnail": "https://i.ebayimg.com/images/g/4EAAAOSw7fhg2mQ8/s-l400.jpg",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROH5DQQoOTA53dO_fVTwEGbcaVm3XLgO-E-czo7GzX5U0v4jkW",
+        "position": 1
+      },
+      {
+        "title": "Nintendo DS i DSi NDS White console syste + momotetsu set Tested Work | eBay",
+        "link": "https://www.ebay.com/itm/126883455428",
+        "source": "www.ebay.com",
+        "original_thumbnail": "https://i.ebayimg.com/images/g/JroAAOSww4ZkeCTV/s-l400.jpg",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZssTmOKTonSMqDLtqaP0OTqeiHRUT0F4TrqijbS6mw2j1IVHk",
+        "tag": "$43",
+        "in_stock": "In stock",
+        "position": 2
+      },
+      {
+        "title": "Nintendo DS Lite Handheld System - Polar White 45496717544 | eBay UK",
+        "link": "https://www.ebay.co.uk/itm/226041203967",
+        "source": "www.ebay.co.uk",
+        "original_thumbnail": "https://i.ebayimg.com/images/g/YBsAAOSwJaVl73Lv/s-l1200.jpg",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTyFY1tk8BjCsgQuEe6r9uBqsBZJEaLoj-MvC4PO7yQK7xkDcAS",
+        "position": 3
+      },
+      {
+        "title": "Nintendo DSi console TWL-001 (JPN) + 2 free Games JAPAN Version | eBay",
+        "link": "https://www.ebay.com.my/itm/175658886123",
+        "source": "www.ebay.com.my",
+        "original_thumbnail": "https://i.ebayimg.com/images/g/pqsAAOSwGJ1kF0jw/s-l400.jpg",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVeEDI36uBGwsfwnrOfmfVR69ObT9DhwuxoOl7hSBZLmmcEcKu",
+        "position": 4
+      },
+      {
+        "title": "Nintendo DS Lite white Console Only Japanese Ver. #AoY 1030/8 | eBay",
+        "link": "https://www.ebay.com/itm/395875501823",
+        "source": "www.ebay.com",
+        "original_thumbnail": "https://i.ebayimg.com/images/g/nCkAAOSwGrFnLurf/s-l400.png",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnbky0g2gJxoxsbm94tRtZ2gBtxGCPVr10_2SXAltpFHgAhSNZ",
+        "position": 5
+      }
+    ],
+    "tokens": [
+      "nintendo",
+      "ds",
+      "white",
+      "console",
+      "nintendo ds",
+      "lite"
+    ]
+  },
+  "enhanced_classification": {
+    "status": "Match Found",
+    "item_id": "hVKSTky2gYJAeDddNOQV",
+    "item_name": "DS Lite",
+    "category": "Video Game Consoles",
+    "model": "Nintendo DS Lite",
+    "match_score": 0.8999999999999999,
+    "confidence": 0.8999999999999999,
+    "method": "strict_token_matching",
+    "validation_details": {
+      "present_words": [
+        "ds",
+        "lite"
+      ],
+      "key_words_coverage": 1.0,
+      "reason": "All key words present with high relevance"
+    }
+  }
+}
