@@ -1,127 +1,93 @@
 {
-    "gdino": {
-        "1": "17",
-        "2": "20"
-    },
-    "gdino_readable": {
-        "1": "Gamecube Controller",
-        "2": "Nintendo Switch Pro Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "gamecube_controller",
-            "reference_name": "GC [DOL-101]",
-            "itemtypes_name": "GameCube Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo GameCube",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.87469881772995,
-            "vector_reference_id": "NmqlKnIQH4m6NTtCEMAI",
-            "vector_reference_similarity": 0.8602795600891113
-        },
-        "2": {
-            "id": "gamecube_controller",
-            "reference_name": "GC [DOL-101]",
-            "itemtypes_name": "GameCube Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo GameCube",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8935878276824951,
-            "vector_reference_id": "NmqlKnIQH4m6NTtCEMAI",
-            "vector_reference_similarity": 0.8623690009117126
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "GameCube Controller (GC [DOL-101])",
-        "2": "GameCube Controller (GC [DOL-101])"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8747,
-        "2": 0.8936
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "gamecube",
-            "controller",
-            "white",
-            "nintendo",
-            "nintendo gamecube",
-            "gamecube controller",
-            "controller white",
-            "gc",
-            "wii",
-            "dol",
-            "003",
-            "boxed",
-            "dol 003",
-            "wired",
-            "game",
-            "oem",
-            "japan",
-            "com",
-            "games",
-            "white gamecube",
-            "system",
-            "tested",
-            "video",
-            "video games",
-            "wired game",
-            "game controller",
-            "nintendo white",
-            "emio",
-            "wired controller",
-            "set",
-            "t3",
-            "boxed white",
-            "2",
-            "genuine",
-            "working",
-            "003 tested",
-            "tested working",
-            "compatible",
-            "white video"
+  "gdino": {
+    "1": "2",
+    "2": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo GameCube Controller Official Genuine Colo",
+    "2": "Official Nintendo White Classic Gamecube Controlle"
+  },
+  "enhanced_classification": {
+    "1": {
+      "item_id": "NmqlKnIQH4m6NTtCEMAI",
+      "item_name": "GC [DOL-101]",
+      "category": "Video Game Consoles",
+      "model": "DOL-101",
+      "validation_details": {
+        "present_words": [
+          "gc [dol-101]"
         ],
-        "2": [
-            "nintendo",
-            "gamecube",
-            "controller",
-            "white",
-            "gamecube controller",
-            "dol",
-            "003",
-            "controller white",
-            "dol 003",
-            "nintendo gamecube"
-        ]
+        "key_words_coverage": 0.8578219413757324,
+        "reason": "Vector database match with 0.858 similarity"
+      }
+    },
+    "2": {
+      "item_id": "NmqlKnIQH4m6NTtCEMAI",
+      "item_name": "GC [DOL-101]",
+      "category": "Video Game Consoles",
+      "model": "DOL-101",
+      "validation_details": {
+        "present_words": [
+          "gc [dol-101]"
+        ],
+        "key_words_coverage": 0.8618556261062622,
+        "reason": "Vector database match with 0.862 similarity"
+      }
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "gamecube",
+      "controller",
+      "white",
+      "nintendo",
+      "nintendo gamecube",
+      "gamecube controller",
+      "controller white",
+      "gc",
+      "wii",
+      "dol",
+      "003",
+      "boxed",
+      "dol 003",
+      "wired",
+      "game",
+      "oem",
+      "japan",
+      "com",
+      "games",
+      "white gamecube",
+      "system",
+      "tested",
+      "video",
+      "video games",
+      "wired game",
+      "game controller",
+      "nintendo white",
+      "emio",
+      "wired controller",
+      "set",
+      "t3",
+      "boxed white",
+      "2",
+      "genuine",
+      "working",
+      "003 tested",
+      "tested working",
+      "compatible",
+      "white video"
+    ],
+    "2": [
+      "nintendo",
+      "gamecube",
+      "controller",
+      "white",
+      "gamecube controller",
+      "dol",
+      "003",
+      "controller white",
+      "dol 003",
+      "nintendo gamecube"
+    ]
+  }
 }

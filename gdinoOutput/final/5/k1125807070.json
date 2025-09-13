@@ -1,113 +1,82 @@
 {
-    "gdino": {
-        "1": "18"
-    },
-    "gdino_readable": {
-        "1": "XBOX Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "playstation_1_analog_controller",
-            "reference_name": "DRM ASCII Stick FT",
-            "itemtypes_name": "PlayStation 1 Analog Controller",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 1 Analog Controller | PS1 Analog Controller | PlayStation Analog Joystick | SCPH-1150 | SCPH-1180 | brand: Sony | console: PlayStation | model: SCPH-1150 | model: SCPH-1180 | model: SCPH-1200 | ps1 | playstation | analog | controller | sony | scph-1150 | scph-1180 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.834612250328064,
-            "vector_reference_id": "2PnU9mELDvB44P40zpmZ",
-            "vector_reference_similarity": 0.8387872576713562
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "PlayStation 1 Analog Controller (DRM ASCII Stick FT)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8346
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "metal",
-            "thumbsticks",
-            "ps5",
-            "analog",
-            "xbox",
-            "joystick",
-            "ps4",
-            "metal thumbsticks",
-            "aluminum",
-            "extremerate",
-            "thumb",
-            "replacement",
-            "silver",
-            "one",
-            "xbox one",
-            "com",
-            "custom",
-            "stick",
-            "controller",
-            "analog joystick",
-            "de",
-            "extremerate custom",
-            "thumbsticks ps5",
-            "thumb stick",
-            "silver metal",
-            "thumbstick",
-            "2",
-            "metal analog",
-            "set",
-            "alloy",
-            "aluminum alloy",
-            "x",
-            "sticks",
-            "thumbsticks analog",
-            "3d",
-            "ps5 controller",
-            "para",
-            "4",
-            "buttons",
-            "playstation",
-            "2pcs",
-            "rocker",
-            "rocker metal",
-            "caps",
-            "metal aluminum",
-            "cap",
-            "joystick cap",
-            "new",
-            "для",
-            "series",
-            "aluminio",
-            "black",
-            "replacement thumbsticks",
-            "button",
-            "grips",
-            "kit",
-            "set thumbsticks"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "PlayStation Console"
+  },
+  "enhanced_classification": {
+    "item_id": "2PnU9mELDvB44P40zpmZ",
+    "item_name": "DRM ASCII Stick FT",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "drm ascii stick ft"
+      ],
+      "key_words_coverage": 0.8387872576713562,
+      "reason": "Vector database match with 0.839 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "metal",
+      "thumbsticks",
+      "ps5",
+      "analog",
+      "xbox",
+      "joystick",
+      "ps4",
+      "metal thumbsticks",
+      "aluminum",
+      "extremerate",
+      "thumb",
+      "replacement",
+      "silver",
+      "one",
+      "xbox one",
+      "com",
+      "custom",
+      "stick",
+      "controller",
+      "analog joystick",
+      "de",
+      "extremerate custom",
+      "thumbsticks ps5",
+      "thumb stick",
+      "silver metal",
+      "thumbstick",
+      "2",
+      "metal analog",
+      "set",
+      "alloy",
+      "aluminum alloy",
+      "x",
+      "sticks",
+      "thumbsticks analog",
+      "3d",
+      "ps5 controller",
+      "para",
+      "4",
+      "buttons",
+      "playstation",
+      "2pcs",
+      "rocker",
+      "rocker metal",
+      "caps",
+      "metal aluminum",
+      "cap",
+      "joystick cap",
+      "new",
+      "для",
+      "series",
+      "aluminio",
+      "black",
+      "replacement thumbsticks",
+      "button",
+      "grips",
+      "kit",
+      "set thumbsticks"
+    ]
+  }
 }

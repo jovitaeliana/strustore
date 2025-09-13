@@ -1,68 +1,37 @@
 {
-    "gdino": {
-        "1": "17"
-    },
-    "gdino_readable": {
-        "1": "Gamecube Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "gamecube_controller",
-            "reference_name": "Hori GC Con",
-            "itemtypes_name": "GameCube Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo GameCube",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8509745597839355,
-            "vector_reference_id": "6zEknYROM4kKDePlBrCF",
-            "vector_reference_similarity": 0.8575855493545532
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "GameCube Controller (Hori GC Con)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.851
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "gamecube",
-            "controller",
-            "nintendo",
-            "white",
-            "nintendo gamecube",
-            "gamecube controller",
-            "controller white",
-            "japan",
-            "gc",
-            "pad",
-            "wii",
-            "used"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo Official GameCube Controller Pad White Sp"
+  },
+  "enhanced_classification": {
+    "item_id": "6zEknYROM4kKDePlBrCF",
+    "item_name": "Hori GC Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "hori gc con"
+      ],
+      "key_words_coverage": 0.8575855493545532,
+      "reason": "Vector database match with 0.858 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "gamecube",
+      "controller",
+      "nintendo",
+      "white",
+      "nintendo gamecube",
+      "gamecube controller",
+      "controller white",
+      "japan",
+      "gc",
+      "pad",
+      "wii",
+      "used"
+    ]
+  }
 }

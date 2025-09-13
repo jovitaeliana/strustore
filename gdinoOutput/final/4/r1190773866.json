@@ -1,115 +1,84 @@
 {
-    "gdino": {
-        "1": "14"
-    },
-    "gdino_readable": {
-        "1": "Nintendo Switch Lite Console"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_switch_dock",
-            "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch Dock",
-            "category": "Other Video Game Accessories",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Dock | Switch Dock | Nintendo Switch Dock Station | Docking Station | brand: Nintendo | nintendo | switch | dock | station | tv | hdmi | category: Other Video Game Accessories",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8813130855560303,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
-            "vector_reference_similarity": 0.8352379202842712
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo Switch Dock (Switch)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8813
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "nintendo",
-            "switch",
-            "nintendo switch",
-            "dock",
-            "console",
-            "station",
-            "tv",
-            "switch console",
-            "hac",
-            "tv dock",
-            "dock station",
-            "charging",
-            "screen",
-            "screen tv",
-            "console screen",
-            "007",
-            "hac 007",
-            "switch dock",
-            "genuine",
-            "genuine nintendo",
-            "charging dock",
-            "video",
-            "001",
-            "32gb",
-            "game",
-            "hac 001",
-            "super",
-            "mario",
-            "joy",
-            "oem",
-            "black",
-            "original",
-            "base",
-            "charging base",
-            "station hac",
-            "con",
-            "joy con",
-            "used",
-            "set",
-            "system",
-            "condition",
-            "w",
-            "stars",
-            "blue",
-            "neon",
-            "game console",
-            "working",
-            "station charging",
-            "base station",
-            "console tv",
-            "tested",
-            "case",
-            "cables",
-            "oem genuine",
-            "com",
-            "games",
-            "video games",
-            "video game",
-            "adapter"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo Switch Console"
+  },
+  "enhanced_classification": {
+    "item_id": "oL2l1OjnB3BNLENQkoRb",
+    "item_name": "Switch",
+    "category": "Video Game Consoles",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "switch"
+      ],
+      "key_words_coverage": 0.8331852555274963,
+      "reason": "Vector database match with 0.833 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "nintendo",
+      "switch",
+      "nintendo switch",
+      "dock",
+      "console",
+      "station",
+      "tv",
+      "switch console",
+      "hac",
+      "tv dock",
+      "dock station",
+      "charging",
+      "screen",
+      "screen tv",
+      "console screen",
+      "007",
+      "hac 007",
+      "switch dock",
+      "genuine",
+      "genuine nintendo",
+      "charging dock",
+      "video",
+      "001",
+      "32gb",
+      "game",
+      "hac 001",
+      "super",
+      "mario",
+      "joy",
+      "oem",
+      "black",
+      "original",
+      "base",
+      "charging base",
+      "station hac",
+      "con",
+      "joy con",
+      "used",
+      "set",
+      "system",
+      "condition",
+      "w",
+      "stars",
+      "blue",
+      "neon",
+      "game console",
+      "working",
+      "station charging",
+      "base station",
+      "console tv",
+      "tested",
+      "case",
+      "cables",
+      "oem genuine",
+      "com",
+      "games",
+      "video games",
+      "video game",
+      "adapter"
+    ]
+  }
 }

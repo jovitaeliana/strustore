@@ -1,138 +1,104 @@
 {
-    "gdino": {
-        "1": "20",
-        "2": ""
-    },
-    "gdino_readable": {
-        "1": "Nintendo Switch Pro Controller",
-        "2": "No Match"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_64_controller",
-            "reference_name": "N64 Turbo Con (ACII)",
-            "itemtypes_name": "Nintendo 64 Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo 64",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo 64 Controller | N64 Controller | Nintendo 64 Controller | NUS-005 | brand: Nintendo | console: Nintendo 64 | model: NUS-005 | n64 | nintendo | 64 | controller | nus-005 | three | pronged | joystick | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8474995493888855,
-            "vector_reference_id": "qkdRnxKlU4c7mGy7EVvS",
-            "vector_reference_similarity": 0.8535684943199158
-        },
-        "2": {
-            "id": "playstation_3_dualshock_3",
-            "reference_name": "Gameboy Advance",
-            "itemtypes_name": "PlayStation 3 DualShock 3",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation 3",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7783867120742798,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
-            "vector_reference_similarity": 0.81886225938797
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo 64 Controller (N64 Turbo Con (ACII))",
-        "2": "PlayStation 3 DualShock 3 (Gameboy Advance)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8475,
-        "2": 0.7784
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "nintendo",
-            "64",
-            "controller",
-            "n64",
-            "nintendo 64",
-            "black",
-            "japan",
-            "64 n64",
-            "64 controller",
-            "video",
-            "mariokart",
-            "com"
+  "gdino": {
+    "1": "2",
+    "2": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo 64 N64 JP Japan MARIOKART 64 controller m",
+    "2": "Page 67"
+  },
+  "enhanced_classification": {
+    "1": {
+      "item_id": "qkdRnxKlU4c7mGy7EVvS",
+      "item_name": "N64 Turbo Con (ACII)",
+      "category": "Controllers & Attachments",
+      "model": "",
+      "validation_details": {
+        "present_words": [
+          "n64 turbo con (acii)"
         ],
-        "2": [
-            "stock",
-            "background",
-            "shutterstock",
-            "abstract",
-            "illustration",
-            "stock illustration",
-            "video",
-            "download",
-            "image",
-            "abstract background",
-            "royalty",
-            "images",
-            "premium",
-            "ai",
-            "photo",
-            "speed",
-            "generated",
-            "premium ai",
-            "ai generated",
-            "generated image",
-            "white",
-            "gray",
-            "footage",
-            "lines",
-            "pngs",
-            "pngs download",
-            "texture",
-            "photos",
-            "stock photo",
-            "silver",
-            "light",
-            "motion",
-            "abstract stock",
-            "shiny",
-            "surface",
-            "stock video",
-            "stock photos",
-            "high",
-            "hd",
-            "tones",
-            "gray tones",
-            "blue",
-            "page",
-            "gradient",
-            "streaks",
-            "speed motion",
-            "videos",
-            "4k"
-        ]
+        "key_words_coverage": 0.8524774312973022,
+        "reason": "Vector database match with 0.852 similarity"
+      }
+    },
+    "2": {
+      "item_id": "IpSmFvIFCTx0NaFFB2JW",
+      "item_name": "DRM Shell",
+      "category": null,
+      "model": "",
+      "validation_details": {
+        "present_words": [
+          "drm shell"
+        ],
+        "key_words_coverage": 0.8182008266448975,
+        "reason": "Vector database match with 0.818 similarity"
+      }
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "nintendo",
+      "64",
+      "controller",
+      "n64",
+      "nintendo 64",
+      "black",
+      "japan",
+      "64 n64",
+      "64 controller",
+      "video",
+      "mariokart",
+      "com"
+    ],
+    "2": [
+      "stock",
+      "background",
+      "shutterstock",
+      "abstract",
+      "illustration",
+      "stock illustration",
+      "video",
+      "download",
+      "image",
+      "abstract background",
+      "royalty",
+      "images",
+      "premium",
+      "ai",
+      "photo",
+      "speed",
+      "generated",
+      "premium ai",
+      "ai generated",
+      "generated image",
+      "white",
+      "gray",
+      "footage",
+      "lines",
+      "pngs",
+      "pngs download",
+      "texture",
+      "photos",
+      "stock photo",
+      "silver",
+      "light",
+      "motion",
+      "abstract stock",
+      "shiny",
+      "surface",
+      "stock video",
+      "stock photos",
+      "high",
+      "hd",
+      "tones",
+      "gray tones",
+      "blue",
+      "page",
+      "gradient",
+      "streaks",
+      "speed motion",
+      "videos",
+      "4k"
+    ]
+  }
 }

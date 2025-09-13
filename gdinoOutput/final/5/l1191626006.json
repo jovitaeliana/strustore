@@ -1,103 +1,69 @@
 {
-    "gdino": {
-        "1": "",
-        "2": "19"
-    },
-    "gdino_readable": {
-        "1": "No Match",
-        "2": "Playstation Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "playstation_3_dualshock_3",
-            "reference_name": "PS3 Fat",
-            "itemtypes_name": "PlayStation 3 DualShock 3",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation 3",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8489173054695129,
-            "vector_reference_id": "Sb63aOKKGWawJOyhoDm0",
-            "vector_reference_similarity": 0.8197835087776184
-        },
-        "2": {
-            "id": "playstation_3_dualshock_3",
-            "reference_name": "PS1 Dual Shock Con SCPH-1200",
-            "itemtypes_name": "PlayStation 3 DualShock 3",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation 3",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8973920345306396,
-            "vector_reference_id": "8ES4hm3YJs9hiZ7Xy77y",
-            "vector_reference_similarity": 0.8423736095428467
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "PlayStation 3 DualShock 3 (PS3 Fat)",
-        "2": "PlayStation 3 DualShock 3 (PS1 Dual Shock Con SCPH-1200)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8489,
-        "2": 0.8974
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "3",
-            "sony",
-            "playstation",
-            "playstation 3",
-            "dualshock",
-            "blue",
-            "sony playstation",
-            "dualshock 3",
-            "ps3",
-            "video",
-            "gaming"
+  "gdino": {
+    "1": "2",
+    "2": "2"
+  },
+  "gdino_readable": {
+    "1": "PlayStation Console",
+    "2": "PlayStation Console"
+  },
+  "enhanced_classification": {
+    "1": {
+      "item_id": "Sb63aOKKGWawJOyhoDm0",
+      "item_name": "PS3 Fat",
+      "category": "Video Game Consoles",
+      "model": "Sony PlayStation 3",
+      "validation_details": {
+        "present_words": [
+          "ps3 fat"
         ],
-        "2": [
-            "controller",
-            "ps3",
-            "3",
-            "blue",
-            "sony",
-            "wireless",
-            "playstation",
-            "playstation 3",
-            "dualshock",
-            "dualshock 3",
-            "ps3 controller",
-            "metallic",
-            "sony playstation",
-            "wireless controller"
-        ]
+        "key_words_coverage": 0.8186169862747192,
+        "reason": "Vector database match with 0.819 similarity"
+      }
+    },
+    "2": {
+      "item_id": "8ES4hm3YJs9hiZ7Xy77y",
+      "item_name": "PS1 Dual Shock Con SCPH-1200",
+      "category": "Controllers & Attachments",
+      "model": "SCPH-1200",
+      "validation_details": {
+        "present_words": [
+          "ps1 dual shock con scph-1200"
+        ],
+        "key_words_coverage": 0.8417755961418152,
+        "reason": "Vector database match with 0.842 similarity"
+      }
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "3",
+      "sony",
+      "playstation",
+      "playstation 3",
+      "dualshock",
+      "blue",
+      "sony playstation",
+      "dualshock 3",
+      "ps3",
+      "video",
+      "gaming"
+    ],
+    "2": [
+      "controller",
+      "ps3",
+      "3",
+      "blue",
+      "sony",
+      "wireless",
+      "playstation",
+      "playstation 3",
+      "dualshock",
+      "dualshock 3",
+      "ps3 controller",
+      "metallic",
+      "sony playstation",
+      "wireless controller"
+    ]
+  }
 }

@@ -1,116 +1,85 @@
 {
-    "gdino": {
-        "1": "2"
-    },
-    "gdino_readable": {
-        "1": "Nintendo DS Lite Console"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_dsi",
-            "reference_name": "DSi",
-            "itemtypes_name": "Nintendo DSi",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo DSi | DSi | Nintendo DSi | TWL-001 | brand: Nintendo | model: TWL-001 | nintendo | dsi | twl-001 | handheld | camera | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8573525547981262,
-            "vector_reference_id": "GgWTR9QoWKoUkJ3kr5ga",
-            "vector_reference_similarity": 0.8524221777915955
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo DSi (DSi)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8574
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "nintendo",
-            "dsi",
-            "nintendo dsi",
-            "xl",
-            "dsi xl",
-            "ds",
-            "nintendo ds",
-            "console",
-            "de",
-            "consoles",
-            "dark",
-            "game",
-            "brown",
-            "dark brown",
-            "mercadolivre",
-            "com",
-            "olx",
-            "任天堂",
-            "box",
-            "ニンテンドーdsi",
-            "ダークブラウン",
-            "em",
-            "stylus",
-            "lite",
-            "caneta",
-            "shopee",
-            "brain",
-            "vídeo",
-            "consoles de",
-            "de vídeo",
-            "vídeo game",
-            "ニンテンドー",
-            "e",
-            "novo",
-            "メルカリ",
-            "jogos",
-            "ds xl",
-            "ds lite",
-            "console nintendo",
-            "age",
-            "brain age",
-            "本体",
-            "xl dark",
-            "brown console",
-            "dsi dark",
-            "usado",
-            "aliexpress",
-            "caixa",
-            "japan",
-            "manual",
-            "en",
-            "para",
-            "yahoo",
-            "美品",
-            "美品 nintendo",
-            "箱付き",
-            "น",
-            "ndsi",
-            "express",
-            "cor"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo DS Lite Console"
+  },
+  "enhanced_classification": {
+    "item_id": "OVfawgZCe29SxG7CLr5R",
+    "item_name": "DSi LL",
+    "category": "Video Game Consoles",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "dsi ll"
+      ],
+      "key_words_coverage": 0.853283703327179,
+      "reason": "Vector database match with 0.853 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "nintendo",
+      "dsi",
+      "nintendo dsi",
+      "xl",
+      "dsi xl",
+      "ds",
+      "nintendo ds",
+      "console",
+      "de",
+      "consoles",
+      "dark",
+      "game",
+      "brown",
+      "dark brown",
+      "mercadolivre",
+      "com",
+      "olx",
+      "任天堂",
+      "box",
+      "ニンテンドーdsi",
+      "ダークブラウン",
+      "em",
+      "stylus",
+      "lite",
+      "caneta",
+      "shopee",
+      "brain",
+      "vídeo",
+      "consoles de",
+      "de vídeo",
+      "vídeo game",
+      "ニンテンドー",
+      "e",
+      "novo",
+      "メルカリ",
+      "jogos",
+      "ds xl",
+      "ds lite",
+      "console nintendo",
+      "age",
+      "brain age",
+      "本体",
+      "xl dark",
+      "brown console",
+      "dsi dark",
+      "usado",
+      "aliexpress",
+      "caixa",
+      "japan",
+      "manual",
+      "en",
+      "para",
+      "yahoo",
+      "美品",
+      "美品 nintendo",
+      "箱付き",
+      "น",
+      "ndsi",
+      "express",
+      "cor"
+    ]
+  }
 }

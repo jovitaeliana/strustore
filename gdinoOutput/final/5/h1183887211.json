@@ -1,102 +1,71 @@
 {
-    "gdino": {
-        "1": "19"
-    },
-    "gdino_readable": {
-        "1": "Playstation Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nes_controller",
-            "reference_name": "Pop'n Music Pad",
-            "itemtypes_name": "Nintendo Entertainment System Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Entertainment System",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Entertainment System Controller | NES Controller | Nintendo NES Controller | Famicom Controller | Classic Controller | brand: Nintendo | console: Nintendo Entertainment System | model: NES-004 | nes | nintendo | controller | classic | entertainment | system | famicom | retro | rectangular | gamepad | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8297123908996582,
-            "vector_reference_id": "Ng8nNXvI76XstlkIMh9s",
-            "vector_reference_similarity": 0.8602361679077148
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo Entertainment System Controller (Pop'n Music Pad)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8297
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "pop",
-            "n",
-            "pop n",
-            "controller",
-            "music",
-            "n music",
-            "konami",
-            "playstation",
-            "music controller",
-            "japan",
-            "controllers",
-            "ps1",
-            "1",
-            "ps2",
-            "sony",
-            "dreamcast",
-            "konami pop",
-            "playstation 1",
-            "sony playstation",
-            "sega",
-            "n controller",
-            "video",
-            "game",
-            "ps1 ps2",
-            "video game",
-            "ps",
-            "controller konami",
-            "ru014",
-            "2",
-            "sega dreamcast",
-            "game controllers",
-            "playstation pop",
-            "controller playstation",
-            "tested",
-            "games",
-            "clear",
-            "facebook",
-            "mania",
-            "de",
-            "youtube",
-            "import",
-            "music video",
-            "picclick",
-            "uk",
-            "1 2",
-            "dc"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "PlayStation Console"
+  },
+  "enhanced_classification": {
+    "item_id": "Ng8nNXvI76XstlkIMh9s",
+    "item_name": "Pop'n Music Pad",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "pop'n music pad"
+      ],
+      "key_words_coverage": 0.8602361679077148,
+      "reason": "Vector database match with 0.860 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "pop",
+      "n",
+      "pop n",
+      "controller",
+      "music",
+      "n music",
+      "konami",
+      "playstation",
+      "music controller",
+      "japan",
+      "controllers",
+      "ps1",
+      "1",
+      "ps2",
+      "sony",
+      "dreamcast",
+      "konami pop",
+      "playstation 1",
+      "sony playstation",
+      "sega",
+      "n controller",
+      "video",
+      "game",
+      "ps1 ps2",
+      "video game",
+      "ps",
+      "controller konami",
+      "ru014",
+      "2",
+      "sega dreamcast",
+      "game controllers",
+      "playstation pop",
+      "controller playstation",
+      "tested",
+      "games",
+      "clear",
+      "facebook",
+      "mania",
+      "de",
+      "youtube",
+      "import",
+      "music video",
+      "picclick",
+      "uk",
+      "1 2",
+      "dc"
+    ]
+  }
 }

@@ -1,139 +1,105 @@
 {
-    "gdino": {
-        "1": "",
-        "2": ""
-    },
-    "gdino_readable": {
-        "1": "No Match",
-        "2": "No Match"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "wii_classic_controller",
-            "reference_name": "Shipping Label",
-            "itemtypes_name": "Wii Classic Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Wii",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Wii Classic Controller | Classic Controller | Wii Classic Controller | RVL-005 | brand: Nintendo | console: Nintendo Wii | model: RVL-005 | wii | classic | controller | nintendo | rvl-005 | traditional | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7528920769691467,
-            "vector_reference_id": "Irh72HART2knkr1jxuG7",
-            "vector_reference_similarity": 0.7994852066040039
-        },
-        "2": {
-            "id": "memory_card_ps2",
-            "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": "PlayStation 2 Memory Card",
-            "category": "Memory Cards & Expansion Packs",
-            "model": "PlayStation 2",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 2 Memory Card | PS2 Memory Card | PlayStation 2 Memory Card | SCPH-10020 | brand: Sony | console: PlayStation 2 | model: SCPH-10020 | ps2 | playstation | memory | card | sony | scph-10020 | save | category: Memory Cards & Expansion Packs",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7894744277000427,
-            "vector_reference_id": "PaVQDrGaUjcYp3KPYkmN",
-            "vector_reference_similarity": 0.8144538402557373
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Wii Classic Controller (Shipping Label)",
-        "2": "PlayStation 2 Memory Card (Blue N64 Con (boxed))"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.7529,
-        "2": 0.7895
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "black",
-            "x",
-            "leather",
-            "holder",
-            "bags",
-            "1",
-            "wallet",
-            "com",
-            "8",
-            "velvet",
-            "fabric",
-            "vintage",
-            "case",
-            "2",
-            "3",
-            "11",
-            "blue",
-            "upholstery",
-            "vacuum",
-            "co",
-            "inch",
-            "7",
-            "10",
-            "series",
-            "6",
-            "tile",
-            "50",
-            "stock",
-            "video",
-            "stock video",
-            "new",
-            "original",
-            "box",
-            "card",
-            "card holder"
+  "gdino": {
+    "1": "2",
+    "2": "2"
+  },
+  "gdino_readable": {
+    "1": "MxP 50 CONTROL UNIT",
+    "2": "Amazon.com: ChengyuWei 16 clips para funda de edre"
+  },
+  "enhanced_classification": {
+    "1": {
+      "item_id": "Irh72HART2knkr1jxuG7",
+      "item_name": "Shipping Label",
+      "category": "Labels",
+      "model": "",
+      "validation_details": {
+        "present_words": [
+          "shipping label"
         ],
-        "2": [
-            "box",
-            "storage",
-            "case",
-            "blue",
-            "com",
-            "portable",
-            "organizer",
-            "plastic",
-            "1",
-            "pill",
-            "mask",
-            "lid",
-            "vintage",
-            "de",
-            "storage box",
-            "home",
-            "5",
-            "container",
-            "travel",
-            "silicone",
-            "storage case",
-            "warmer",
-            "baby",
-            "mask storage",
-            "pencil",
-            "snap"
-        ]
+        "key_words_coverage": 0.7994852066040039,
+        "reason": "Vector database match with 0.799 similarity"
+      }
+    },
+    "2": {
+      "item_id": "PaVQDrGaUjcYp3KPYkmN",
+      "item_name": "Blue N64 Con (boxed)",
+      "category": "Controllers & Attachments",
+      "model": "",
+      "validation_details": {
+        "present_words": [
+          "blue n64 con (boxed)"
+        ],
+        "key_words_coverage": 0.8128407001495361,
+        "reason": "Vector database match with 0.813 similarity"
+      }
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "black",
+      "x",
+      "leather",
+      "holder",
+      "bags",
+      "1",
+      "wallet",
+      "com",
+      "8",
+      "velvet",
+      "fabric",
+      "vintage",
+      "case",
+      "2",
+      "3",
+      "11",
+      "blue",
+      "upholstery",
+      "vacuum",
+      "co",
+      "inch",
+      "7",
+      "10",
+      "series",
+      "6",
+      "tile",
+      "50",
+      "stock",
+      "video",
+      "stock video",
+      "new",
+      "original",
+      "box",
+      "card",
+      "card holder"
+    ],
+    "2": [
+      "box",
+      "storage",
+      "case",
+      "blue",
+      "com",
+      "portable",
+      "organizer",
+      "plastic",
+      "1",
+      "pill",
+      "mask",
+      "lid",
+      "vintage",
+      "de",
+      "storage box",
+      "home",
+      "5",
+      "container",
+      "travel",
+      "silicone",
+      "storage case",
+      "warmer",
+      "baby",
+      "mask storage",
+      "pencil",
+      "snap"
+    ]
+  }
 }

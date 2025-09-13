@@ -1,76 +1,45 @@
 {
-    "gdino": {
-        "1": ""
-    },
-    "gdino_readable": {
-        "1": "No Match"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_switch_ac_adapter",
-            "reference_name": "Shipping Label",
-            "itemtypes_name": "Nintendo Switch AC Adapter",
-            "category": "Power Cables & Connectors",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch AC Adapter | Switch AC Adapter | Nintendo Switch Power Adapter | Switch Charger | brand: Nintendo | nintendo | switch | ac | adapter | power | charger | cable | category: Power Cables & Connectors",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7628778219223022,
-            "vector_reference_id": "Irh72HART2knkr1jxuG7",
-            "vector_reference_similarity": 0.7995473146438599
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo Switch AC Adapter (Shipping Label)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.7629
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "best",
-            "id",
-            "battery",
-            "piece",
-            "capacitor",
-            "car",
-            "1",
-            "delhi",
-            "price",
-            "batteries",
-            "justdial",
-            "new",
-            "online",
-            "bike",
-            "corrugated",
-            "box",
-            "pin",
-            "india",
-            "10",
-            "2"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "NICS TV BOY 126 IN GAME Japan Import ATARI 2800 NT"
+  },
+  "enhanced_classification": {
+    "item_id": "Irh72HART2knkr1jxuG7",
+    "item_name": "Shipping Label",
+    "category": "Labels",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "shipping label"
+      ],
+      "key_words_coverage": 0.7995473146438599,
+      "reason": "Vector database match with 0.800 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "best",
+      "id",
+      "battery",
+      "piece",
+      "capacitor",
+      "car",
+      "1",
+      "delhi",
+      "price",
+      "batteries",
+      "justdial",
+      "new",
+      "online",
+      "bike",
+      "corrugated",
+      "box",
+      "pin",
+      "india",
+      "10",
+      "2"
+    ]
+  }
 }

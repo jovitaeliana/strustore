@@ -1,92 +1,61 @@
 {
-    "gdino": {
-        "1": "1"
-    },
-    "gdino_readable": {
-        "1": "Nintendo DS Original Console"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_64_fishing_controller",
-            "reference_name": "Blue N64 Con (boxed)",
-            "itemtypes_name": "Nintendo 64 Fishing Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo 64",
-            "brand": "ASCII",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo 64 Fishing Controller | N64 Fishing Controller | ASCII Fishing Controller | Fishing Reel Controller | brand: ASCII | console: Nintendo 64 | n64 | nintendo | 64 | fishing | controller | ascii | reel | specialty | bass | angler | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8503414988517761,
-            "vector_reference_id": "PaVQDrGaUjcYp3KPYkmN",
-            "vector_reference_similarity": 0.8630936741828918
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo 64 Fishing Controller (Blue N64 Con (boxed))"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8503
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "nintendo",
-            "64",
-            "nintendo 64",
-            "n64",
-            "controller",
-            "blue",
-            "de",
-            "ice",
-            "ice blue",
-            "n64 controller",
-            "para",
-            "mando",
-            "com",
-            "64 controller",
-            "console",
-            "para nintendo",
-            "64 n64",
-            "control",
-            "original",
-            "clear",
-            "com nintendo",
-            "controller ice",
-            "de nintendo",
-            "game",
-            "2",
-            "blue controller",
-            "joystick",
-            "verde",
-            "video",
-            "video game",
-            "game console",
-            "compatible",
-            "mando compatible",
-            "compatible para",
-            "classic",
-            "wired"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Official Nintendo 64 Clear Blue Ice Blue Controlle"
+  },
+  "enhanced_classification": {
+    "item_id": "PaVQDrGaUjcYp3KPYkmN",
+    "item_name": "Blue N64 Con (boxed)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "blue n64 con (boxed)"
+      ],
+      "key_words_coverage": 0.8624978065490723,
+      "reason": "Vector database match with 0.862 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "nintendo",
+      "64",
+      "nintendo 64",
+      "n64",
+      "controller",
+      "blue",
+      "de",
+      "ice",
+      "ice blue",
+      "n64 controller",
+      "para",
+      "mando",
+      "com",
+      "64 controller",
+      "console",
+      "para nintendo",
+      "64 n64",
+      "control",
+      "original",
+      "clear",
+      "com nintendo",
+      "controller ice",
+      "de nintendo",
+      "game",
+      "2",
+      "blue controller",
+      "joystick",
+      "verde",
+      "video",
+      "video game",
+      "game console",
+      "compatible",
+      "mando compatible",
+      "compatible para",
+      "classic",
+      "wired"
+    ]
+  }
 }

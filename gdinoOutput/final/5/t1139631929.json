@@ -1,69 +1,38 @@
 {
-    "gdino": {
-        "1": "17"
-    },
-    "gdino_readable": {
-        "1": "Gamecube Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "gamecube_controller",
-            "reference_name": "GC Region Switched",
-            "itemtypes_name": "GameCube Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo GameCube",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8483099937438965,
-            "vector_reference_id": "rr4wZ1XXjF4M2JU5aVGh",
-            "vector_reference_similarity": 0.8368006348609924
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "GameCube Controller (GC Region Switched)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8483
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "gamecube",
-            "controller",
-            "nintendo",
-            "nintendo gamecube",
-            "emerald",
-            "blue",
-            "gamecube controller",
-            "japan",
-            "emerald blue",
-            "game",
-            "controller emerald",
-            "gc",
-            "pad"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo GameCube Controller Emerald Blue Excellen"
+  },
+  "enhanced_classification": {
+    "item_id": "Gynna5OzYWWE6y8WpgpO",
+    "item_name": "GC Wavebird Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "gc wavebird con"
+      ],
+      "key_words_coverage": 0.8367661237716675,
+      "reason": "Vector database match with 0.837 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "gamecube",
+      "controller",
+      "nintendo",
+      "nintendo gamecube",
+      "emerald",
+      "blue",
+      "gamecube controller",
+      "japan",
+      "emerald blue",
+      "game",
+      "controller emerald",
+      "gc",
+      "pad"
+    ]
+  }
 }

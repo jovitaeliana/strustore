@@ -27,10 +27,10 @@ class GdinoResultEnhancer:
     """
     
     def __init__(self, 
-                 vector_db_path: str = "models/vector_database",
+                 vector_db_path: str = "../../models/vector_database",
                  model_path: str = "intfloat/multilingual-e5-base",
-                 gdino_output_dir: str = "../gdinoOutput/final",
-                 itemtypes_path: str = "itemtypes.json"):
+                 gdino_output_dir: str = "../../gdinoOutput/final",
+                 itemtypes_path: str = "../../itemtypes.json"):
         """
         Initialize the result enhancer.
         
@@ -1120,4 +1120,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # Run the enhancement process
+    enhancer = GdinoResultEnhancer()
+    enhancer.load_vector_database()
+    results = enhancer.process_all_files()
+    print(f"✅ Enhancement completed: {results}")

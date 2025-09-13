@@ -1,81 +1,50 @@
 {
-    "gdino": {
-        "1": ""
-    },
-    "gdino_readable": {
-        "1": "No Match"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "wii_nunchuk_controller",
-            "reference_name": "Shipping Label",
-            "itemtypes_name": "Wii Nunchuk Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Wii",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Wii Nunchuk Controller | Nunchuk | Wii Nunchuk | RVL-004 | brand: Nintendo | console: Nintendo Wii | model: RVL-004 | wii | nunchuk | nintendo | rvl-004 | analog | attachment | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7604065537452698,
-            "vector_reference_id": "Irh72HART2knkr1jxuG7",
-            "vector_reference_similarity": 0.8122446537017822
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Wii Nunchuk Controller (Shipping Label)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.7604
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "red",
-            "leather",
-            "bag",
-            "clutch",
-            "wallet",
-            "vintage",
-            "clutch bag",
-            "pouch",
-            "com",
-            "tray",
-            "x",
-            "case",
-            "red leather",
-            "patent",
-            "saint",
-            "laurent",
-            "saint laurent",
-            "set",
-            "new",
-            "5",
-            "box",
-            "purse",
-            "serving",
-            "cartier",
-            "authentic"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Amazon.com: UPware Crackle Red Melamine Serving Tr"
+  },
+  "enhanced_classification": {
+    "item_id": "Irh72HART2knkr1jxuG7",
+    "item_name": "Shipping Label",
+    "category": "Labels",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "shipping label"
+      ],
+      "key_words_coverage": 0.8122446537017822,
+      "reason": "Vector database match with 0.812 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "red",
+      "leather",
+      "bag",
+      "clutch",
+      "wallet",
+      "vintage",
+      "clutch bag",
+      "pouch",
+      "com",
+      "tray",
+      "x",
+      "case",
+      "red leather",
+      "patent",
+      "saint",
+      "laurent",
+      "saint laurent",
+      "set",
+      "new",
+      "5",
+      "box",
+      "purse",
+      "serving",
+      "cartier",
+      "authentic"
+    ]
+  }
 }

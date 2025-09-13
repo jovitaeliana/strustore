@@ -1,85 +1,54 @@
 {
-    "gdino": {
-        "1": "10"
-    },
-    "gdino_readable": {
-        "1": "Nintendo Game Boy Advance SP Console "
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "gamecube_controller",
-            "reference_name": "GC DK Bongos",
-            "itemtypes_name": "GameCube Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo GameCube",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "GameCube Controller | GC Controller | Nintendo GameCube Controller | DOL-003 | brand: Nintendo | console: Nintendo GameCube | model: DOL-003 | gamecube | gc | controller | nintendo | dol-003 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8530524373054504,
-            "vector_reference_id": "fPlmsqNzKxyVjqsEmulZ",
-            "vector_reference_similarity": 0.8434299230575562
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "GameCube Controller (GC DK Bongos)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8531
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "nintendo",
-            "gamecube",
-            "controller",
-            "nintendo gamecube",
-            "gamecube controller",
-            "purple",
-            "dol",
-            "2",
-            "clear",
-            "indigo",
-            "game",
-            "003",
-            "dol 003",
-            "wii",
-            "console",
-            "mario",
-            "gc",
-            "controller nintendo",
-            "boxed",
-            "controller purple",
-            "com",
-            "violet",
-            "ngc",
-            "switch",
-            "games",
-            "site",
-            "nintendo site",
-            "purple clear",
-            "003 boxed"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo Switch Console"
+  },
+  "enhanced_classification": {
+    "item_id": "fPlmsqNzKxyVjqsEmulZ",
+    "item_name": "GC DK Bongos",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "gc dk bongos"
+      ],
+      "key_words_coverage": 0.8434299230575562,
+      "reason": "Vector database match with 0.843 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "nintendo",
+      "gamecube",
+      "controller",
+      "nintendo gamecube",
+      "gamecube controller",
+      "purple",
+      "dol",
+      "2",
+      "clear",
+      "indigo",
+      "game",
+      "003",
+      "dol 003",
+      "wii",
+      "console",
+      "mario",
+      "gc",
+      "controller nintendo",
+      "boxed",
+      "controller purple",
+      "com",
+      "violet",
+      "ngc",
+      "switch",
+      "games",
+      "site",
+      "nintendo site",
+      "purple clear",
+      "003 boxed"
+    ]
+  }
 }

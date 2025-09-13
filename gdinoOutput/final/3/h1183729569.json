@@ -1,87 +1,56 @@
 {
-    "gdino": {
-        "1": ""
-    },
-    "gdino_readable": {
-        "1": "No Match"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_entertainment_system",
-            "reference_name": "Gameboy Player",
-            "itemtypes_name": "Nintendo Entertainment System",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Entertainment System | NES | Nintendo Entertainment System | Famicom | Nintendo Famicom | brand: Nintendo | model: NES-001 | model: HVC-001 | nes | nintendo | entertainment | system | famicom | classic | retro | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7864948511123657,
-            "vector_reference_id": "YxGyIhCoGGi6fsk3Beo8",
-            "vector_reference_similarity": 0.803516149520874
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo Entertainment System (Gameboy Player)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.7865
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "mother",
-            "earthbound",
-            "3",
-            "nintendo",
-            "japan",
-            "mother 3",
-            "2",
-            "hobonichi",
-            "1",
-            "box",
-            "set",
-            "r",
-            "mother 1",
-            "nintendo mother",
-            "gameboy",
-            "r earthbound",
-            "plush",
-            "complete",
-            "scripts",
-            "complete scripts",
-            "1 2",
-            "famicom",
-            "gba",
-            "software",
-            "mother3",
-            "project",
-            "plush set",
-            "set hobonichi",
-            "new",
-            "nes",
-            "micro"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo NES FC Famicom Mother Mother 1 with Box &"
+  },
+  "enhanced_classification": {
+    "item_id": "YxGyIhCoGGi6fsk3Beo8",
+    "item_name": "Gameboy Player",
+    "category": "Video Game Consoles",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "gameboy player"
+      ],
+      "key_words_coverage": 0.7925467491149902,
+      "reason": "Vector database match with 0.793 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "mother",
+      "earthbound",
+      "3",
+      "nintendo",
+      "japan",
+      "mother 3",
+      "2",
+      "hobonichi",
+      "1",
+      "box",
+      "set",
+      "r",
+      "mother 1",
+      "nintendo mother",
+      "gameboy",
+      "r earthbound",
+      "plush",
+      "complete",
+      "scripts",
+      "complete scripts",
+      "1 2",
+      "famicom",
+      "gba",
+      "software",
+      "mother3",
+      "project",
+      "plush set",
+      "set hobonichi",
+      "new",
+      "nes",
+      "micro"
+    ]
+  }
 }

@@ -1,68 +1,37 @@
 {
-    "gdino": {
-        "1": "19"
-    },
-    "gdino_readable": {
-        "1": "Playstation Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "playstation_3_sixaxis",
-            "reference_name": "PS3 Con",
-            "itemtypes_name": "PlayStation 3 SIXAXIS Controller",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation 3",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 3 SIXAXIS Controller | PS3 SIXAXIS | SIXAXIS Controller | brand: Sony | console: PlayStation 3 | ps3 | playstation | sixaxis | controller | sony | wireless | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8539872169494629,
-            "vector_reference_id": "QvUB8tHBNDmkwWhylwa5",
-            "vector_reference_similarity": 0.8484356999397278
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "PlayStation 3 SIXAXIS Controller (PS3 Con)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.854
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "ps3",
-            "sony",
-            "controller",
-            "pink",
-            "3",
-            "sony ps3",
-            "playstation",
-            "sony playstation",
-            "en",
-            "vente",
-            "ps3 controller",
-            "controller pink"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "PlayStation Console"
+  },
+  "enhanced_classification": {
+    "item_id": "QvUB8tHBNDmkwWhylwa5",
+    "item_name": "PS3 Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "ps3 con"
+      ],
+      "key_words_coverage": 0.8472142219543457,
+      "reason": "Vector database match with 0.847 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "ps3",
+      "sony",
+      "controller",
+      "pink",
+      "3",
+      "sony ps3",
+      "playstation",
+      "sony playstation",
+      "en",
+      "vente",
+      "ps3 controller",
+      "controller pink"
+    ]
+  }
 }

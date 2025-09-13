@@ -1,110 +1,79 @@
 {
-    "gdino": {
-        "1": "1"
-    },
-    "gdino_readable": {
-        "1": "Nintendo DS Original Console"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_ds",
-            "reference_name": "GC [DOL-001]",
-            "itemtypes_name": "Nintendo DS",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo DS | DS | Nintendo DS | NTR-001 | brand: Nintendo | model: NTR-001 | nintendo | ds | ntr-001 | handheld | dual | screen | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8505551218986511,
-            "vector_reference_id": "661vCTO6E1TjeJnEcxGb",
-            "vector_reference_similarity": 0.8152896165847778
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo DS (GC [DOL-001])"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8506
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "ds",
-            "nintendo",
-            "nintendo ds",
-            "console",
-            "silver",
-            "original",
-            "ntr",
-            "001",
-            "ntr 001",
-            "edition",
-            "ds original",
-            "charger",
-            "system",
-            "japan",
-            "tested",
-            "box",
-            "ds console",
-            "handheld",
-            "stylus",
-            "mew",
-            "001 console",
-            "ds silver",
-            "white",
-            "game",
-            "original ntr",
-            "platinum",
-            "edition console",
-            "handheld system",
-            "working",
-            "charger stylus",
-            "center",
-            "limited",
-            "ds mew",
-            "mew edition",
-            "limited edition",
-            "touch",
-            "ds platinum",
-            "platinum silver",
-            "original silver",
-            "color",
-            "region",
-            "silver console",
-            "usa",
-            "w",
-            "pokémon",
-            "edition pokémon",
-            "pokémon center",
-            "center limited",
-            "new",
-            "titanium",
-            "used",
-            "works",
-            "original nintendo",
-            "ds ntr"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo DS Console"
+  },
+  "enhanced_classification": {
+    "item_id": "661vCTO6E1TjeJnEcxGb",
+    "item_name": "GC [DOL-001]",
+    "category": "Video Game Consoles",
+    "model": "DOL-001",
+    "validation_details": {
+      "present_words": [
+        "gc [dol-001]"
+      ],
+      "key_words_coverage": 0.8116046786308289,
+      "reason": "Vector database match with 0.812 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "ds",
+      "nintendo",
+      "nintendo ds",
+      "console",
+      "silver",
+      "original",
+      "ntr",
+      "001",
+      "ntr 001",
+      "edition",
+      "ds original",
+      "charger",
+      "system",
+      "japan",
+      "tested",
+      "box",
+      "ds console",
+      "handheld",
+      "stylus",
+      "mew",
+      "001 console",
+      "ds silver",
+      "white",
+      "game",
+      "original ntr",
+      "platinum",
+      "edition console",
+      "handheld system",
+      "working",
+      "charger stylus",
+      "center",
+      "limited",
+      "ds mew",
+      "mew edition",
+      "limited edition",
+      "touch",
+      "ds platinum",
+      "platinum silver",
+      "original silver",
+      "color",
+      "region",
+      "silver console",
+      "usa",
+      "w",
+      "pokémon",
+      "edition pokémon",
+      "pokémon center",
+      "center limited",
+      "new",
+      "titanium",
+      "used",
+      "works",
+      "original nintendo",
+      "ds ntr"
+    ]
+  }
 }

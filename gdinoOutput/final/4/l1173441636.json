@@ -1,1 +1,28 @@
-{}
+{
+    "gdino": {},
+    "gdino_readable": {},
+    "gdino_improved": {},
+    "gdino_improved_readable": {},
+    "gdino_similarity_scores": {},
+    "gdino_classification_metadata": {
+        "processed_date": "1757766701.058041",
+        "vector_db_version": "2.1",
+        "model_used": "intfloat/multilingual-e5-base",
+        "min_similarity_threshold": 0.5,
+        "dynamic_weighting_enabled": true,
+        "weighting_algorithm": "exponential_decay_with_priority",
+        "weighting_config": {
+            "max_tokens": 10,
+            "decay_factor": 0.1,
+            "min_weight": 0.1,
+            "hardware_boost": 1.5
+        },
+        "features": [
+            "dynamic_token_prioritization",
+            "no_match_detection",
+            "hardware_context_boost",
+            "quality_based_threshold_adjustment"
+        ]
+    },
+    "gdino_tokens": {}
+}

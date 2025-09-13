@@ -1,93 +1,62 @@
 {
-    "gdino": {
-        "1": "1"
-    },
-    "gdino_readable": {
-        "1": "Nintendo DS Original Console"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_ds",
-            "reference_name": "GC [DOL-001]",
-            "itemtypes_name": "Nintendo DS",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo DS | DS | Nintendo DS | NTR-001 | brand: Nintendo | model: NTR-001 | nintendo | ds | ntr-001 | handheld | dual | screen | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8539520502090454,
-            "vector_reference_id": "661vCTO6E1TjeJnEcxGb",
-            "vector_reference_similarity": 0.8173139095306396
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo DS (GC [DOL-001])"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.854
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "ds",
-            "nintendo",
-            "nintendo ds",
-            "console",
-            "original",
-            "silver",
-            "game",
-            "ds original",
-            "ntr",
-            "001",
-            "tested",
-            "ntr 001",
-            "ds silver",
-            "consoles",
-            "titanium",
-            "original ntr",
-            "001 console",
-            "original nintendo",
-            "video",
-            "charger",
-            "ds console",
-            "offerup",
-            "platinum",
-            "works",
-            "console titanium",
-            "titanium tested",
-            "tested works",
-            "games",
-            "video game",
-            "game console",
-            "console charger",
-            "silver nintendo",
-            "japan",
-            "color",
-            "w",
-            "lot",
-            "game consoles"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo DS Console"
+  },
+  "enhanced_classification": {
+    "item_id": "RLTezhK4keTvDr70COUX",
+    "item_name": "DS Original",
+    "category": "Video Game Consoles",
+    "model": "Nintendo DS",
+    "validation_details": {
+      "present_words": [
+        "ds original"
+      ],
+      "key_words_coverage": 0.8132372498512268,
+      "reason": "Vector database match with 0.813 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "ds",
+      "nintendo",
+      "nintendo ds",
+      "console",
+      "original",
+      "silver",
+      "game",
+      "ds original",
+      "ntr",
+      "001",
+      "tested",
+      "ntr 001",
+      "ds silver",
+      "consoles",
+      "titanium",
+      "original ntr",
+      "001 console",
+      "original nintendo",
+      "video",
+      "charger",
+      "ds console",
+      "offerup",
+      "platinum",
+      "works",
+      "console titanium",
+      "titanium tested",
+      "tested works",
+      "games",
+      "video game",
+      "game console",
+      "console charger",
+      "silver nintendo",
+      "japan",
+      "color",
+      "w",
+      "lot",
+      "game consoles"
+    ]
+  }
 }

@@ -1,94 +1,63 @@
 {
-    "gdino": {
-        "1": "20"
-    },
-    "gdino_readable": {
-        "1": "Nintendo Switch Pro Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_switch_pro_controller",
-            "reference_name": "Switch Pro Controller",
-            "itemtypes_name": "Nintendo Switch Pro Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Switch",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch Pro Controller | Switch Pro Controller | Nintendo Switch Pro Wireless Controller | Pro Controller | brand: Nintendo | console: Nintendo Switch | pro | controller | nintendo | switch | wireless | gamepad | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8701518774032593,
-            "vector_reference_id": "ZBroqZgzmGouENEl1iVl",
-            "vector_reference_similarity": 0.8483760356903076
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo Switch Pro Controller (Switch Pro Controller)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8702
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "switch",
-            "nintendo",
-            "nintendo switch",
-            "controller",
-            "pro",
-            "pro controller",
-            "switch pro",
-            "facebook",
-            "black",
-            "wireless",
-            "case",
-            "controllers",
-            "online",
-            "marketplace",
-            "facebook marketplace",
-            "hac",
-            "gamepad",
-            "youtube",
-            "accessories",
-            "marketplace facebook",
-            "wireless controller",
-            "controller black",
-            "controller hac",
-            "switch wireless",
-            "wireless pro",
-            "game",
-            "games",
-            "genuine",
-            "black online",
-            "013",
-            "hac 013",
-            "013 black",
-            "console",
-            "hacafsska",
-            "4",
-            "switch controllers",
-            "pro wireless",
-            "lite"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo Switch Console"
+  },
+  "enhanced_classification": {
+    "item_id": "ZBroqZgzmGouENEl1iVl",
+    "item_name": "Switch Pro Controller",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "switch pro controller"
+      ],
+      "key_words_coverage": 0.849594235420227,
+      "reason": "Vector database match with 0.850 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "switch",
+      "nintendo",
+      "nintendo switch",
+      "controller",
+      "pro",
+      "pro controller",
+      "switch pro",
+      "facebook",
+      "black",
+      "wireless",
+      "case",
+      "controllers",
+      "online",
+      "marketplace",
+      "facebook marketplace",
+      "hac",
+      "gamepad",
+      "youtube",
+      "accessories",
+      "marketplace facebook",
+      "wireless controller",
+      "controller black",
+      "controller hac",
+      "switch wireless",
+      "wireless pro",
+      "game",
+      "games",
+      "genuine",
+      "black online",
+      "013",
+      "hac 013",
+      "013 black",
+      "console",
+      "hacafsska",
+      "4",
+      "switch controllers",
+      "pro wireless",
+      "lite"
+    ]
+  }
 }

@@ -1,87 +1,56 @@
 {
-    "gdino": {
-        "1": ""
-    },
-    "gdino_readable": {
-        "1": "No Match"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "playstation_3_dualshock_3",
-            "reference_name": "DRM Shell",
-            "itemtypes_name": "PlayStation 3 DualShock 3",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation 3",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 3 DualShock 3 | PS3 DualShock 3 | DualShock 3 | DS3 | brand: Sony | console: PlayStation 3 | ps3 | playstation | dualshock | controller | sony | ds3 | wireless | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7884082794189453,
-            "vector_reference_id": "IpSmFvIFCTx0NaFFB2JW",
-            "vector_reference_similarity": 0.8148490190505981
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "PlayStation 3 DualShock 3 (DRM Shell)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.7884
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "wallpaper",
-            "images",
-            "download",
-            "abstract",
-            "background",
-            "freepik",
-            "stock",
-            "shutterstock",
-            "photos",
-            "phone",
-            "phone wallpaper",
-            "page",
-            "blue",
-            "images download",
-            "download freepik",
-            "royalty",
-            "abstract background",
-            "pictures",
-            "2025",
-            "design",
-            "1",
-            "hd",
-            "x",
-            "instagram",
-            "video",
-            "10",
-            "ideas",
-            "ideas 2025",
-            "iphone",
-            "day",
-            "illustration"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "12 Phone wallpaper ideas in 2025"
+  },
+  "enhanced_classification": {
+    "item_id": "IpSmFvIFCTx0NaFFB2JW",
+    "item_name": "DRM Shell",
+    "category": null,
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "drm shell"
+      ],
+      "key_words_coverage": 0.8148490190505981,
+      "reason": "Vector database match with 0.815 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "wallpaper",
+      "images",
+      "download",
+      "abstract",
+      "background",
+      "freepik",
+      "stock",
+      "shutterstock",
+      "photos",
+      "phone",
+      "phone wallpaper",
+      "page",
+      "blue",
+      "images download",
+      "download freepik",
+      "royalty",
+      "abstract background",
+      "pictures",
+      "2025",
+      "design",
+      "1",
+      "hd",
+      "x",
+      "instagram",
+      "video",
+      "10",
+      "ideas",
+      "ideas 2025",
+      "iphone",
+      "day",
+      "illustration"
+    ]
+  }
 }

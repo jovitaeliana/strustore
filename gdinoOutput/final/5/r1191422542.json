@@ -1,135 +1,103 @@
 {
-    "gdino": {
-        "1": "",
-        "2": ""
-    },
-    "gdino_readable": {
-        "1": "No Match",
-        "2": "No Match"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "playstation_1_analog_controller",
-            "reference_name": "Luigi Wheel",
-            "itemtypes_name": "PlayStation 1 Analog Controller",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 1 Analog Controller | PS1 Analog Controller | PlayStation Analog Joystick | SCPH-1150 | SCPH-1180 | brand: Sony | console: PlayStation | model: SCPH-1150 | model: SCPH-1180 | model: SCPH-1200 | ps1 | playstation | analog | controller | sony | scph-1150 | scph-1180 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7759425044059753,
-            "vector_reference_id": "eMSVGJBsZcjgJw5HMC1t",
-            "vector_reference_similarity": 0.8072509765625
-        },
-        "2": {
-            "id": "No Match",
-            "reference_name": "No Match",
-            "itemtypes_name": null,
-            "category": "",
-            "model": "",
-            "brand": "",
-            "source": "none",
-            "contextual_text": "",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.0
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "PlayStation 1 Analog Controller (Luigi Wheel)",
-        "2": "No Match"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.7759,
-        "2": 0.0
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "logitech",
-            "wheel",
-            "racing",
-            "g29",
-            "racing wheel",
-            "driving",
-            "force",
-            "pedals",
-            "logitech g29",
-            "g920",
-            "driving force",
-            "logitech g920",
-            "xbox",
-            "force racing",
-            "wheel pedals",
-            "facebook",
-            "pc",
-            "g27",
-            "shifter",
-            "steering",
-            "steering wheel",
-            "logitech g27",
-            "g920 driving",
-            "uk",
-            "one",
-            "xbox one",
-            "pedal",
-            "offerup",
-            "controllers",
-            "marketplace",
-            "facebook marketplace",
-            "g29 racing",
-            "x",
-            "wheel xbox",
-            "one pc",
-            "video",
-            "game",
-            "youtube",
-            "g923",
-            "new",
-            "playstation",
-            "g29 wheel",
-            "video game",
-            "ps4",
-            "g29 steering",
-            "g29 driving",
-            "attachments",
-            "controllers attachments"
+  "gdino": {
+    "1": "2",
+    "2": "2"
+  },
+  "gdino_readable": {
+    "1": "PlayStation Console",
+    "2": "Interlocking Beveled Edge, Stainless Steel Mosaic"
+  },
+  "enhanced_classification": {
+    "1": {
+      "item_id": "eMSVGJBsZcjgJw5HMC1t",
+      "item_name": "Luigi Wheel",
+      "category": "Controllers & Attachments",
+      "model": "",
+      "validation_details": {
+        "present_words": [
+          "luigi wheel"
         ],
-        "2": [
-            "com",
-            "x",
-            "del",
-            "home",
-            "kitchen",
-            "grey",
-            "12",
-            "mat",
-            "de",
-            "tiktok",
-            "instagram"
-        ]
+        "key_words_coverage": 0.8072509765625,
+        "reason": "Vector database match with 0.807 similarity"
+      }
+    },
+    "2": {
+      "item_id": "No Match",
+      "item_name": "No Match",
+      "category": "",
+      "model": "",
+      "validation_details": {
+        "present_words": [
+          "no match"
+        ],
+        "key_words_coverage": 0.0,
+        "reason": "Vector database match with 0.000 similarity"
+      }
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "logitech",
+      "wheel",
+      "racing",
+      "g29",
+      "racing wheel",
+      "driving",
+      "force",
+      "pedals",
+      "logitech g29",
+      "g920",
+      "driving force",
+      "logitech g920",
+      "xbox",
+      "force racing",
+      "wheel pedals",
+      "facebook",
+      "pc",
+      "g27",
+      "shifter",
+      "steering",
+      "steering wheel",
+      "logitech g27",
+      "g920 driving",
+      "uk",
+      "one",
+      "xbox one",
+      "pedal",
+      "offerup",
+      "controllers",
+      "marketplace",
+      "facebook marketplace",
+      "g29 racing",
+      "x",
+      "wheel xbox",
+      "one pc",
+      "video",
+      "game",
+      "youtube",
+      "g923",
+      "new",
+      "playstation",
+      "g29 wheel",
+      "video game",
+      "ps4",
+      "g29 steering",
+      "g29 driving",
+      "attachments",
+      "controllers attachments"
+    ],
+    "2": [
+      "com",
+      "x",
+      "del",
+      "home",
+      "kitchen",
+      "grey",
+      "12",
+      "mat",
+      "de",
+      "tiktok",
+      "instagram"
+    ]
+  }
 }

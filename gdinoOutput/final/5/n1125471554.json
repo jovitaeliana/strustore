@@ -1,115 +1,84 @@
 {
-    "gdino": {
-        "1": "19"
-    },
-    "gdino_readable": {
-        "1": "Playstation Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "playstation_1_analog_controller",
-            "reference_name": "Hori Compact Joystick",
-            "itemtypes_name": "PlayStation 1 Analog Controller",
-            "category": "Controllers & Attachments",
-            "model": "PlayStation",
-            "brand": "Sony",
-            "source": "itemtypes",
-            "contextual_text": "PlayStation 1 Analog Controller | PS1 Analog Controller | PlayStation Analog Joystick | SCPH-1150 | SCPH-1180 | brand: Sony | console: PlayStation | model: SCPH-1150 | model: SCPH-1180 | model: SCPH-1200 | ps1 | playstation | analog | controller | sony | scph-1150 | scph-1180 | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8439915776252747,
-            "vector_reference_id": "boP0HPaJuFshEG2KxH6X",
-            "vector_reference_similarity": 0.898646891117096
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "PlayStation 1 Analog Controller (Hori Compact Joystick)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.844
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "hori",
-            "playstation",
-            "compact",
-            "joystick",
-            "controller",
-            "hori compact",
-            "compact joystick",
-            "stick",
-            "arcade",
-            "ps1",
-            "clear",
-            "2",
-            "1",
-            "sony",
-            "sony playstation",
-            "hps",
-            "fighting",
-            "playstation 1",
-            "controllers",
-            "29",
-            "hps 29",
-            "ps2",
-            "japan",
-            "arcade controller",
-            "playstation 2",
-            "controllers sony",
-            "ps",
-            "hori playstation",
-            "controller hori",
-            "joystick arcade",
-            "controller hps",
-            "joy",
-            "compact joy",
-            "joy stick",
-            "clear fighting",
-            "fighting controller",
-            "メルカリ",
-            "real",
-            "yahoo",
-            "fighting stick",
-            "3",
-            "retro",
-            "games",
-            "29 clear",
-            "stick clear",
-            "ps1 playstation",
-            "transparent",
-            "playstation ps1",
-            "clear controllers",
-            "slph",
-            "00085",
-            "uk",
-            "slph 00085",
-            "fight",
-            "ps1 ps2",
-            "game",
-            "コンパクトジョイスティック",
-            "joystick hps",
-            "auction"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "PlayStation Console"
+  },
+  "enhanced_classification": {
+    "item_id": "boP0HPaJuFshEG2KxH6X",
+    "item_name": "Hori Compact Joystick",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "hori compact joystick"
+      ],
+      "key_words_coverage": 0.898646891117096,
+      "reason": "Vector database match with 0.899 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "hori",
+      "playstation",
+      "compact",
+      "joystick",
+      "controller",
+      "hori compact",
+      "compact joystick",
+      "stick",
+      "arcade",
+      "ps1",
+      "clear",
+      "2",
+      "1",
+      "sony",
+      "sony playstation",
+      "hps",
+      "fighting",
+      "playstation 1",
+      "controllers",
+      "29",
+      "hps 29",
+      "ps2",
+      "japan",
+      "arcade controller",
+      "playstation 2",
+      "controllers sony",
+      "ps",
+      "hori playstation",
+      "controller hori",
+      "joystick arcade",
+      "controller hps",
+      "joy",
+      "compact joy",
+      "joy stick",
+      "clear fighting",
+      "fighting controller",
+      "メルカリ",
+      "real",
+      "yahoo",
+      "fighting stick",
+      "3",
+      "retro",
+      "games",
+      "29 clear",
+      "stick clear",
+      "ps1 playstation",
+      "transparent",
+      "playstation ps1",
+      "clear controllers",
+      "slph",
+      "00085",
+      "uk",
+      "slph 00085",
+      "fight",
+      "ps1 ps2",
+      "game",
+      "コンパクトジョイスティック",
+      "joystick hps",
+      "auction"
+    ]
+  }
 }

@@ -1,65 +1,34 @@
 {
-    "gdino": {
-        "1": "20"
-    },
-    "gdino_readable": {
-        "1": "Nintendo Switch Pro Controller"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "wii_u_gamepad",
-            "reference_name": "Wii U Con",
-            "itemtypes_name": "Wii U GamePad",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Wii U",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Wii U GamePad | GamePad | Wii U GamePad Controller | WUP-010 | brand: Nintendo | console: Nintendo Wii U | model: WUP-010 | wii | u | gamepad | nintendo | wup-010 | tablet | screen | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8473057746887207,
-            "vector_reference_id": "ST8yllzbAiBh5De8O8kP",
-            "vector_reference_similarity": 0.8389971852302551
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Wii U GamePad (Wii U Con)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8473
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "smash",
-            "controller",
-            "nintendo",
-            "bros",
-            "smash bros",
-            "wii",
-            "u",
-            "wii u",
-            "gamecube"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Accessories"
+  },
+  "enhanced_classification": {
+    "item_id": "ST8yllzbAiBh5De8O8kP",
+    "item_name": "Wii U Con",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "wii u con"
+      ],
+      "key_words_coverage": 0.8398703336715698,
+      "reason": "Vector database match with 0.840 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "smash",
+      "controller",
+      "nintendo",
+      "bros",
+      "smash bros",
+      "wii",
+      "u",
+      "wii u",
+      "gamecube"
+    ]
+  }
 }

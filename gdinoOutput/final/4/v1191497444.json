@@ -1,92 +1,61 @@
 {
-    "gdino": {
-        "1": "15"
-    },
-    "gdino_readable": {
-        "1": "Nintendo Switch OLED Console"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_switch_oled",
-            "reference_name": "Switch",
-            "itemtypes_name": "Nintendo Switch OLED Console",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo Switch OLED Console | Nintendo Switch (OLED model) | Switch OLED | Nintendo Switch OLED | Switch OLED Model | brand: Nintendo | model: HEG-001 | nintendo | switch | oled | console | heg-001 | enhanced | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8447148203849792,
-            "vector_reference_id": "oL2l1OjnB3BNLENQkoRb",
-            "vector_reference_similarity": 0.8226766586303711
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo Switch OLED Console (Switch)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8447
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "switch",
-            "oled",
-            "nintendo",
-            "nintendo switch",
-            "zelda",
-            "switch oled",
-            "tears",
-            "kingdom",
-            "tears kingdom",
-            "edition",
-            "legend",
-            "legend zelda",
-            "zelda tears",
-            "kingdom edition",
-            "console",
-            "model",
-            "oled model",
-            "bundle",
-            "oled zelda",
-            "zelda edition",
-            "oled tears",
-            "consoles",
-            "model legend",
-            "64gb",
-            "games",
-            "india",
-            "new",
-            "case",
-            "oled console",
-            "video",
-            "64gb legend",
-            "2",
-            "1",
-            "w",
-            "gaming",
-            "switch zelda"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo Switch Console"
+  },
+  "enhanced_classification": {
+    "item_id": "oL2l1OjnB3BNLENQkoRb",
+    "item_name": "Switch",
+    "category": "Video Game Consoles",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "switch"
+      ],
+      "key_words_coverage": 0.8210119605064392,
+      "reason": "Vector database match with 0.821 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "switch",
+      "oled",
+      "nintendo",
+      "nintendo switch",
+      "zelda",
+      "switch oled",
+      "tears",
+      "kingdom",
+      "tears kingdom",
+      "edition",
+      "legend",
+      "legend zelda",
+      "zelda tears",
+      "kingdom edition",
+      "console",
+      "model",
+      "oled model",
+      "bundle",
+      "oled zelda",
+      "zelda edition",
+      "oled tears",
+      "consoles",
+      "model legend",
+      "64gb",
+      "games",
+      "india",
+      "new",
+      "case",
+      "oled console",
+      "video",
+      "64gb legend",
+      "2",
+      "1",
+      "w",
+      "gaming",
+      "switch zelda"
+    ]
+  }
 }

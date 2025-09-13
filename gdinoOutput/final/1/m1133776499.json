@@ -1,109 +1,78 @@
 {
-    "gdino": {
-        "1": "1"
-    },
-    "gdino_readable": {
-        "1": "Nintendo DS Original Console"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_ds",
-            "reference_name": "GC [DOL-001]",
-            "itemtypes_name": "Nintendo DS",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo DS | DS | Nintendo DS | NTR-001 | brand: Nintendo | model: NTR-001 | nintendo | ds | ntr-001 | handheld | dual | screen | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8348730802536011,
-            "vector_reference_id": "661vCTO6E1TjeJnEcxGb",
-            "vector_reference_similarity": 0.8339090347290039
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo DS (GC [DOL-001])"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.8349
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "nintendo",
-            "ds",
-            "nintendo ds",
-            "silver",
-            "console",
-            "game",
-            "original",
-            "video",
-            "001",
-            "video game",
-            "ds silver",
-            "ntr",
-            "ntr 001",
-            "charger",
-            "handheld",
-            "consoles",
-            "platinum",
-            "titanium",
-            "works",
-            "tested",
-            "ds original",
-            "game consoles",
-            "system",
-            "ds titanium",
-            "stylus",
-            "silver original",
-            "japan",
-            "ds platinum",
-            "platinum silver",
-            "silver console",
-            "ntsc",
-            "box",
-            "original nintendo",
-            "ds ntr",
-            "game console",
-            "original handheld",
-            "charger stylus",
-            "original ntr",
-            "001 console",
-            "ds ntsc",
-            "games",
-            "mario",
-            "kart",
-            "mario kart",
-            "console charger",
-            "las",
-            "mejores",
-            "ofertas",
-            "en",
-            "las mejores",
-            "mejores ofertas",
-            "ofertas en",
-            "gray"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo DS Console"
+  },
+  "enhanced_classification": {
+    "item_id": "661vCTO6E1TjeJnEcxGb",
+    "item_name": "GC [DOL-001]",
+    "category": "Video Game Consoles",
+    "model": "DOL-001",
+    "validation_details": {
+      "present_words": [
+        "gc [dol-001]"
+      ],
+      "key_words_coverage": 0.8303152322769165,
+      "reason": "Vector database match with 0.830 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "nintendo",
+      "ds",
+      "nintendo ds",
+      "silver",
+      "console",
+      "game",
+      "original",
+      "video",
+      "001",
+      "video game",
+      "ds silver",
+      "ntr",
+      "ntr 001",
+      "charger",
+      "handheld",
+      "consoles",
+      "platinum",
+      "titanium",
+      "works",
+      "tested",
+      "ds original",
+      "game consoles",
+      "system",
+      "ds titanium",
+      "stylus",
+      "silver original",
+      "japan",
+      "ds platinum",
+      "platinum silver",
+      "silver console",
+      "ntsc",
+      "box",
+      "original nintendo",
+      "ds ntr",
+      "game console",
+      "original handheld",
+      "charger stylus",
+      "original ntr",
+      "001 console",
+      "ds ntsc",
+      "games",
+      "mario",
+      "kart",
+      "mario kart",
+      "console charger",
+      "las",
+      "mejores",
+      "ofertas",
+      "en",
+      "las mejores",
+      "mejores ofertas",
+      "ofertas en",
+      "gray"
+    ]
+  }
 }

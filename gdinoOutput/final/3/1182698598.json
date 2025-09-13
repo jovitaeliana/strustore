@@ -1,103 +1,72 @@
 {
-    "gdino": {
-        "1": "10"
-    },
-    "gdino_readable": {
-        "1": "Nintendo Game Boy Advance SP Console "
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "game_boy_advance_sp",
-            "reference_name": "Gameboy Advance",
-            "itemtypes_name": "Game Boy Advance SP",
-            "category": "Video Game Consoles",
-            "model": "",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Game Boy Advance SP | GBA SP | Game Boy Advance SP | AGS-001 | AGS-101 | brand: Nintendo | model: AGS-001 | model: AGS-101 | game | boy | advance | sp | gba | nintendo | ags-001 | ags-101 | backlit | category: Video Game Consoles",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8720020055770874,
-            "vector_reference_id": "eDXOwaOyWKtH2nQwCYan",
-            "vector_reference_similarity": 0.8490761518478394
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Game Boy Advance SP (Gameboy Advance)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.872
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "sp",
-            "advance",
-            "gameboy",
-            "advance sp",
-            "nintendo",
-            "game",
-            "boy",
-            "game boy",
-            "gameboy advance",
-            "nintendo gameboy",
-            "boy advance",
-            "blue",
-            "nintendo game",
-            "tested",
-            "gba",
-            "ags",
-            "kyogre",
-            "001",
-            "ags 001",
-            "console",
-            "charger",
-            "color",
-            "authentic",
-            "azurite",
-            "azurite blue",
-            "battery",
-            "sp ags",
-            "pokemon",
-            "sp blue",
-            "works",
-            "case",
-            "games",
-            "pack",
-            "gba sp",
-            "japan",
-            "new",
-            "shell",
-            "sp console",
-            "tested works",
-            "gameboy color",
-            "color tested",
-            "pokémon",
-            "man",
-            "cartridge",
-            "sp azurite",
-            "original",
-            "edition"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Game Boy Advance SP Special Rare Mega Man Blue Mai"
+  },
+  "enhanced_classification": {
+    "item_id": "eDXOwaOyWKtH2nQwCYan",
+    "item_name": "Gameboy Advance",
+    "category": "Video Game Consoles",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "gameboy advance"
+      ],
+      "key_words_coverage": 0.8491270542144775,
+      "reason": "Vector database match with 0.849 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "sp",
+      "advance",
+      "gameboy",
+      "advance sp",
+      "nintendo",
+      "game",
+      "boy",
+      "game boy",
+      "gameboy advance",
+      "nintendo gameboy",
+      "boy advance",
+      "blue",
+      "nintendo game",
+      "tested",
+      "gba",
+      "ags",
+      "kyogre",
+      "001",
+      "ags 001",
+      "console",
+      "charger",
+      "color",
+      "authentic",
+      "azurite",
+      "azurite blue",
+      "battery",
+      "sp ags",
+      "pokemon",
+      "sp blue",
+      "works",
+      "case",
+      "games",
+      "pack",
+      "gba sp",
+      "japan",
+      "new",
+      "shell",
+      "sp console",
+      "tested works",
+      "gameboy color",
+      "color tested",
+      "pokémon",
+      "man",
+      "cartridge",
+      "sp azurite",
+      "original",
+      "edition"
+    ]
+  }
 }

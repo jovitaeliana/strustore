@@ -1,98 +1,67 @@
 {
-    "gdino": {
-        "1": "2"
-    },
-    "gdino_readable": {
-        "1": "Nintendo DS Lite Console"
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "wii_remote_controller",
-            "reference_name": "Wii Sensor Bar",
-            "itemtypes_name": "Wii Remote Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo Wii",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Wii Remote Controller | Wii Remote | Wiimote | RVL-003 | brand: Nintendo | console: Nintendo Wii | model: RVL-003 | wii | remote | wiimote | nintendo | rvl-003 | motion | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.7890479564666748,
-            "vector_reference_id": "cVUvSD1xHC978Kx7GlzU",
-            "vector_reference_similarity": 0.7942291498184204
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Wii Remote Controller (Wii Sensor Bar)"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.789
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "white",
-            "com",
-            "pool",
-            "skimmer",
-            "replacement",
-            "nintendo",
-            "home",
-            "weir",
-            "pool skimmer",
-            "mirror",
-            "8650",
-            "4",
-            "new",
-            "8",
-            "skimmer weir",
-            "8650 4",
-            "cover",
-            "beige",
-            "2",
-            "swimming",
-            "865",
-            "0",
-            "swimming pool",
-            "865 0",
-            "0 8",
-            "shell",
-            "3ds",
-            "kitchen",
-            "wireless",
-            "keyboard",
-            "door",
-            "case",
-            "console",
-            "ds",
-            "lite",
-            "box",
-            "nintendo ds",
-            "ds lite",
-            "chest",
-            "japan",
-            "vanity",
-            "bread"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo DS Lite Console"
+  },
+  "enhanced_classification": {
+    "item_id": "c64umpuDWdeuRLUD2jHn",
+    "item_name": "DRM Power Strip",
+    "category": "Other Video Game Accessories",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "drm power strip"
+      ],
+      "key_words_coverage": 0.7937813401222229,
+      "reason": "Vector database match with 0.794 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "white",
+      "com",
+      "pool",
+      "skimmer",
+      "replacement",
+      "nintendo",
+      "home",
+      "weir",
+      "pool skimmer",
+      "mirror",
+      "8650",
+      "4",
+      "new",
+      "8",
+      "skimmer weir",
+      "8650 4",
+      "cover",
+      "beige",
+      "2",
+      "swimming",
+      "865",
+      "0",
+      "swimming pool",
+      "865 0",
+      "0 8",
+      "shell",
+      "3ds",
+      "kitchen",
+      "wireless",
+      "keyboard",
+      "door",
+      "case",
+      "console",
+      "ds",
+      "lite",
+      "box",
+      "nintendo ds",
+      "ds lite",
+      "chest",
+      "japan",
+      "vanity",
+      "bread"
+    ]
+  }
 }

@@ -1,69 +1,38 @@
 {
-    "gdino": {
-        "1": "10"
-    },
-    "gdino_readable": {
-        "1": "Nintendo Game Boy Advance SP Console "
-    },
-    "gdino_improved": {
-        "1": {
-            "id": "nintendo_64_controller",
-            "reference_name": "N64 Con (Loose Stick)",
-            "itemtypes_name": "Nintendo 64 Controller",
-            "category": "Controllers & Attachments",
-            "model": "Nintendo 64",
-            "brand": "Nintendo",
-            "source": "itemtypes",
-            "contextual_text": "Nintendo 64 Controller | N64 Controller | Nintendo 64 Controller | NUS-005 | brand: Nintendo | console: Nintendo 64 | model: NUS-005 | n64 | nintendo | 64 | controller | nus-005 | three | pronged | joystick | category: Controllers & Attachments",
-            "vector_index": null,
-            "embedding_norm": null,
-            "legacyId": null,
-            "similarity_score": 0.8720327019691467,
-            "vector_reference_id": "UtTSNvusObuHWpIpk4aM",
-            "vector_reference_similarity": 0.8631455898284912
-        }
-    },
-    "gdino_improved_readable": {
-        "1": "Nintendo 64 Controller (N64 Con (Loose Stick))"
-    },
-    "gdino_similarity_scores": {
-        "1": 0.872
-    },
-    "gdino_classification_metadata": {
-        "processed_date": "1757581265.7518241",
-        "vector_db_version": "2.1",
-        "model_used": "intfloat/multilingual-e5-base",
-        "min_similarity_threshold": 0.5,
-        "dynamic_weighting_enabled": true,
-        "weighting_algorithm": "exponential_decay_with_priority",
-        "weighting_config": {
-            "max_tokens": 10,
-            "decay_factor": 0.1,
-            "min_weight": 0.1,
-            "hardware_boost": 1.5
-        },
-        "features": [
-            "dynamic_token_prioritization",
-            "no_match_detection",
-            "hardware_context_boost",
-            "quality_based_threshold_adjustment"
-        ]
-    },
-    "gdino_tokens": {
-        "1": [
-            "n64",
-            "nintendo",
-            "64",
-            "nintendo 64",
-            "controller",
-            "console",
-            "game",
-            "video",
-            "games",
-            "joystick",
-            "gray",
-            "com",
-            "video games"
-        ]
+  "gdino": {
+    "1": "2"
+  },
+  "gdino_readable": {
+    "1": "Nintendo 64 Controller"
+  },
+  "enhanced_classification": {
+    "item_id": "UtTSNvusObuHWpIpk4aM",
+    "item_name": "N64 Con (Loose Stick)",
+    "category": "Controllers & Attachments",
+    "model": "",
+    "validation_details": {
+      "present_words": [
+        "n64 con (loose stick)"
+      ],
+      "key_words_coverage": 0.862429678440094,
+      "reason": "Vector database match with 0.862 similarity"
     }
+  },
+  "gdino_tokens": {
+    "1": [
+      "n64",
+      "nintendo",
+      "64",
+      "nintendo 64",
+      "controller",
+      "console",
+      "game",
+      "video",
+      "games",
+      "joystick",
+      "gray",
+      "com",
+      "video games"
+    ]
+  }
 }
