@@ -578,10 +578,10 @@ class VectorDatabaseCreator:
                     aug += ['nintendo 3ds', 'handheld']
                 if 'game boy' in qs:
                     aug += ['game boy', 'gb', 'handheld']
-                if 'playstation' in qs or qs.strip() == 'ps':
-                    aug += ['playstation', 'ps']
+                if 'playstation' in qs or qs.strip().startswith('ps'):
+                    aug += ['playstation', 'ps', 'ps1', 'ps2', 'ps3', 'ps4', 'ps5', 'scph', 'cech', 'cuh', 'cfi', 'dualshock']
                 if 'controller' in qs or 'コントローラー' in q:
-                    aug += ['controller', 'gamepad']
+                    aug += ['controller', 'gamepad', 'con', 'joystick', 'stick', 'pad', 'joy-con', 'joycon', 'dualshock']
                 # Join unique tokens
                 seen = set()
                 toks = []
@@ -757,10 +757,10 @@ class VectorDatabaseLoader:
                 aug += ['nintendo 3ds', 'handheld']
             if 'game boy' in s or 'gameboy' in s or s.strip() == 'gb':
                 aug += ['game boy', 'gb', 'handheld']
-            if 'playstation' in s or s.strip() == 'ps':
-                aug += ['playstation', 'ps']
+            if 'playstation' in s or s.strip().startswith('ps'):
+                aug += ['playstation', 'ps', 'ps1', 'ps2', 'ps3', 'ps4', 'ps5', 'scph', 'cech', 'cuh', 'cfi', 'dualshock']
             if 'controller' in s or 'コントローラー' in s:
-                aug += ['controller', 'gamepad']
+                aug += ['controller', 'gamepad', 'con', 'joystick', 'stick', 'pad', 'joy-con', 'joycon', 'dualshock']
             seen = set(); toks: List[str] = []
             for t in aug:
                 if t not in seen:
@@ -773,27 +773,73 @@ class VectorDatabaseLoader:
         faiss.normalize_L2(q)
         
         # Search (get more results if filtering by category)
-        search_k = k * 3 if category_filter else k
+        search_k = k * 5 if category_filter else max(k, 30)
         scores, indices = self.faiss_index.search(q, search_k)
-        
-        # Format results
-        results = []
+
+        # Collect candidates with metadata
+        candidates: List[Dict[str, Any]] = []
         for score, idx in zip(scores[0], indices[0]):
-            if idx != -1:
-                item_meta = self.metadata[idx].copy()
-                item_meta['similarity_score'] = float(score)
-                
-                # Apply category filter if specified
-                if category_filter:
-                    if item_meta.get('category', '').lower() != category_filter.lower():
-                        continue
-                
-                results.append(item_meta)
-                
-                # Stop if we have enough results
-                if len(results) >= k:
-                    break
-        
+            if idx == -1:
+                continue
+            m = self.metadata[idx].copy()
+            m['similarity_score'] = float(score)
+            m['_rank_index'] = int(idx)
+            candidates.append(m)
+
+        # Apply targeted re-ranking for specific queries
+        def rerank_for_query(qs: str, items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+            import re
+            s = qs.lower().strip()
+            is_ps = ('playstation' in s) or s.startswith('ps') or any(t in s for t in ['ps1','ps2','ps3','ps4','ps5'])
+            is_controller = ('controller' in s) or ('コントローラー' in s)
+            if not (is_ps or is_controller):
+                return items
+            out = []
+            for m in items:
+                boost = 0.0
+                name = (m.get('name') or '').lower()
+                fam = (m.get('family') or '').lower()
+                dtype = (m.get('device_type') or '').lower()
+                model = (m.get('model') or '').upper()
+                base = m['similarity_score']
+                if is_ps:
+                    if fam.startswith('playstation'):
+                        boost += 0.10
+                    if re.search(r'\bps[1-5]\b', name):
+                        boost += 0.07
+                    if re.search(r'\b(SCPH|CECH|CUH|CFI)[-0-9A-Z]*\b', model) or re.search(r'\b(scph|cech|cuh|cfi)\b', name):
+                        boost += 0.07
+                    if 'dualshock' in name or 'dual sense' in name or 'dualsense' in name:
+                        boost += 0.03
+                if is_controller:
+                    if dtype == 'controller':
+                        boost += 0.10
+                    # Literal 'Con' token or suffix (case-insensitive)
+                    if re.search(r'(^|\W)con(\W|$)', (m.get('name') or ''), re.IGNORECASE) or (m.get('name') or '').endswith(' Con'):
+                        boost += 0.07
+                    ctrl_kw = ['controller','gamepad','joystick','stick','pad','joy-con','joycon','dualshock']
+                    if any(kw in name for kw in ctrl_kw):
+                        boost += 0.05
+                m['_rerank_score'] = base + boost
+                out.append(m)
+            # Sort by rerank score desc, then base similarity desc, then original index asc for stability
+            out.sort(key=lambda mm: (mm.get('_rerank_score', mm['similarity_score']), mm['similarity_score'], -mm.get('_rank_index', 0)), reverse=True)
+            return out
+
+        candidates = rerank_for_query(query, candidates)
+
+        # Apply category filter and return top-k
+        results: List[Dict[str, Any]] = []
+        for m in candidates:
+            if category_filter and m.get('category', '').lower() != category_filter.lower():
+                continue
+            # Cleanup internal fields
+            m.pop('_rank_index', None)
+            m.pop('_rerank_score', None)
+            results.append(m)
+            if len(results) >= k:
+                break
+
         return results
     
     def get_categories(self) -> Dict[str, int]:
