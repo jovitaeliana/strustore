@@ -1,7 +1,7 @@
 {
-  "created_date": "2025-09-11T16:25:07.998601",
+  "created_date": "2025-09-15T16:42:23.375043",
   "model_path": "intfloat/multilingual-e5-base",
-  "master_items_path": "/Users/jovitaeliana/Personal/strustore/items.json",
+  "master_items_path": "items.json",
   "total_items": 232,
   "total_categories": 11,
   "category_distribution": {

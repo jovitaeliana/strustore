@@ -1,11 +1,15 @@
 """
 GroundingDINO Result Enhancement Pipeline
 
-This script enhances existing GroundingDINO detection results by using the vector database
-for improved semantic classification. It processes all JSON files in gdinoOutput/final/
-and adds vector database classifications while preserving original results for comparison.
+Enhances GDINO detections using the vector database for semantic classification.
+Adds optional token normalization and produces an `enhanced_classification` map per detection.
+Itemtypes are used for display-only names; classification IDs come from items.json.
 """
 
+import os
+import re
+import argparse
+import sys
 import json
 import logging
 from pathlib import Path
@@ -14,6 +18,12 @@ import numpy as np
 from tqdm import tqdm
 import faiss
 from sentence_transformers import SentenceTransformer
+
+# Resolve repo root for local imports
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.append(str(ROOT_DIR))
+from text_normalization import TextNormalizer
 
 # Dynamic weighting system is implemented within this class
 
@@ -30,7 +40,12 @@ class GdinoResultEnhancer:
                  vector_db_path: str = "../../models/vector_database",
                  model_path: str = "intfloat/multilingual-e5-base",
                  gdino_output_dir: str = "../../gdinoOutput/final",
-                 itemtypes_path: str = "../../itemtypes.json"):
+                 itemtypes_path: str = "../../itemtypes.json",
+                 normalize_tokens: bool = True,
+                 itemtypes_display_only: bool = True,
+                 write_enhanced_classification: bool = True,
+                 official_threshold: float = 0.60,
+                 enforce_official_consistency: bool = True):
         """
         Initialize the result enhancer.
         
@@ -53,6 +68,14 @@ class GdinoResultEnhancer:
         self.itemtypes_data = None
         self.itemtypes_embeddings = None
         self.itemtypes_index = None
+        
+        # Normalization and policy flags
+        self.normalizer = TextNormalizer()
+        self.normalize_tokens = normalize_tokens
+        self.itemtypes_display_only = itemtypes_display_only
+        self.write_enhanced_classification = write_enhanced_classification
+        self.official_threshold = official_threshold
+        self.enforce_official_consistency = enforce_official_consistency
         
         # Dynamic weighting system is implemented within class methods
         
@@ -190,9 +213,10 @@ class GdinoResultEnhancer:
             dimension = self.itemtypes_embeddings.shape[1]
             self.itemtypes_index = faiss.IndexFlatIP(dimension)
             
-            # Normalize embeddings for cosine similarity
-            faiss.normalize_L2(self.itemtypes_embeddings.astype('float32'))
-            self.itemtypes_index.add(self.itemtypes_embeddings.astype('float32'))
+            # Normalize embeddings for cosine similarity (in-place on a float32 copy)
+            emb_f32 = self.itemtypes_embeddings.astype('float32', copy=True)
+            faiss.normalize_L2(emb_f32)
+            self.itemtypes_index.add(emb_f32)
             
             # Store metadata
             self.itemtypes_metadata = itemtype_metadata
@@ -305,6 +329,10 @@ class GdinoResultEnhancer:
             }
         
         try:
+            # Optional normalization applied before weighting
+            if self.normalize_tokens:
+                tokens = self.normalizer.normalize_tokens(tokens)
+
             if use_dynamic_weighting:
                 # Apply dynamic priority-based weighting
                 weighted_tokens = self.apply_dynamic_token_weighting(
@@ -339,18 +367,21 @@ class GdinoResultEnhancer:
             if not query_tokens:
                 return []
             
-            # Create search query
+            # Create search query (normalize once more)
+            if self.normalize_tokens:
+                query_tokens = self.normalizer.normalize_tokens(query_tokens)
             query_text = ' '.join(query_tokens)
             
             # Add E5 query prefix for better retrieval performance
             query_text = f"query: {query_text}"
             
             # Encode query
-            query_embedding = self.model.encode([query_text])
-            faiss.normalize_L2(query_embedding.astype('float32'))
+            q = self.model.encode([query_text])
+            q = q.astype('float32', copy=True)
+            faiss.normalize_L2(q)
             
             # Search
-            scores, indices = self.faiss_index.search(query_embedding.astype('float32'), k)
+            scores, indices = self.faiss_index.search(q, k)
             
             # Format results
             results = []
@@ -431,11 +462,12 @@ class GdinoResultEnhancer:
             query_text = f"query: {query_text}"
             
             # Encode query
-            query_embedding = self.model.encode([query_text])
-            faiss.normalize_L2(query_embedding.astype('float32'))
+            q = self.model.encode([query_text])
+            q = q.astype('float32', copy=True)
+            faiss.normalize_L2(q)
             
             # Search
-            scores, indices = self.itemtypes_index.search(query_embedding.astype('float32'), k)
+            scores, indices = self.itemtypes_index.search(q, k)
             
             # Format results
             results = []
@@ -575,7 +607,7 @@ class GdinoResultEnhancer:
             'hardware_token_count': len(hardware_tokens)
         }
 
-    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.5, 
+    def get_best_classification(self, tokens: List[str], min_similarity: float = 0.55, 
                               use_dynamic_weighting: bool = True, 
                               weighting_config: Optional[Dict[str, float]] = None) -> Optional[Dict[str, Any]]:
         """
@@ -628,18 +660,23 @@ class GdinoResultEnhancer:
                 
             logger.debug(f"Dynamic weighting: {len(weighted_tokens)} valid tokens from {len(tokens)} total")
         
-        # Search both databases with dynamic weighting
-        itemtype_match = self.find_itemtypes_match(
-            tokens, min_similarity, use_dynamic_weighting=use_dynamic_weighting
-        )
-        
+        # Normalize tokens (optional) before searches
+        tokens_norm = self.normalizer.normalize_tokens(tokens) if self.normalize_tokens else tokens
+
+        # Vector DB is the source of truth for classification
         similar_items = self.search_similar_items(
-            tokens, k=3, use_dynamic_weighting=use_dynamic_weighting, 
+            tokens_norm, k=3, use_dynamic_weighting=use_dynamic_weighting, 
             weighting_config=weighting_config
         )
         vector_match = None
         if similar_items and similar_items[0]['similarity_score'] >= min_similarity:
             vector_match = similar_items[0]
+
+        # Itemtypes are used only to provide official naming (QA); do not decide ID
+        # Use a slightly stricter threshold for QA naming than classification
+        itemtype_match = self.find_itemtypes_match(
+            tokens_norm, self.official_threshold, use_dynamic_weighting=use_dynamic_weighting
+        )
         
         # Apply dynamic similarity thresholds based on token quality and context
         if token_quality['quality_score'] < 0.4:
@@ -658,16 +695,14 @@ class GdinoResultEnhancer:
             adjusted_min_similarity = min_similarity
         
         # Re-evaluate matches with adjusted threshold for "No Match" detection
-        if itemtype_match and itemtype_match['similarity_score'] < adjusted_min_similarity:
-            logger.debug(f"Itemtype match below threshold: {itemtype_match['similarity_score']:.3f} < {adjusted_min_similarity:.3f}")
-            itemtype_match = None
         if vector_match and vector_match['similarity_score'] < adjusted_min_similarity:
             logger.debug(f"Vector match below threshold: {vector_match['similarity_score']:.3f} < {adjusted_min_similarity:.3f}")
             vector_match = None
-        
-        # If no matches meet the threshold, return None for "No Match"
-        if not itemtype_match and not vector_match:
-            logger.debug(f"No matches above similarity threshold {adjusted_min_similarity:.3f} - No Match")
+        if itemtype_match and itemtype_match['similarity_score'] < adjusted_min_similarity:
+            itemtype_match = None
+
+        # If there is no vector DB match, return None to signal "No Match"
+        if not vector_match:
             return None
         
         # Determine primary match based on similarity scores and dynamic weighting
@@ -695,67 +730,52 @@ class GdinoResultEnhancer:
         elif vector_match:
             primary_source = 'vector_database'
         
-        # Build comprehensive result with improved naming logic
-        if primary_source == 'itemtypes':
-            # Primary match is itemtypes
-            result = {
-                'id': itemtype_match['id'],
-                'reference_name': None,
-                'itemtypes_name': itemtype_match['name'],
-                'category': itemtype_match['category'],
-                'model': itemtype_match.get('console', ''),
-                'brand': itemtype_match.get('brand', ''),
-                'similarity_score': itemtype_match['similarity_score'],
-                'source': 'itemtypes',
-                'contextual_text': itemtype_match.get('contextual_text', ''),
-                'vector_index': None,
-                'embedding_norm': None,
-                'legacyId': None
-            }
-            
-            # Try to find corresponding vector database match for reference name
-            if vector_match:
-                result['reference_name'] = vector_match['name']
-                result['vector_reference_id'] = vector_match['id']
-                result['vector_reference_similarity'] = vector_match['similarity_score']
-            
-        else:
-            # Primary match is vector database
-            original_id = vector_match['id']
-            original_metadata = self.item_lookup.get(original_id, {})
-            
-            result = {
-                'id': original_id,
-                'reference_name': vector_match['name'],
-                'itemtypes_name': None,  # Will be set below if itemtype_match exists
-                'category': vector_match['category'],
-                'model': vector_match.get('model', ''),
-                'brand': '',  # Original database doesn't have brand field
-                'similarity_score': vector_match['similarity_score'],
-                'source': 'vector_database',
-                'contextual_text': original_metadata.get('contextual_text', ''),
-                'vector_index': original_metadata.get('vector_index', None),
-                'embedding_norm': original_metadata.get('embedding_norm', None),
-                'legacyId': original_metadata.get('legacyId', None)
-            }
-            
-            # Try to find corresponding itemtypes match for enhanced naming
-            if itemtype_match:
-                result['itemtypes_name'] = itemtype_match['name']
-                result['itemtypes_similarity'] = itemtype_match['similarity_score']
-                # Update brand if itemtypes has better brand info
-                if itemtype_match.get('brand'):
-                    result['brand'] = itemtype_match['brand']
+        # Build comprehensive result: always use vector DB for classification
+        original_id = vector_match['id']
+        original_metadata = self.item_lookup.get(original_id, {})
+
+        # Build result from vector DB match (classification)
+        result = {
+            'id': original_id,
+            'reference_name': vector_match['name'],
+            # Display-only QA fields are added separately and never used for display
+            'category': vector_match.get('category', ''),
+            'model': vector_match.get('model', ''),
+            'brand': '',  # database metadata does not include brand
+            'similarity_score': vector_match['similarity_score'],
+            'source': 'vector_database',
+            'contextual_text': original_metadata.get('contextual_text', ''),
+            'vector_index': original_metadata.get('vector_index', None),
+            'embedding_norm': original_metadata.get('embedding_norm', None),
+            'legacyId': original_metadata.get('legacyId', None)
+        }
+
+        # Attach QA naming info (not for display)
+        if itemtype_match:
+            result['official_name'] = itemtype_match['name']
+            result['official_similarity'] = float(itemtype_match.get('similarity_score', 0.0))
+            # Optional consistency check (brand/family alignment)
+            def _infer_brand(s: str) -> str:
+                st = (s or '').lower()
+                if any(x in st for x in ['nintendo', '任天堂', 'gamecube', 'wii', 'snes', 'n64', 'ds', 'switch', 'game boy']):
+                    return 'nintendo'
+                if any(x in st for x in ['playstation', 'sony', 'ps1', 'ps2', 'ps3', 'ps4', 'ps5', 'psp', 'vita']):
+                    return 'sony'
+                if any(x in st for x in ['xbox', 'microsoft']):
+                    return 'microsoft'
+                if 'sega' in st or 'saturn' in st or 'genesis' in st or 'megadrive' in st:
+                    return 'sega'
+                return ''
+            if self.enforce_official_consistency:
+                ref_brand = _infer_brand(result['reference_name'])
+                off_brand = _infer_brand(itemtype_match['name'])
+                result['official_consistency'] = (ref_brand == '' or off_brand == '' or ref_brand == off_brand)
             else:
-                # Try to search for itemtypes match with lower threshold
-                fallback_itemtype = self.find_itemtypes_match(
-                    tokens, min_similarity * 0.8, use_dynamic_weighting=use_dynamic_weighting
-                )
-                if fallback_itemtype:
-                    result['itemtypes_name'] = fallback_itemtype['name']
-                    result['itemtypes_similarity'] = fallback_itemtype['similarity_score']
-                    if fallback_itemtype.get('brand'):
-                        result['brand'] = fallback_itemtype['brand']
+                result['official_consistency'] = True
+        else:
+            result['official_name'] = None
+            result['official_similarity'] = 0.0
+            result['official_consistency'] = False
         
         # Add dynamic weighting analysis metadata to result
         if use_dynamic_weighting and weighted_tokens:
@@ -777,8 +797,11 @@ class GdinoResultEnhancer:
             'adjusted_min_similarity': adjusted_min_similarity
         }
         
-        logger.debug(f"Classification successful: {result.get('itemtypes_name') or result.get('reference_name')} "
-                    f"(similarity: {result['similarity_score']:.3f}, source: {result['source']})")
+        logger.debug(
+            f"Classification successful: {result.get('reference_name')} (sim: {result['similarity_score']:.3f}); "
+            f"official_name: {result.get('official_name')} (sim: {result.get('official_similarity', 0.0):.3f}, "
+            f"consistent: {result.get('official_consistency')})"
+        )
         
         return result
     
@@ -841,7 +864,6 @@ class GdinoResultEnhancer:
                     enhanced_data['gdino_improved'][detection_id] = {
                         'id': 'No Match',
                         'reference_name': 'No Match',
-                        'itemtypes_name': None,
                         'category': '',
                         'model': '',
                         'brand': '',
@@ -850,7 +872,11 @@ class GdinoResultEnhancer:
                         'vector_index': None,
                         'embedding_norm': None,
                         'legacyId': None,
-                        'similarity_score': 0.0
+                        'similarity_score': 0.0,
+                        # QA-only fields even for no-match (clear values)
+                        'official_name': None,
+                        'official_similarity': 0.0,
+                        'official_consistency': False
                     }
                     enhanced_data['gdino_improved_readable'][detection_id] = "No Match"
                     enhanced_data['gdino_similarity_scores'][detection_id] = 0.0
@@ -865,8 +891,8 @@ class GdinoResultEnhancer:
                 }
                 
                 classification_result = self.get_best_classification(
-                    tokens, 
-                    min_similarity=0.5, 
+                    tokens,
+                    min_similarity=0.55,
                     use_dynamic_weighting=True,
                     weighting_config=weighting_config
                 )
@@ -876,7 +902,6 @@ class GdinoResultEnhancer:
                     enhanced_data['gdino_improved'][detection_id] = {
                         'id': classification_result['id'],
                         'reference_name': classification_result.get('reference_name'),
-                        'itemtypes_name': classification_result.get('itemtypes_name'),
                         'category': classification_result['category'],
                         'model': classification_result['model'],
                         'brand': classification_result['brand'],
@@ -885,7 +910,11 @@ class GdinoResultEnhancer:
                         'vector_index': classification_result.get('vector_index'),
                         'embedding_norm': classification_result.get('embedding_norm'),
                         'legacyId': classification_result.get('legacyId'),
-                        'similarity_score': classification_result['similarity_score']
+                        'similarity_score': classification_result['similarity_score'],
+                        # QA-only fields
+                        'official_name': classification_result.get('official_name'),
+                        'official_similarity': classification_result.get('official_similarity', 0.0),
+                        'official_consistency': classification_result.get('official_consistency', False)
                     }
                     
                     # Add secondary matches if available
@@ -893,26 +922,23 @@ class GdinoResultEnhancer:
                         enhanced_data['gdino_improved'][detection_id]['vector_reference_id'] = classification_result['vector_reference_id']
                         enhanced_data['gdino_improved'][detection_id]['vector_reference_similarity'] = classification_result['vector_reference_similarity']
                     
-                    if classification_result.get('itemtypes_similarity'):
-                        enhanced_data['gdino_improved'][detection_id]['itemtypes_similarity'] = classification_result['itemtypes_similarity']
-                    
-                    # Set readable name with priority: itemtypes_name > reference_name
-                    readable_name = classification_result.get('itemtypes_name') or classification_result.get('reference_name')
-                    if readable_name:
-                        # Show both names if both exist
-                        if classification_result.get('itemtypes_name') and classification_result.get('reference_name'):
-                            if classification_result.get('itemtypes_name') != classification_result.get('reference_name'):
-                                readable_name = f"{classification_result['itemtypes_name']} ({classification_result['reference_name']})"
-                    
-                    enhanced_data['gdino_improved_readable'][detection_id] = readable_name or "Unknown"
+                    # Set readable strictly from items.json classification
+                    readable_name = classification_result.get('reference_name')
+                    if readable_name == 'No Match' or not readable_name:
+                        enhanced_data['gdino_improved_readable'][detection_id] = "No Match"
+                    else:
+                        enhanced_data['gdino_improved_readable'][detection_id] = readable_name
                     enhanced_data['gdino_similarity_scores'][detection_id] = round(classification_result['similarity_score'], 4)
+                    # Mirror to enhanced_classification map if enabled
+                    if self.write_enhanced_classification:
+                        enhanced_data.setdefault('enhanced_classification', {})
+                        enhanced_data['enhanced_classification'][detection_id] = enhanced_data['gdino_improved'][detection_id]
                     
                 else:
                     # No good match found - create proper "No Match" entry
                     enhanced_data['gdino_improved'][detection_id] = {
                         'id': 'No Match',
                         'reference_name': 'No Match',
-                        'itemtypes_name': None,
                         'category': '',
                         'model': '',
                         'brand': '',
@@ -921,10 +947,16 @@ class GdinoResultEnhancer:
                         'vector_index': None,
                         'embedding_norm': None,
                         'legacyId': None,
-                        'similarity_score': 0.0
+                        'similarity_score': 0.0,
+                        'official_name': None,
+                        'official_similarity': 0.0,
+                        'official_consistency': False
                     }
                     enhanced_data['gdino_improved_readable'][detection_id] = "No Match"
                     enhanced_data['gdino_similarity_scores'][detection_id] = 0.0
+                    if self.write_enhanced_classification:
+                        enhanced_data.setdefault('enhanced_classification', {})
+                        enhanced_data['enhanced_classification'][detection_id] = enhanced_data['gdino_improved'][detection_id]
             
             return enhanced_data
             
@@ -1060,68 +1092,41 @@ class GdinoResultEnhancer:
             return {'status': 'error', 'error': str(e)}
 
 
-def main():
-    """Main function to enhance GroundingDINO results."""
-    
-    # Configuration - adapt paths based on current directory
-    model_path = "intfloat/multilingual-e5-base" 
-    
-    # Check if we're running from strustore or strustore-vector-classification directory
-    import os
-    current_dir = os.getcwd()
-    if current_dir.endswith('strustore-vector-classification'):
-        vector_db_path = "models/vector_database"
-        gdino_output_dir = "../gdinoOutput/final"
-        itemtypes_path = "../itemtypes.json"
-    else:
-        # Running from strustore directory
-        vector_db_path = "strustore-vector-classification/models/vector_database"
-        gdino_output_dir = "gdinoOutput/final"
-        itemtypes_path = "itemtypes.json"
-    
-    # Debug: Check if paths exist
-    from pathlib import Path
-    gdino_path = Path(gdino_output_dir)
-    vector_path = Path(vector_db_path)
-    itemtypes_file = Path(itemtypes_path)
-    
-    logger.info(f"🔍 Current directory: {current_dir}")
-    logger.info(f"🔍 GDINO path '{gdino_path}' exists: {gdino_path.exists()}")
-    logger.info(f"🔍 Vector DB path '{vector_path}' exists: {vector_path.exists()}")
-    logger.info(f"🔍 Itemtypes path '{itemtypes_file}' exists: {itemtypes_file.exists()}")
-    
-    if gdino_path.exists():
-        json_files = list(gdino_path.rglob("*.json"))
-        logger.info(f"🔍 Found {len(json_files)} JSON files in GDINO directory")
-    
-    logger.info("🚀 Starting GroundingDINO Result Enhancement Pipeline with Itemtypes Support")
-    
-    # Initialize enhancer
-    enhancer = GdinoResultEnhancer(vector_db_path, model_path, gdino_output_dir, itemtypes_path)
-    
-    # Load vector database
+def main(argv: Optional[List[str]] = None):
+    """CLI for enhancing GroundingDINO results."""
+    parser = argparse.ArgumentParser(description="Enhance GDINO results with vector DB")
+    parser.add_argument("--vector-db", default=os.getenv("STRUSTORE_DB_PATH", "models/vector_database"))
+    parser.add_argument("--model", default=os.getenv("STRUSTORE_MODEL_PATH", "intfloat/multilingual-e5-base"))
+    parser.add_argument("--gdino-dir", default=os.getenv("STRUSTORE_GDINO_DIR", "../gdinoOutput/final"))
+    parser.add_argument("--itemtypes", default=os.getenv("STRUSTORE_ITEMTYPES_PATH", "../itemtypes.json"))
+    parser.add_argument("--no-normalize", action="store_true", help="Disable token normalization")
+    parser.add_argument("--official-threshold", type=float, default=float(os.getenv("STRUSTORE_OFFICIAL_THRESHOLD", 0.60)), help="Threshold for accepting itemtypes QA name")
+    parser.add_argument("--no-consistency-gate", action="store_true", help="Disable brand/family consistency check for official QA name")
+    parser.add_argument("--no-enhanced-classification", action="store_true", help="Do not write enhanced_classification map")
+    parser.add_argument("--log-level", default=os.getenv("STRUSTORE_LOG_LEVEL", "INFO"))
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args(argv)
+
+    logging.getLogger().setLevel(getattr(logging, args.log_level.upper(), logging.INFO))
+
+    enhancer = GdinoResultEnhancer(
+        vector_db_path=args.vector_db,
+        model_path=args.model,
+        gdino_output_dir=args.gdino_dir,
+        itemtypes_path=args.itemtypes,
+        normalize_tokens=(not args.no_normalize),
+        itemtypes_display_only=True,
+        write_enhanced_classification=(not args.no_enhanced_classification),
+        official_threshold=args.official_threshold,
+        enforce_official_consistency=(not args.no_consistency_gate),
+    )
+
     enhancer.load_vector_database()
-    
-    # Load itemtypes database
     enhancer.load_itemtypes_database()
-    
-    # Process all files
-    logger.info("🔄 Processing all GroundingDINO result files...")
-    results = enhancer.process_all_files(dry_run=False)
-    
-    if results['status'] == 'success':
-        logger.info(f"✅ Enhancement completed successfully!")
-        logger.info(f"📊 Enhanced {results['enhanced_detections']} out of {results['total_detections']} detections")
-        logger.info(f"📈 Enhancement rate: {results['enhancement_rate']}%")
-    else:
-        logger.error(f"❌ Enhancement failed: {results.get('error', 'Unknown error')}")
-    
+    results = enhancer.process_all_files(dry_run=args.dry_run)
     return results
 
 
 if __name__ == '__main__':
-    # Run the enhancement process
-    enhancer = GdinoResultEnhancer()
-    enhancer.load_vector_database()
-    results = enhancer.process_all_files()
+    results = main()
     print(f"✅ Enhancement completed: {results}")

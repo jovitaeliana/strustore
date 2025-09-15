@@ -1,10 +1,13 @@
 """
 Vector Database Creation Script
 
-This script creates the vector database from the trained model and master items list.
-The vector database serves as the "reference library" for real-time classification.
+Creates the vector database from the trained model and master items list.
+Adds optional text normalization, alias expansion, and CLI/env-driven config
+without breaking existing defaults.
 """
 
+import os
+import argparse
 import pandas as pd
 import numpy as np
 import logging
@@ -17,12 +20,168 @@ from datetime import datetime
 # Core ML libraries
 from sentence_transformers import SentenceTransformer
 import faiss
-from sklearn.metrics.pairwise import cosine_similarity
 
-# Import position-weighted classification system
+# Import local utilities (resolve repo root dynamically)
 import sys
-sys.path.append('/Users/jovitaeliana/Personal/strustore')
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.append(str(ROOT_DIR))
+
 from position_weighted_embeddings import PositionWeightedTokenClassifier
+from text_normalization import TextNormalizer
+from aliases.generator import HeuristicAliasProvider
+
+# ---------------- Family and device type inference utilities ---------------- #
+
+_FAMILY_KEYWORDS = [
+    ("nintendo ds lite", ["ds lite", "dsl", "dslite"]),
+    ("nintendo dsi", ["dsi"]),
+    ("nintendo 3ds", ["3ds"]),
+    ("new 2ds xl", ["2ds xl", "new 2ds xl", "2ds"]),
+    ("nintendo ds", ["nds", "ds"]),
+    ("game boy advance", ["gba"]),
+    ("game boy color", ["gbc"]),
+    ("game boy", ["gb", "gameboy"]),
+    ("nintendo 64", ["n64"]),
+    ("super famicom", ["sfc", "snes"]),
+    ("famicom", ["fc", "nes"]),
+    ("gamecube", ["gc", "nintendo gamecube"]),
+    ("wii u", ["wii u"]),
+    ("wii", ["nintendo wii"]),
+    ("nintendo switch", ["switch"]),
+    ("playstation 5", ["ps5"]),
+    ("playstation 4", ["ps4"]),
+    ("playstation 3", ["ps3"]),
+    ("playstation 2", ["ps2"]),
+    ("playstation", ["ps", "ps1", "playstation 1"]),
+    ("ps vita", ["vita", "playstation vita"]),
+    ("psp", ["playstation portable"]),
+    ("xbox one", ["xbone"]),
+    ("xbox 360", ["x360"]),
+    ("xbox", ["microsoft xbox"]),
+    ("sega saturn", ["saturn"]),
+    ("dreamcast", ["sega dreamcast"]),
+]
+
+def infer_family(name: str, model: Optional[str]) -> Tuple[str, List[str]]:
+    """Infer a canonical family slug and tight synonyms from item name/model codes."""
+    import re
+    n = (name or "").strip().lower()
+    m = (model or "").strip().lower()
+
+    # Model code driven mapping (most specific)
+    code = f"{n} {m}"
+    if re.search(r"\b(dol-\d{3})\b", code):
+        return "gamecube", ["gc", "nintendo gamecube"]
+    if re.search(r"\bnus-\d+\b", code):
+        return "nintendo 64", ["n64"]
+    if re.search(r"\bntr-001\b", code):
+        return "nintendo ds", ["nds", "ds"]
+    if re.search(r"\busg-001\b", code):
+        return "nintendo ds lite", ["ds lite", "dsl", "dslite"]
+    if re.search(r"\btwl-001\b", code):
+        return "nintendo dsi", ["dsi"]
+    if re.search(r"\bctr-001\b", code):
+        return "nintendo 3ds", ["3ds"]
+    if re.search(r"\bhdh-001\b", code):
+        return "nintendo switch lite", ["switch lite", "switch"]
+    if re.search(r"\bheg-001\b", code):
+        return "nintendo switch", ["switch"]
+    if re.search(r"\bwup-\d+\b", code):
+        return "wii u", ["wii u"]
+    if re.search(r"\brvl-\d+\b", code):
+        return "wii", ["nintendo wii"]
+    if re.search(r"\bscph-\d+\b", code):
+        # Could refine by range to PS1/PS2; keep generic Playstation
+        return "playstation", ["ps", "ps1", "ps2"]
+    if re.search(r"\bcech-\w+\b", code):
+        return "playstation 3", ["ps3"]
+    if re.search(r"\bcuh-\w+\b", code):
+        return "playstation 4", ["ps4"]
+    if re.search(r"\bcfi-\w+\b", code):
+        return "playstation 5", ["ps5"]
+    if re.search(r"\bdmg-\d+\b", code):
+        return "game boy", ["gb", "gameboy"]
+    if re.search(r"\bcgb-\d+\b", code):
+        return "game boy color", ["gbc"]
+    if re.search(r"\bagb-\d+\b", code) or re.search(r"\bags-\d+\b", code):
+        return "game boy advance", ["gba"]
+
+    # Keyword-driven mapping
+    for fam, syns in _FAMILY_KEYWORDS:
+        if fam in n:
+            return fam, syns
+    # broader tokens
+    if "gc" in n or "gamecube" in n:
+        return "gamecube", ["gc", "nintendo gamecube"]
+    if re.search(r"\bn64\b", n):
+        return "nintendo 64", ["n64"]
+    if re.search(r"\bsfc\b|super famicom|snes", n):
+        return "super famicom", ["sfc", "snes"]
+    if re.search(r"\bds\b|nintendo ds", n):
+        return "nintendo ds", ["nds", "ds"]
+    if "dsl" in n or "ds lite" in n or "dslite" in n:
+        return "nintendo ds lite", ["ds lite", "dsl", "dslite"]
+    if re.search(r"\b3ds\b|nintendo 3ds", n):
+        return "nintendo 3ds", ["3ds"]
+    if re.search(r"\b2ds\b", n):
+        return "nintendo 2ds", ["2ds"]
+    if re.search(r"game boy advance|\bgba\b", n):
+        return "game boy advance", ["gba"]
+    if re.search(r"game boy color|\bgbc\b", n):
+        return "game boy color", ["gbc"]
+    if re.search(r"game boy|gameboy|\bgb\b", n):
+        return "game boy", ["gb", "gameboy"]
+    if "wii u" in n:
+        return "wii u", ["wii u"]
+    if re.search(r"\bwii\b", n):
+        return "wii", ["nintendo wii"]
+    if "switch" in n:
+        return "nintendo switch", ["switch"]
+    if re.search(r"\bps ?5\b|playstation 5", n):
+        return "playstation 5", ["ps5"]
+    if re.search(r"\bps ?4\b|playstation 4", n):
+        return "playstation 4", ["ps4"]
+    if re.search(r"\bps ?3\b|playstation 3", n):
+        return "playstation 3", ["ps3"]
+    if re.search(r"\bps ?2\b|playstation 2", n):
+        return "playstation 2", ["ps2"]
+    if re.search(r"\bps ?1\b|playstation(?! [2345])", n) or "sony playstation" in n:
+        return "playstation", ["ps", "ps1"]
+    if "ps vita" in n or "vita" in n:
+        return "ps vita", ["vita", "playstation vita"]
+    if re.search(r"\bpsp\b|playstation portable", n):
+        return "psp", ["psp", "playstation portable"]
+    if "xbox one" in n or "xbone" in n:
+        return "xbox one", ["xbone"]
+    if "xbox 360" in n or "x360" in n:
+        return "xbox 360", ["x360"]
+    if re.search(r"\bxbox\b", n):
+        return "xbox", ["microsoft xbox"]
+    if "saturn" in n:
+        return "sega saturn", ["saturn"]
+    if "dreamcast" in n:
+        return "dreamcast", ["sega dreamcast"]
+
+    # Unknown
+    return "", []
+
+
+def infer_device_type(category: Optional[str]) -> str:
+    c = (category or "").strip().lower()
+    if c == "video game consoles":
+        return "console"
+    if c == "controllers & attachments":
+        return "controller"
+    if c == "power cables & connectors":
+        return "power cable"
+    if c == "memory cards & expansion packs":
+        return "memory card"
+    if c == "video games":
+        return "video game"
+    if c == "other video game accessories":
+        return "accessory"
+    return "accessory"
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -36,7 +195,10 @@ class VectorDatabaseCreator:
     def __init__(self, 
                  model_path: str,
                  master_items_path: str,
-                 database_output_path: str = "models/vector_database"):
+                 database_output_path: str = "models/vector_database",
+                 normalizer: Optional[TextNormalizer] = None,
+                 use_normalization: bool = True,
+                 use_aliases: bool = False):
         """
         Initialize the vector database creator.
         
@@ -48,7 +210,11 @@ class VectorDatabaseCreator:
         self.model_path = Path(model_path)
         self.master_items_path = Path(master_items_path)
         self.database_output_path = Path(database_output_path)
-        
+        # Normalization / aliases
+        self.normalizer = normalizer or TextNormalizer()
+        self.use_normalization = use_normalization
+        self.use_aliases = use_aliases
+
         # Create output directory
         self.database_output_path.mkdir(parents=True, exist_ok=True)
         
@@ -134,172 +300,28 @@ class VectorDatabaseCreator:
         except Exception as e:
             raise RuntimeError(f"Failed to load master items: {e}")
     
-    def create_contextual_text(self, item_name: str, category: str, model: str = "", item_id: str = "", position_weighted: bool = True) -> str:
+    def create_contextual_text(self, item_name: str, category: str, model: str = "", item_id: str = "", position_weighted: bool = False) -> str:
         """
-        Create richer contextual text for enhanced semantic embedding while preserving Firebase data integrity.
-        
-        Args:
-            item_name: Original item name from Firebase
-            category: Original Firebase category (exact string match)
-            model: Original Firebase model field
-            item_id: Original Firebase item ID
-            
-        Returns:
-            Enhanced contextual text string in format: item_name | id: item_id | category: exact_category | expanded_synonyms
+        Create minimal, structured contextual text for high-precision retrieval.
+        Format: title: <name> | family: <family and tight synonyms> | type: <device_type> | model: <code> | id: <id>
         """
-        # Enhanced gaming-specific synonym expansion based on positive training pairs
-        gaming_synonyms = {
-            # Console abbreviations
-            'PS2': 'PlayStation 2',
-            'PS1': 'PlayStation 1', 
-            'PS3': 'PlayStation 3',
-            'PS4': 'PlayStation 4',
-            'PS5': 'PlayStation 5',
-            'DS': 'Nintendo DS',
-            '3DS': 'Nintendo 3DS',
-            'GBA': 'Game Boy Advance',
-            'GBC': 'Game Boy Color',
-            'GC': 'GameCube',
-            'N64': 'Nintendo 64',
-            'SNES': 'Super Nintendo Entertainment System',
-            'NES': 'Nintendo Entertainment System',
-            'PSP': 'PlayStation Portable',
-            'Vita': 'PlayStation Vita',
-            'Switch': 'Nintendo Switch',
-            'Wii': 'Nintendo Wii',
-            'Xbox': 'Microsoft Xbox',
-            
-            # Model codes from positive pairs
-            'NTR-001': 'Nintendo DS Original Console',
-            'USG-001': 'Nintendo DS Lite Console', 
-            'TWL-001': 'Nintendo DSi Console',
-            'CTR-001': 'Nintendo 3DS Console',
-            'HDH-001': 'Nintendo Switch Lite Console',
-            'AGS-001': 'Game Boy Advance Console',
-            'SHVC-001': 'Super Nintendo Console',
-            
-            # Color/condition terms from training data
-            'ホワイト': 'white',
-            'ブラック': 'black',
-            'ブルー': 'blue',
-            'レッド': 'red',
-            'ピンク': 'pink',
-            'シルバー': 'silver',
-            '本体': 'console',
-            'コントローラー': 'controller',
-            '任天堂': 'nintendo',
-            'プレイステーション': 'playstation',
-            '動作確認済み': 'tested working',
-            '新品': 'new',
-            '中古': 'used',
-            '美品': 'mint condition'
-        }
-        
-        # Start with original Firebase name (preserved exactly)
-        context_parts = [item_name]
-        
-        # Add ID context if available
-        if item_id and item_id.strip():
-            context_parts.append(f"id: {item_id}")
-        
-        # Add category context with exact Firebase category string
-        context_parts.append(f"category: {category}")
-        
-        # Add model context if available
-        if model and model.strip():
-            context_parts.append(f"model: {model}")
-        
-        # Gaming synonym expansion based on positive training pairs
-        expanded_terms = []
-        item_lower = item_name.lower()
-        
-        # Direct synonym matches
-        for abbrev, full_name in gaming_synonyms.items():
-            if abbrev.lower() in item_lower or abbrev in item_name:
-                expanded_terms.append(full_name)
-        
-        # Console-specific contextual expansions
-        if any(term in item_lower for term in ['(ps2)', 'ps2']):
-            expanded_terms.extend(['PlayStation 2 console game', 'Sony PlayStation 2'])
-        elif any(term in item_lower for term in ['(ds)', 'nintendo ds', 'ds lite']):
-            expanded_terms.extend(['Nintendo DS handheld game', 'portable gaming device'])
-        elif any(term in item_lower for term in ['(gc)', 'gamecube']):
-            expanded_terms.extend(['GameCube console game', 'Nintendo GameCube'])
-        elif any(term in item_lower for term in ['(n64)', 'nintendo 64']):
-            expanded_terms.extend(['Nintendo 64 console game', 'N64 cartridge'])
-        elif any(term in item_lower for term in ['(wii)', 'nintendo wii']):
-            expanded_terms.extend(['Nintendo Wii console game', 'motion control gaming'])
-        elif any(term in item_lower for term in ['(switch)', 'nintendo switch']):
-            expanded_terms.extend(['Nintendo Switch console game', 'hybrid handheld console'])
-        elif any(term in item_lower for term in ['(psp)', 'playstation portable']):
-            expanded_terms.extend(['PlayStation Portable handheld game', 'Sony PSP'])
-        elif any(term in item_lower for term in ['(gba)', 'game boy advance']):
-            expanded_terms.extend(['Game Boy Advance handheld game', 'Nintendo GBA'])
-        
-        # Category-specific semantic expansions
-        if category == 'Video Games':
-            expanded_terms.append('video game software')
-        elif category == 'Gaming Consoles':
-            expanded_terms.extend(['gaming console hardware', 'video game system'])
-        elif category == 'Controllers & Attachments':
-            expanded_terms.extend(['gaming controller device', 'gamepad peripheral'])
-        elif category == 'Handheld Consoles':
-            expanded_terms.extend(['portable handheld gaming system', 'mobile gaming device'])
-        elif category == 'Memory Cards & Expansion Packs':
-            expanded_terms.extend(['memory storage device', 'game save storage'])
-        elif category == 'Power Cables & Connectors':
-            expanded_terms.extend(['power supply cable', 'electrical connector'])
-        
-        # Add brand context for better semantic matching
-        if any(brand in item_lower for brand in ['nintendo', '任天堂']):
-            expanded_terms.append('Nintendo brand gaming product')
-        elif any(brand in item_lower for brand in ['playstation', 'sony', 'ps', 'プレイステーション']):
-            expanded_terms.append('Sony PlayStation gaming product')
-        elif any(brand in item_lower for brand in ['xbox', 'microsoft']):
-            expanded_terms.append('Microsoft Xbox gaming product')
-        elif any(brand in item_lower for brand in ['sega']):
-            expanded_terms.append('Sega gaming product')
-        
-        # Combine all contextual information
-        if expanded_terms:
-            # Remove duplicates while preserving order
-            seen = set()
-            unique_terms = []
-            for term in expanded_terms:
-                if term.lower() not in seen:
-                    seen.add(term.lower())
-                    unique_terms.append(term)
-            context_parts.extend(unique_terms)
-        
-        # Apply position-weighted enhancement if enabled
-        if position_weighted:
-            # Initialize position-weighted classifier for contextual enhancement
-            classifier = PositionWeightedTokenClassifier()
-            
-            # Create hardware-focused context based on position weighting principles
-            hardware_context = []
-            item_lower = item_name.lower()
-            
-            # Priority hardware terms (equivalent to position 0-3 in GDINO ranking)
-            priority_terms = []
-            for term in classifier.hardware_terms:
-                if term in item_lower:
-                    priority_terms.append(term)
-            
-            # Add top priority terms first (simulating high-confidence GDINO tokens)
-            if priority_terms:
-                hardware_context.extend(priority_terms[:4])  # Top 4 most relevant
-            
-            # Add brand context with high weighting
-            for brand, terms in classifier.brand_terms.items():
-                if any(term in item_lower for term in terms):
-                    hardware_context.append(f"{brand} gaming hardware")
-                    break
-            
-            if hardware_context:
-                context_parts.extend(hardware_context)
-        
-        return ' | '.join(context_parts)
+        fam, syns = infer_family(item_name, model)
+        device_type = infer_device_type(category)
+        family_field = fam
+        if syns:
+            family_field = fam + (" " + " ".join(syns) if fam else " ".join(syns))
+
+        parts: List[str] = []
+        parts.append(f"title: {item_name}")
+        if family_field:
+            parts.append(f"family: {family_field}")
+        if device_type:
+            parts.append(f"type: {device_type}")
+        if model:
+            parts.append(f"model: {model}")
+        if item_id:
+            parts.append(f"id: {item_id}")
+        return " | ".join(parts)
 
     def generate_embeddings(self, use_position_weighting: bool = True) -> Tuple[np.ndarray, List[Dict[str, Any]]]:
         """
@@ -323,6 +345,10 @@ class VectorDatabaseCreator:
                 contextual_texts.append(contextual_text)
             
             logger.info(f"Created contextual texts for {len(contextual_texts)} items")
+
+            # Optional normalization step (index-side)
+            if self.use_normalization:
+                contextual_texts = [self.normalizer.normalize_for_index(t) for t in contextual_texts]
             
             # Generate embeddings in batches for efficiency
             batch_size = 32
@@ -349,19 +375,23 @@ class VectorDatabaseCreator:
             # Concatenate all embeddings
             embeddings = np.vstack(all_embeddings)
             
-            # Create enhanced metadata for each item with position-weighting info
+            # Create enhanced metadata for each item with family/type info
             metadata = []
             classifier = PositionWeightedTokenClassifier() if use_position_weighting else None
             
             for idx, (item_id, item_name, item_category, item_model, contextual_text) in enumerate(
                 zip(item_ids, items, item_categories, item_models, contextual_texts)
             ):
+                fam, syns = infer_family(item_name, item_model)
+                device_type = infer_device_type(item_category)
                 meta = {
                     'id': item_id,
                     'name': item_name,                    # Original Firebase name
                     'category': item_category,            # Original Firebase category
                     'model': item_model if item_model else '',  # Original Firebase model
                     'contextual_text': contextual_text,   # Enhanced context for embedding
+                    'family': fam,
+                    'device_type': device_type,
                     'vector_index': idx,
                     'embedding_norm': float(np.linalg.norm(embeddings[idx]))
                 }
@@ -416,6 +446,10 @@ class VectorDatabaseCreator:
             dimension = embeddings.shape[1]
             n_items = embeddings.shape[0]
             
+            # Prepare normalized float32 embeddings for cosine search via IP
+            emb_f32 = embeddings.astype('float32', copy=True)
+            faiss.normalize_L2(emb_f32)
+
             # Choose index type based on dataset size
             if n_items < 1000:
                 # Use flat index for small datasets (exact search)
@@ -430,14 +464,11 @@ class VectorDatabaseCreator:
                 
                 # Train the index
                 logger.info("Training FAISS index...")
-                index.train(embeddings.astype('float32'))
-            
-            # Normalize embeddings for cosine similarity
-            faiss.normalize_L2(embeddings.astype('float32'))
+                index.train(emb_f32)
             
             # Add embeddings to index
             logger.info("Adding embeddings to index...")
-            index.add(embeddings.astype('float32'))
+            index.add(emb_f32)
             
             logger.info(f"✅ FAISS index created with {index.ntotal} vectors")
             
@@ -535,22 +566,52 @@ class VectorDatabaseCreator:
                 "コントローラー"
             ]
             
+            def build_query(q: str) -> str:
+                qs = q.lower()
+                aug: List[str] = [qs]
+                # Family synonym expansions (query-side only)
+                if 'ニンテンドーds' in qs or 'nintendo ds' in qs or qs.strip() == 'ds':
+                    aug += ['nintendo ds', 'nds', 'ds', 'console']
+                if 'ds lite' in qs or 'dsl' in qs:
+                    aug += ['nintendo ds lite', 'dsl', 'dslite', 'console']
+                if '3ds' in qs:
+                    aug += ['nintendo 3ds', 'handheld']
+                if 'game boy' in qs:
+                    aug += ['game boy', 'gb', 'handheld']
+                if 'playstation' in qs or qs.strip() == 'ps':
+                    aug += ['playstation', 'ps']
+                if 'controller' in qs or 'コントローラー' in q:
+                    aug += ['controller', 'gamepad']
+                # Join unique tokens
+                seen = set()
+                toks = []
+                for t in aug:
+                    if t not in seen:
+                        seen.add(t)
+                        toks.append(t)
+                joined = ' '.join(toks)
+                return f"query: {joined}" if 'e5' in str(self.model_path).lower() else joined
+
             for query in test_queries:
                 logger.info(f"\n--- Query: '{query}' ---")
                 
-                # Encode query
-                query_embedding = self.model.encode([query])
-                faiss.normalize_L2(query_embedding.astype('float32'))
+                # Encode query (use E5 query prefix when applicable)
+                query_text = build_query(query)
+                q = self.model.encode([query_text])
+                q = q.astype('float32', copy=True)
+                faiss.normalize_L2(q)
                 
                 # Search
                 k = 3  # Top 3 results
-                scores, indices = faiss_index.search(query_embedding.astype('float32'), k)
+                scores, indices = faiss_index.search(q, k)
                 
                 # Display results
                 for i, (score, idx) in enumerate(zip(scores[0], indices[0])):
                     if idx != -1:  # Valid result
                         item_meta = metadata[idx]
-                        logger.info(f"  {i+1}. {item_meta['name']} (ID: {item_meta['id']}, Score: {score:.4f})")
+                        fam = item_meta.get('family', '')
+                        dtype = item_meta.get('device_type', '')
+                        logger.info(f"  {i+1}. {item_meta['name']} (ID: {item_meta['id']}, family: {fam or '-'}, type: {dtype or '-'}, Score: {score:.4f})")
             
         except Exception as e:
             logger.error(f"Database testing failed: {e}")
@@ -684,13 +745,36 @@ class VectorDatabaseLoader:
         if self.faiss_index is None:
             raise RuntimeError("Database not loaded. Call load_database() first.")
         
-        # Encode query
-        query_embedding = self.model.encode([query])
-        faiss.normalize_L2(query_embedding.astype('float32'))
+        # Encode query with minimal normalization and family synonyms
+        def build_query(qs: str) -> str:
+            s = qs.lower()
+            aug: List[str] = [s]
+            if 'ニンテンドーds' in s or 'nintendo ds' in s or s.strip() == 'ds':
+                aug += ['nintendo ds', 'nds', 'ds', 'console']
+            if 'ds lite' in s or 'dsl' in s:
+                aug += ['nintendo ds lite', 'dsl', 'dslite', 'console']
+            if '3ds' in s:
+                aug += ['nintendo 3ds', 'handheld']
+            if 'game boy' in s or 'gameboy' in s or s.strip() == 'gb':
+                aug += ['game boy', 'gb', 'handheld']
+            if 'playstation' in s or s.strip() == 'ps':
+                aug += ['playstation', 'ps']
+            if 'controller' in s or 'コントローラー' in s:
+                aug += ['controller', 'gamepad']
+            seen = set(); toks: List[str] = []
+            for t in aug:
+                if t not in seen:
+                    seen.add(t); toks.append(t)
+            joined = ' '.join(toks)
+            return f"query: {joined}" if 'e5' in str(self.model_path).lower() else joined
+
+        q = self.model.encode([build_query(query)])
+        q = q.astype('float32', copy=True)
+        faiss.normalize_L2(q)
         
         # Search (get more results if filtering by category)
         search_k = k * 3 if category_filter else k
-        scores, indices = self.faiss_index.search(query_embedding.astype('float32'), search_k)
+        scores, indices = self.faiss_index.search(q, search_k)
         
         # Format results
         results = []
@@ -753,26 +837,41 @@ class VectorDatabaseLoader:
         return results
 
 
-def main():
-    """Main function to create vector database."""
-    
-    # Configuration
-    model_path = "intfloat/multilingual-e5-base"
-    master_items_path = "/Users/jovitaeliana/Personal/strustore/items.json"  # Path to canonical taxonomy
-    database_output_path = "models/vector_database"
-    
-    # Using pre-trained LaBSE model - no local file check needed
-    
-    # Check if master items file exists
-    if not Path(master_items_path).exists():
-        logger.error(f"Master items file not found at: {master_items_path}")
-        logger.error("Please ensure the items.json file is available.")
-        return
-    
-    # Create vector database
-    creator = VectorDatabaseCreator(model_path, master_items_path, database_output_path)
+def main(argv: Optional[List[str]] = None):
+    """CLI for creating the vector database with optional normalization."""
+    parser = argparse.ArgumentParser(description="Create Strustore vector database")
+    parser.add_argument("--model", default=os.getenv("STRUSTORE_MODEL_PATH", "intfloat/multilingual-e5-base"), help="Model name or path")
+    parser.add_argument("--items", default=os.getenv("STRUSTORE_ITEMS_PATH", "items.json"), help="Path to items.json")
+    parser.add_argument("--out", default=os.getenv("STRUSTORE_DB_PATH", "models/vector_database"), help="Output directory for vector DB")
+    parser.add_argument("--no-normalize", action="store_true", help="Disable text normalization for index")
+    parser.add_argument("--use-aliases", action="store_true", help="Enable heuristic alias expansion for index text")
+    parser.add_argument("--log-level", default=os.getenv("STRUSTORE_LOG_LEVEL", "INFO"), help="Logging level")
+    args = parser.parse_args(argv)
+
+    logging.getLogger().setLevel(getattr(logging, args.log_level.upper(), logging.INFO))
+
+    # Resolve items path intelligently
+    items_path = Path(args.items)
+    if not items_path.exists():
+        # Try repo root fallback
+        repo_root = ROOT_DIR
+        candidate = repo_root / "items.json"
+        if candidate.exists():
+            items_path = candidate
+        else:
+            logger.error(f"Master items file not found at: {args.items}")
+            return
+
+    creator = VectorDatabaseCreator(
+        model_path=args.model,
+        master_items_path=str(items_path),
+        database_output_path=args.out,
+        normalizer=TextNormalizer(),
+        use_normalization=(not args.no_normalize),
+        use_aliases=args.use_aliases,
+    )
+
     summary = creator.create_complete_database()
-    
     return summary
 
 
