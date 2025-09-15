@@ -5,17 +5,17 @@
     "gdino_readable": {
         "1": "Nintendo Switch Pro Controller"
     },
-    "gdino_tokens": {
-        "1": [
-            "smash",
-            "controller",
-            "nintendo",
-            "bros",
-            "smash bros",
-            "wii",
-            "u",
-            "wii u",
-            "gamecube"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "smash": 6,
+            "controller": 6,
+            "nintendo": 4,
+            "bros": 4,
+            "smash bros": 4,
+            "wii": 3,
+            "u": 3,
+            "wii u": 3,
+            "gamecube": 3
+        }
     }
 }

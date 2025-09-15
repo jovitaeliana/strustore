@@ -5,33 +5,33 @@
     "gdino_readable": {
         "1": "No Match"
     },
-    "gdino_tokens": {
-        "1": [
-            "red",
-            "leather",
-            "bag",
-            "clutch",
-            "wallet",
-            "vintage",
-            "clutch bag",
-            "pouch",
-            "com",
-            "tray",
-            "x",
-            "case",
-            "red leather",
-            "patent",
-            "saint",
-            "laurent",
-            "saint laurent",
-            "set",
-            "new",
-            "5",
-            "box",
-            "purse",
-            "serving",
-            "cartier",
-            "authentic"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "red": 34,
+            "leather": 30,
+            "bag": 16,
+            "clutch": 14,
+            "wallet": 14,
+            "vintage": 13,
+            "clutch bag": 8,
+            "pouch": 8,
+            "com": 7,
+            "tray": 7,
+            "x": 7,
+            "case": 7,
+            "red leather": 7,
+            "patent": 7,
+            "saint": 6,
+            "laurent": 6,
+            "saint laurent": 6,
+            "set": 6,
+            "new": 6,
+            "5": 5,
+            "box": 5,
+            "purse": 5,
+            "serving": 4,
+            "cartier": 4,
+            "authentic": 4
+        }
     }
 }

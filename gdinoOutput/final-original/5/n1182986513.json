@@ -5,34 +5,34 @@
     "gdino_readable": {
         "1": "No Match"
     },
-    "gdino_tokens": {
-        "1": [
-            "mouse",
-            "electric",
-            "wireless",
-            "youtube",
-            "com",
-            "mini",
-            "bike",
-            "black",
-            "hot",
-            "wheels",
-            "alarm",
-            "clock",
-            "snore",
-            "slammer",
-            "fm",
-            "radio",
-            "hot wheels",
-            "alarm clock",
-            "snore slammer",
-            "pc",
-            "finger",
-            "kit",
-            "3",
-            "bostitch",
-            "stapler",
-            "electric stapler"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "mouse": 9,
+            "electric": 8,
+            "wireless": 7,
+            "youtube": 5,
+            "com": 5,
+            "mini": 5,
+            "bike": 5,
+            "black": 5,
+            "hot": 4,
+            "wheels": 4,
+            "alarm": 4,
+            "clock": 4,
+            "snore": 4,
+            "slammer": 4,
+            "fm": 4,
+            "radio": 4,
+            "hot wheels": 4,
+            "alarm clock": 4,
+            "snore slammer": 4,
+            "pc": 4,
+            "finger": 4,
+            "kit": 4,
+            "3": 4,
+            "bostitch": 4,
+            "stapler": 4,
+            "electric stapler": 4
+        }
     }
 }

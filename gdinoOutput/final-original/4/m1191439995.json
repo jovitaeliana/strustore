@@ -5,28 +5,28 @@
     "gdino_readable": {
         "1": "No Match"
     },
-    "gdino_tokens": {
-        "1": [
-            "r",
-            "yahoo",
-            "beyblade",
-            "オークション",
-            "lot",
-            "toys",
-            "collection",
-            "yahoo オークション",
-            "set",
-            "figure",
-            "rider",
-            "facebook",
-            "kamen",
-            "kamen rider",
-            "mcdonalds",
-            "bulk",
-            "の落札相場",
-            "落札価格",
-            "の落札相場 落札価格",
-            "1"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "r": 10,
+            "yahoo": 9,
+            "beyblade": 8,
+            "オークション": 7,
+            "lot": 7,
+            "toys": 7,
+            "collection": 7,
+            "yahoo オークション": 6,
+            "set": 6,
+            "figure": 6,
+            "rider": 6,
+            "facebook": 6,
+            "kamen": 5,
+            "kamen rider": 5,
+            "mcdonalds": 5,
+            "bulk": 4,
+            "の落札相場": 4,
+            "落札価格": 4,
+            "の落札相場 落札価格": 4,
+            "1": 4
+        }
     }
 }

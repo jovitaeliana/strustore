@@ -5,20 +5,20 @@
     "gdino_readable": {
         "1": "Playstation Controller"
     },
-    "gdino_tokens": {
-        "1": [
-            "ps3",
-            "sony",
-            "controller",
-            "pink",
-            "3",
-            "sony ps3",
-            "playstation",
-            "sony playstation",
-            "en",
-            "vente",
-            "ps3 controller",
-            "controller pink"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "ps3": 8,
+            "sony": 7,
+            "controller": 5,
+            "pink": 5,
+            "3": 4,
+            "sony ps3": 3,
+            "playstation": 3,
+            "sony playstation": 3,
+            "en": 2,
+            "vente": 2,
+            "ps3 controller": 2,
+            "controller pink": 2
+        }
     }
 }

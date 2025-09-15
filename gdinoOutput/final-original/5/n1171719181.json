@@ -5,28 +5,28 @@
     "gdino_readable": {
         "1": "No Match"
     },
-    "gdino_tokens": {
-        "1": [
-            "best",
-            "id",
-            "battery",
-            "piece",
-            "capacitor",
-            "car",
-            "1",
-            "delhi",
-            "price",
-            "batteries",
-            "justdial",
-            "new",
-            "online",
-            "bike",
-            "corrugated",
-            "box",
-            "pin",
-            "india",
-            "10",
-            "2"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "best": 8,
+            "id": 7,
+            "battery": 7,
+            "piece": 6,
+            "capacitor": 5,
+            "car": 5,
+            "1": 5,
+            "delhi": 5,
+            "price": 5,
+            "batteries": 4,
+            "justdial": 4,
+            "new": 4,
+            "online": 4,
+            "bike": 4,
+            "corrugated": 4,
+            "box": 4,
+            "pin": 4,
+            "india": 3,
+            "10": 3,
+            "2": 3
+        }
     }
 }

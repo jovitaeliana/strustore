@@ -5,21 +5,21 @@
     "gdino_readable": {
         "1": "No Match"
     },
-    "gdino_tokens": {
-        "1": [
-            "advance",
-            "game",
-            "nintendo",
-            "boy",
-            "game boy",
-            "boy advance",
-            "gameboy",
-            "gameboy advance",
-            "ゲームボーイアドバンス",
-            "nintendo game",
-            "pink",
-            "nintendo gameboy",
-            "メルカリ"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "advance": 17,
+            "game": 11,
+            "nintendo": 10,
+            "boy": 9,
+            "game boy": 9,
+            "boy advance": 9,
+            "gameboy": 9,
+            "gameboy advance": 8,
+            "ゲームボーイアドバンス": 5,
+            "nintendo game": 4,
+            "pink": 4,
+            "nintendo gameboy": 4,
+            "メルカリ": 4
+        }
     }
 }

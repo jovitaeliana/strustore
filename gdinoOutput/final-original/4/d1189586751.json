@@ -5,20 +5,20 @@
     "gdino_readable": {
         "1": "No Match"
     },
-    "gdino_tokens": {
-        "1": [
-            "de",
-            "tiktok",
-            "en",
-            "slime",
-            "para",
-            "12",
-            "con",
-            "juguetes",
-            "youtube",
-            "com",
-            "años",
-            "1"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "de": 38,
+            "tiktok": 19,
+            "en": 12,
+            "slime": 10,
+            "para": 7,
+            "12": 7,
+            "con": 6,
+            "juguetes": 4,
+            "youtube": 4,
+            "com": 4,
+            "años": 4,
+            "1": 4
+        }
     }
 }

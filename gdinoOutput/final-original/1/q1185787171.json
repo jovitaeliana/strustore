@@ -5,29 +5,29 @@
     "gdino_readable": {
         "1": "Nintendo DS Lite Console"
     },
-    "gdino_tokens": {
-        "1": [
-            "final",
-            "fantasy",
-            "final fantasy",
-            "ds",
-            "xii",
-            "fantasy xii",
-            "revenant",
-            "nintendo",
-            "wings",
-            "xii revenant",
-            "revenant wings",
-            "nintendo ds",
-            "lite",
-            "ds lite",
-            "edition",
-            "lite final",
-            "console",
-            "japanese",
-            "sky",
-            "pirate",
-            "wings sky"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "final": 26,
+            "fantasy": 26,
+            "final fantasy": 26,
+            "ds": 19,
+            "xii": 18,
+            "fantasy xii": 18,
+            "revenant": 17,
+            "nintendo": 16,
+            "wings": 16,
+            "xii revenant": 16,
+            "revenant wings": 16,
+            "nintendo ds": 15,
+            "lite": 8,
+            "ds lite": 8,
+            "edition": 6,
+            "lite final": 5,
+            "console": 4,
+            "japanese": 4,
+            "sky": 4,
+            "pirate": 4,
+            "wings sky": 4
+        }
     }
 }

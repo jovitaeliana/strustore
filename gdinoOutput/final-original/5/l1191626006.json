@@ -7,35 +7,35 @@
         "1": "No Match",
         "2": "Playstation Controller"
     },
-    "gdino_tokens": {
-        "1": [
-            "3",
-            "sony",
-            "playstation",
-            "playstation 3",
-            "dualshock",
-            "blue",
-            "sony playstation",
-            "dualshock 3",
-            "ps3",
-            "video",
-            "gaming"
-        ],
-        "2": [
-            "controller",
-            "ps3",
-            "3",
-            "blue",
-            "sony",
-            "wireless",
-            "playstation",
-            "playstation 3",
-            "dualshock",
-            "dualshock 3",
-            "ps3 controller",
-            "metallic",
-            "sony playstation",
-            "wireless controller"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "3": 11,
+            "sony": 7,
+            "playstation": 6,
+            "playstation 3": 5,
+            "dualshock": 5,
+            "blue": 5,
+            "sony playstation": 5,
+            "dualshock 3": 5,
+            "ps3": 4,
+            "video": 3,
+            "gaming": 3
+        },
+        "2": {
+            "controller": 11,
+            "ps3": 10,
+            "3": 9,
+            "blue": 7,
+            "sony": 6,
+            "wireless": 5,
+            "playstation": 4,
+            "playstation 3": 4,
+            "dualshock": 4,
+            "dualshock 3": 4,
+            "ps3 controller": 4,
+            "metallic": 3,
+            "sony playstation": 3,
+            "wireless controller": 3
+        }
     }
 }

@@ -5,24 +5,24 @@
     "gdino_readable": {
         "1": "XBOX Controller"
     },
-    "gdino_tokens": {
-        "1": [
-            "360",
-            "xbox",
-            "controller",
-            "xbox 360",
-            "youtube",
-            "white",
-            "microsoft",
-            "games",
-            "microsoft xbox",
-            "360 controller",
-            "wireless",
-            "rapid",
-            "fire",
-            "rapid fire",
-            "controller youtube",
-            "com"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "360": 10,
+            "xbox": 9,
+            "controller": 9,
+            "xbox 360": 9,
+            "youtube": 5,
+            "white": 4,
+            "microsoft": 3,
+            "games": 3,
+            "microsoft xbox": 3,
+            "360 controller": 3,
+            "wireless": 3,
+            "rapid": 3,
+            "fire": 3,
+            "rapid fire": 3,
+            "controller youtube": 3,
+            "com": 2
+        }
     }
 }

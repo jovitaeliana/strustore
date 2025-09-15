@@ -5,21 +5,21 @@
     "gdino_readable": {
         "1": "Nintendo Game Boy Advance SP Console "
     },
-    "gdino_tokens": {
-        "1": [
-            "n64",
-            "nintendo",
-            "64",
-            "nintendo 64",
-            "controller",
-            "console",
-            "game",
-            "video",
-            "games",
-            "joystick",
-            "gray",
-            "com",
-            "video games"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "n64": 11,
+            "nintendo": 10,
+            "64": 9,
+            "nintendo 64": 9,
+            "controller": 8,
+            "console": 6,
+            "game": 4,
+            "video": 4,
+            "games": 4,
+            "joystick": 3,
+            "gray": 3,
+            "com": 3,
+            "video games": 3
+        }
     }
 }

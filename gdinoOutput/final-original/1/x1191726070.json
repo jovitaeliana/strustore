@@ -5,14 +5,14 @@
     "gdino_readable": {
         "1": "Nintendo DS Lite Console"
     },
-    "gdino_tokens": {
-        "1": [
-            "nintendo",
-            "ds",
-            "white",
-            "console",
-            "nintendo ds",
-            "lite"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "nintendo": 5,
+            "ds": 4,
+            "white": 4,
+            "console": 4,
+            "nintendo ds": 4,
+            "lite": 3
+        }
     }
 }

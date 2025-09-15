@@ -5,20 +5,20 @@
     "gdino_readable": {
         "1": "Gamecube Controller"
     },
-    "gdino_tokens": {
-        "1": [
-            "gamecube",
-            "controller",
-            "nintendo",
-            "white",
-            "nintendo gamecube",
-            "gamecube controller",
-            "controller white",
-            "japan",
-            "gc",
-            "pad",
-            "wii",
-            "used"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "gamecube": 11,
+            "controller": 10,
+            "nintendo": 9,
+            "white": 9,
+            "nintendo gamecube": 7,
+            "gamecube controller": 6,
+            "controller white": 4,
+            "japan": 4,
+            "gc": 3,
+            "pad": 2,
+            "wii": 2,
+            "used": 2
+        }
     }
 }

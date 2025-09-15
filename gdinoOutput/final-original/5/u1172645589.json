@@ -7,32 +7,32 @@
         "1": "Nintendo Switch Pro Controller",
         "2": "N64 Controller "
     },
-    "gdino_tokens": {
-        "1": [
-            "controller",
-            "nintendo",
-            "64",
-            "green",
-            "nintendo 64",
-            "n64",
-            "hori",
-            "wired",
-            "pad",
-            "mini"
-        ],
-        "2": [
-            "n64",
-            "controller",
-            "green",
-            "nintendo",
-            "64",
-            "hori",
-            "nintendo 64",
-            "mini",
-            "blue",
-            "games",
-            "pad",
-            "hori pad"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "controller": 11,
+            "nintendo": 8,
+            "64": 8,
+            "green": 8,
+            "nintendo 64": 8,
+            "n64": 8,
+            "hori": 4,
+            "wired": 4,
+            "pad": 3,
+            "mini": 3
+        },
+        "2": {
+            "n64": 6,
+            "controller": 6,
+            "green": 6,
+            "nintendo": 4,
+            "64": 4,
+            "hori": 4,
+            "nintendo 64": 4,
+            "mini": 3,
+            "blue": 3,
+            "games": 3,
+            "pad": 2,
+            "hori pad": 2
+        }
     }
 }

@@ -1,50 +1,50 @@
 {
     "gdino": {
-        "1": "18"
+        "1": "17"
     },
     "gdino_readable": {
-        "1": "XBOX Controller"
+        "1": "Gamecube Controller"
     },
-    "gdino_tokens": {
-        "1": [
-            "de",
-            "arcade",
-            "hori",
-            "stick",
-            "fighting",
-            "fighting stick",
-            "joystick",
-            "sega",
-            "saturn",
-            "para",
-            "sega saturn",
-            "hori fighting",
-            "en",
-            "las",
-            "mejores",
-            "ofertas",
-            "las mejores",
-            "mejores ofertas",
-            "ofertas en",
-            "controladores",
-            "videojuegos",
-            "controladores de",
-            "super",
-            "youtube",
-            "pc",
-            "juegos",
-            "controller",
-            "japan",
-            "en controladores",
-            "de videojuegos",
-            "para sega",
-            "con",
-            "neo",
-            "mercadolibre",
-            "box",
-            "méxico",
-            "sanwa",
-            "07"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "de": 29,
+            "arcade": 24,
+            "hori": 21,
+            "stick": 21,
+            "fighting": 17,
+            "fighting stick": 15,
+            "joystick": 15,
+            "sega": 14,
+            "saturn": 14,
+            "para": 13,
+            "sega saturn": 13,
+            "hori fighting": 10,
+            "en": 9,
+            "las": 8,
+            "mejores": 8,
+            "ofertas": 8,
+            "las mejores": 8,
+            "mejores ofertas": 8,
+            "ofertas en": 8,
+            "controladores": 7,
+            "videojuegos": 7,
+            "controladores de": 7,
+            "super": 7,
+            "youtube": 6,
+            "pc": 6,
+            "juegos": 6,
+            "controller": 5,
+            "japan": 5,
+            "en controladores": 5,
+            "de videojuegos": 5,
+            "para sega": 5,
+            "con": 5,
+            "neo": 5,
+            "mercadolibre": 5,
+            "box": 5,
+            "méxico": 5,
+            "sanwa": 5,
+            "07": 4
+        }
     }
 }

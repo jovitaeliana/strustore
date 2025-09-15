@@ -5,34 +5,34 @@
     "gdino_readable": {
         "1": "Nintendo Famicom Console"
     },
-    "gdino_tokens": {
-        "1": [
-            "super",
-            "nintendo",
-            "de",
-            "famicom",
-            "super famicom",
-            "snes",
-            "console",
-            "super nintendo",
-            "segunda",
-            "mano",
-            "segunda mano",
-            "famicom console",
-            "nintendo super",
-            "consola",
-            "nintendo snes",
-            "por",
-            "eur",
-            "en",
-            "wallapop",
-            "de segunda",
-            "mano por",
-            "eur en",
-            "japan",
-            "sfc",
-            "consola super",
-            "japanese"
-        ]
+    "gdino_token_counts": {
+        "1": {
+            "super": 24,
+            "nintendo": 21,
+            "de": 15,
+            "famicom": 14,
+            "super famicom": 14,
+            "snes": 11,
+            "console": 9,
+            "super nintendo": 7,
+            "segunda": 7,
+            "mano": 7,
+            "segunda mano": 7,
+            "famicom console": 6,
+            "nintendo super": 6,
+            "consola": 6,
+            "nintendo snes": 6,
+            "por": 6,
+            "eur": 6,
+            "en": 6,
+            "wallapop": 6,
+            "de segunda": 6,
+            "mano por": 6,
+            "eur en": 6,
+            "japan": 5,
+            "sfc": 4,
+            "consola super": 4,
+            "japanese": 3
+        }
     }
 }
